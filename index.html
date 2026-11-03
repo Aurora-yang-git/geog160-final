@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GEOG 160 Final Exam Study</title>
+<style>
+:root{
+  --bg:#f7f6f2; --surface:#ffffff; --ink:#1d2330; --muted:#5d6678; --line:#dfddd5;
+  --accent:#1f5f8b; --accent-ink:#ffffff; --accent-soft:#e3eef6;
+  --again:#b3372f; --hard:#9a6a12; --good:#2b7a4b; --easy:#1f5f8b;
+  --cnew:#1f5f8b; --clearn:#b3372f; --cdue:#2b7a4b; --hl:#ffe36e;
+  --radius:12px; --shadow:0 1px 2px rgba(20,25,40,.06),0 4px 14px rgba(20,25,40,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#14171d; --surface:#1c2028; --ink:#e8eaf0; --muted:#9aa3b5; --line:#2e3441;
+  --accent:#6fb1e0; --accent-ink:#0f1722; --accent-soft:#1d2a38;
+  --again:#e5786f; --hard:#d9a441; --good:#62c08a; --easy:#6fb1e0; --shadow:none;
+  --cnew:#6fb1e0; --clearn:#e5786f; --cdue:#62c08a; --hl:#6b5a00}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+header.top{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.top-in{max-width:1100px;margin:0 auto;padding:8px 18px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{font-weight:700;font-size:1rem;letter-spacing:.01em}
+nav.tabs{margin-left:auto;display:flex;gap:6px}
+nav.tabs button{border:1px solid var(--line);background:transparent;padding:6px 18px;border-radius:999px;cursor:pointer;font-weight:600}
+nav.tabs button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+main{max-width:1100px;margin:0 auto;padding:22px 18px 80px}
+section.view[hidden]{display:none}
+.note{color:var(--muted);font-size:.85rem}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:.9rem}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
+.btn:hover{box-shadow:var(--shadow)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+
+/* ---------- reading ---------- */
+.readbar{position:sticky;top:50px;z-index:10;background:var(--bg);padding:8px 0 10px;margin-bottom:6px}
+.readbar-in{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:.9rem}
+.rbar{flex:1;min-width:120px;height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.rbar i{display:block;height:100%;width:0;background:var(--good);transition:width .25s}
+.examinfo{background:var(--accent-soft);border-radius:var(--radius);padding:12px 16px;margin:0 0 20px;font-size:.92rem;line-height:1.55}
+.read-grid{display:grid;grid-template-columns:220px minmax(0,1fr);gap:36px;align-items:start}
+.toc{position:sticky;top:112px;display:flex;flex-direction:column;gap:2px;font-size:.88rem;max-height:calc(100vh - 130px);overflow:auto}
+.toc strong{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:6px}
+.toc a{color:var(--ink);text-decoration:none;padding:6px 10px;border-radius:8px;line-height:1.35}
+.toc a:hover{background:var(--accent-soft)}
+.toc a.ok::before{content:"\2713\00a0";color:var(--good);font-weight:700}
+article{max-width:72ch;min-width:0}
+article h1{font-size:2rem;line-height:1.2;margin:.2em 0 .5em}
+article h2{font-size:1.45rem;line-height:1.3;margin:2.2em 0 .5em;padding-top:.4em;border-top:1px solid var(--line)}
+article h3{font-size:1.1rem;margin:1.7em 0 .3em}
+article p{margin:.7em 0}
+article ul,article ol{padding-left:1.35em;margin:.7em 0}
+article li{margin:.3em 0}
+article hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+article code{background:var(--accent-soft);padding:.1em .35em;border-radius:5px;font-size:.9em}
+blockquote{margin:1.1em 0;padding:.7em 1em;background:var(--accent-soft);border-left:4px solid var(--accent);border-radius:0 8px 8px 0}
+.tablewrap{overflow-x:auto;margin:1em 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.9rem;line-height:1.5}
+th,td{padding:9px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+th{background:var(--accent-soft);font-weight:700;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td:first-child{min-width:130px}
+mark{background:var(--hl);color:inherit;border-radius:3px;padding:0 1px;cursor:pointer}
+.sec-end{margin:2em 0 .5em;padding:12px 14px;border:1px dashed var(--line);border-radius:var(--radius);display:flex;gap:12px;align-items:center;flex-wrap:wrap;background:var(--surface)}
+.sec-end .readok{color:var(--good);font-weight:700}
+#hlbar{position:fixed;z-index:50;display:flex;gap:6px;background:var(--ink);color:var(--bg);border-radius:10px;padding:5px;box-shadow:0 6px 20px rgba(0,0,0,.3)}
+#hlbar[hidden]{display:none}
+#hlbar button{border:0;background:transparent;color:inherit;padding:6px 12px;border-radius:7px;cursor:pointer;font-weight:600;font-size:.88rem}
+#hlbar button:hover{background:rgba(255,255,255,.18)}
+
+/* ---------- cards: clean review screen ---------- */
+body.cards-open main{padding:0 18px}
+body.cards-open footer{display:none}
+.rv{position:relative;max-width:760px;margin:0 auto;min-height:calc(100vh - 56px);min-height:calc(100dvh - 56px);display:flex;flex-direction:column}
+.strip{padding:10px 90px 0 0;font-size:.82rem;color:var(--muted);min-height:44px}
+.strip button{border:0;background:transparent;color:inherit;cursor:pointer;padding:0;text-align:left;font-size:.82rem;line-height:1.5}
+.strip .cur b{color:var(--ink)}
+.strip .ahead{color:var(--good)} .strip .behind{color:var(--hard)}
+.strip ul{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:3px}
+.strip li{display:flex;gap:10px;justify-content:space-between}
+.strip li.done{color:var(--good)}
+.opts{position:absolute;top:8px;right:0;border:0;background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;padding:6px 10px;border-radius:8px}
+.opts:hover{background:var(--accent-soft);color:var(--ink)}
+.stage{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:30px 4px 20px}
+.front{font-size:1.75rem;line-height:1.4;font-weight:500;max-width:34ch}
+.back{margin-top:22px;padding-top:22px;border-top:1px solid var(--line);font-size:1.3rem;line-height:1.6;max-width:44ch;width:100%}
+.badge{display:inline-block;margin-bottom:14px;border-radius:99px;padding:2px 12px;font-size:.75rem;font-weight:600;background:#fff1d6;color:#7a4b00}
+@media (prefers-color-scheme:dark){.badge{background:#3a2d12;color:#f0c46a}}
+.bottom{position:sticky;bottom:0;background:var(--bg);padding:10px 0 18px}
+.counts{display:flex;justify-content:center;gap:22px;font-size:.95rem;margin-bottom:10px;font-variant-numeric:tabular-nums}
+.counts span{font-weight:700}
+.counts .n{color:var(--cnew)} .counts .l{color:var(--clearn)} .counts .d{color:var(--cdue)}
+.counts .cur{text-decoration:underline;text-underline-offset:4px}
+.showbtn{width:100%;padding:15px;border-radius:10px;border:1px solid var(--line);background:var(--surface);font-weight:600;font-size:1.05rem;cursor:pointer}
+.showbtn:hover{background:var(--accent-soft)}
+.rate{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.rate button{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 4px;cursor:pointer;font-weight:600;display:flex;flex-direction:column;align-items:center;gap:2px}
+.rate button small{font-weight:500;color:var(--muted);font-size:.74rem;order:-1}
+.rate .r1{color:var(--again)} .rate .r2{color:var(--hard)} .rate .r3{color:var(--good)} .rate .r4{color:var(--easy)}
+.rate button:hover{background:var(--accent-soft)}
+.done{max-width:36ch}
+.done h2{margin:.2em 0;font-size:1.3rem;font-weight:600}
+.done p{color:var(--muted);font-size:.95rem}
+.panel{position:fixed;inset:0;z-index:40;background:rgba(10,14,22,.55);display:flex;justify-content:flex-end}
+.panel[hidden]{display:none}
+.sheet{width:min(420px,100%);height:100%;background:var(--surface);overflow:auto;padding:18px 20px 40px;box-shadow:-8px 0 30px rgba(0,0,0,.25)}
+.sheet h3{margin:1.4em 0 .4em;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.sheet .top{display:flex;justify-content:space-between;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--bg);padding:4px 12px;border-radius:99px;cursor:pointer;font-size:.85rem}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.progress{height:8px;border-radius:99px;background:var(--line);overflow:hidden;margin:6px 0}
+.progress i{display:block;height:100%;background:var(--good);width:0}
+.sheet label{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:8px 0;font-size:.92rem}
+.sheet input[type=date]{padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+.sheet p{font-size:.88rem;line-height:1.55;margin:.4em 0}
+footer{max-width:1100px;margin:0 auto;padding:0 18px 40px;color:var(--muted);font-size:.8rem}
+
+@media (max-width:820px){
+  .read-grid{grid-template-columns:1fr}
+  .toc{position:static;flex-direction:row;flex-wrap:wrap;gap:4px;max-height:none;margin-bottom:6px}
+  .toc strong{width:100%}
+  .toc a{background:var(--surface);border:1px solid var(--line);font-size:.8rem;padding:4px 10px}
+  .readbar{top:92px}
+  nav.tabs{margin-left:0;width:100%}
+  nav.tabs button{flex:1;padding:6px 8px}
+  .front{font-size:1.45rem}
+  .back{font-size:1.15rem}
+  .rv{min-height:calc(100dvh - 100px)}
+  .strip{padding-right:70px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rbar i{transition:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <div class="brand">GEOG 160 Final Exam</div>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-read" aria-selected="false" aria-controls="view-read" data-view="read">Read</button>
+    <button role="tab" id="tab-cards" aria-selected="false" aria-controls="view-cards" data-view="cards">Cards</button>
+  </nav>
+</div></header>
+
+<main>
+<section class="view" id="view-read" role="tabpanel" aria-labelledby="tab-read" hidden>
+  <div class="readbar"><div class="readbar-in">
+    <span id="read-count"></span>
+    <div class="rbar" aria-hidden="true"><i id="read-bar"></i></div>
+    <button class="btn primary" id="read-go" hidden>Start the cards</button>
+  </div></div>
+  <div class="examinfo"><b>The exam: Tuesday afternoon, no notes.</b> Section 1 (40 min, 40%): extended definitions of some of the 58 terms. Section 2 (80 min, 60%): a few essays from a longer list, using the readings most. Read a section, press <b>Mark section as read</b> at its end, and the cards for that section unlock right away. Select any text to highlight it; click a highlight to remove it.</div>
+  <div class="read-grid">
+    <nav class="toc" aria-label="Contents"><strong>Contents</strong><a href="#a-why-a-city-exists-and-where">A. Why a city exists, and where</a><a href="#b-what-shape-does-the-city-take">B. What shape does the city take?</a><a href="#c-who-gets-what-urban-problems">C. Who gets what? (urban problems)</a><a href="#d-how-did-planners-respond-planning-movements">D. How did planners respond? (planning movements)</a><a href="#e-how-do-people-feel-the-city">E. How do people feel the city?</a><a href="#reading-one-liners-for-essays">Reading one-liners (for essays)</a><a href="#city-scale-vs-human-scale-say-this-in-every-answer">City scale vs human scale (say this in every answer)</a><a href="#f-cross-checked-terms-your-folder-has-no-slides-for-these">F. Cross-checked terms (your folder has no slides for these)</a></nav>
+    <article id="article">
+<p><strong>The chain:</strong> A. Why cities exist and where → B. What shape they take → C. Who gets what (problems) → D. How planners responded → E. How people feel the city.</p>
+<h2 id="a-why-a-city-exists-and-where">A. Why a city exists, and where</h2>
+<h3 id="what-counts-as-a-city">What counts as a city?</h3>
+<p>There is no single definition. A city can be defined by its <strong>administrative</strong> boundary (a government's territory), its <strong>physical</strong> built-up area, its <strong>population</strong> density, its <strong>function</strong> (the area connected by commuting, trade, services), or its <strong>culture/experience</strong> (a shared sense of place). Choose the definition that fits your question. <strong>Functional and Tributary Areas</strong> means defining a city by what it does: the areas that "belong" to it, such as its commuting zone, TV market, sports fans, or medical service area.</p>
+<h3 id="the-core-idea-everyone-trades-land-price-against-travel-cost">The core idea: everyone trades land price against travel cost</h3>
+<p>Millions of small decisions (where to open a firm, where to rent) create a city's pattern. Each person maximizes "utility" (money, time, enjoyment) and must make trade-offs. Central locations have the <strong>highest land price and lowest travel cost</strong>; outer locations have the lowest land price and highest travel cost. The system settles into a balance (equilibrium). Every theory below applies that one idea.</p>
+<h3 id="the-location-theories-who-when-what">The location theories (who, when, what)</h3>
+<p>Read the table across: each theory answers a <em>different</em> question with the same trade-off.</p>
+<div class="tablewrap"><table><thead><tr><th>Theory</th><th>Who, when</th><th>What it explains</th><th>Key idea</th></tr></thead><tbody><tr><td><strong>Von Thünen</strong></td><td>von Thünen, 1826</td><td>Farm land around a market</td><td>Profit = price − production − transport; heavy, profitable goods close, light land-hungry goods far</td></tr><tr><td><strong>Concentric Zone</strong></td><td>Burgess (and Park), 1925, from Chicago</td><td>Rings of land use in a city</td><td>Farther out: higher commuting cost, lower land value</td></tr><tr><td><strong>Weber</strong></td><td>Weber, 1909</td><td>Where a firm locates</td><td>Least cost: minimize transport of inputs and products; one route to agglomeration</td></tr><tr><td><strong>Central Place</strong></td><td>Christaller 1933, Lösch 1940</td><td>Town sizes and spacing</td><td>Specialized goods from a central place (people travel farther); everyday goods from many small places</td></tr><tr><td><strong>Hoyt Sector</strong></td><td>Hoyt, 1939</td><td>Development along corridors</td><td>Similar development follows rail lines and highways, not straight-line distance</td></tr><tr><td><strong>Multiple Nuclei</strong></td><td>Harris &amp; Ullman, 1945</td><td>Cities with several centers</td><td>Some uses attract (complement), some repel (homes/factories); single-CBD cities grow into each other; more accurate after highways</td></tr><tr><td><strong>Alonso-Muth-Mills (bid-rent)</strong></td><td>Alonso 1964, Mills 1967, Muth 1969</td><td>Where households live within a city</td><td>Everyone works in the CBD; rent is higher near it because travel is cheaper; predicts density, rents, building heights; can extend to several CBDs</td></tr><tr><td><strong>Rosen-Roback</strong></td><td>Rosen 1979, Roback 1982</td><td>Differences <em>between</em> cities</td><td>Free movement; wages, rents, productivity, amenities balance (high rent + low wage = high amenities)</td></tr></tbody></table></div>
+<ul><li><strong>Agglomeration</strong> explains why some cities are more productive: clustering (lower travel cost), specialization (higher wages), knowledge spillovers; also cultural. One innovation can push out others (Ford, Detroit).</li><li><strong>When transport gets cheaper:</strong> travel costs fall and land value rises. Dexter: land use and transport shape each other both ways; freeways support decentralization and <strong>polycentric</strong> centers.</li></ul>
+<blockquote><strong>Stop and recall (close the page):</strong> What trade-off do all these theories share? Which theory is within one city, which between cities? Which one is about firms? Write one line each, then check.</blockquote>
+<h3 id="chicago-vs-los-angeles-week-3">Chicago vs Los Angeles (Week 3)</h3>
+<div class="tablewrap"><table><thead><tr><th></th><th>Chicago</th><th>Los Angeles</th></tr></thead><tbody><tr><td>Centers</td><td><strong>Monocentric</strong></td><td><strong>Polycentric</strong></td></tr><tr><td>Density</td><td>Concentrated</td><td>Uniform medium density</td></tr><tr><td>Built</td><td>1880–1950 (railroads, westward expansion)</td><td>After 1950 (baby boom, GI Bill, highways)</td></tr><tr><td>Style</td><td>Prototypical</td><td>Car-oriented, single-family; "anti-city"; Broadacre-like</td></tr></tbody></table></div>
+<p>Why Chicago? Westward expansion and land speculation, railroads, Lake Michigan/river, engineering (raising the city, reversing the river), credit networks and <strong>machine politics</strong>, accidents (the fire, the World's Fair). It became the primate city. Cronon: it could have been Minneapolis, St. Louis, Milwaukee or Detroit, but Chicago's factors lined up first, which gives <strong>lock-in</strong> and inertia.</p>
+<p><strong>Machine City:</strong> can planners recreate Chicago? Networks, engineering and design yes; innovations, historic accidents and being first no.</p>
+<p>Why LA? Growth machine (developers needed continual growth), aerospace/oil/freight/entertainment agglomeration, shipping hub, engineered water, air conditioning, "drive until you qualify" highways.</p>
+<h3 id="why-people-move-to-cities-week-3-jedwab-vollrath">Why people move to cities (Week 3, Jedwab &amp; Vollrath)</h3>
+<p><strong>Urbanization</strong> = share of people living in cities. At the same income, countries are 25–30 points more urban in 2010 than in 1500: <strong>Urbanization without Growth</strong>. Four reasons: the city got safer or easier to live in, government policy favors cities (urban bias), the countryside got worse (<strong>rural push</strong>), or more people survive in cities (births exceed deaths). <strong>Urban pull</strong> is the opposite: jobs and wages. Lesson: moving to a city does not tell you they became richer.</p>
+<blockquote><strong>Stop and recall:</strong> (1) Chicago vs LA: centers, density, when built. (2) Why Chicago? (3) What does "urbanization without growth" mean, and what are the four reasons? (4) What does Machine City ask?</blockquote>
+<h2 id="b-what-shape-does-the-city-take">B. What shape does the city take?</h2>
+<h3 id="galster-sprawl-has-eight-dimensions">Galster: sprawl has eight dimensions</h3>
+<p>Galster separates the physical pattern from its causes and effects (causes → pattern → consequences). The eight dimensions describe the pattern:</p>
+<ol><li><strong>Density:</strong> development per land area (alone it can't describe sprawl).</li><li><strong>Continuity:</strong> unbroken vs "leapfrog" gaps.</li><li><strong>Concentration:</strong> is most development in a small share of the area?</li><li><strong>Clustering:</strong> within an area, is development tightly bunched?</li><li><strong>Centrality:</strong> closeness to the CBD.</li><li><strong>Nuclearity:</strong> one dominant center (mononuclear) vs several.</li><li><strong>Mixed uses:</strong> different activities in the same small area.</li><li><strong>Proximity:</strong> how far apart different uses are across the city.</li></ol>
+<p>Cities don't score consistently across dimensions (tested on 13 urbanized areas), so one word, "sprawl", hides a lot.</p>
+<h3 id="boeing-streets-and-griddedness">Boeing: streets and <strong>griddedness</strong></h3>
+<p><strong>Griddedness</strong> = orientation order + straightness + four-way intersections. History: connected grids (pre-1940) → disconnected suburbs (loops, cul-de-sacs, car-oriented, encouraged by finance and engineering rules) → a partial return after 2000. More grid-like neighborhoods have lower car ownership (an association, not proof). Street networks last for generations, so planners should build in connections.</p>
+<h3 id="moving-outward">Moving outward</h3>
+<p><strong>Suburbanization</strong> = people and jobs moving to the periphery (job decentralization).</p>
+<h3 id="experience-of-form">Experience of form</h3>
+<p>LA vs Chicago differ in <strong>pedestrian vs auto-orientation</strong>, the experience of density, affordability, and legibility.</p>
+<blockquote><strong>Stop and recall:</strong> List Galster's eight dimensions from memory. Which two are easy to confuse (concentration/clustering; centrality/nuclearity; mixed uses/proximity)? What three features make up griddedness?</blockquote>
+<h2 id="c-who-gets-what-urban-problems">C. Who gets what? (urban problems)</h2>
+<h3 id="jobs-week-4">Jobs (Week 4)</h3>
+<ul><li><strong>Jobs-Housing Mismatch / spatial mismatch (Ihlanfeldt, Atlanta):</strong> jobs move to the suburbs; housing discrimination keeps Black workers from following, so their choices shrink. Barriers: don't hear about jobs, no usable transport, hiring discrimination. Harm: unemployment, lower wages, higher commuting cost (lower net earnings). Count suitable jobs <strong>and</strong> competing workers. Policy: move people to jobs, jobs to people, or improve connections (job information and transport).</li><li><strong>Modal Mismatch (Grengs, Detroit):</strong> the same neighborhood gives good job access by car and very poor access by transit. Mobility ≠ accessibility. A neighborhood average hides this (ecological fallacy). The gravity model weights nearer jobs more and adjusts for competing workers (the idea behind cumulative/competitive access).</li></ul>
+<h3 id="health-and-the-environment">Health and the environment</h3>
+<ul><li><strong>Wilson (Week 3):</strong> zoning and planning decide who gets healthy surroundings. Exclusionary zoning keeps poorer families out of better towns; metropolitan fragmentation means no one ensures fairness across the region. Burdens (food, unsafe streets, stress, pollution; <strong>sedentary</strong> habits) pile up as a "riskscape", an environmental injustice. Redevelopment must let existing residents stay.</li><li><strong>Environment (6a):</strong> cities are sinking as seas rise; extreme <strong>weather events</strong> overload drains because pavement replaces grass; <strong>heat islands</strong> come from concrete, steel and lack of shade, and air conditioning strains grids.</li></ul>
+<h3 id="housing-6a">Housing (6a)</h3>
+<ul><li><strong>Shortage / surplus:</strong> supply = housing units; demand = population. Demand is inelastic (everyone needs a home), but can adjust through migration (Rosen-Roback), subdividing, households combining or splitting, submarkets, location (jobs-housing balance). Measure: vacancy, new construction, household formation, affordability (rent-to-income).</li><li><strong>Life course:</strong> young move to cities; around 30 people form families and need a home; older people leave.</li><li><strong>Filtering:</strong> houses get older and <strong>filter down</strong> while people <strong>filter up</strong>; a high-quality home for a 40-year-old becomes a starter home for a 30-year-old. Old buildings = affordable stock.</li><li><strong>Segregation:</strong> housing is the main mechanism (lending discrimination, HOAs). Measured by entropy and dissimilarity indices.</li><li><strong>Gentrification:</strong> wealthier inflow → <strong>displacement</strong>, gentrification-in-place, <strong>cultural erasure</strong>. It's a "wicked problem": improving a neighborhood can push out the poor. Resistance can become <strong>NIMBYism</strong> ("not in my backyard") and NIABY, leaving no development anywhere. Fixes: mixed-rent housing, participatory planning.</li><li><strong>Contact Hypothesis:</strong> contact improves relations, but not when groups compete (Great Depression subdivided homes: new nonwhite residents blamed for falling quality). Valentine (Week 5): proximity ≠ interaction; politeness ≠ changed beliefs; tolerance ≠ respect; good experiences become "exceptions"; micro-publics (shared activities) may help; meaningful contact must scale up.</li></ul>
+<blockquote><strong>Stop and recall:</strong> Spatial mismatch vs modal mismatch in one sentence each. What is the housing "filtering" idea? Three outcomes of gentrification? What does Valentine say about contact?</blockquote>
+<h2 id="d-how-did-planners-respond-planning-movements">D. How did planners respond? (planning movements)</h2>
+<p><strong>Pattern:</strong> planning follows crises. The Industrial Revolution (1800s) brought fast urbanization with no governance (laissez-faire): overcrowding, disease, inequality. Two responses: utopian movements ("solve everything at once") and technical officials ("one problem at a time").</p>
+<ol><li><strong>Sanitary Movement:</strong> answer to overcrowding and disease; public health; origin of zoning for health.</li><li><strong>City Beautiful (early 1900s US; Burnham, Robinson, Olmsted):</strong> beauty, cleanliness, leisure space; park-and-boulevard systems; first large-scale modern planning; municipal bureaucracy. Criticized: surface aesthetics, top-down, ignored <strong>housing and population</strong>, short-lived. Legacy: parks, Beaux-Arts buildings, municipal power.</li><li><strong>Garden City (late 1800s England; Howard, Unwin, Parker):</strong> decentralized, small self-sufficient towns with green belts and communal land; more social reform than City Beautiful. But Letchworth shifted to residential design, so principles went into suburbs. <strong>Neighborhood Unit (Clarence Perry)</strong> appears in this section.</li><li><strong>Modernism (1920s on):</strong> top-down, rational, ornament-free, geometric order, single-use zones, same everywhere. <strong>Le Corbusier's Radiant City (1935):</strong> "get people off the streets into parks". After 1950 it meant highways, clearance, urban renewal, public housing, car dependence. The alternative: <strong>Frank Lloyd Wright's Broadacre City (1932–35):</strong> decentralized, an acre per family, car-based, nature woven in, infinitely repeatable.</li><li><strong>Jane Jacobs (1961, Death and Life of Great American Cities):</strong> against Modernism and Robert Moses (Lower Manhattan Expressway). Street life is complicated order, not chaos: <strong>sidewalk ballet</strong>, <strong>eyes on the street</strong>. Week 5 reading: safety from <strong>informal public supervision</strong>, with three conditions (clear public/private boundaries, eyes on the street, fairly continuous sidewalk use); shops add walkers, watchers and attention.</li><li><strong>Urban Vitality:</strong> street activity or a built environment that supports it. Mechanism: built environment → mixed population → active all day → sidewalk contacts → safety and cohesion. Six dimensions: density, small blocks, mixed primary uses, aged buildings, accessibility, no border vacuums.</li><li><strong>Gehl, Lynch, Whyte, Oldenburg</strong> (human-scale thinkers, see E).</li><li><strong>New Urbanism (Duany &amp; Plater-Zyberk, 1991):</strong> walkability, connectivity, mixed use, density, green space, traditional neighborhood design (Seaside, Florida).</li><li><strong>Transit-Oriented Development (Calthorpe, 1993):</strong> dense mixed use and short blocks within ~10 minutes of stations.</li><li><strong>Urban Acupuncture (Lerner, Curitiba) / Tactical Urbanism:</strong> small, cheap, temporary interventions (guerrilla, DIY, pop-up) instead of master plans; follows Lynch.</li></ol>
+<p><strong>Critiques of Jacobs:</strong> NIMBYism and gentrification; hard to measure; she described what happened naturally (can't just copy it: Alexander, "A City is Not a Tree"); mixed empirical results (more walking, but maybe only necessary walking; mixed use raises social cohesion, density lowers it).</p>
+<blockquote><strong>Stop and recall (draw it):</strong> Write the planning chain from Sanitary to Tactical Urbanism on paper, then add who opposed whom. For Modernism and Jacobs, say one <strong>city-scale</strong> and one <strong>human-scale</strong> effect.</blockquote>
+<h2 id="e-how-do-people-feel-the-city">E. How do people feel the city?</h2>
+<h3 id="public-space-thinkers-7a">Public space thinkers (7a)</h3>
+<ul><li><strong>Jan Gehl (1971):</strong> <strong>necessary / optional / resultant</strong> activities. Poor spaces get only necessary ones; good spaces get lingering and social ones. Low-intensity contacts. Auto-oriented streets kill optional activity. Not sure about grids; skeptical of extreme density.</li><li><strong>Kevin Lynch (1981):</strong> city as a <strong>learning ecology</strong>; provide a good space and let people improve it. Dimensions: vitality, sense (legibility), fit, access, control, efficiency, justice. Bottom-up, not comprehensive.</li><li><strong>William Whyte (1980):</strong> ten years watching NYC plazas. People attract people; <strong>effective capacity</strong>; people use spaces their own way; seating and food matter; groups choose good places. <strong>Triangulation:</strong> strangers talk when both look at the same thing. Also: keeping out "undesirables" keeps out everyone (hostile architecture).</li><li><strong>Ray Oldenburg (1989):</strong> <strong>third places</strong>: neutral, leveling, conversation, accessible, regulars, low profile, playful, at-home. Cares about the place's character and regulars more than foot traffic.</li></ul>
+<h3 id="urban-sociology">Urban sociology</h3>
+<ul><li><strong>Simmel (1903):</strong> stimulation overload → <strong>blasé</strong> attitude as a "protective organ".</li><li><strong>Wirth (1938):</strong> size, density, heterogeneity → a <strong>collective personality</strong>.</li><li><strong>Goffman:</strong> the interaction order; <strong>civil inattention</strong> (nod, brief apology, looking away). Lofland: it is politeness, not coldness. Morrill: "together alone".</li><li><strong>Putnam, "Bowling Alone" (2000):</strong> social capital fell. Aelbrecht: new spaces (malls, gas stations) emerged.</li><li>Loneliness vs solitude: contacts and loneliness are weakly related; solitude is comfortable being alone.</li></ul>
+<h3 id="borer-week-6-experiencing-the-city">Borer (Week 6): experiencing the city</h3>
+<p><strong>Urbanism</strong> (urban lives and culture) vs <strong>urbanization</strong> (growth). Sensing is social; <strong>locational socialization:</strong> shared activity gives a place its meaning. Three ways in: <strong>Simmel</strong> (blasé), <strong>Benjamin</strong> (the flâneur, a stroller reading the street), <strong>Goffman</strong> (face-saving, interaction order). Five sensescapes: <strong>sight</strong> (landmarks, readability; Gans's West End misread as a slum and demolished), <strong>sound</strong> (keynote, soundmarks, sound signals; noise depends on listener), <strong>smell</strong> (cultural judgments, e.g. "stench of the poor"), <strong>taste</strong> (Bourdieu: taste marks status; Gans: taste cultures; omnivores), <strong>touch</strong> (walking, parkour, and unequal freedom of movement).</p>
+<hr>
+<blockquote><strong>Stop and recall:</strong> Gehl's three activities; Lynch's key contribution; Whyte's triangulation; Oldenburg vs Jacobs; Simmel vs Goffman; Borer's five senses.</blockquote>
+<h2 id="reading-one-liners-for-essays">Reading one-liners (for essays)</h2>
+<ul><li><strong>Dexter:</strong> land use and transport shape each other. <strong>Glaeser:</strong> people, firms and builders respond to costs until places balance.</li><li><strong>Galster:</strong> sprawl = eight dimensions of physical pattern. <strong>Boeing:</strong> streets left the grid and partly returned.</li><li><strong>Jedwab &amp; Vollrath:</strong> urbanization alone doesn't show growth. <strong>Wilson:</strong> planning and zoning decide who gets healthy surroundings.</li><li><strong>Ihlanfeldt:</strong> segregation + suburban jobs. <strong>Grengs:</strong> car vs transit access in Detroit.</li><li><strong>Jacobs:</strong> safe streets come from eyes and continuous use. <strong>Valentine:</strong> contact ≠ respect. <strong>Borer:</strong> the city is sensed and socially made.</li></ul>
+<h2 id="city-scale-vs-human-scale-say-this-in-every-answer">City scale vs human scale (say this in every answer)</h2>
+<p>City scale: planners solved big problems (disease, congestion, housing) with comprehensive plans. Human scale: those plans often ignored daily experience, so Jacobs, Gehl, Whyte, Lynch pushed back. The best answers show both.</p>
+<h2 id="f-cross-checked-terms-your-folder-has-no-slides-for-these">F. Cross-checked terms (your folder has no slides for these)</h2>
+<p><strong>Read this section differently:</strong> these ten terms are <strong>not from your instructor's slides</strong> (Schoology has no 4a/5a/8a/9a). They come from your own readings where possible (Jedwab, Dexter, Boeing) and from outside sources. If your instructor's wording differs, the instructor's wording wins. Confidence is marked.</p>
+<div class="tablewrap"><table><thead><tr><th>Term</th><th>Meaning (short)</th><th>Where it comes from</th><th>Confidence</th></tr></thead><tbody><tr><td><strong>Consumption City</strong></td><td>(1) Jedwab: resource windfalls (oil, gold, diamonds) are spent on urban goods and services, so the workforce ends up in <strong>non-tradable services</strong> instead of tradable goods; such cities don't get the long-run growth effects of agricultural or industrial revolutions. (2) Glaeser-Kolko-Saiz (2001): cities succeed as places to <strong>consume</strong> (restaurants, entertainment, geography); demand to live in cities has risen; high-amenity cities grew faster; rents rose faster than wages.</td><td>Sense 1: your Jedwab reading, p.14-15. Sense 2: <a href="https://www.nber.org/papers/w7790" target="_blank" rel="noopener noreferrer">Glaeser, Kolko &amp; Saiz</a> (Glaeser is also your Week 1 reading)</td><td>Medium: unsure which sense the class used; Week 3 (Jedwab) suggests sense 1</td></tr><tr><td><strong>Urban Economic Transition</strong></td><td>Developed countries deindustrialize and specialize in tradable services (finance, business services), so manufacturing rises then falls. Cities built on one industry suffer most (Pittsburgh steel, Detroit autos).</td><td>Jedwab footnote 12 (p.14); <a href="https://en.wikipedia.org/wiki/Deindustrialization" target="_blank" rel="noopener noreferrer">deindustrialization overview</a></td><td>Medium: my best reading of the term</td></tr><tr><td><strong>Shrinking Cities</strong></td><td>An urban area with falling population, economic activity and social vitality. Causes differ (deindustrialization, suburbanization and redlining, aging). Detroit lost about two-thirds of its 1950 population. The label can stigmatize ("legacy cities").</td><td><a href="https://en.wikipedia.org/wiki/Shrinking_city" target="_blank" rel="noopener noreferrer">Shrinking city</a>, <a href="https://en.wikipedia.org/wiki/Decline_of_Detroit" target="_blank" rel="noopener noreferrer">Detroit decline</a>; links to Grengs (Detroit)</td><td>Medium-high</td></tr><tr><td><strong>Malthusian / Solowian Growth</strong></td><td>Malthusian: population growth holds living standards flat (Jedwab: in a Malthusian setting, crowded cities raise death rates and balance wages). Solowian: sustained growth, with income per person rising through capital and technology.</td><td>Jedwab mentions Malthusian dynamics once; the contrast is general growth theory (<a href="https://growthecon.com/StudyGuide/population/transition.html" target="_blank" rel="noopener noreferrer">growth study guide</a>, <a href="https://ideas.repec.org/p/gwi/wpaper/2015-6.html" target="_blank" rel="noopener noreferrer">Jedwab &amp; Vollrath</a>)</td><td>Low-medium: check class wording</td></tr><tr><td><strong>Primal / Dual Accessibility</strong></td><td>Primal: <strong>count</strong> the opportunities reachable within a time limit (jobs within 20 min). Dual: the <strong>travel time</strong> needed to reach a set number of opportunities (time to reach 2 jobs).</td><td><a href="https://www.researchgate.net/publication/334457190_Primal_and_Dual_Access" target="_blank" rel="noopener noreferrer">Primal and Dual Access</a> (search summary only)</td><td>Low-medium</td></tr><tr><td><strong>Cumulative / Competitive Accessibility</strong></td><td>Cumulative: count of opportunities within a travel-time threshold; ignores that reaching them gets harder as time grows. Competitive (Shen 1998): reachable jobs <strong>divided by the people competing for them</strong>. Grengs's gravity model adjusts for competition.</td><td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0966692317302405" target="_blank" rel="noopener noreferrer">Shen 1998 discussion</a>; your Week 4 note on Grengs</td><td>Medium</td></tr><tr><td><strong>Travel Supply and Demand</strong></td><td>Supply = road and transit capacity; demand = people's travel. <strong>Induced demand:</strong> added road capacity attracts new driving, so congestion returns. Dexter: more congestion lowers accessibility, and adding infrastructure has limits.</td><td>Your Dexter reading (p.3-4); <a href="https://en.wikipedia.org/wiki/Induced_demand" target="_blank" rel="noopener noreferrer">Induced demand</a></td><td>Medium-high</td></tr><tr><td><strong>Congestion Pricing</strong></td><td>Charging drivers to use congested roads or enter congested areas (cordon/area pricing or single-facility tolls) to cut demand instead of adding supply. Mixed results, political pushback.</td><td><a href="https://en.wikipedia.org/wiki/Congestion_pricing" target="_blank" rel="noopener noreferrer">Congestion pricing</a></td><td>High</td></tr><tr><td><strong>Traffic Calming</strong></td><td>Physical street-design measures (speed humps, narrower lanes, pedestrian refuges) that slow cars to make walking and biking safer. Different from signs and signals.</td><td><a href="https://highways.dot.gov/safety/speed-management/traffic-calming-eprimer/module-2-traffic-calming-basics" target="_blank" rel="noopener noreferrer">FHWA primer</a></td><td>High</td></tr><tr><td><strong>"D Variables"</strong></td><td>Density, diversity (land-use mix), design (street network, e.g. intersection density, share of four-way intersections). Later extended to 5 Ds: <strong>destination accessibility</strong> and <strong>distance to transit</strong>. Ewing &amp; Cervero: driving is most related to destination accessibility, then street design; density matters weakly once the others are controlled.</td><td>Boeing cites "Ds: density, diversity, design"; <a href="https://www.tandfonline.com/doi/abs/10.1080/01944361003766766" target="_blank" rel="noopener noreferrer">Ewing &amp; Cervero 2010</a></td><td>High</td></tr><tr><td><strong>Building Regulation</strong></td><td>Local rules on what and how much can be built: zoning use categories, minimum lot sizes, setbacks, height, floor-area ratio, parking, and building codes. Restrictive rules limit housing supply. Links: Wilson (exclusionary zoning), NIMBYism, housing shortage.</td><td><a href="https://bipartisanpolicy.org/explainer/what-are-zoning-and-land-use-regulations-and-how-do-they-affect-housing-supply/" target="_blank" rel="noopener noreferrer">Bipartisan Policy Center</a></td><td>Medium-high</td></tr></tbody></table></div>
+<blockquote><strong>Stop and recall:</strong> Primal vs dual accessibility; cumulative vs competitive; the three (then five) Ds; induced demand and how congestion pricing answers it.</blockquote>
+<p><strong>Correction:</strong> earlier I guessed primal/dual accessibility meant "what residents can reach" vs "who can reach a place". The source says it is count vs travel time, as in the table.</p>
+    </article>
+  </div>
+</section>
+
+<section class="view" id="view-cards" role="tabpanel" aria-labelledby="tab-cards" hidden>
+  <div class="rv">
+    <div class="strip" id="strip"></div>
+    <button class="opts" id="gear" aria-haspopup="dialog">Options</button>
+    <div class="stage" id="stage"></div>
+    <div class="bottom" id="bottom"></div>
+  </div>
+  <div class="panel" id="panel" hidden role="dialog" aria-modal="true" aria-label="Options">
+    <div class="sheet">
+      <div class="top"><b>Options</b><button class="btn" id="panel-close">Close</button></div>
+      <h3>Schedule</h3>
+      <p id="banner"></p>
+      <h3>Which cards</h3>
+      <div class="chips" id="chips" role="group" aria-label="Choose which cards to study"></div>
+      <h3>Progress</h3>
+      <div class="progress"><i id="bar"></i></div>
+      <p class="note" id="prog-text"></p>
+      <h3>Exam date</h3>
+      <label><input type="date" id="set-exam"> <span class="note">The exam is in the afternoon of this day.</span></label>
+      <h3>Your progress data</h3>
+      <div class="row">
+        <button class="btn" id="b-export">Export</button>
+        <label class="btn" style="cursor:pointer;margin:0">Import<input type="file" id="b-import" accept="application/json" hidden></label>
+        <button class="btn" id="b-reset">Reset cards</button>
+      </div>
+      <p class="note" id="store-note"></p>
+      <p class="note">Site version: 2026-11-03 18:18. After an update, reload the page; your progress stays.</p>
+      <h3>How to rate</h3>
+      <p><b>Again</b>: didn't know. <b>Hard</b>: got it with effort. <b>Good</b>: got it. <b>Easy</b>: instant. Missed cards return in minutes; known cards return in days. Say or write the answer before you reveal it.</p>
+      <p>Keys: <kbd>Space</kbd> show answer, <kbd>1</kbd> to <kbd>4</kbd> rate, <kbd>Z</kbd> undo, <kbd>Esc</kbd> close this panel.</p>
+    </div>
+  </div>
+</section>
+</main>
+<div id="hlbar" hidden><button id="hl-add">Highlight</button><button id="hl-del" hidden>Remove highlight</button></div>
+<footer>Study notes built from class slides and readings. Cards marked "Not from slides" come from outside sources and may differ from the instructor's wording; the instructor's wording wins.</footer>
+
+<script>
+const CARDS = [{"id": "a6ebce1e", "i": 0, "f": "The course in five questions (A to E)?", "b": "A) Why does a city exist, and where? B) What shape does it take? C) Who gets what (problems)? D) How did planners respond? E) How do people feel the city?", "t": ["0_schema", "core"]}, {"id": "33367301", "i": 1, "f": "Box A question and contents?", "b": "Why does a city exist and where? Location theories, Chicago vs LA, why people move to cities.", "t": ["0_schema", "core"]}, {"id": "6b28da29", "i": 2, "f": "Box B question and contents?", "b": "What shape does the city take? Galster's eight dimensions, Boeing's griddedness, mono/polycentric, suburbanization.", "t": ["0_schema", "core"]}, {"id": "ea0dbf0e", "i": 3, "f": "Box C question and contents?", "b": "Who gets what? Jobs (spatial and modal mismatch), health and environment (Wilson, heat islands), housing (filtering, gentrification), contact.", "t": ["0_schema", "core"]}, {"id": "db158879", "i": 4, "f": "Box D question and contents?", "b": "How did planners respond? Sanitary, City Beautiful, Garden City, Modernism, then Jacobs, then New Urbanism, TOD, tactical urbanism.", "t": ["0_schema", "core"]}, {"id": "5a30ed5e", "i": 5, "f": "Box E question and contents?", "b": "How do people feel the city? Gehl, Lynch, Whyte, Oldenburg, Simmel, Wirth, Goffman, Putnam, Borer.", "t": ["0_schema", "core"]}, {"id": "bc1e0003", "i": 6, "f": "The one idea to put in every essay?", "b": "City scale vs human scale: planners solved city-scale problems, and daily experience got lost, so Jacobs, Gehl, Whyte and Lynch pushed back.", "t": ["0_schema", "core"]}, {"id": "69b84f3d", "i": 7, "f": "What trade-off sits behind every location theory (Von Thünen, bid-rent, etc.)?", "b": "Land price vs travel cost. Central: highest land price, lowest travel cost. Outer: lowest land price, highest travel cost. The system settles into a balance.", "t": ["A_location", "term"]}, {"id": "4b024475", "i": 8, "f": "Von Thünen: who and when?", "b": "Johann Heinrich von Thünen, 1826 (The Isolated State).", "t": ["A_location", "term"]}, {"id": "4baa16a8", "i": 9, "f": "Von Thünen: what does it explain?", "b": "How farm land uses are arranged around a market.", "t": ["A_location", "term"]}, {"id": "91574c06", "i": 10, "f": "Von Thünen: profit formula?", "b": "Selling price - production cost - transportation cost.", "t": ["A_location", "term"]}, {"id": "c5029ec7", "i": 11, "f": "Von Thünen: which goods are grown close to the market?", "b": "Heavy (hard to transport), profitable goods close to the market. Light, less profitable, land-intensive goods farther away.", "t": ["A_location", "term"]}, {"id": "41b923f1", "i": 12, "f": "Von Thünen: why does it matter beyond farming?", "b": "Its ideas (trade-offs, land prices, travel costs) are the basis of modern economic geography and urban economics.", "t": ["A_location", "term"]}, {"id": "e221352c", "i": 13, "f": "Concentric Zone Model: who and when?", "b": "Ernest Burgess (and Park), 1925.", "t": ["A_location", "term"]}, {"id": "d0970555", "i": 14, "f": "Concentric Zone Model: which city was it based on?", "b": "Chicago.", "t": ["A_location", "term"]}, {"id": "c9f47efb", "i": 15, "f": "Concentric Zone Model: what pattern?", "b": "Zones of land use ring the center. Farther out: higher commuting cost and lower land values. Similar to Von Thünen but about the city, not the rural area.", "t": ["A_location", "term"]}, {"id": "843c192d", "i": 16, "f": "Weber model: who and when?", "b": "Alfred Weber, 1909 (least-cost theory).", "t": ["A_location", "term"]}, {"id": "8152b93d", "i": 17, "f": "Weber model: what does a firm do?", "b": "Locates to minimize transport cost from resources to the factory and from the factory to the market. One route to agglomeration.", "t": ["A_location", "term"]}, {"id": "e8114c98", "i": 18, "f": "Central Place Theory: who?", "b": "Walter Christaller (1933) and August Lösch (1940).", "t": ["A_location", "term"]}, {"id": "2927bca8", "i": 19, "f": "Central Place Theory: what comes from where?", "b": "Specialized goods come from a larger central place (fewer people want them, so they travel farther). Everyday goods (groceries) come from many small places. Result: a hierarchy of towns.", "t": ["A_location", "term"]}, {"id": "15cca8da", "i": 20, "f": "Hoyt Sector Model: who and when?", "b": "Homer Hoyt, 1939.", "t": ["A_location", "term"]}, {"id": "3e19e30d", "i": 21, "f": "Hoyt Sector Model: what pattern?", "b": "Similar development follows transport corridors (rail lines, highways) instead of straight-line distance from the center.", "t": ["A_location", "term"]}, {"id": "82c17f66", "i": 22, "f": "Multiple Nuclei Model: who and when?", "b": "Harris and Ullman, 1945.", "t": ["A_location", "term"]}, {"id": "a91434b1", "i": 23, "f": "Multiple Nuclei Model: what pattern?", "b": "Several centers instead of one CBD; some uses attract each other, some repel (homes and factories).", "t": ["A_location", "term"]}, {"id": "b7048ceb", "i": 24, "f": "Why is Multiple Nuclei more accurate than the Concentric Zone Model?", "b": "Single-CBD cities grow into each other, and it fits the post-highway city.", "t": ["A_location", "term"]}, {"id": "eea449c5", "i": 25, "f": "Alonso-Muth-Mills (bid-rent): who and when?", "b": "Alonso 1964, Mills 1967, Muth 1969.", "t": ["A_location", "term"]}, {"id": "d9a754a6", "i": 26, "f": "Alonso-Muth-Mills: key assumption?", "b": "Everyone works in the CBD, and travel cost rises with distance from it.", "t": ["A_location", "term"]}, {"id": "3d027ec6", "i": 27, "f": "Alonso-Muth-Mills: prediction?", "b": "Rent is higher nearer the CBD (lower travel cost, higher demand). It predicts densities, rents, building heights well, and can be extended to several CBDs.", "t": ["A_location", "term"]}, {"id": "83c39fa8", "i": 28, "f": "Alonso-Muth-Mills vs Rosen-Roback: difference?", "b": "Alonso-Muth-Mills is intracity (within one city). Rosen-Roback is intercity (between cities).", "t": ["A_location", "term"]}, {"id": "24bbc1e8", "i": 29, "f": "Rosen-Roback: who and when?", "b": "Rosen 1979, Roback 1982.", "t": ["A_location", "term"]}, {"id": "537dda6a", "i": 30, "f": "Rosen-Roback: key assumption?", "b": "People are completely mobile between cities. Wages, rents, productivity and amenities balance out.", "t": ["A_location", "term"]}, {"id": "26c60bc3", "i": 31, "f": "Rosen-Roback: high rents + high wages means?", "b": "High productivity.", "t": ["A_location", "term"]}, {"id": "65893404", "i": 32, "f": "Rosen-Roback: high rents + low wages means?", "b": "High amenities (e.g. good weather: people still move there).", "t": ["A_location", "term"]}, {"id": "a3ca8fa0", "i": 33, "f": "Rosen-Roback: low rents + low wages means?", "b": "Low productivity (or low amenities).", "t": ["A_location", "term"]}, {"id": "10be930d", "i": 34, "f": "Agglomeration: why are some cities more productive?", "b": "Density gives clustering (lower travel costs), specialization (higher wages), and knowledge spillovers/innovation. It is also cultural (museums, clubs, ethnic enclaves).", "t": ["A_location", "term"]}, {"id": "8cada9d9", "i": 35, "f": "Agglomeration: a downside example?", "b": "One innovation can push out other innovators (Ford in Detroit).", "t": ["A_location", "term"]}, {"id": "31a627c9", "i": 36, "f": "What happens when transport technology improves?", "b": "Travel costs fall and land value (desirability) rises.", "t": ["A_location", "detail"]}, {"id": "40dd4eb5", "i": 37, "f": "Dexter: how do land use and transport relate?", "b": "Both ways: transport can drive land use, and land use drives the need for transport. Freeways support decentralization and polycentric centers.", "t": ["A_location", "detail"]}, {"id": "b2af3126", "i": 38, "f": "Functional and Tributary Areas?", "b": "Defining a city by what it does: the areas that 'belong' to it (commuting, TV market, sports fans, medical service area).", "t": ["A_location", "term"]}, {"id": "ff83ed7d", "i": 39, "f": "Five ways to define a city?", "b": "Administrative (governed territory), physical (built-up area), population (density), functional (commuting/trade/services), cultural/experiential (shared sense of place). Choose by your question.", "t": ["A_location", "detail"]}, {"id": "98cb20dd", "i": 40, "f": "Chicago: centers, density, when built?", "b": "Monocentric, concentrated, mostly built 1880-1950. The prototypical case.", "t": ["A_location", "term"]}, {"id": "d198434f", "i": 41, "f": "Los Angeles: centers, density, when built?", "b": "Polycentric, uniform medium density (high density, low concentration), mostly built after 1950 (baby boom, GI Bill). Car-oriented, single-family. 'The anti-city'.", "t": ["A_location", "term"]}, {"id": "49d72672", "i": 42, "f": "Why Chicago grew (labels only)?", "b": "Boosters/speculation, railroads, geography, engineering, credit and machine politics, accidents.", "t": ["A_location", "detail"]}, {"id": "4355fbc", "i": 43, "f": "Chicago: which geography helped?", "b": "Chicago River and Lake Michigan (Great Lakes and Mississippi access, plus railroads); flat land.", "t": ["A_location", "detail"]}, {"id": "e46b2f2a", "i": 44, "f": "Chicago: which engineering feats?", "b": "Raising the city, reversing the Chicago River, separate eastern and western rail stations, safety elevators and skyscrapers.", "t": ["A_location", "detail"]}, {"id": "acf1bbf", "i": 45, "f": "Cronon: could another city have been Chicago?", "b": "Yes: Minneapolis, St. Louis, Milwaukee, Detroit had advantages too. Chicago's factors lined up more effectively and first.", "t": ["A_location", "detail"]}, {"id": "d6365b4f", "i": 46, "f": "Lock-in / inertia?", "b": "Once economic sectors are built and scaled they are hard to change; the built environment is also persistent.", "t": ["A_location", "detail"]}, {"id": "db7ae49e", "i": 47, "f": "Machine City: the question and answer?", "b": "Can planners recreate Chicago elsewhere? Transport networks, engineering and design can be planned. Innovations, historic accidents (fire, population boom) and being first cannot.", "t": ["A_location", "term"]}, {"id": "d5bafeab", "i": 48, "f": "Why did Los Angeles succeed?", "b": "Agglomeration (aviation, oil, freight, entertainment), shipping hub, engineered water supply, population inflow (baby boom, GI Bill), air conditioning, highways ('drive until you qualify').", "t": ["A_location", "detail"]}, {"id": "f3c3fc4", "i": 49, "f": "LA as growth machine and 'anti-city' (Fulton)?", "b": "Developers needed continual growth so their developments gained value. LA marketed itself as a quiet, suburban, anti-urban lifestyle even though it was large.", "t": ["A_location", "detail"]}, {"id": "1c0e9548", "i": 50, "f": "Urbanization (Jedwab &amp; Vollrath definition)?", "b": "An increase in the share of a country's population living in urban areas.", "t": ["A_location", "detail"]}, {"id": "c0072603", "i": 51, "f": "Urbanization without Growth: main finding?", "b": "At the same income, countries are about 25-30 percentage points more urban in 2010 than in 1500. Urban share alone doesn't show prosperity.", "t": ["A_location", "term"]}, {"id": "51fa539e", "i": 52, "f": "Four reasons for urbanization without growth (labels only)?", "b": "Safer city life, urban bias, rural push, more survive in cities.", "t": ["A_location", "term"]}, {"id": "fc955d4e", "i": 53, "f": "Urbanization without growth: reason 1?", "b": "City life gets safer or easier (clean water, transport, taller buildings).", "t": ["A_location", "term"]}, {"id": "d7b80e8d", "i": 54, "f": "Urbanization without growth: reason 2?", "b": "Government policy favors cities (urban bias).", "t": ["A_location", "term"]}, {"id": "cea33fcc", "i": 55, "f": "Urbanization without growth: reason 3?", "b": "The countryside gets worse (drought, war, no farmland): rural push.", "t": ["A_location", "term"]}, {"id": "81e2a90b", "i": 56, "f": "Urbanization without growth: reason 4?", "b": "More people survive in cities: births exceed deaths (natural increase).", "t": ["A_location", "term"]}, {"id": "dc9271be", "i": 57, "f": "Rural push vs urban pull?", "b": "Push: hardship in the countryside (drought, war, no farmland). Pull: city jobs and wages.", "t": ["A_location", "term"]}, {"id": "7c9e941d", "i": 58, "f": "Urban bias?", "b": "Policies that favor cities over the countryside (e.g. taxing farmers to subsidize urban food).", "t": ["A_location", "detail"]}, {"id": "2776c46b", "i": 59, "f": "Jedwab &amp; Vollrath: one-line takeaway?", "b": "Moving to a city doesn't tell you why people moved or whether they became better off.", "t": ["A_location", "detail"]}, {"id": "48ff9265", "i": 60, "f": "Why does Galster separate pattern from causes and effects?", "b": "Otherwise reasoning is circular (defining sprawl as 'development that makes people drive' builds the answer into the definition). Sequence: causes -&gt; physical pattern -&gt; consequences.", "t": ["B_form", "term"]}, {"id": "6b88f880", "i": 61, "f": "Galster's eight dimensions of sprawl?", "b": "Density, continuity, concentration, clustering, centrality, nuclearity, mixed uses, proximity.", "t": ["B_form", "term"]}, {"id": "869d3400", "i": 62, "f": "Galster: Density?", "b": "How much development per unit of land area. Alone it can't describe sprawl.", "t": ["B_form", "term"]}, {"id": "6cb1fa45", "i": 63, "f": "Galster: Continuity?", "b": "Is development unbroken, or does it skip land (leapfrog)?", "t": ["B_form", "term"]}, {"id": "6afeae7", "i": 64, "f": "What is leapfrog development?", "b": "Construction that jumps over available land, leaving gaps (low continuity).", "t": ["B_form", "detail"]}, {"id": "a4d905fa", "i": 65, "f": "Galster: Concentration?", "b": "Is a large share of development located in a small share of the area?", "t": ["B_form", "term"]}, {"id": "b8c85c57", "i": 66, "f": "Galster: Clustering?", "b": "Within an area, is development tightly bunched?", "t": ["B_form", "term"]}, {"id": "735820de", "i": 67, "f": "Concentration vs clustering?", "b": "Same idea at different scales: concentration = across the whole city (a few heavily developed areas); clustering = within an area (bunched vs scattered).", "t": ["B_form", "detail"]}, {"id": "82ece59e", "i": 68, "f": "Galster: Centrality?", "b": "How close development is to the central business district (CBD).", "t": ["B_form", "term"]}, {"id": "4d6e6f1b", "i": 69, "f": "Galster: Nuclearity?", "b": "One dominant center (mononuclear) vs several (polynuclear).", "t": ["B_form", "term"]}, {"id": "bccd4360", "i": 70, "f": "Centrality vs nuclearity?", "b": "Centrality = distance from the main downtown. Nuclearity = one center or several.", "t": ["B_form", "detail"]}, {"id": "d03837a0", "i": 71, "f": "Galster: Mixed uses?", "b": "Do different activities (homes, shops, offices) occupy the same small area?", "t": ["B_form", "term"]}, {"id": "41991556", "i": 72, "f": "Galster: Proximity?", "b": "How close different uses are across the urban area.", "t": ["B_form", "term"]}, {"id": "7928ab27", "i": 73, "f": "Mixed uses vs proximity?", "b": "Mixed use = same small area. Proximity = distance between uses across the city (a housing district next to a shopping district has proximity but not mixed use).", "t": ["B_form", "detail"]}, {"id": "5ba7e31e", "i": 74, "f": "Galster test result?", "b": "In 13 urbanized areas, cities did not score consistently across dimensions, so 'sprawl' as one word hides differences (preliminary test, six residential measures).", "t": ["B_form", "term"]}, {"id": "febde5ec", "i": 75, "f": "Boeing: three features of 'griddedness'?", "b": "Orientation order (consistent directions), straightness, four-way intersections.", "t": ["B_form", "term"]}, {"id": "e3d2c4d5", "i": 76, "f": "Boeing: grid vs small blocks?", "b": "A grid doesn't automatically mean small blocks or high density.", "t": ["B_form", "term"]}, {"id": "be32cf3b", "i": 77, "f": "Boeing: history of US street networks?", "b": "Connected grids (pre-1940) -&gt; increasingly disconnected, car-oriented suburban streets (to 1990s) -&gt; partial return toward grids after 2000.", "t": ["B_form", "term"]}, {"id": "e65b9486", "i": 78, "f": "Boeing: why did suburbs go off the grid?", "b": "Cars; planners wanted to keep through traffic out of residential streets (cul-de-sacs); housing finance and engineering guidelines promoted those layouts.", "t": ["B_form", "term"]}, {"id": "150bafe4", "i": 79, "f": "Boeing: finding on car ownership?", "b": "More grid-like neighborhoods have lower car ownership, after accounting for income, household size, density, housing and terrain. It's an association, not proof.", "t": ["B_form", "term"]}, {"id": "d8309352", "i": 80, "f": "Boeing: why do streets matter for generations?", "b": "Street networks are hard to change (tied to land, buildings, utilities), so early layout limits later transport choices.", "t": ["B_form", "term"]}, {"id": "65987251", "i": 81, "f": "Boeing: what should planners do?", "b": "Build connected streets in new development, restore connections in redevelopment, improve suburban connections, add housing in existing connected neighborhoods.", "t": ["B_form", "term"]}, {"id": "982f2398", "i": 82, "f": "Suburbanization?", "b": "People and jobs moving to the periphery (job decentralization), helped by cars and freeways.", "t": ["B_form", "term"]}, {"id": "1fbd85a7", "i": 83, "f": "Monocentric vs polycentric?", "b": "Monocentric: one dominant center (Chicago). Polycentric: several substantial centers (LA).", "t": ["B_form", "term"]}, {"id": "e5b6b006", "i": 84, "f": "How does pedestrian vs auto orientation matter (LA vs Chicago)?", "b": "It changes the experience of density, affordability and legibility. Gehl: auto-oriented streets suppress optional and social activity.", "t": ["B_form", "term"]}, {"id": "2196595a", "i": 85, "f": "Spatial mismatch hypothesis (Ihlanfeldt/Kain)?", "b": "Jobs move to the suburbs, but housing discrimination keeps Black workers from following, so their realistic job choices shrink.", "t": ["C_problems", "term"]}, {"id": "56c520ae", "i": 86, "f": "Kain's three claims?", "b": "1) Segregation affects where people work. 2) Restricted residential choice can raise unemployment. 3) Job decentralization intensifies the disadvantage.", "t": ["C_problems", "detail"]}, {"id": "c2305cec", "i": 87, "f": "Three barriers between workers and distant jobs?", "b": "Not hearing about vacancies, no usable transport, and hiring discrimination.", "t": ["C_problems", "detail"]}, {"id": "51fc784c", "i": 88, "f": "Mismatch harms besides unemployment?", "b": "Lower wages or higher commuting costs, so net earnings fall.", "t": ["C_problems", "detail"]}, {"id": "40232407", "i": 89, "f": "Ihlanfeldt's Atlanta warning?", "b": "Count suitable jobs AND competing workers. Job losses alone don't show how competition changed. The inner city's position worsened relatively, not absolutely.", "t": ["C_problems", "term"]}, {"id": "5d0c03ac", "i": 90, "f": "Ihlanfeldt: three policy routes?", "b": "Move residents toward jobs, bring jobs toward residents, or improve connections without moving either. He favors job information and transport now, housing integration long-term.", "t": ["C_problems", "term"]}, {"id": "3446cbbb", "i": 91, "f": "Modal mismatch (Grengs)?", "b": "The big gap in job access between people who can use cars and those who rely on inferior alternatives (transit).", "t": ["C_problems", "term"]}, {"id": "cb2ab0f6", "i": 92, "f": "Mobility vs accessibility?", "b": "Mobility = movement. Accessibility = ability to reach useful destinations. Accessibility is the better measure.", "t": ["C_problems", "detail"]}, {"id": "b5510b6", "i": 93, "f": "Why is Detroit surprising (Grengs)?", "b": "Inner-city locations can reach jobs in many directions via highways, so they're well placed for drivers even though jobs moved out.", "t": ["C_problems", "term"]}, {"id": "ccd42b41", "i": 94, "f": "Grengs: gravity model?", "b": "Weights easier-to-reach jobs more and adjusts for competing workers. Uses existing jobs, not vacancies. Shows access by car vs transit.", "t": ["C_problems", "term"]}, {"id": "ce28c2a2", "i": 95, "f": "Grengs: ecological fallacy?", "b": "Assuming every resident shares a neighborhood's average advantage; carless residents don't.", "t": ["C_problems", "term"]}, {"id": "54351413", "i": 96, "f": "Grengs: what hasn't he proved?", "b": "That providing cars causes employment gains or is the best policy after all costs.", "t": ["C_problems", "term"]}, {"id": "a75ad6d0", "i": 97, "f": "Ihlanfeldt vs Grengs?", "b": "Ihlanfeldt: housing restriction + suburbanizing jobs. Grengs: travel mode (car vs transit) decides access; a well-located neighborhood can have carless, disadvantaged residents.", "t": ["C_problems", "term"]}, {"id": "7aef0da", "i": 98, "f": "Wilson: main idea?", "b": "Planning and zoning decide who gets a healthy place to live. Improving a neighborhood only helps residents if they can stay.", "t": ["C_problems", "term"]}, {"id": "3a981d29", "i": 99, "f": "Exclusionary zoning?", "b": "Land-use rules that keep disadvantaged people out of certain communities (e.g. only expensive housing allowed).", "t": ["C_problems", "detail"]}, {"id": "72ed531c", "i": 100, "f": "Metropolitan fragmentation?", "b": "A region split among separate governments making separate decisions, so no one ensures benefits and burdens are shared fairly.", "t": ["C_problems", "detail"]}, {"id": "42d5a7f", "i": 101, "f": "Riskscape and environmental injustice?", "b": "Riskscape: area where burdens (pollution, unsafe streets, poor food access) pile up with few protections. Environmental injustice: unfair distribution of burdens and protections, especially by race and income.", "t": ["C_problems", "detail"]}, {"id": "5165545f", "i": 102, "f": "Wilson: how does zoning link to health?", "b": "Far food and unsafe streets make healthy routines harder (poor diet, inactivity = sedentary disease), plus stress and pollution exposure.", "t": ["C_problems", "term"]}, {"id": "a9d40792", "i": 103, "f": "Wilson: smart growth warning?", "b": "Compact walkable design needs attention to affordability, or existing residents get displaced and miss the benefits.", "t": ["C_problems", "term"]}, {"id": "5b11f5db", "i": 104, "f": "Heat islands?", "b": "Cities hotter because concrete and steel replace grass and shade; air conditioning strains power grids.", "t": ["C_problems", "term"]}, {"id": "60d2f40b", "i": 105, "f": "Why do extreme weather events matter in cities?", "b": "Major events (not average rainfall) overload drainage; impervious surfaces replace grass so floods worsen. Cities are also sinking as sea levels rise.", "t": ["C_problems", "term"]}, {"id": "3f35e9b2", "i": 106, "f": "Housing shortage/surplus: supply and demand?", "b": "Supply = number of housing units. Demand = population (households).", "t": ["C_problems", "term"]}, {"id": "8be3c09a", "i": 107, "f": "Elasticity of housing demand?", "b": "Inelastic: everyone needs a home. But it can balance through migration (Rosen-Roback), subdividing, households combining/splitting, submarkets, location (jobs-housing balance).", "t": ["C_problems", "detail"]}, {"id": "955c70cb", "i": 108, "f": "Measures of housing shortage/surplus?", "b": "Vacancy rates (households / units), new construction rates, new household formation, and affordability to catch latent demand.", "t": ["C_problems", "term"]}, {"id": "6aeab6ea", "i": 109, "f": "Measures of housing affordability?", "b": "Rent-to-income ratio, real income (income - rent), housing quality indicators, plus subjective surveys.", "t": ["C_problems", "detail"]}, {"id": "4185fb56", "i": 110, "f": "Housing and the life course?", "b": "Young people move to cities (jobs, social life, education). Around 30 people form families and need a home. Older people move away (safety, cheaper larger houses).", "t": ["C_problems", "detail"]}, {"id": "773ac621", "i": 111, "f": "Filtering (housing)?", "b": "Houses filter down as they age while people filter up. A good home for a 40-year-old becomes a starter home for a 30-year-old. Old buildings = affordable stock.", "t": ["C_problems", "term"]}, {"id": "543d982", "i": 112, "f": "Housing and segregation?", "b": "Housing is the primary mechanism (HOAs, lending discrimination -&gt; kept out of schools and organizations). Measured by entropy and dissimilarity indices.", "t": ["C_problems", "detail"]}, {"id": "4df8b7c9", "i": 113, "f": "Contact hypothesis?", "b": "Contact between groups improves relations. But not always: conflict and competition (e.g. over housing) can prevent it.", "t": ["C_problems", "term"]}, {"id": "f6ad9888", "i": 114, "f": "Great Depression housing example?", "b": "Population grew but little new housing; houses were subdivided into lower-quality apartments; new nonwhite residents were blamed for the drop in quality.", "t": ["C_problems", "detail"]}, {"id": "b76ee9f", "i": 115, "f": "Gentrification?", "b": "Neighborhood change from an inflow of wealthier people.", "t": ["C_problems", "term"]}, {"id": "2725b865", "i": 116, "f": "Three gentrification outcomes?", "b": "Displacement (can't afford to stay), gentrification-in-place (stay but lose amenities and cultural identity), cultural erasure (local businesses pushed out, enclaves broken up).", "t": ["C_problems", "term"]}, {"id": "301f7803", "i": 117, "f": "Why is gentrification a 'wicked problem'?", "b": "Improving a neighborhood raises costs and pushes out the poor residents it was meant to help.", "t": ["C_problems", "term"]}, {"id": "1edc6da1", "i": 118, "f": "NIMBYism vs NIABYism?", "b": "NIMBY: 'not in my backyard'. NIABY: 'not in anyone's backyard'. Resistance to change can block development everywhere.", "t": ["C_problems", "term"]}, {"id": "530b291f", "i": 119, "f": "Ways to improve a neighborhood without excluding people?", "b": "Mixed-rent housing and participatory (community-led) planning.", "t": ["C_problems", "detail"]}, {"id": "333e528f", "i": 120, "f": "Valentine: 'meaningful contact'?", "b": "An encounter that changes values, and the change extends beyond that person or moment to wider respect for others. Pleasant interaction alone isn't enough.", "t": ["C_problems", "term"]}, {"id": "28077443", "i": 121, "f": "Valentine: proximity vs interaction?", "b": "Groups can share space yet lead 'parallel lives'. Separation isn't only minority choice; discrimination and white separation matter.", "t": ["C_problems", "term"]}, {"id": "d59fce80", "i": 122, "f": "Valentine: values vs practices?", "b": "Polite behavior can coexist with hostile beliefs (Jim chats with migrant neighbors but holds anti-migrant views).", "t": ["C_problems", "term"]}, {"id": "e829977e", "i": 123, "f": "Valentine: tolerance vs respect?", "b": "Tolerance ('you may be here as long as we allow') leaves power unequal. Respect means an equal claim to be there.", "t": ["C_problems", "term"]}, {"id": "1d6597ba", "i": 124, "f": "Valentine: micro-publics (Amin)?", "b": "Settings like sports clubs, drama groups, community gardens where people do organized activities together; cooperation may challenge assumptions more than passing contact.", "t": ["C_problems", "term"]}, {"id": "62fdd25f", "i": 125, "f": "Valentine: why does a good experience stay an exception?", "b": "The friendly individual becomes an exception while stereotypes of the group survive, fed by stories of economic or cultural victimhood.", "t": ["C_problems", "term"]}, {"id": "f9b61078", "i": 126, "f": "Valentine: two problems with contact?", "b": "Who bears the burden of contact (and whose voice is heard), and whether respect scales up beyond the encounter.", "t": ["C_problems", "term"]}, {"id": "cf25496f", "i": 127, "f": "Why did planning emerge?", "b": "Industrialization (1800s) caused fast, ungoverned (laissez-faire) urban growth: overcrowding, disease, inequality. Planning follows urban crises.", "t": ["D_planning", "detail"]}, {"id": "49507e16", "i": 128, "f": "Two responses to 1800s urban problems?", "b": "Utopian planning movements (solve everything at once) and technical urban officials (solve problems one by one).", "t": ["D_planning", "detail"]}, {"id": "c12b2a65", "i": 129, "f": "Sanitary Movement?", "b": "Response to overcrowding, disease and weak governance; public health; technical officials; the health origin of zoning.", "t": ["D_planning", "term"]}, {"id": "20053d29", "i": 130, "f": "City Beautiful: when and where?", "b": "Early 1900s, United States.", "t": ["D_planning", "term"]}, {"id": "98ac7d78", "i": 131, "f": "City Beautiful: key figures?", "b": "Burnham (planner), Robinson (publicist), Olmsted (landscape architecture).", "t": ["D_planning", "term"]}, {"id": "4d4e8485", "i": 132, "f": "City Beautiful: main ideas?", "b": "Beautification, cleanliness, leisure space; park-and-boulevard systems, wheel-and-spoke streets, municipal bureaucracy. First large-scale modern comprehensive planning in the US.", "t": ["D_planning", "term"]}, {"id": "ca2a9ed1", "i": 133, "f": "City Beautiful: criticisms?", "b": "Surface-level aesthetics, top-down, short-lived, and it ignored housing and population.", "t": ["D_planning", "term"]}, {"id": "59bb9f96", "i": 134, "f": "City Beautiful: legacy?", "b": "Large urban parks and greenways, neoclassical (Beaux-Arts) buildings, and municipal government power.", "t": ["D_planning", "term"]}, {"id": "268e7e53", "i": 135, "f": "Garden City: when and where?", "b": "Late 1800s, England.", "t": ["D_planning", "term"]}, {"id": "dc339905", "i": 136, "f": "Garden City: key figures?", "b": "Ebenezer Howard (planner), Raymond Unwin and Barry Parker (architects).", "t": ["D_planning", "term"]}, {"id": "d6878ae9", "i": 137, "f": "Garden City: main ideas?", "b": "Decentralization, small self-sufficient towns, optimal size (anti growth machine), green belts and agriculture, communal land ownership. Response to disease, congestion, lack of green space.", "t": ["D_planning", "term"]}, {"id": "c99819", "i": 138, "f": "Garden City: ideology vs reality?", "b": "Letchworth shifted from social reform to residential design; new towns were hard to build at scale, so the principles went into existing suburbs.", "t": ["D_planning", "term"]}, {"id": "90ce053a", "i": 139, "f": "Garden City vs City Beautiful?", "b": "Garden City was smaller scale (town plans) and more comprehensive, including social reform and communal living.", "t": ["D_planning", "term"]}, {"id": "293953f6", "i": 140, "f": "Where does Clarence Perry's Neighborhood Unit appear?", "b": "In the Garden City part of the planning slides (the slide gives only the name, no definition).", "t": ["D_planning", "term"]}, {"id": "5f98d114", "i": 141, "f": "Modernism: main traits?", "b": "Top-down, rationalist; order, economics, efficient transport; geometric order, single-purpose zones; no ornament; applied uniformly regardless of local context.", "t": ["D_planning", "term"]}, {"id": "8b0100f2", "i": 142, "f": "Modernism: timing and effects?", "b": "Replaced City Beautiful by the 1920s; strongly shaped postwar US development: highways, large-scale clearance, urban renewal, public housing, car dependence.", "t": ["D_planning", "term"]}, {"id": "4b67e56f", "i": 143, "f": "Le Corbusier / Radiant City?", "b": "Le Corbusier, 1935. The main modernist plan: 'getting people off the streets and into parks'.", "t": ["D_planning", "term"]}, {"id": "214d5d0f", "i": 144, "f": "Frank Lloyd Wright / Broadacre City?", "b": "Wright, 1932-35. Alternative to the Radiant City: decentralized, an acre per family, car-centered, home and work combined, nature woven in, infinitely repeatable. LA resembles it.", "t": ["D_planning", "term"]}, {"id": "a9ca1a24", "i": 145, "f": "Radiant City vs Broadacre?", "b": "Both modernist-era visions. Radiant: spaced, vertical development. Broadacre: low-density, spread-out, continuous, car-based.", "t": ["D_planning", "term"]}, {"id": "ea332d55", "i": 146, "f": "Jane Jacobs: book and year?", "b": "The Death and Life of Great American Cities (1961); she lived in Greenwich Village.", "t": ["D_planning", "term"]}, {"id": "16bf4376", "i": 147, "f": "What did Jacobs oppose?", "b": "Modernist, authoritarian planning and Robert Moses (the Lower Manhattan Expressway).", "t": ["D_planning", "term"]}, {"id": "2c7597f", "i": 148, "f": "Jacobs: core idea?", "b": "Street life is a complicated order, not chaos (urban vitality): sidewalk ballet, eyes on the street.", "t": ["D_planning", "term"]}, {"id": "64ef3c3e", "i": 149, "f": "Jacobs (reading): informal public supervision?", "b": "Safety produced partly by everyday street activity: people who notice and may respond. Fear weakens it (people avoid the street).", "t": ["D_planning", "term"]}, {"id": "f220ca53", "i": 150, "f": "Jacobs' three conditions for a safe street?", "b": "1) Clear public/private boundaries. 2) Eyes upon the street (windows and entrances face the sidewalk). 3) Fairly continuous sidewalk use.", "t": ["D_planning", "term"]}, {"id": "1fb539c2", "i": 151, "f": "Jacobs: sidewalk ballet?", "b": "The coordination of different people's routines (children, workers, shopkeepers, night users) that keeps eyes on the street all day.", "t": ["D_planning", "term"]}, {"id": "2aea7798", "i": 152, "f": "Urban vitality: two definitions?", "b": "Observed street activity ('life force'), or a synergy from a built environment with mix, walkability and density.", "t": ["D_planning", "term"]}, {"id": "afa1c896", "i": 153, "f": "Jacobs' mechanism for vitality?", "b": "Built environment -&gt; sustains a variety of people -&gt; active all day -&gt; sidewalk contacts -&gt; safety, experience and social cohesion.", "t": ["D_planning", "term"]}, {"id": "c1da272c", "i": 154, "f": "Jacobs' six dimensions of vitality?", "b": "Density, small blocks, mixed primary uses, aged buildings, accessibility, no border vacuums.", "t": ["D_planning", "term"]}, {"id": "df1e96a3", "i": 155, "f": "Jacobs: small blocks?", "b": "Short blocks and grids: more walkability, pedestrians spread evenly (eyes everywhere), more intersections = more contact, more route choice.", "t": ["D_planning", "term"]}, {"id": "c7200ff9", "i": 156, "f": "Jacobs: aged buildings?", "b": "A mix of old and new (high and low rent) lets different incomes and businesses coexist; governments can preserve old buildings.", "t": ["D_planning", "term"]}, {"id": "62d2b67c", "i": 157, "f": "Jacobs: border vacuums?", "b": "Large single-use zones (esp. highways) that cut through street networks and restrict walking and land-use diversity.", "t": ["D_planning", "term"]}, {"id": "1137ea06", "i": 158, "f": "Criticisms of Jacobs?", "b": "Linked to NIMBYism and gentrification; philosophical and hard to measure; described what happened naturally (can it be recreated?); mixed empirical results.", "t": ["D_planning", "term"]}, {"id": "721a5174", "i": 159, "f": "Alexander, 'A City is Not a Tree' (1965)?", "b": "Sympathetic to Jacobs and against Le Corbusier: city functions are interwoven, not separate. But you can't reproduce Greenwich Village by imitating its appearance.", "t": ["D_planning", "detail"]}, {"id": "748e749f", "i": 160, "f": "Empirical results on Jacobs' ideas?", "b": "More pedestrian activity where adopted, but maybe only necessary walking. Mouratidis &amp; Poortinga: social cohesion higher in mixed-use areas, lower in dense ones.", "t": ["D_planning", "term"]}, {"id": "1049493f", "i": 161, "f": "New Urbanism: who and when?", "b": "Duany and Plater-Zyberk, 1991.", "t": ["D_planning", "term"]}, {"id": "fbd551ea", "i": 162, "f": "New Urbanism: key ideas?", "b": "Walkability and transit, connectivity (grid), mixed use, density, active transport, green space, pedestrian-scale design; traditional neighborhood design.", "t": ["D_planning", "term"]}, {"id": "b0b49d87", "i": 163, "f": "Seaside, Florida?", "b": "New Urbanism case; small-town revitalization like a garden city; modern yet nostalgic for small-town life; strict architecture (every house a front porch).", "t": ["D_planning", "detail"]}, {"id": "6b0d6c50", "i": 164, "f": "Transit-Oriented Development (TOD)?", "b": "Calthorpe, 1993. Dense mixed land use and a gridded walking network with short blocks within about a 10-minute walk of transit stations; infill; uses federal transit funding.", "t": ["D_planning", "term"]}, {"id": "8c1b3082", "i": 165, "f": "Urban Acupuncture?", "b": "Jaime Lerner (Curitiba): small, effective interventions instead of top-down comprehensive plans; follows Lynch's city-as-organism.", "t": ["D_planning", "term"]}, {"id": "fe3e43e9", "i": 166, "f": "Tactical Urbanism?", "b": "Low-cost, temporary, small-scale projects: guerrilla, DIY, or pop-up; flexible, agile, temporary; governments also use it (slow streets, cyclovias).", "t": ["D_planning", "term"]}, {"id": "450c709c", "i": 167, "f": "Planning movements in order?", "b": "Sanitary -&gt; City Beautiful -&gt; Garden City -&gt; Modernism (Le Corbusier / Broadacre) -&gt; urban renewal -&gt; Jacobs -&gt; Lynch, Gehl, Whyte -&gt; New Urbanism, TOD -&gt; Urban Acupuncture / Tactical Urbanism.", "t": ["D_planning", "detail"]}, {"id": "15715899", "i": 168, "f": "Who opposed Modernism and urban renewal?", "b": "Jane Jacobs, the most influential critic.", "t": ["D_planning", "term"]}, {"id": "9f4f17ea", "i": 169, "f": "Gehl: three kinds of activity?", "b": "Necessary, optional, and resultant (social).", "t": ["E_experience", "term"]}, {"id": "e978e28e", "i": 170, "f": "Gehl: what happens in poor public spaces?", "b": "Only necessary activity; social interaction doesn't occur. 'In streets and city spaces of poor quality, only the bare minimum of activity takes place.'", "t": ["E_experience", "term"]}, {"id": "ec5b924b", "i": 171, "f": "Gehl: low-intensity contacts?", "b": "Frequent, low-pressure interactions between people in public space, with the possibility of seeing them again (like Jacobs' sidewalk contacts).", "t": ["E_experience", "term"]}, {"id": "dbebc257", "i": 172, "f": "Gehl vs Jacobs on grid and density?", "b": "Gehl isn't sure about the grid (just funnel pedestrians into shared areas) and has mixed feelings about density; extreme concentration is a disadvantage.", "t": ["E_experience", "term"]}, {"id": "d34b6b01", "i": 173, "f": "Lynch: learning ecology?", "b": "The city as a system where individuals can modify the rules; provide a good space for people to connect and improve it, not one comprehensive plan.", "t": ["E_experience", "term"]}, {"id": "ca3ac281", "i": 174, "f": "Lynch: dimensions of good city form?", "b": "Vitality, sense, fit, access, control, efficiency, justice.", "t": ["E_experience", "term"]}, {"id": "38f5ca13", "i": 175, "f": "Lynch: biggest contribution?", "b": "Legibility (how easily people make sense of and navigate the city). Supports bottom-up planning.", "t": ["E_experience", "term"]}, {"id": "5461ea53", "i": 176, "f": "Whyte: what did he study?", "b": "Plazas and playgrounds, mostly in New York, over ten years: which spaces are used and how.", "t": ["E_experience", "term"]}, {"id": "43115d22", "i": 177, "f": "Whyte: main findings?", "b": "People attract people; effective capacity (optimal congestion); people use spaces how they want; seating and food matter; groups choose good places.", "t": ["E_experience", "term"]}, {"id": "c9d84f54", "i": 178, "f": "Triangulation?", "b": "Strangers don't talk naturally, but do when both look at the same object (art, a street performer). Whyte.", "t": ["E_experience", "term"]}, {"id": "d5a1896", "i": 179, "f": "Jacobs and Whyte on 'undesirables'?", "b": "Trying to keep out undesirables keeps out everyone; leads to hostile architecture.", "t": ["E_experience", "term"]}, {"id": "22d4ca57", "i": 180, "f": "Third places (Oldenburg)?", "b": "Regular, voluntary, informal gatherings places beyond home and work. Public social life declined as they were lost.", "t": ["E_experience", "term"]}, {"id": "bf67b828", "i": 181, "f": "Third place characteristics?", "b": "Neutrality, leveling, conversation, accessibility, regulars, low profile, playful mood, at-homeness.", "t": ["E_experience", "term"]}, {"id": "97ba9803", "i": 182, "f": "Oldenburg vs Jacobs?", "b": "Oldenburg focuses on a place's character, not its location, and on regulars over visitors; too many outsiders can destroy the informal atmosphere.", "t": ["E_experience", "term"]}, {"id": "e1864686", "i": 183, "f": "Simmel (1903)?", "b": "Cities are full of stimuli, so people adopt a blasé attitude, a 'protective organ'. Borer: not to be taken too far.", "t": ["E_experience", "term"]}, {"id": "2cd486bd", "i": 184, "f": "Wirth (1938)?", "b": "Density, population size and heterogeneity produce a collective personality and behavior for economic survival.", "t": ["E_experience", "term"]}, {"id": "474ed678", "i": 185, "f": "Goffman: civil inattention?", "b": "Part of the interaction order: urbanites use rituals (head nod, brief apology, turning away) to assure each other they won't be bothered.", "t": ["E_experience", "term"]}, {"id": "f5cfca16", "i": 186, "f": "Lofland on civil inattention?", "b": "It's politeness (ritual regard), not coldness or psychological distress.", "t": ["E_experience", "term"]}, {"id": "829bf03e", "i": 187, "f": "Morrill: 'Together Alone'?", "b": "Urban people are together in public yet alone, in contrast to 'Bowling Alone'.", "t": ["E_experience", "detail"]}, {"id": "73b13803", "i": 188, "f": "Putnam, Bowling Alone (2000)?", "b": "Social capital and sense of community declined in the US with fewer organizations and more solitary activity.", "t": ["E_experience", "term"]}, {"id": "83d7db", "i": 189, "f": "Aelbrecht's reply to Putnam?", "b": "Traditional community participation did decline, but new spaces emerged (malls, gas stations).", "t": ["E_experience", "term"]}, {"id": "7bca1bff", "i": 190, "f": "Loneliness vs solitude?", "b": "Number of contacts and loneliness are weakly correlated. Loneliness = alienation from self; solitude = comfortable aloneness (when you want it).", "t": ["E_experience", "detail"]}, {"id": "867e5a1a", "i": 191, "f": "Borer: urbanism vs urbanization?", "b": "Urbanization: growth and development of cities. Urbanism: their lives and culture, how people experience them with their bodies.", "t": ["E_experience", "term"]}, {"id": "2c844af", "i": 192, "f": "Borer: locational socialization?", "b": "Shared activities give a place shared meanings, building a sense of its identity and attachment.", "t": ["E_experience", "term"]}, {"id": "138ef2d2", "i": 193, "f": "Borer: Simmel, Benjamin, Goffman in one line each?", "b": "Simmel: blasé protective attitude. Benjamin: the flaneur strolling and reading the street (democratic possibilities). Goffman: orderly interaction, face-saving, interaction order.", "t": ["E_experience", "term"]}, {"id": "3518a0bf", "i": 194, "f": "Borer: five sensescapes?", "b": "Sight, sound, smell, taste, touch.", "t": ["E_experience", "term"]}, {"id": "3d25a4cf", "i": 195, "f": "Borer: sight and Gans's West End?", "b": "Officials judged Boston's West End by appearance, called it a slum and demolished it; listening to street life might have changed that.", "t": ["E_experience", "term"]}, {"id": "7303d41d", "i": 196, "f": "Borer: keynote sounds, soundmarks, sound signals?", "b": "Keynote: continuous background (traffic). Soundmarks: identify a place (market traders). Sound signals: stand out because unexpected (celebration, barking dog).", "t": ["E_experience", "term"]}, {"id": "c209d817", "i": 197, "f": "Borer: smell?", "b": "Odors carry learned judgments about class and groups (Parisians' 'stench of the poor'), but also help people make a place (Filipina workers' picnics in Hong Kong).", "t": ["E_experience", "term"]}, {"id": "ac79446c", "i": 198, "f": "Borer: taste?", "b": "Bourdieu: taste marks status. Gans: taste cultures deserve equal standing. Cultural omnivores enjoy goods across strata.", "t": ["E_experience", "term"]}, {"id": "9ae56e69", "i": 199, "f": "Borer: touch?", "b": "Bodily movement through the city (walking, de Certeau, parkour), but freedom of movement is unequal (women's fear and harassment).", "t": ["E_experience", "term"]}, {"id": "f8232bdc", "i": 200, "f": "What replaced City Beautiful by the 1920s?", "b": "Modernism.", "t": ["links", "core"]}, {"id": "d1bb6d96", "i": 201, "f": "What was Broadacre City an alternative to?", "b": "Le Corbusier's Radiant City.", "t": ["links", "core"]}, {"id": "2a8c9b89", "i": 202, "f": "What did Jacobs mainly react against?", "b": "Modernist planning and urban renewal (clearance, displacement, neighborhood loss).", "t": ["links", "core"]}, {"id": "42ce6cb6", "i": 203, "f": "Which current planning ideas draw heavily on Jacobs?", "b": "New Urbanism and Transit-Oriented Development.", "t": ["links", "core"]}, {"id": "97a24a6", "i": 204, "f": "Which later idea follows Lynch's city-as-organism?", "b": "Urban acupuncture.", "t": ["links", "core"]}, {"id": "736fd33a", "i": 205, "f": "Which city is connected to City Beautiful (Plan of Chicago)?", "b": "Chicago.", "t": ["links", "core"]}, {"id": "7942fbd", "i": 206, "f": "Which planning vision does LA's built environment resemble?", "b": "Broadacre City (low density, car-based, spread out).", "t": ["links", "core"]}, {"id": "481b2b82", "i": 207, "f": "What do Jacobs and Whyte agree about 'undesirables'?", "b": "Keeping them out keeps out everyone; it produces hostile architecture.", "t": ["links", "core"]}, {"id": "1a48e217", "i": 208, "f": "Which Jacobs idea does Gehl's 'low-intensity contacts' resemble?", "b": "Jacobs' sidewalk contacts.", "t": ["links", "core"]}, {"id": "db917346", "i": 209, "f": "Which planning ideas favor grids and short blocks?", "b": "Jacobs (small blocks), New Urbanism (connectivity), TOD (short blocks, gridded walking network). Boeing measures griddedness.", "t": ["links", "core"]}, {"id": "e542e0da", "i": 210, "f": "Who disagree about density?", "b": "Jacobs: density is the first condition for vitality. Gehl: extreme concentration is a disadvantage. Mouratidis &amp; Poortinga: cohesion higher in mixed-use, lower in dense areas.", "t": ["links", "core"]}, {"id": "30f1fd6a", "i": 211, "f": "How do Goffman and Jacobs fit together (Borer)?", "b": "Jacobs explains street safety by who is watching; Goffman explains the same sidewalk from the walker's side (unspoken rules between strangers).", "t": ["links", "core"]}, {"id": "90509629", "i": 212, "f": "How do Jacobs and Valentine fit together?", "b": "A shopkeeper can watch the street and help (Jacobs) yet still hold prejudice about the person's group (Valentine): safe space is not the same as respect.", "t": ["links", "core"]}, {"id": "bce3db29", "i": 213, "f": "How do Wilson and gentrification connect?", "b": "Wilson warns improving a neighborhood can push out the residents it was meant to help; 6a calls one result cultural erasure.", "t": ["links", "core"]}, {"id": "5a05317d", "i": 214, "f": "How do Glaeser's agglomeration and Simmel connect?", "b": "Concentration of people brings agglomeration benefits but also the sensory overload Simmel describes (blasé attitude).", "t": ["links", "core"]}, {"id": "8f06b6a8", "i": 215, "f": "What links Rosen-Roback to housing?", "b": "Populations can move and balance between cities, so housing demand in one city is not fixed.", "t": ["links", "core"]}, {"id": "825af90f", "i": 216, "f": "How does contact hypothesis connect to Valentine?", "b": "Valentine tests it: meeting different groups doesn't automatically create respect.", "t": ["links", "core"]}, {"id": "6ad61a55", "i": 217, "f": "What links spatial mismatch to location theory?", "b": "Travel cost is shaped by land use, and land use by policy (zoning, transport infrastructure); homes and jobs can end up far apart.", "t": ["links", "core"]}, {"id": "4958c3cd", "i": 218, "f": "City scale vs human scale: Modernism?", "b": "City: order, efficient transport, large-scale clearance and urban renewal. Human: people pushed off the streets, displacement, loss of neighborhoods.", "t": ["scale", "core"]}, {"id": "6323308e", "i": 219, "f": "City scale vs human scale: City Beautiful?", "b": "City: parks, boulevards, municipal bureaucracy. Human: public space as a source of social cohesion, but only surface aesthetics and no housing.", "t": ["scale", "core"]}, {"id": "fc5486c1", "i": 220, "f": "City scale vs human scale: Garden City?", "b": "City: decentralization into small self-sufficient towns, green belts. Human: green space and communal living, but in practice mostly suburbs.", "t": ["scale", "core"]}, {"id": "78d55c19", "i": 221, "f": "City scale vs human scale: spatial mismatch?", "b": "City: jobs move to the suburbs. Human: Black workers' job choices shrink, wages fall or commuting costs rise.", "t": ["scale", "core"]}, {"id": "921ebd63", "i": 222, "f": "City scale vs human scale: gentrification?", "b": "City: neighborhoods improve and attract wealthier residents. Human: displacement, loss of culture and local businesses.", "t": ["scale", "core"]}, {"id": "c4d27bae", "i": 223, "f": "City scale vs human scale: Jacobs?", "b": "City: argued against clearance and comprehensive redevelopment. Human: sidewalk ballet, eyes on the street, safety and contact.", "t": ["scale", "core"]}, {"id": "fa3bbc12", "i": 224, "f": "Which model: development follows rail lines and highways?", "b": "Hoyt Sector Model.", "t": ["recognize", "core"]}, {"id": "3e3c2d60", "i": 225, "f": "Which model: everyone works in the CBD, rent falls with distance?", "b": "Alonso-Muth-Mills (bid-rent).", "t": ["recognize", "core"]}, {"id": "d8d2c953", "i": 226, "f": "Which theory: a hierarchy of towns by the goods they supply?", "b": "Central Place Theory (Christaller, Lösch).", "t": ["recognize", "core"]}, {"id": "733f9511", "i": 227, "f": "Which model: several centers, some uses attract, some repel?", "b": "Multiple Nuclei (Harris &amp; Ullman).", "t": ["recognize", "core"]}, {"id": "8d596243", "i": 228, "f": "Which theory: firms minimize transport cost?", "b": "Weber.", "t": ["recognize", "core"]}, {"id": "ac678752", "i": 229, "f": "Which model: wages, rents and amenities balance between cities?", "b": "Rosen-Roback.", "t": ["recognize", "core"]}, {"id": "7a89a218", "i": 230, "f": "Which plan: small self-sufficient towns with green belts?", "b": "Garden City (Howard).", "t": ["recognize", "core"]}, {"id": "7b4c9581", "i": 231, "f": "Which plan: 'get people off the streets and into parks'?", "b": "Le Corbusier's Radiant City.", "t": ["recognize", "core"]}, {"id": "b6ebb244", "i": 232, "f": "Which plan: an acre per family, car-centered?", "b": "Broadacre City (Frank Lloyd Wright).", "t": ["recognize", "core"]}, {"id": "e5071ea1", "i": 233, "f": "Which researcher watched NYC plazas for ten years?", "b": "William Whyte.", "t": ["recognize", "core"]}, {"id": "10c5a1d8", "i": 234, "f": "Which concept: strangers talk when looking at the same thing?", "b": "Triangulation (Whyte).", "t": ["recognize", "core"]}, {"id": "4f41032a", "i": 235, "f": "Which thinker: nods and brief apologies keep strangers from bothering each other?", "b": "Erving Goffman (civil inattention).", "t": ["recognize", "core"]}, {"id": "e2579d40", "i": 236, "f": "Which thinker: the blasé attitude as a protective organ?", "b": "Georg Simmel.", "t": ["recognize", "core"]}, {"id": "a8ef5708", "i": 237, "f": "Which thinker: informal places beyond home and work, with regulars?", "b": "Ray Oldenburg (third places).", "t": ["recognize", "core"]}, {"id": "9723de41", "i": 238, "f": "Which thinker: the city as a learning ecology?", "b": "Kevin Lynch.", "t": ["recognize", "core"]}, {"id": "e04db650", "i": 239, "f": "Which hypothesis: jobs move out, Black workers can't follow?", "b": "Spatial mismatch (Kain; Ihlanfeldt).", "t": ["recognize", "core"]}, {"id": "20b7b70d", "i": 240, "f": "Which concept: houses move down in quality while people move up?", "b": "Filtering.", "t": ["recognize", "core"]}, {"id": "ce9d3422", "i": 241, "f": "Which term: improving a neighborhood pushes out its poor residents?", "b": "Gentrification (a wicked problem).", "t": ["recognize", "core"]}, {"id": "abb83cdb", "i": 242, "f": "Dexter in one line?", "b": "Land use and transport shape each other, in both directions.", "t": ["readings", "core"]}, {"id": "76421631", "i": 243, "f": "Glaeser in one line?", "b": "Workers, employers and builders respond to costs and amenities until places balance (spatial equilibrium); policy should be judged by how it affects people.", "t": ["readings", "core"]}, {"id": "ff5e9fe5", "i": 244, "f": "Galster in one line?", "b": "Sprawl is a physical pattern with eight dimensions, defined separately from causes and effects.", "t": ["readings", "core"]}, {"id": "f2864010", "i": 245, "f": "Boeing in one line?", "b": "US streets left the grid and are partly returning; more grid-like = fewer cars owned; streets last for generations.", "t": ["readings", "core"]}, {"id": "8495dbdd", "i": 246, "f": "Jedwab &amp; Vollrath in one line?", "b": "Countries are more urban at the same income than in 1500, so urbanization alone doesn't show growth.", "t": ["readings", "core"]}, {"id": "b5bd6ee2", "i": 247, "f": "Wilson in one line?", "b": "Planning and zoning decide who gets healthy surroundings; redevelopment must let existing residents stay.", "t": ["readings", "core"]}, {"id": "1836e36b", "i": 248, "f": "Ihlanfeldt in one line?", "b": "Housing segregation plus suburbanizing jobs cut inner-city Black workers' opportunities and net earnings.", "t": ["readings", "core"]}, {"id": "e5910234", "i": 249, "f": "Grengs in one line?", "b": "In Detroit, inner-city locations offer good job access by car but carless residents can't use it: modal mismatch.", "t": ["readings", "core"]}, {"id": "828464a1", "i": 250, "f": "Jacobs (Week 5) in one line?", "b": "Safe streets come from eyes on the street and fairly continuous use, not low density or quiet.", "t": ["readings", "core"]}, {"id": "635ff0f5", "i": 251, "f": "Valentine in one line?", "b": "Sharing space or polite contact doesn't automatically create respect between groups.", "t": ["readings", "core"]}, {"id": "6af1e5b5", "i": 252, "f": "Borer in one line?", "b": "The city is experienced through the senses, and sensing is social.", "t": ["readings", "core"]}, {"id": "2186f2c", "i": 253, "f": "Essay frame: city scale vs human scale?", "b": "City scale: planners solved big problems (disease, congestion, housing) with comprehensive plans. Human scale: those plans often ignored daily experience, so Jacobs, Gehl, Whyte and Lynch pushed back.", "t": ["readings", "core"]}, {"id": "31c26bc", "i": 254, "f": "Exam Section 1 answer recipe?", "b": "A few sentences: who proposed it, what it is, when/where, how it works, effect at city scale, effect on human experience, what it opposed or connects to.", "t": ["readings", "core"]}, {"id": "ca93e041", "i": 255, "f": "[Not from slides] Consumption City (Jedwab sense)?", "b": "Resource windfalls (oil, gold, diamonds) are spent on urban goods and services, so the workforce is in non-tradable services rather than tradable goods; no long-run growth like an agricultural or industrial revolution.", "t": ["ext", "term"]}, {"id": "36ce65f3", "i": 256, "f": "[Not from slides] Consumption City (Glaeser-Kolko-Saiz 2001 sense)?", "b": "Cities succeed as places to consume (restaurants, entertainment, geography); demand to live in cities has risen; high-amenity cities grew faster; rents rose faster than wages.", "t": ["ext", "term"]}, {"id": "88219b6c", "i": 257, "f": "[Not from slides] Urban Economic Transition?", "b": "Developed countries deindustrialize and specialize in tradable services (finance, business services): manufacturing rises then falls. One-industry cities (Pittsburgh steel, Detroit autos) suffer most.", "t": ["ext", "term"]}, {"id": "ede18801", "i": 258, "f": "[Not from slides] Shrinking City?", "b": "An urban area with falling population, economic activity and social vitality; causes differ (deindustrialization, suburbanization, aging).", "t": ["ext", "term"]}, {"id": "69e152ee", "i": 259, "f": "[Not from slides] Shrinking City: Detroit example?", "b": "Lost about two-thirds of its 1950 population; factories moved to suburbs, freeways and redlining blocked many Black residents from following, tax base hollowed out, many abandoned structures.", "t": ["ext", "term"]}, {"id": "5b96b67f", "i": 260, "f": "[Not from slides] Why can the label 'shrinking city' be a problem?", "b": "It groups places that lose people for different reasons and can stigmatize them; some prefer 'legacy cities'.", "t": ["ext", "term"]}, {"id": "b1e4e4b9", "i": 261, "f": "[Not from slides] Malthusian growth?", "b": "Population growth holds living standards flat (in Jedwab's reading, crowded cities raise death rates and wages stay in balance).", "t": ["ext", "term"]}, {"id": "524cd258", "i": 262, "f": "[Not from slides] Solowian growth?", "b": "Sustained growth in which income per person rises over time through capital and technology.", "t": ["ext", "term"]}, {"id": "360add88", "i": 263, "f": "[Not from slides] Primal accessibility?", "b": "Count of opportunities reachable within a time limit (e.g. jobs within 20 minutes).", "t": ["ext", "term"]}, {"id": "5f18184", "i": 264, "f": "[Not from slides] Dual accessibility?", "b": "The travel time needed to reach a set number of opportunities (e.g. time to reach 2 jobs).", "t": ["ext", "term"]}, {"id": "9442627a", "i": 265, "f": "[Not from slides] Cumulative accessibility?", "b": "Number of opportunities within a travel-time threshold; ignores that reaching them gets harder as travel time grows.", "t": ["ext", "term"]}, {"id": "2e1ec252", "i": 266, "f": "[Not from slides] Competitive accessibility (Shen 1998)?", "b": "Reachable jobs divided by the people competing for them. Grengs's gravity model also adjusts for competing workers.", "t": ["ext", "term"]}, {"id": "2c3eb6b5", "i": 267, "f": "[Not from slides] Travel supply and demand?", "b": "Supply = road and transit capacity; demand = people's travel. Congestion lowers accessibility (Dexter).", "t": ["ext", "term"]}, {"id": "85ec0da", "i": 268, "f": "[Not from slides] Induced demand?", "b": "Added road capacity attracts new driving, so congestion returns.", "t": ["ext", "term"]}, {"id": "8af9e9ed", "i": 269, "f": "[Not from slides] Congestion pricing?", "b": "Charging drivers to use congested roads or enter congested areas (cordon/area pricing or facility tolls) to cut demand instead of adding supply.", "t": ["ext", "term"]}, {"id": "a2202032", "i": 270, "f": "[Not from slides] Congestion pricing vs adding road capacity?", "b": "Pricing manages demand; adding lanes adds supply and can induce new demand.", "t": ["ext", "term"]}, {"id": "39fce9c", "i": 271, "f": "[Not from slides] Traffic calming?", "b": "Physical street-design measures (speed humps, narrower lanes, pedestrian refuges) that slow cars and make walking and biking safer.", "t": ["ext", "term"]}, {"id": "26f39c6e", "i": 272, "f": "[Not from slides] Traffic calming vs traffic control?", "b": "Calming changes the street so drivers feel they must slow; control uses signs and signals.", "t": ["ext", "term"]}, {"id": "ef75d305", "i": 273, "f": "[Not from slides] D variables: the three Ds?", "b": "Density, diversity (land-use mix), design (street network, e.g. intersection density).", "t": ["ext", "term"]}, {"id": "688ffc8", "i": 274, "f": "[Not from slides] D variables: two added Ds (5 Ds)?", "b": "Destination accessibility and distance to transit.", "t": ["ext", "term"]}, {"id": "76f573ab", "i": 275, "f": "[Not from slides] Ewing &amp; Cervero: which D matters most for driving?", "b": "Destination accessibility, then street design; density is weakly related once the others are controlled.", "t": ["ext", "term"]}, {"id": "cdaf7516", "i": 276, "f": "[Not from slides] Building regulation?", "b": "Local rules on what and how much can be built: zoning use categories, minimum lot sizes, setbacks, height, floor-area ratio, parking, building codes.", "t": ["ext", "term"]}, {"id": "2857870", "i": 277, "f": "[Not from slides] Building regulation and housing supply?", "b": "Restrictive rules (large minimum lots, density limits, bans on duplexes/townhomes) limit housing supply.", "t": ["ext", "term"]}, {"id": "7d9df283", "i": 278, "f": "[Not from slides] Building regulation: link to Wilson and NIMBYism?", "b": "Wilson: exclusionary zoning keeps disadvantaged people out; NIMBY resistance can block development.", "t": ["ext", "term"]}];
+const BYID = {}; CARDS.forEach(c => BYID[c.id] = c);
+const LABELS = {core:"Core", term:"Terms", detail:"Detail", "0_schema":"Big picture", A_location:"A Location", B_form:"B Form", C_problems:"C Problems", D_planning:"D Planning", E_experience:"E Experience", links:"Links", scale:"City vs human", recognize:"Recognize", readings:"Readings", ext:"Not from slides"};
+const CHIP_ORDER = ["all","core","term","detail","0_schema","A_location","B_form","C_problems","D_planning","E_experience","links","scale","recognize","readings","ext"];
+const KEY = "geog160-srs-v3";
+const DAY = 86400000, MIN = 60000, HOUR = 3600000;
+const EXAM_HOUR = 13;   // "afternoon"
+const $ = id => document.getElementById(id);
+const today = () => { const d = new Date(); return Math.floor((d.getTime() - d.getTimezoneOffset()*60000)/DAY); };
+const isoIdx = iso => Math.floor(Date.parse(iso + "T00:00:00Z")/DAY);
+const fmtLong = i => new Date(i*DAY).toLocaleDateString(undefined, {weekday:"long", month:"short", day:"numeric", timeZone:"UTC"});
+const fmtWhen = ms => { const r = Math.round(ms/(30*MIN))*30*MIN; return new Date(r).toLocaleString(undefined, {weekday:"short", hour:"numeric", minute:"2-digit"}).replace(":00",""); };
+
+/* ---------- storage ---------- */
+let canStore = true, mem = null;
+function load(){
+  try { const raw = localStorage.getItem(KEY); if (raw) return JSON.parse(raw); } catch(e){ canStore = false; }
+  return mem || {};
+}
+let S = load();
+const DEFAULTS = {exam:"2026-11-10"};
+S.cards = S.cards || {}; S.read = S.read || {}; S.hl = S.hl || []; S.ui = S.ui || {};
+S.settings = Object.assign({}, DEFAULTS, S.settings || {});
+if (!S.t0) S.t0 = Date.now();
+function save(){ mem = S; try { localStorage.setItem(KEY, JSON.stringify(S)); canStore = true; } catch(e){ canStore = false; } noteStore(); }
+function noteStore(){ const n = $("store-note"); if (n) n.textContent = canStore ? "Progress is saved in this browser on this device." : "This browser view can't save progress between visits. Use Export to keep it."; }
+const examTime = () => { const [y,m,d] = S.settings.exam.split("-").map(Number); return new Date(y, m-1, d, EXAM_HOUR, 0, 0).getTime(); };
+
+/* ---------- reading: sections, progress, gate ---------- */
+const article = $("article");
+const H2 = [...article.querySelectorAll("h2")];
+H2.forEach((h, i) => {
+  const end = document.createElement("div"); end.className = "sec-end"; end.dataset.sec = h.id;
+  const next = H2[i+1]; if (next) next.before(end); else article.appendChild(end);
+});
+const SECKEY = {}, KEYOF = {};   // stable keys (A-F, R, S) so a renamed heading never un-reads a section
+H2.forEach(h => { const t = h.textContent, m = t.match(/^([A-F])\. /); let k = h.id; if (m) k = m[1]; else if (/Reading one-liners/.test(t)) k = "R"; else if (/City scale vs human/.test(t)) k = "S"; SECKEY[k] = h.id; KEYOF[h.id] = k; });
+function readCount(){ return H2.filter(h => S.read[KEYOF[h.id]]).length; }
+function need(card){
+  const t = card.t, k = new Set();
+  if (t.includes("A_location") || t.includes("0_schema")) k.add("A");
+  if (t.includes("B_form")) k.add("B");
+  if (t.includes("C_problems")) k.add("C");
+  if (t.includes("D_planning")) k.add("D");
+  if (t.includes("E_experience")) k.add("E");
+  if (t.includes("ext")) k.add("F");
+  if (t.includes("readings")) k.add("R");
+  if (t.includes("scale")) { k.add("S"); k.add("C"); k.add("D"); }
+  if (t.includes("links") || t.includes("recognize")) "ABCDE".split("").forEach(x => k.add(x));
+  return [...k];
+}
+const unlocked = card => need(card).every(k => SECKEY[k] && S.read[k]);
+const unlockedCount = () => CARDS.filter(unlocked).length;
+const anyUnlocked = () => CARDS.some(unlocked);
+function renderSections(){
+  H2.forEach(h => {
+    const end = article.querySelector('.sec-end[data-sec="' + h.id + '"]'), ok = !!S.read[KEYOF[h.id]];
+    end.innerHTML = ok
+      ? `<span class="readok">&#10003; Section read</span><span class="note">${unlockedCount()} of ${CARDS.length} cards unlocked</span><button class="btn primary" data-go="1">Study the cards</button><button class="btn" data-undo="${h.id}">Undo</button>`
+      : `<button class="btn primary" data-mark="${h.id}">Mark section as read</button><span class="note">Press this when you have read and recalled the section above. Its cards unlock.</span>`;
+    const a = document.querySelector('.toc a[href="#' + h.id + '"]'); if (a) a.classList.toggle("ok", ok);
+  });
+  const n = readCount();
+  $("read-count").textContent = "Reading: " + n + " of " + H2.length + " sections";
+  $("read-bar").style.width = (n/H2.length*100) + "%";
+  $("read-go").hidden = !anyUnlocked();
+  $("read-go").textContent = "Study the unlocked cards (" + unlockedCount() + ")";
+}
+article.addEventListener("click", e => {
+  const m = e.target.dataset.mark, u = e.target.dataset.undo;
+  if (e.target.dataset.go) { show("cards"); return; }
+  if (m){ S.read[KEYOF[m]] = true; save(); renderSections(); }
+  else if (u){ delete S.read[KEYOF[u]]; save(); renderSections(); }
+});
+$("read-go").onclick = () => show("cards");
+
+/* ---------- highlighter (anchored by quoted text, so edits to the notes keep your highlights) ---------- */
+const meta = new WeakMap();
+function textNodes(){
+  const out = [], w = document.createTreeWalker(article, NodeFilter.SHOW_TEXT, {acceptNode: n => n.parentElement.closest(".sec-end") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT});
+  let n; while ((n = w.nextNode())) out.push(n); return out;
+}
+const PRISTINE = textNodes(), OFFS = [], LENS = []; let T = "";
+PRISTINE.forEach((n, i) => { meta.set(n, {n:i, off:0}); OFFS.push(T.length); LENS.push(n.length); T += n.data; });
+function locate(q){
+  const cand = []; let i = -1;
+  while ((i = T.indexOf(q.t, i + 1)) !== -1) cand.push(i);
+  if (!cand.length) return null;
+  let best = cand[0], score = -1;
+  cand.forEach(c => { let sc = 0;
+    if (q.p && T.slice(Math.max(0, c - q.p.length), c) === q.p) sc += 2;
+    if (q.s && T.slice(c + q.t.length, c + q.t.length + q.s.length) === q.s) sc += 1;
+    if (sc > score){ score = sc; best = c; } });
+  return best;
+}
+function segsFromOffsets(a, b){
+  const segs = [];
+  for (let i = 0; i < PRISTINE.length; i++){
+    const ns = OFFS[i], ne = ns + LENS[i], o0 = Math.max(a, ns), o1 = Math.min(b, ne);
+    if (o1 > o0) segs.push({n:i, s:o0 - ns, e:o1 - ns});
+  }
+  return segs;
+}
+function applyQuote(h){
+  const a = locate(h.q); if (a === null) return;
+  segsFromOffsets(a, a + h.q.t.length).forEach(sg => applySeg(sg, h.id));
+}
+function applySeg(seg, id){
+  const pieces = textNodes().filter(n => { const m = meta.get(n); return m && m.n === seg.n; });
+  pieces.forEach(node => {
+    const m = meta.get(node), off0 = m.off, len = node.length;
+    const a = Math.max(seg.s, off0), b = Math.min(seg.e, off0 + len);
+    if (b <= a || node.parentElement.tagName === "MARK") return;
+    let target = node;
+    if (a - off0 > 0){ target = node.splitText(a - off0); meta.set(target, {n:seg.n, off:a}); }
+    if (b - a < target.length){ const rest = target.splitText(b - a); meta.set(rest, {n:seg.n, off:b}); }
+    const mk = document.createElement("mark"); mk.dataset.h = id;
+    target.parentNode.insertBefore(mk, target); mk.appendChild(target);
+  });
+}
+function segsFromRange(range){
+  const segs = [];
+  textNodes().forEach(node => {
+    if (!range.intersectsNode(node)) return;
+    const s = node === range.startContainer ? range.startOffset : 0, e = node === range.endContainer ? range.endOffset : node.length;
+    const m = meta.get(node); if (e > s && m) segs.push({n:m.n, s:m.off + s, e:m.off + e});
+  });
+  return segs;
+}
+S.hl = S.hl.filter(h => h.q);   // drop any highlight saved by an older format
+S.hl.forEach(applyQuote);
+const bar = $("hlbar"); let barTimer = null, pendingRange = null, pendingMark = null;
+function placeBar(rect, below){
+  bar.hidden = false;
+  const w = bar.offsetWidth, x = Math.min(Math.max(8, rect.left + rect.width/2 - w/2), window.innerWidth - w - 8);
+  const y = below ? rect.bottom + 10 : Math.max(60, rect.top - bar.offsetHeight - 8);
+  bar.style.left = x + "px"; bar.style.top = y + "px";
+}
+function hideBar(){ bar.hidden = true; pendingRange = null; pendingMark = null; }
+document.addEventListener("selectionchange", () => {
+  clearTimeout(barTimer);
+  barTimer = setTimeout(() => {
+    if ($("view-read").hidden) return hideBar();
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || !sel.rangeCount) { if (!pendingMark) hideBar(); return; }
+    const r = sel.getRangeAt(0);
+    if (!article.contains(r.commonAncestorContainer) && r.commonAncestorContainer !== article) return hideBar();
+    if (r.commonAncestorContainer.parentElement && r.commonAncestorContainer.parentElement.closest(".sec-end")) return hideBar();
+    pendingRange = r.cloneRange(); pendingMark = null;
+    $("hl-add").hidden = false; $("hl-del").hidden = true;
+    placeBar(r.getBoundingClientRect(), matchMedia("(pointer:coarse)").matches);
+  }, 180);
+});
+article.addEventListener("click", e => {
+  const mk = e.target.closest("mark"); if (!mk) return;
+  if (!window.getSelection().isCollapsed) return;
+  pendingMark = mk.dataset.h; pendingRange = null;
+  $("hl-add").hidden = true; $("hl-del").hidden = false;
+  placeBar(mk.getBoundingClientRect(), false);
+});
+$("hl-add").onclick = () => {
+  if (!pendingRange) return;
+  const segs = segsFromRange(pendingRange); if (!segs.length) return hideBar();
+  const id = Date.now().toString(36) + Math.random().toString(36).slice(2,5);
+  const a = OFFS[segs[0].n] + segs[0].s, b = OFFS[segs[segs.length-1].n] + segs[segs.length-1].e;
+  S.hl.push({id, q:{t:T.slice(a, b), p:T.slice(Math.max(0, a-24), a), s:T.slice(b, b+24)}}); segs.forEach(sg => applySeg(sg, id)); save();
+  window.getSelection().removeAllRanges(); hideBar();
+};
+$("hl-del").onclick = () => {
+  const id = pendingMark; if (!id) return;
+  article.querySelectorAll('mark[data-h="' + id + '"]').forEach(mk => { const p = mk.parentNode; while (mk.firstChild) p.insertBefore(mk.firstChild, mk); mk.remove(); });
+  S.hl = S.hl.filter(h => h.id !== id); save(); hideBar();
+};
+window.addEventListener("scroll", () => { if (!bar.hidden) hideBar(); }, {passive:true});
+
+/* ---------- tabs ---------- */
+document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
+function show(v){
+  $("view-read").hidden = v !== "read"; $("view-cards").hidden = v !== "cards";
+  document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === v));
+  document.body.classList.toggle("cards-open", v === "cards");
+  S.ui.tab = v; save(); hideBar();
+  history.replaceState(null, "", "#" + v);
+  if (v === "cards") render();
+  window.scrollTo(0,0);
+}
+
+/* ---------- scheduler (Anki-style, simplified) ---------- */
+function daysLeft(){ return isoIdx(S.settings.exam) - today(); }
+function mode(){ const d = daysLeft(); return d < 0 ? "past" : d === 0 ? "examday" : d <= 3 ? "cram" : "normal"; }
+function maxIvl(){ const d = daysLeft(); if (d < 0) return 365; return d === 0 ? 1 : Math.max(1, Math.floor(d/2)); }
+function learnSteps(){ const m = mode(); return m === "cram" || m === "examday" ? [1,10,60] : [1,10]; }
+const getc = id => S.cards[id] || {s:"new"};
+function schedule(c0, r, now){
+  const c = Object.assign({}, c0);
+  const cap = v => Math.min(Math.max(1, Math.round(v)), maxIvl());
+  const grad = ivl => { c.s = "review"; c.ivl = cap(ivl); c.dueDay = today() + c.ivl; c.due = null; };
+  if (c.s === "new"){ Object.assign(c, {s:"learn", step:0, ease:2.5, lapses:0, reps:0, ivl:0}); }
+  c.reps = (c.reps||0) + 1;
+  if (c.s === "learn" || c.s === "relearn"){
+    const steps = c.s === "learn" ? learnSteps() : [10];
+    if (r === 1){ c.step = 0; c.due = now + steps[0]*MIN; }
+    else if (r === 2){ const m = (c.step === 0 && steps.length > 1) ? Math.round((steps[0]+steps[1])/2) : steps[c.step]; c.due = now + m*MIN; }
+    else if (r === 3){ if (c.step + 1 < steps.length){ c.step++; c.due = now + steps[c.step]*MIN; } else grad(c.s === "relearn" ? c.ivl : 1); }
+    else { grad(c.s === "relearn" ? c.ivl + 1 : (mode() === "normal" ? 3 : 2)); }
+  } else {
+    if (r === 1){ c.lapses = (c.lapses||0) + 1; c.ease = Math.max(1.3, c.ease - 0.2); c.ivl = Math.max(1, Math.round(c.ivl*0.5)); c.s = "relearn"; c.step = 0; c.due = now + 10*MIN; }
+    else if (r === 2){ c.ease = Math.max(1.3, c.ease - 0.15); grad(Math.max(c.ivl + 1, c.ivl*1.2)); }
+    else if (r === 3){ grad(Math.max(c.ivl + 1, c.ivl*c.ease)); }
+    else { c.ease += 0.15; grad(Math.max(c.ivl + 1, c.ivl*c.ease*1.3)); }
+  }
+  return c;
+}
+function fmt(c0, r){
+  const now = Date.now(), c = schedule(c0, r, now);
+  if (c.s === "learn" || c.s === "relearn"){ const m = Math.round((c.due-now)/MIN); return m + "m"; }
+  const d = c.ivl; return d < 30 ? d + "d" : (d/30).toFixed(d < 300 ? 1 : 0) + "mo";
+}
+
+/* ---------- queue ---------- */
+let filter = "all", current = null, revealed = false, undoSnap = null, extra = false, extraSeen = new Set();
+const inFilter = c => unlocked(c) && (filter === "all" || c.t.includes(filter));
+function prio(x){
+  if (x.t.includes("0_schema") || x.t.includes("readings") || x.t.includes("scale")) return 0;
+  if (x.t.includes("term")) return 1;
+  return 2;   // links, recognize, detail
+}
+const newAllowed = () => daysLeft() > 0;
+function counts(){
+  const now = Date.now(), t = today();
+  let learnDue=0, revDue=0, newAvail=0, learning=0, graduated=0, total=0;
+  CARDS.forEach(card => {
+    if (!inFilter(card)) return; total++;
+    const c = getc(card.id);
+    if (c.s === "new") newAvail++;
+    else if (c.s === "review"){ graduated++; if (c.dueDay <= t) revDue++; }
+    else { learning++; if (c.due <= now) learnDue++; }
+  });
+  return {learnDue, revDue, newLeft: newAllowed() ? newAvail : 0, newAvail, learning, graduated, total};
+}
+function pick(){
+  const now = Date.now(), t = today();
+  const pool = CARDS.filter(inFilter);
+  const learn = pool.filter(x => { const c = getc(x.id); return (c.s==="learn"||c.s==="relearn") && c.due <= now; }).sort((a,b)=>getc(a.id).due-getc(b.id).due);
+  if (learn.length) return learn[0];
+  const rev = pool.filter(x => { const c = getc(x.id); return c.s==="review" && c.dueDay <= t; });
+  if (rev.length) return rev[Math.floor(Math.random()*rev.length)];
+  if (newAllowed()){
+    const fresh = pool.filter(x => getc(x.id).s === "new");
+    if (fresh.length) return fresh.slice().sort((a,b) => prio(a)-prio(b) || a.i-b.i)[0];
+  }
+  return null;
+}
+function pickExtra(){
+  const t = today();
+  const pool = CARDS.filter(inFilter).filter(x => { const c = getc(x.id); return c.s === "review" && c.dueDay > t && !extraSeen.has(x.id); });
+  return pool.length ? pool[Math.floor(Math.random()*pool.length)] : null;
+}
+function nextWait(){
+  const now = Date.now(); let best = null;
+  CARDS.filter(inFilter).forEach(x => { const c = getc(x.id); if ((c.s==="learn"||c.s==="relearn") && c.due > now && (best===null || c.due < best)) best = c.due; });
+  return best;
+}
+
+/* ---------- milestones (deadlines on the clock, no study-time promise) ---------- */
+function milestones(){
+  const now = Date.now(), X = examTime(), t0 = S.t0;
+  const studyEnd = X - 3*HOUR, W = Math.max(studyEnd - t0, HOUR);
+  const cum = [0.2, 0.3, 0.75, 1.0];            // reading, big picture, 58 terms, the rest
+  const dl = cum.map(f => t0 + f*W);
+  const groups = [[0], [1], [2]], names = ["Big picture and reading summaries", "The 58 terms", "Links, recognition, detail"];
+  const list = groups.map((g, i) => {
+    const cards = CARDS.filter(c => g.includes(prio(c))), N = cards.length;
+    const learned = cards.filter(c => getc(c.id).s !== "new").length, open = cards.filter(unlocked).length;
+    const start = dl[i], end = dl[i+1];
+    const frac = Math.min(1, Math.max(0, (now - start)/Math.max(1, end - start)));
+    const expected = Math.ceil(N*frac);
+    return {name:names[i], N, learned, end, done: learned >= N, behind: Math.max(0, Math.min(expected, open) - learned)};
+  });
+  const cur = list.find(m => !m.done) || null;
+  return {list, cur, final: X - HOUR, X, now};
+}
+function renderStrip(){
+  const el = $("strip"), M = milestones(), ct = counts();
+  const hidden = !!S.ui.stripOpen === false;
+  let line;
+  if (M.now >= M.X) line = "Exam time has passed.";
+  else if (daysLeft() <= 0) line = `<span class="cur"><b>Final pass</b>: clear the due cards</span> · ${ct.learnDue + ct.revDue} due`;
+  else if (M.cur){
+    const st = M.cur.behind > 0 ? `<span class="behind">Behind: about ${M.cur.behind} more cards to catch up</span>` : `<span class="ahead">On track</span>`;
+    line = `<span class="cur"><b>${M.cur.name}</b> ${M.cur.learned}/${M.cur.N} by ${fmtWhen(M.cur.end)}</span> · ${st}`;
+  } else line = `<span class="cur"><b>All cards started.</b> Keep clearing due cards, final pass before ${fmtWhen(M.final)}</span>`;
+  let list = "";
+  if (S.ui.stripOpen){
+    list = "<ul>" + M.list.map(m => `<li class="${m.done?"done":""}"><span>${m.done ? "&#10003; " : ""}${m.name} (${m.learned}/${m.N})</span><span>by ${fmtWhen(m.end)}</span></li>`).join("") + `<li><span>Final pass: clear due cards</span><span>by ${fmtWhen(M.final)}</span></li></ul>`;
+  }
+  const locked = CARDS.length - unlockedCount();
+  const lockNote = locked ? `<div>${locked} cards are locked until you read the other sections. <button id="strip-read" style="text-decoration:underline">Continue reading</button></div>` : "";
+  el.innerHTML = `<button id="strip-btn" aria-expanded="${!!S.ui.stripOpen}" title="Show or hide the milestones">${line} <span aria-hidden="true">${S.ui.stripOpen ? "&#9652;" : "&#9662;"}</span></button>${list}${lockNote}`;
+  $("strip-btn").onclick = () => { S.ui.stripOpen = !S.ui.stripOpen; save(); renderStrip(); };
+  const sr = $("strip-read"); if (sr) sr.onclick = () => show("read");
+}
+
+/* ---------- render: clean review screen ---------- */
+const DNAMES = {normal:"Normal pace", cram:"Cram mode", examday:"Exam day", past:"Exam date passed"};
+function bannerText(){
+  const m = mode();
+  const tip = {normal:"Short gaps are capped so cards return before the exam.", cram:"Missed cards return in minutes, learned cards come back in an hour, then tomorrow. Highest-value cards come first.", examday:"No new cards today. Review what is due, then stop.", past:""}[m];
+  return `<b>${DNAMES[m]}</b>, exam ${fmtLong(isoIdx(S.settings.exam))} afternoon.<br><span class="note">${tip}</span>`;
+}
+function renderChips(){
+  const box = $("chips"); box.innerHTML = "";
+  CHIP_ORDER.forEach(k => {
+    const b = document.createElement("button"); b.className = "chip"; b.type = "button";
+    b.textContent = k === "all" ? "All cards" : LABELS[k]; b.setAttribute("aria-pressed", filter === k);
+    b.addEventListener("click", () => { filter = k; current = null; revealed = false; renderChips(); render(); });
+    box.appendChild(b);
+  });
+}
+function render(){
+  const stage = $("stage"), bottom = $("bottom");
+  if (!anyUnlocked()){
+    $("strip").innerHTML = ""; $("gear").hidden = true;
+    stage.innerHTML = `<div class="done"><h2>Read a section first</h2><p>${readCount()} of ${H2.length} sections read. Mark a section as read and its cards unlock right away.</p></div>`;
+    bottom.innerHTML = `<div class="row" style="justify-content:center"><button class="btn primary" id="back-read">Continue reading</button></div>`;
+    $("back-read").onclick = () => show("read");
+    return;
+  }
+  $("gear").hidden = false;
+  if (extra && !(current && inFilter(current))) current = pickExtra();
+  else if (!current || !inFilter(current)) current = pick();
+  if (!current && extra){ extra = false; extraSeen = new Set(); }
+  const ct = counts();
+  renderStrip();
+  $("banner").innerHTML = bannerText();
+  $("bar").style.width = (ct.total ? ct.graduated/ct.total*100 : 0) + "%";
+  $("prog-text").textContent = ct.graduated + " of " + ct.total + " unlocked cards learned; " + ct.learning + " still learning" + (CARDS.length - unlockedCount() ? "; " + (CARDS.length - unlockedCount()) + " locked until you read more." : ".");
+  const due = ct.learnDue + ct.revDue;
+  let curKind = null;
+  if (current){ const c = getc(current.id); curKind = c.s === "new" ? "n" : (c.s === "review" ? "d" : "l"); if (extra) curKind = "d"; }
+  const cnt = `<div class="counts"><span class="n ${curKind==="n"?"cur":""}" title="New">${ct.newLeft}</span><span class="l ${curKind==="l"?"cur":""}" title="Learning">${ct.learning}</span><span class="d ${curKind==="d"?"cur":""}" title="Due">${due}</span></div>`;
+  if (!current){
+    const w = nextWait();
+    const lockedLeft = CARDS.length - unlockedCount();
+    stage.innerHTML = `<div class="done"><h2>${ct.total ? "Congratulations! You have finished this deck for now." : "No cards here."}</h2><p>${w ? "The next card is due in about " + Math.max(1, Math.round((w-Date.now())/MIN)) + " min." : (lockedLeft ? "Read the next section to unlock " + lockedLeft + " more cards." : "Come back later: short sessions across the day work better than one long one.")}</p></div>`;
+    bottom.innerHTML = cnt + `<div class="row" style="justify-content:center">${w ? '<button class="btn" id="early">Study early</button>' : ""}${ct.graduated ? '<button class="btn primary" id="xtra">Extra pass</button>' : ""}${lockedLeft ? '<button class="btn" id="more-read">Continue reading</button>' : ""}</div>`;
+    const mr = $("more-read"); if (mr) mr.onclick = () => show("read");
+    const e = $("early"); if (e) e.onclick = () => { const x = CARDS.filter(inFilter).filter(y => { const c = getc(y.id); return c.s==="learn"||c.s==="relearn"; }).sort((a,b)=>getc(a.id).due-getc(b.id).due)[0]; current = x; revealed = false; render(); };
+    const xb = $("xtra"); if (xb) xb.onclick = () => { extra = true; extraSeen = new Set(); current = null; revealed = false; render(); };
+    return;
+  }
+  const c = getc(current.id);
+  stage.innerHTML = `${current.t.includes("ext") ? '<span class="badge">Not from slides</span>' : ""}<div class="front">${current.f}</div>${revealed ? `<div class="back">${current.b}</div>` : ""}`;
+  bottom.innerHTML = cnt + (revealed
+    ? `<div class="rate">${[1,2,3,4].map(r=>`<button class="r${r}" data-r="${r}">${["Again","Hard","Good","Easy"][r-1]}<small>${fmt(c,r)}</small></button>`).join("")}</div>`
+    : `<button class="showbtn" id="show">Show Answer</button>`);
+  if (!revealed) $("show").onclick = () => { revealed = true; render(); };
+  else bottom.querySelectorAll(".rate button").forEach(b => b.onclick = () => rate(+b.dataset.r));
+}
+function rate(r){
+  const old = getc(current.id);
+  undoSnap = {id: current.id, prev: S.cards[current.id] ? JSON.parse(JSON.stringify(S.cards[current.id])) : null, extra};
+  if (extra && old.s === "review" && old.dueDay > today()){
+    extraSeen.add(current.id);
+    if (r === 1){ S.cards[current.id] = schedule(old, 1, Date.now()); save(); }
+    current = null; revealed = false; render(); return;
+  }
+  S.cards[current.id] = schedule(old, r, Date.now());
+  save(); current = null; revealed = false; render();
+}
+function undo(){
+  if (!undoSnap) return;
+  if (undoSnap.prev) S.cards[undoSnap.id] = undoSnap.prev; else delete S.cards[undoSnap.id];
+  extra = undoSnap.extra; current = BYID[undoSnap.id]; revealed = true; undoSnap = null; save(); render();
+}
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && !$("panel").hidden){ $("panel").hidden = true; render(); return; }
+  if ($("view-cards").hidden || !anyUnlocked() || !$("panel").hidden || e.target.matches("input,textarea") || e.metaKey || e.ctrlKey) return;
+  if ((e.key === " " || e.key === "Enter") && current && !revealed){ e.preventDefault(); revealed = true; render(); }
+  else if (["1","2","3","4"].includes(e.key) && current && revealed) rate(+e.key);
+  else if (e.key.toLowerCase() === "z") undo();
+});
+setInterval(() => { if (!$("view-cards").hidden && anyUnlocked() && $("panel").hidden) renderStrip(); }, 60000);
+
+/* ---------- options panel ---------- */
+$("gear").onclick = () => { $("banner").innerHTML = bannerText(); $("set-exam").value = S.settings.exam; $("panel").hidden = false; $("panel-close").focus(); };
+$("panel-close").onclick = () => { $("panel").hidden = true; render(); };
+$("panel").addEventListener("click", e => { if (e.target === $("panel")) { $("panel").hidden = true; render(); } });
+$("set-exam").onchange = e => { if (e.target.value){ S.settings.exam = e.target.value; save(); $("banner").innerHTML = bannerText(); } };
+$("b-export").onclick = () => { const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(S)], {type:"application/json"})); a.download = "geog160-progress.json"; a.click(); };
+$("b-import").onchange = e => { const f = e.target.files[0]; if (!f) return; f.text().then(t => { try { const o = JSON.parse(t); if (!o.cards) throw 0; S = o; S.settings = Object.assign({}, DEFAULTS, S.settings||{}); S.read = S.read||{}; S.hl = S.hl||[]; S.ui = S.ui||{}; if (!S.t0) S.t0 = Date.now(); save(); location.reload(); } catch(_){ alert("That file isn't a progress export."); } }); };
+$("b-reset").onclick = () => { if (confirm("Erase all card progress on this device? Your reading marks and highlights stay.")){ S.cards = {}; save(); current = null; $("panel").hidden = true; render(); } };
+
+noteStore(); renderChips(); renderSections(); save();
+const h = location.hash.replace("#","");
+show(h === "cards" && anyUnlocked() ? "cards" : (h === "read" ? "read" : (S.ui.tab === "cards" && anyUnlocked() ? "cards" : "read")));
+</script>
+</body>
+</html>
