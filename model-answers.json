@@ -49,6 +49,18 @@
       "Farmers compare production costs, land rent and transport costs; uses with higher transport burdens or returns may bid more for nearby land.",
       "Under simplified conditions, competing rent bids create rings of different agricultural uses around the market.",
       "Its land–transport trade-off anticipates urban bid-rent models such as Alonso–Muth–Mills."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Von_Th%C3%BCnen_circles_city.svg/960px-Von_Th%C3%BCnen_circles_city.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Von_Th%C3%BCnen_circles_city.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Von_Th%C3%BCnen_circles_city.svg",
+        "context": "https://en.wikipedia.org/wiki/Johann_Heinrich_von_Thünen",
+        "caption": "Rings around one market: transport costs help sort farms by location.",
+        "credit": "Erin Silversmith",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Von_Th%C3%BCnen_circles_city.svg"
+      }
     ]
   },
   {
@@ -75,6 +87,18 @@
       "Services need enough customers to survive, while customers will travel only a limited distance to obtain them.",
       "Everyday services appear in many small centers; specialized services support fewer, larger and more widely spaced centers.",
       "It explains service areas between settlements, whereas Alonso–Muth–Mills explains residential location within a city."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Christaller_model_1.svg/960px-Christaller_model_1.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Christaller_model_1.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Christaller_model_1.svg",
+        "context": "https://en.wikipedia.org/wiki/Central_place_theory",
+        "caption": "Small centers serve nearby customers; larger centers offer rarer services. Hexagons represent idealized market areas.",
+        "credit": "User:Laotseuphilo SVG by User: Magasjukur2",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     ]
   },
   {
@@ -101,6 +125,28 @@
       "Transport routes shape sectors, while compatible activities cluster and incompatible uses separate to form different nuclei.",
       "These models explain urban patterns that do not fit simple concentric rings around a single downtown.",
       "They connect transport and land use to polycentric development, contrasting with the simplest monocentric model."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Hoyt_model.svg/960px-Hoyt_model.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Hoyt_model.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Hoyt_model.svg",
+        "context": "https://en.wikipedia.org/wiki/Sector_model",
+        "caption": "SECTORS = wedges extending outward along transport routes.",
+        "credit": "PNG version: SuzanneKn at en.wikipedia \n\nSVG version: Cieran 91 at en.wikipedia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hoyt_model.svg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Multiple_nuclei_model.svg/960px-Multiple_nuclei_model.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Multiple_nuclei_model.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Multiple_nuclei_model.svg",
+        "context": "https://en.wikipedia.org/wiki/Multiple_nuclei_model",
+        "caption": "MULTIPLE NUCLEI = several activity centers, not one CBD.",
+        "credit": "Ulman2.png: The original uploader was SuzanneKn at English Wikipedia.\nderivative work: 11gardir (talk)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Multiple_nuclei_model.svg"
+      }
     ]
   },
   {
@@ -127,6 +173,18 @@
       "Households trade higher central housing costs against the cost of commuting from cheaper land farther away.",
       "Under its assumptions, rents and residential density generally decline with distance from the center.",
       "It is an intracity model; Rosen–Roback instead compares wages, rents and amenities across cities."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bid_rent1.svg/960px-Bid_rent1.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/Bid_rent1.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Bid_rent1.svg",
+        "context": "https://en.wikipedia.org/wiki/Bid_rent_theory",
+        "caption": "Near the center, access is valuable and bids for land are higher. This is related bid-rent logic, not the full AMM model.",
+        "credit": "SyntaxError55 talk",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      }
     ]
   },
   {
@@ -413,6 +471,18 @@
       "Its value depends on what is counted and the boundary used; the same average can conceal different spatial arrangements.",
       "Higher density can support nearby services and transit, but alone does not reveal connectivity, land-use mix or social experience.",
       "Galster treats density as one of eight sprawl dimensions, while Jacobs links it to other conditions for vitality."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Chandler_Arizona_aerial.jpg/960px-Chandler_Arizona_aerial.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Chandler_Arizona_aerial.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Chandler_Arizona_aerial.jpg",
+        "context": "https://en.wikipedia.org/wiki/Urban_sprawl",
+        "caption": "Picture how much land each home uses. Density measures an amount per unit of area, not a street pattern.",
+        "credit": "Chris J",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
     ]
   },
   {
@@ -439,6 +509,18 @@
       "Connected routes offer direct paths and alternatives, unlike disconnected loops and cul-de-sacs.",
       "Boeing finds a historical decline and partial return of grids, with more grid-like neighborhoods associated with lower car ownership.",
       "This relates to the design component of the D variables; the association alone does not prove that grids cause less driving."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Urban_Plan_of_Palaio_Faliro.jpg/960px-Urban_Plan_of_Palaio_Faliro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Urban_Plan_of_Palaio_Faliro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Urban_Plan_of_Palaio_Faliro.jpg",
+        "context": "https://en.wikipedia.org/wiki/Grid_plan",
+        "caption": "Many connected streets and intersections create several possible routes.",
+        "credit": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Urban_Plan_of_Palaio_Faliro.jpg"
+      }
     ]
   },
   {
@@ -491,6 +573,18 @@
       "Cheaper peripheral land, faster transport and housing preferences encourage outward development, shaped by public policy and unequal access.",
       "It can decentralize jobs, increase car dependence and separate disadvantaged inner-city residents from employment.",
       "It connects to spatial mismatch and polycentric development; it is a process, whereas sprawl describes a development pattern."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Chandler_Arizona_aerial.jpg/960px-Chandler_Arizona_aerial.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Chandler_Arizona_aerial.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Chandler_Arizona_aerial.jpg",
+        "context": "https://en.wikipedia.org/wiki/Urban_sprawl",
+        "caption": "Homes spread outward into suburbs. This photo shows one low-density pattern; suburbanization has other forms too.",
+        "credit": "Chris J",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
     ]
   },
   {
@@ -517,6 +611,18 @@
       "Short connected routes and nearby uses support pedestrians, while wide roads, parking and separated destinations favor cars.",
       "These choices affect accessibility, physical activity and opportunities to linger or interact in public space.",
       "Gehl connects auto-oriented streets to fewer optional activities, while TOD and traffic calming support pedestrian-oriented environments."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Curb_extensions_at_midblock_crosswalk.jpg/960px-Curb_extensions_at_midblock_crosswalk.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Curb_extensions_at_midblock_crosswalk.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Curb_extensions_at_midblock_crosswalk.jpg",
+        "context": "https://en.wikipedia.org/wiki/Traffic_calming",
+        "caption": "A curb extension shortens the crossing and makes pedestrians more visible.",
+        "credit": "Richard Drdul",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
     ]
   },
   {
@@ -699,6 +805,18 @@
       "Speed humps, narrowed travel lanes, raised crossings and pedestrian refuges alter how drivers move through a street.",
       "Slower traffic can improve safety and make walking, cycling and spending time near the street more comfortable.",
       "It supports Gehl’s human-scale public spaces; unlike congestion pricing, it mainly changes street conditions rather than charging for road use."
+    ],
+    "visuals": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Traffic_calming.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Traffic_calming.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Traffic_calming.jpg",
+        "context": "https://en.wikipedia.org/wiki/Traffic_calming",
+        "caption": "Raised cushions and a narrower passage make drivers slow down physically.",
+        "credit": "The original uploader was Arpingstone at English Wikipedia.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Traffic_calming.jpg"
+      }
     ]
   },
   {
@@ -777,6 +895,18 @@
       "Heat-absorbing surfaces, limited vegetation and shade, and heat released by human activities increase urban temperatures.",
       "Higher heat raises health risks and cooling demand, putting pressure on electricity systems and especially affecting vulnerable residents.",
       "Tree cover and cooler surfaces connect urban design to environmental justice and resilience during extreme heat events."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Urban_heat_island.svg/960px-Urban_heat_island.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/Urban_heat_island.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Urban_heat_island.svg",
+        "context": "https://en.wikipedia.org/wiki/Urban_heat_island",
+        "caption": "Read the temperature line: built-up areas are warmer; greener areas are cooler.",
+        "credit": "TheNewPhobia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Urban_heat_island.svg"
+      }
     ]
   },
   {
@@ -985,6 +1115,18 @@
       "It used monumental civic buildings, parks and broad boulevards to promote beauty, cleanliness and civic order.",
       "It strengthened municipal planning and created lasting public spaces, but paid less attention to housing and everyday inequalities.",
       "Garden City pursued broader social reform, while Jacobs later criticized planning that valued visual order over street life."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Chicago_World%27s_Fair_1893_by_Boston_Public_Library.jpg/960px-Chicago_World%27s_Fair_1893_by_Boston_Public_Library.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Chicago_World%27s_Fair_1893_by_Boston_Public_Library.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Chicago_World%27s_Fair_1893_by_Boston_Public_Library.jpg",
+        "context": "https://en.wikipedia.org/wiki/City_Beautiful_movement",
+        "caption": "Grand buildings and formal public space: beauty was meant to encourage civic pride.",
+        "credit": "Nichols, H. D., 1859-1939 (artist); L. Prang & Co. (publisher)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chicago_World%27s_Fair_1893_by_Boston_Public_Library.jpg"
+      }
     ]
   },
   {
@@ -1011,6 +1153,28 @@
       "Green belts limited expansion, while communal land ownership and a balance of homes, jobs and services supported the town.",
       "It aimed to relieve industrial overcrowding and improve living conditions; later adaptations often emphasized suburban residential design.",
       "Unlike City Beautiful’s civic aesthetics, Garden City linked physical design to social and economic reform."
+    ],
+    "visuals": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Howard-three-magnets.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Howard-three-magnets.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Howard-three-magnets.png",
+        "context": "https://en.wikipedia.org/wiki/Garden_city_movement",
+        "caption": "THREE MAGNETS: town + country → town-country. Combine urban opportunity with rural greenery.",
+        "credit": "The original uploader was Marnanel at English Wikipedia.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Howard-three-magnets.png"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Garden_City_Concept_by_Howard.jpg/960px-Garden_City_Concept_by_Howard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Garden_City_Concept_by_Howard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Garden_City_Concept_by_Howard.jpg",
+        "context": "https://en.wikipedia.org/wiki/Garden_city_movement",
+        "caption": "City + green belt + planned limits. Garden City means more than adding trees.",
+        "credit": "Ebenezer Howard (1850-1928)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Garden_City_Concept_by_Howard.jpg"
+      }
     ]
   },
   {
@@ -1037,6 +1201,18 @@
       "Major roads form its boundaries, shops sit near edge junctions, and interior streets provide local access with parks nearby.",
       "The design aims to support neighborhood life and safer access to everyday facilities while separating through traffic.",
       "It connects to Garden City traditions, but contrasts with Jacobs’s emphasis on continuous, interconnected mixed-use streets."
+    ],
+    "visuals": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/New_York_Regional_Survey%2C_Vol_7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/e/e3/New_York_Regional_Survey%2C_Vol_7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:New_York_Regional_Survey,_Vol_7.jpg",
+        "context": "https://en.wikipedia.org/wiki/Neighborhood_unit",
+        "caption": "School in the middle; major roads around the edge. Keep through-traffic outside.",
+        "credit": "Clarence Perry / Committee on Regional Plan of New York and Its Environs",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:New_York_Regional_Survey,_Vol_7.jpg"
+      }
     ]
   },
   {
@@ -1089,6 +1265,18 @@
       "It concentrated buildings, separated functions and circulation, and moved activity away from traditional streets into planned spaces.",
       "It promised light, air and efficiency, but related urban-renewal approaches often weakened street continuity and displaced communities.",
       "Contrast Wright’s dispersed Broadacre City and Jacobs’s defense of mixed-use streets and informal public supervision."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Monumental_axis.jpg/960px-Monumental_axis.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Monumental_axis.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Monumental_axis.jpg",
+        "context": "https://en.wikipedia.org/wiki/Ville_Radieuse",
+        "caption": "Brasília illustrates related modernist principles: large open spaces, separated uses and major roads. It is not Le Corbusier’s original plan.",
+        "credit": "Limongi",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
     ]
   },
   {
@@ -1115,6 +1303,18 @@
       "Dispersed homes, access to nature and automobile travel replaced the compact metropolitan center.",
       "It promised household independence and space, but required extensive land and dependence on cars.",
       "It contrasts with Le Corbusier’s concentrated Radiant City and helps interpret auto-oriented suburban development."
+    ],
+    "visuals": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Wright_Sketches_for_Broadacre_City.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/Wright_Sketches_for_Broadacre_City.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Wright_Sketches_for_Broadacre_City.jpg",
+        "context": "https://en.wikipedia.org/wiki/Broadacre_City",
+        "caption": "BROAD = spread out. Notice the large plots and road-based layout in Wright’s sketches.",
+        "credit": "Kjell Olsen",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
     ]
   },
   {
@@ -1193,6 +1393,18 @@
       "Short blocks, connected walking routes and nearby homes, shops and jobs make transit practical within roughly a ten-minute walk.",
       "It can improve access and reduce car dependence when development and transport service work together.",
       "TOD combines the D variables with Jacobs-style mixed use, contrasting with dispersed, auto-oriented development."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Transit_Oriented_Development.png/960px-Transit_Oriented_Development.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Transit_Oriented_Development.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Transit_Oriented_Development.png",
+        "context": "https://en.wikipedia.org/wiki/Transit-oriented_development",
+        "caption": "Put daily destinations within walking distance of transit: station + density + mixed uses.",
+        "credit": "Transformative Urban Mobility Initiative (TUMI)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     ]
   },
   {
@@ -1219,6 +1431,18 @@
       "Pop-up public spaces or temporary street improvements test ideas through local action rather than a complete master plan.",
       "They can produce quick benefits and reveal how people use space, though wider problems may require lasting investment.",
       "Lerner’s urban acupuncture connects to Lynch’s learning ecology: cities improve through adaptation and feedback."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Umbrella_street_Old_San_Juan_SJU_06_2019_8787.jpg/960px-Umbrella_street_Old_San_Juan_SJU_06_2019_8787.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Umbrella_street_Old_San_Juan_SJU_06_2019_8787.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Umbrella_street_Old_San_Juan_SJU_06_2019_8787.jpg",
+        "context": "https://en.wikipedia.org/wiki/Tactical_urbanism",
+        "caption": "A small, inexpensive street intervention can change how a place feels and is used.",
+        "credit": "Mariordo (Mario Roberto Durán Ortiz)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     ]
   },
   {
@@ -1245,6 +1469,18 @@
       "Comfort, visibility, access and places to linger encourage optional activities alongside necessary trips, allowing social activities to result.",
       "Better spaces support longer stays and low-intensity contacts; car-oriented spaces often reduce activity to the bare minimum.",
       "Gehl shares Jacobs’s interest in everyday contact, but does not treat extreme density or a grid as universally desirable."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Jongensbinnenplaats_nu.jpg/960px-Jongensbinnenplaats_nu.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Jongensbinnenplaats_nu.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Jongensbinnenplaats_nu.jpg",
+        "context": "https://en.wikipedia.org/wiki/Third_place",
+        "caption": "Places to sit make it easier to stay. Staying creates opportunities for social activity.",
+        "credit": "Amsterdams Historisch Museum",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     ]
   },
   {
@@ -1271,6 +1507,18 @@
       "Necessary trips must happen, such as going to work; optional activities, such as lingering, depend more on favorable conditions; social activities arise from people’s presence.",
       "Poor spaces mainly retain necessary activity, while comfortable spaces encourage staying and opportunities for contact.",
       "The distinction explains why pedestrian counts alone cannot establish urban vitality or the quality of social experience."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Jongensbinnenplaats_nu.jpg/960px-Jongensbinnenplaats_nu.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Jongensbinnenplaats_nu.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Jongensbinnenplaats_nu.jpg",
+        "context": "https://en.wikipedia.org/wiki/Third_place",
+        "caption": "Sitting outside can be OPTIONAL; conversation can emerge as a RESULTANT / social activity.",
+        "credit": "Amsterdams Historisch Museum",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     ]
   },
   {
@@ -1375,6 +1623,18 @@
       "They offer neutral ground, social leveling, conversation, accessibility, regulars, a low profile, playfulness and a sense of being at home.",
       "Repeated voluntary encounters create belonging and everyday community ties.",
       "Unlike approaches emphasizing foot traffic alone, Oldenburg stresses social character and regulars; this connects to Putnam’s concern about social capital."
+    ],
+    "visuals": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Wiener_Cafe_2007_Wieden.jpg/960px-Wiener_Cafe_2007_Wieden.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Wiener_Cafe_2007_Wieden.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source": "https://commons.wikimedia.org/wiki/File:Wiener_Cafe_2007_Wieden.jpg",
+        "context": "https://en.wikipedia.org/wiki/Third_place",
+        "caption": "A familiar café can be a THIRD place: neither home nor work, but somewhere to meet regularly.",
+        "credit": "User:Ekehnel (E. Kehnel)",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
     ]
   },
   {
