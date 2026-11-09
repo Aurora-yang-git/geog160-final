@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "term-28",
+    "number": 28,
+    "name": "Functional and Tributary Areas",
+    "anchor": "functional-and-tributary-areas",
+    "group": "A",
+    "type": "term",
+    "hook": "Define the city by connections, not just boundaries.",
+    "source": "Lecture 1b: functional city definitions",
+    "parts": [
+      "Functional areas are connected by shared activities; tributary areas are surrounding territories served by or oriented toward an urban center.",
+      "Commuting, trade, medical services, media markets and other flows link a city to places beyond its administrative boundary.",
+      "Different functions produce different, sometimes overlapping boundaries, so a city’s influence can extend far into its region.",
+      "Central Place Theory explains service hinterlands, while functional definitions help analyze metropolitan transport and employment."
+    ]
+  },
+  {
+    "id": "term-31",
+    "number": 31,
+    "name": "Von Thunen Model",
+    "anchor": "von-th-nen-model",
+    "group": "A",
+    "type": "term",
+    "hook": "Farm location trades land rent against transport cost.",
+    "source": "Lecture 2a: Von Thünen; Dexter",
+    "parts": [
+      "Von Thünen’s model explains agricultural land-use patterns around a central market.",
+      "Farmers compare production costs, land rent and transport costs; uses with higher transport burdens or returns may bid more for nearby land.",
+      "Under simplified conditions, competing rent bids create rings of different agricultural uses around the market.",
+      "Its land–transport trade-off anticipates urban bid-rent models such as Alonso–Muth–Mills."
+    ]
+  },
+  {
+    "id": "term-16",
+    "number": 16,
+    "name": "Central Place Theory",
+    "anchor": "central-place-theory",
+    "group": "A",
+    "type": "term",
+    "hook": "Everyday goods nearby; specialized goods farther away.",
+    "source": "Lecture 2a; Dexter",
+    "parts": [
+      "Central Place Theory explains a hierarchy of settlements that supply goods and services to surrounding areas.",
+      "Services need enough customers to survive, while customers will travel only a limited distance to obtain them.",
+      "Everyday services appear in many small centers; specialized services support fewer, larger and more widely spaced centers.",
+      "It explains service areas between settlements, whereas Alonso–Muth–Mills explains residential location within a city."
+    ]
+  },
+  {
+    "id": "term-19",
+    "number": 19,
+    "name": "Sector/Multiple Nuclei Model",
+    "anchor": "sector-and-multiple-nuclei-models",
+    "group": "A",
+    "type": "term",
+    "hook": "Sectors follow corridors; nuclei form several centers.",
+    "source": "Lecture 2a: location theories",
+    "parts": [
+      "Hoyt’s Sector Model describes development in corridors or wedges; Harris and Ullman’s Multiple Nuclei Model describes several specialized centers.",
+      "Transport routes shape sectors, while compatible activities cluster and incompatible uses separate to form different nuclei.",
+      "These models explain urban patterns that do not fit simple concentric rings around a single downtown.",
+      "They connect transport and land use to polycentric development, contrasting with the simplest monocentric model."
+    ]
+  },
+  {
+    "id": "term-10",
+    "number": 10,
+    "name": "Alonso-Muth-Mills (Intracity) Model",
+    "anchor": "alonso-muth-mills-model-intracity",
+    "group": "A",
+    "type": "term",
+    "hook": "Within one city: rent versus commuting cost.",
+    "source": "Lecture 2a; Glaeser; Dexter",
+    "parts": [
+      "The Alonso–Muth–Mills model explains residential location and land rents within a city, initially assuming jobs in one central business district.",
+      "Households trade higher central housing costs against the cost of commuting from cheaper land farther away.",
+      "Under its assumptions, rents and residential density generally decline with distance from the center.",
+      "It is an intracity model; Rosen–Roback instead compares wages, rents and amenities across cities."
+    ]
+  },
+  {
+    "id": "term-13",
+    "number": 13,
+    "name": "Rosen-Roback (Intercity) Model",
+    "anchor": "rosen-roback-model-intercity",
+    "group": "A",
+    "type": "term",
+    "hook": "Across cities: wages, rents and amenities balance.",
+    "source": "Glaeser: spatial equilibrium; Lecture 2a",
+    "parts": [
+      "The Rosen–Roback model explains differences in wages and housing costs between cities through spatial equilibrium.",
+      "Mobile households balance wages, housing costs and amenities, while firms weigh labor and land costs against productivity.",
+      "High rents can reflect productive employment, desirable amenities or both; attractive places may offer lower real incomes.",
+      "Unlike the intracity Alonso–Muth–Mills model, it asks why people choose different metropolitan areas."
+    ]
+  },
+  {
+    "id": "term-49",
+    "number": 49,
+    "name": "Agglomeration",
+    "anchor": "agglomeration",
+    "group": "A",
+    "type": "term",
+    "hook": "Nearness pays through sharing, matching and ideas.",
+    "source": "Glaeser: agglomeration; Lecture 2a",
+    "parts": [
+      "Agglomeration is the concentration of people and economic activities that produces benefits from proximity.",
+      "Nearby firms and workers can share suppliers and infrastructure, find better matches and exchange knowledge more easily.",
+      "These advantages can raise productivity and attract activity, while congestion and high land costs offset some benefits.",
+      "Agglomeration explains why cities form; spatial equilibrium explains how higher productivity can be reflected in wages and rents."
+    ]
+  },
+  {
+    "id": "term-46",
+    "number": 46,
+    "name": "Monocentric/Polycentric",
+    "anchor": "monocentric-vs-polycentric-chicago-vs-los-angeles",
+    "group": "A",
+    "type": "term",
+    "hook": "Mono: one dominant center. Poly: several centers.",
+    "source": "Lecture 3a; Dexter",
+    "parts": [
+      "A monocentric city has one dominant center of employment and activity; a polycentric city has several significant centers.",
+      "Transport systems, land costs and the decentralization of firms and services shape the number and strength of centers.",
+      "Polycentric development creates more varied commuting patterns than a simple suburb-to-downtown flow.",
+      "The course contrasts Chicago’s strong center with Los Angeles’s multiple centers; Multiple Nuclei models help explain the latter."
+    ]
+  },
+  {
+    "id": "term-01",
+    "number": 1,
+    "name": "Machine City",
+    "anchor": "machine-city",
+    "group": "A",
+    "type": "term",
+    "hook": "Plan the networks, not historical accidents.",
+    "source": "Lecture 3a, slide 46",
+    "parts": [
+      "Machine City is the idea that a city can be understood and reproduced as a planned, engineered system.",
+      "Chicago shows that transport networks, green space and engineering can be deliberately organized.",
+      "Yet its rise also depended on geography, early advantages, innovation and historical events that planners cannot simply reproduce.",
+      "This limits top-down planning and connects to Lynch’s view of cities as evolving learning ecologies."
+    ]
+  },
+  {
+    "id": "term-34",
+    "number": 34,
+    "name": "Urbanization without Growth",
+    "anchor": "urbanization-without-growth",
+    "group": "A",
+    "type": "term",
+    "hook": "A rising urban share does not guarantee rising incomes.",
+    "source": "Jedwab & Vollrath: Urbanization Without Growth",
+    "parts": [
+      "Urbanization without growth means a population becomes more urban without a corresponding rise in income per person.",
+      "Safer urban living, urban-biased policies, rural hardship and urban natural population increase can raise the urban share without strong productivity growth.",
+      "Cities can expand while poverty persists and industrial employment remains limited.",
+      "This challenges treating urbanization as proof of development and connects to rural push and resource-financed consumption cities."
+    ]
+  },
+  {
+    "id": "term-38",
+    "number": 38,
+    "name": "Rural Push/Urban Pull",
+    "anchor": "rural-push-and-urban-pull",
+    "group": "A",
+    "type": "term",
+    "hook": "Push: hardship at home. Pull: opportunity elsewhere.",
+    "source": "Jedwab & Vollrath; course migration notes",
+    "parts": [
+      "Rural push drives people out of the countryside, while urban pull attracts them toward opportunities in cities.",
+      "Drought, conflict or lost rural livelihoods can push migration; jobs, wages, education and services can pull it.",
+      "Migration may reflect rural distress rather than expanding productive urban employment.",
+      "This helps explain urbanization without growth and why migration alone is not evidence of improving living standards."
+    ]
+  },
+  {
+    "id": "term-35",
+    "number": 35,
+    "name": "Malthusian/Solowian Growth",
+    "anchor": "malthusian-vs-solowian-growth",
+    "group": "A",
+    "type": "term",
+    "hook": "Malthus: more people. Solow: productivity per person.",
+    "source": "Course growth notes; Jedwab & Vollrath’s Malthusian discussion",
+    "parts": [
+      "Malthusian growth describes gains absorbed by population growth, while Solowian growth distinguishes total output from output per worker.",
+      "In a Malthusian economy, more people press against limited resources; in Solow, capital deepening raises output but faces diminishing returns.",
+      "Sustained long-run growth per person requires technological progress in the standard Solow model, rather than capital accumulation alone.",
+      "This distinction helps explain why a larger urban population does not necessarily mean higher living standards."
+    ]
+  },
+  {
+    "id": "term-04",
+    "number": 4,
+    "name": "Consumption City",
+    "anchor": "consumption-city-jedwab-glaeser-kolko-and-saiz",
+    "group": "A",
+    "type": "term",
+    "hook": "Resource income → urban spending → local services.",
+    "source": "Jedwab & Vollrath; course notes distinguish the consumer-city usage",
+    "parts": [
+      "In Jedwab and Vollrath, a consumption city grows through spending financed by resource income rather than industrial production.",
+      "Resource revenues support demand for urban goods and non-tradable services, drawing workers into those activities.",
+      "Urbanization can therefore occur without the productivity gains associated with industrialization.",
+      "This illustrates urbanization without growth; distinguish it from the consumer-city idea that amenities attract residents."
+    ]
+  },
+  {
+    "id": "term-07",
+    "number": 7,
+    "name": "Urban Economic Transition",
+    "anchor": "urban-economic-transition",
+    "group": "A",
+    "type": "term",
+    "hook": "Agriculture → manufacturing → services.",
+    "source": "Jedwab & Vollrath; course economic-transition notes",
+    "parts": [
+      "Urban economic transition is the changing economic base of cities as employment shifts among agriculture, manufacturing and services.",
+      "Industrialization concentrates factories and workers; later deindustrialization and specialization increase the importance of services.",
+      "Cities that adapt can grow, while places dependent on a declining industry may lose jobs and population.",
+      "Detroit connects this transition to shrinking cities and to the unequal job access examined by Grengs."
+    ]
+  },
+  {
+    "id": "term-41",
+    "number": 41,
+    "name": "Shrinking Cities",
+    "anchor": "shrinking-cities",
+    "group": "A",
+    "type": "term",
+    "hook": "Fewer residents, weaker tax base, underused infrastructure.",
+    "source": "Course shrinking-city notes; Detroit in Grengs",
+    "parts": [
+      "Shrinking cities experience sustained population loss, often accompanied by declining employment and underused urban space.",
+      "Deindustrialization, suburbanization, outmigration and demographic change can reduce demand for housing and services.",
+      "Vacant buildings and a smaller tax base make it harder to maintain infrastructure and public services.",
+      "Detroit links urban economic transition to shrinking cities, showing why population decline can coexist with severe accessibility problems."
+    ]
+  },
+  {
+    "id": "term-25",
+    "number": 25,
+    "name": "Density",
+    "anchor": "density",
+    "group": "B",
+    "type": "term",
+    "hook": "How much development per unit of land?",
+    "source": "Galster: Wrestling Sprawl; Lecture 7a, slide 9",
+    "parts": [
+      "Density is the amount of population, housing or development per unit of land area.",
+      "Its value depends on what is counted and the boundary used; the same average can conceal different spatial arrangements.",
+      "Higher density can support nearby services and transit, but alone does not reveal connectivity, land-use mix or social experience.",
+      "Galster treats density as one of eight sprawl dimensions, while Jacobs links it to other conditions for vitality."
+    ]
+  },
+  {
+    "id": "term-22",
+    "number": 22,
+    "name": "Griddedness",
+    "anchor": "griddedness-boeing",
+    "group": "B",
+    "type": "term",
+    "hook": "Order + straight streets + four-way intersections.",
+    "source": "Boeing: Off the Grid and Back Again",
+    "parts": [
+      "Griddedness measures how closely a street network resembles a grid through orientation order, straightness and four-way intersections.",
+      "Connected routes offer direct paths and alternatives, unlike disconnected loops and cul-de-sacs.",
+      "Boeing finds a historical decline and partial return of grids, with more grid-like neighborhoods associated with lower car ownership.",
+      "This relates to the design component of the D variables; the association alone does not prove that grids cause less driving."
+    ]
+  },
+  {
+    "id": "term-50",
+    "number": 50,
+    "name": "“D Variables”",
+    "anchor": "the-d-variables-ewing-cervero",
+    "group": "B",
+    "type": "term",
+    "hook": "Density, diversity, design, destinations, distance to transit.",
+    "source": "Boeing’s discussion of Ewing & Cervero",
+    "parts": [
+      "The D variables describe built-environment features associated with travel: density, diversity, design, destination accessibility and distance to transit.",
+      "They capture how much is nearby, the mix of uses, street connectivity, reachable destinations and access to transit stops.",
+      "Together they influence travel options; density alone is a weaker guide than considering the full setting.",
+      "Griddedness relates to design, while transit-oriented development combines several D variables in one planning approach."
+    ]
+  },
+  {
+    "id": "term-40",
+    "number": 40,
+    "name": "Suburbanization",
+    "anchor": "suburbanization",
+    "group": "B",
+    "type": "term",
+    "hook": "People and jobs move toward the metropolitan edge.",
+    "source": "Dexter; Ihlanfeldt; Lecture 3a",
+    "parts": [
+      "Suburbanization is the movement or growth of population and employment toward the outskirts of a metropolitan area.",
+      "Cheaper peripheral land, faster transport and housing preferences encourage outward development, shaped by public policy and unequal access.",
+      "It can decentralize jobs, increase car dependence and separate disadvantaged inner-city residents from employment.",
+      "It connects to spatial mismatch and polycentric development; it is a process, whereas sprawl describes a development pattern."
+    ]
+  },
+  {
+    "id": "term-52",
+    "number": 52,
+    "name": "Pedestrian/Auto-Orientation",
+    "anchor": "pedestrian-vs-auto-orientation-la-vs-chicago",
+    "group": "B",
+    "type": "term",
+    "hook": "Design for walking and staying, or driving and parking.",
+    "source": "Lecture 3a; Lecture 7a, slide 20",
+    "parts": [
+      "Pedestrian orientation organizes places around walking and human-scale activity; auto-orientation prioritizes vehicle movement and access.",
+      "Short connected routes and nearby uses support pedestrians, while wide roads, parking and separated destinations favor cars.",
+      "These choices affect accessibility, physical activity and opportunities to linger or interact in public space.",
+      "Gehl connects auto-oriented streets to fewer optional activities, while TOD and traffic calming support pedestrian-oriented environments."
+    ]
+  },
+  {
+    "id": "term-20",
+    "number": 20,
+    "name": "Jobs-Housing Mismatch",
+    "anchor": "jobs-housing-mismatch-spatial-mismatch-ihlanfeldt-atlanta",
+    "group": "C",
+    "type": "term",
+    "hook": "Jobs move outward; housing barriers keep workers apart.",
+    "source": "Ihlanfeldt: Spatial Mismatch",
+    "parts": [
+      "Jobs-housing mismatch is the spatial separation of workers, especially disadvantaged groups, from suitable employment.",
+      "Suburban job growth combines with housing discrimination, limited transport, hiring barriers and weak job information.",
+      "Workers face fewer accessible jobs, higher commuting costs and potentially lower employment or net earnings.",
+      "Ihlanfeldt emphasizes location barriers; Grengs’s modal mismatch shows why transport mode also matters within the same neighborhood."
+    ]
+  },
+  {
+    "id": "term-23",
+    "number": 23,
+    "name": "Modal Mismatch",
+    "anchor": "modal-mismatch-grengs-detroit",
+    "group": "C",
+    "type": "term",
+    "hook": "Same location, different mode, different opportunities.",
+    "source": "Grengs: Job Accessibility and Modal Mismatch in Detroit",
+    "parts": [
+      "Modal mismatch is unequal access to jobs arising from differences in available transport modes.",
+      "In Detroit, a neighborhood can offer good job access by car but poor access by public transit.",
+      "Neighborhood averages can hide disadvantages for residents without cars, whose complex daily trips may be difficult by transit.",
+      "It extends spatial mismatch: job proximity is insufficient, and accessibility must account for mode and competition for jobs."
+    ]
+  },
+  {
+    "id": "term-29",
+    "number": 29,
+    "name": "Primal/Dual Accessibility",
+    "anchor": "primal-vs-dual-accessibility",
+    "group": "C",
+    "type": "term",
+    "hook": "Primal: how many? Dual: how long?",
+    "source": "Course accessibility notes; Primal and Dual Access reference",
+    "parts": [
+      "Primal accessibility counts opportunities reachable within a fixed travel budget; dual accessibility measures the travel cost needed to reach a fixed number.",
+      "Primal might count jobs within thirty minutes, while dual asks how long reaching a specified number of jobs takes.",
+      "More opportunities improve the primal measure; less travel time improves the dual measure.",
+      "Both describe access to opportunities rather than speed alone, and both change with transport mode."
+    ]
+  },
+  {
+    "id": "term-32",
+    "number": 32,
+    "name": "Cumulative/Competitive Accessibility",
+    "anchor": "cumulative-vs-competitive-accessibility-shen",
+    "group": "C",
+    "type": "term",
+    "hook": "Count jobs, then account for competing workers.",
+    "source": "Grengs; Shen’s competition adjustment discussed in the reading",
+    "parts": [
+      "Cumulative accessibility counts opportunities within a travel threshold; competitive accessibility also accounts for people seeking those opportunities.",
+      "Two neighborhoods may reach the same number of jobs, but access is weaker where many more workers compete for them.",
+      "Simple job totals can therefore overstate labor-market opportunity for disadvantaged residents.",
+      "Grengs uses a gravity-based measure with competition adjustment, linking accessibility to spatial and modal mismatch."
+    ]
+  },
+  {
+    "id": "term-05",
+    "number": 5,
+    "name": "Travel Supply and Demand",
+    "anchor": "travel-supply-and-demand",
+    "group": "C",
+    "type": "term",
+    "hook": "More road capacity can bring more driving.",
+    "source": "Dexter: Transportation and Land Use",
+    "parts": [
+      "Travel supply is the capacity and service provided by transport networks; travel demand is people’s desire to make trips.",
+      "Land use creates trip needs, while travel time and cost affect where, when and how people travel.",
+      "Adding road capacity can attract additional driving, so induced demand may reduce congestion relief.",
+      "Congestion pricing manages demand, while transit-oriented development changes land use and travel options together."
+    ]
+  },
+  {
+    "id": "term-53",
+    "number": 53,
+    "name": "Congestion Pricing",
+    "anchor": "congestion-pricing",
+    "group": "C",
+    "type": "term",
+    "hook": "Price scarce road space instead of only adding lanes.",
+    "source": "Course pricing notes; Dexter on travel demand",
+    "parts": [
+      "Congestion pricing charges drivers to use crowded road space, often varying by place or time.",
+      "The charge encourages some users to change routes, travel times, modes or whether they travel, reducing peak demand.",
+      "It can improve reliability and reduce congestion, but fairness depends on who pays and what alternatives or revenue uses exist.",
+      "Unlike road expansion that can induce more driving, it manages demand for limited transport capacity."
+    ]
+  },
+  {
+    "id": "term-56",
+    "number": 56,
+    "name": "Traffic Calming",
+    "anchor": "traffic-calming",
+    "group": "C",
+    "type": "term",
+    "hook": "Change street design to slow vehicles.",
+    "source": "Course notes; FHWA Traffic Calming ePrimer",
+    "parts": [
+      "Traffic calming uses street design to reduce vehicle speeds and improve conditions for people outside cars.",
+      "Speed humps, narrowed travel lanes, raised crossings and pedestrian refuges alter how drivers move through a street.",
+      "Slower traffic can improve safety and make walking, cycling and spending time near the street more comfortable.",
+      "It supports Gehl’s human-scale public spaces; unlike congestion pricing, it mainly changes street conditions rather than charging for road use."
+    ]
+  },
+  {
+    "id": "term-43",
+    "number": 43,
+    "name": "Sedentary Disease",
+    "anchor": "riskscape-and-sedentary-habits",
+    "group": "C",
+    "type": "term",
+    "hook": "Car dependence can build inactivity into daily life.",
+    "source": "Wilson: planning, neighborhood health and riskscapes",
+    "parts": [
+      "Sedentary disease refers to health problems associated with prolonged inactivity, including increased risks of obesity and related chronic illness.",
+      "Car-dependent land use, unsafe walking routes and limited recreational access can reduce routine physical activity.",
+      "These conditions compound other neighborhood health burdens and can fall unevenly on disadvantaged communities.",
+      "Wilson connects health to planning and environmental justice; walkable mixed-use areas and traffic calming can support more active daily travel."
+    ]
+  },
+  {
+    "id": "term-47",
+    "number": 47,
+    "name": "Extreme Weather Events",
+    "anchor": "extreme-weather-events",
+    "group": "C",
+    "type": "term",
+    "hook": "Hazard + exposure + vulnerability.",
+    "source": "Lecture 6a: environmental problems",
+    "parts": [
+      "Extreme weather events are unusually severe conditions such as intense rainfall, storms or heat waves.",
+      "Urban pavement limits infiltration, drainage systems can be overwhelmed, and exposed infrastructure and vulnerable populations increase potential damage.",
+      "Flooding, heat stress and disrupted transport or electricity can impose unequal costs across neighborhoods.",
+      "This connects climate resilience to heat islands and environmental justice: risk depends on both the event and urban conditions."
+    ]
+  },
+  {
+    "id": "term-44",
+    "number": 44,
+    "name": "Heat Islands",
+    "anchor": "heat-islands",
+    "group": "C",
+    "type": "term",
+    "hook": "Heat-storing surfaces, less greenery, warmer urban areas.",
+    "source": "Lecture 6a: environmental problems",
+    "parts": [
+      "An urban heat island is an urban area that is warmer than surrounding less-developed land.",
+      "Heat-absorbing surfaces, limited vegetation and shade, and heat released by human activities increase urban temperatures.",
+      "Higher heat raises health risks and cooling demand, putting pressure on electricity systems and especially affecting vulnerable residents.",
+      "Tree cover and cooler surfaces connect urban design to environmental justice and resilience during extreme heat events."
+    ]
+  },
+  {
+    "id": "term-02",
+    "number": 2,
+    "name": "Housing Shortage/Surplus",
+    "anchor": "shortage-surplus",
+    "group": "C",
+    "type": "term",
+    "hook": "Units versus households, in the right place and price range.",
+    "source": "Lecture 6a, slides 2–5 and 20–21",
+    "parts": [
+      "A housing shortage means available housing falls short of demand; a surplus means supply exceeds demand in a particular market.",
+      "Supply depends on housing units, while demand depends on population, household formation and purchasing power.",
+      "Shortages put upward pressure on rents and overcrowding; surpluses can produce vacancies even while affordable housing remains scarce.",
+      "Building regulation shapes supply, while Rosen–Roback explains how migration can adjust demand across cities."
+    ]
+  },
+  {
+    "id": "term-08",
+    "number": 8,
+    "name": "Filtering (Housing)",
+    "anchor": "filtering",
+    "group": "C",
+    "type": "term",
+    "hook": "Homes filter down; households may move up.",
+    "source": "Lecture 6a, slide 26",
+    "parts": [
+      "Housing filtering is the process through which older housing becomes available to lower-income households as its relative quality and price decline.",
+      "Buildings age while some households gain income and move to newer or higher-quality homes.",
+      "Older stock can provide affordable housing, although renovation, strong demand or demolition can interrupt this process.",
+      "Gentrification can reverse downward filtering by reinvesting in older neighborhoods and raising housing costs."
+    ]
+  },
+  {
+    "id": "term-55",
+    "number": 55,
+    "name": "Building Regulation",
+    "anchor": "building-regulation",
+    "group": "C",
+    "type": "term",
+    "hook": "Rules protect people, but also shape supply.",
+    "source": "Course regulation notes; Wilson; Glaeser",
+    "parts": [
+      "Building regulation consists of rules governing what, where and how development can be built, including zoning and building codes.",
+      "Use restrictions, lot sizes, setbacks, height limits, parking rules and safety standards shape the amount and form of construction.",
+      "Rules can protect health and safety, but restrictive requirements can limit housing supply and exclude lower-income households.",
+      "This connects Glaeser’s builder equilibrium to Wilson’s exclusionary zoning and to NIMBY-driven housing shortages."
+    ]
+  },
+  {
+    "id": "term-11",
+    "number": 11,
+    "name": "Gentrification",
+    "anchor": "gentrification",
+    "group": "C",
+    "type": "term",
+    "hook": "Wealthier inflow: displaced, squeezed, or culturally erased.",
+    "source": "Lecture 6a: Gentrification and displacement",
+    "parts": [
+      "Gentrification is neighborhood change associated with an inflow of wealthier residents and investment.",
+      "Increased demand, reinvestment and changing businesses raise housing costs and reshape local services and identity.",
+      "Existing residents may be displaced, remain under financial pressure, or experience cultural erasure even without moving.",
+      "It creates a planning dilemma: improving a neighborhood can undermine affordability, reversing filtering unless residents are protected."
+    ]
+  },
+  {
+    "id": "term-14",
+    "number": 14,
+    "name": "NIMBYism",
+    "anchor": "nimbyism-and-fixes",
+    "group": "C",
+    "type": "term",
+    "hook": "Support the idea, oppose it nearby.",
+    "source": "Lecture 6a: NIMBYism",
+    "parts": [
+      "NIMBYism means “not in my backyard”: residents resist a proposed development or facility near them.",
+      "Concerns about traffic, neighborhood character, property values or local burdens motivate opposition.",
+      "Opposition can constrain housing supply or shift unwanted facilities elsewhere, although specific local concerns may be legitimate.",
+      "It connects to building regulation, housing shortages and participatory planning that addresses local costs alongside wider needs."
+    ]
+  },
+  {
+    "id": "term-17",
+    "number": 17,
+    "name": "Contact Hypothesis",
+    "anchor": "contact-hypothesis-valentine",
+    "group": "C",
+    "type": "term",
+    "hook": "Contact is not automatically respect.",
+    "source": "Valentine: Living with Difference; Lecture 6a, slides 28–29",
+    "parts": [
+      "The contact hypothesis proposes that interaction between social groups can reduce prejudice and improve relations.",
+      "Meaningful, cooperative encounters may challenge stereotypes, while competition or unequal power can obstruct that change.",
+      "Valentine shows that proximity and politeness do not necessarily change wider beliefs: a liked individual may be treated as an exception.",
+      "Mixed neighborhoods and third places therefore create opportunities for contact without automatically producing respect or inclusion."
+    ]
+  },
+  {
+    "id": "term-37",
+    "number": 37,
+    "name": "Sanitary Movement",
+    "anchor": "sanitary-movement",
+    "group": "D",
+    "type": "term",
+    "hook": "Public health becomes a planning responsibility.",
+    "source": "Lecture 6a: Sanitary Movement",
+    "parts": [
+      "The Sanitary Movement was a nineteenth-century response to disease and overcrowding in rapidly industrializing cities.",
+      "Public authorities improved water supply, sewage disposal, waste management and housing conditions to reduce health hazards.",
+      "It helped establish public health as a responsibility of urban government and a justification for planning and regulation.",
+      "It precedes City Beautiful’s emphasis on civic appearance and connects to Wilson’s concern with unequal environmental conditions."
+    ]
+  },
+  {
+    "id": "term-03",
+    "number": 3,
+    "name": "City Beautiful",
+    "anchor": "city-beautiful-early-1900s-us-burnham-robinson-olmsted",
+    "group": "D",
+    "type": "term",
+    "hook": "Beautify the city from the top down.",
+    "source": "Lecture 6a: City Beautiful",
+    "parts": [
+      "City Beautiful was an American planning movement around 1900 associated with Burnham, Robinson and Olmsted’s landscape tradition.",
+      "It used monumental civic buildings, parks and broad boulevards to promote beauty, cleanliness and civic order.",
+      "It strengthened municipal planning and created lasting public spaces, but paid less attention to housing and everyday inequalities.",
+      "Garden City pursued broader social reform, while Jacobs later criticized planning that valued visual order over street life."
+    ]
+  },
+  {
+    "id": "term-06",
+    "number": 6,
+    "name": "Garden City",
+    "anchor": "garden-city-late-1800s-england-howard-unwin-parker",
+    "group": "D",
+    "type": "term",
+    "hook": "Town + country, with a green belt.",
+    "source": "Lecture 6a: Garden City",
+    "parts": [
+      "Ebenezer Howard’s Garden City proposed small, self-contained towns combining urban opportunities with access to countryside.",
+      "Green belts limited expansion, while communal land ownership and a balance of homes, jobs and services supported the town.",
+      "It aimed to relieve industrial overcrowding and improve living conditions; later adaptations often emphasized suburban residential design.",
+      "Unlike City Beautiful’s civic aesthetics, Garden City linked physical design to social and economic reform."
+    ]
+  },
+  {
+    "id": "term-26",
+    "number": 26,
+    "name": "Neighborhood Unit (Clarence Perry)",
+    "anchor": "neighborhood-unit-clarence-perry",
+    "group": "D",
+    "type": "term",
+    "hook": "School at the center; major roads at the edge.",
+    "source": "Lecture 6a, slide 83 diagram; Boeing",
+    "parts": [
+      "Clarence Perry’s Neighborhood Unit organizes a residential district around an elementary school and community institutions.",
+      "Major roads form its boundaries, shops sit near edge junctions, and interior streets provide local access with parks nearby.",
+      "The design aims to support neighborhood life and safer access to everyday facilities while separating through traffic.",
+      "It connects to Garden City traditions, but contrasts with Jacobs’s emphasis on continuous, interconnected mixed-use streets."
+    ]
+  },
+  {
+    "id": "term-09",
+    "number": 9,
+    "name": "Modernism",
+    "anchor": "modernism-1920s-on",
+    "group": "D",
+    "type": "term",
+    "hook": "Rational order, separated functions, top-down plans.",
+    "source": "Lecture 6a: Modernism; Lecture 7a, slide 2",
+    "parts": [
+      "Modernism in planning sought a rational, functional city through comprehensive design, geometric order and limited ornament.",
+      "Planners separated land uses and reorganized buildings, open space and movement according to standardized principles.",
+      "It promised efficiency and healthier housing, but clearance and large-scale separation could disrupt neighborhoods and everyday street life.",
+      "Jacobs challenged this approach, arguing that mixed uses and informal street activity create a complex urban order."
+    ]
+  },
+  {
+    "id": "term-12",
+    "number": 12,
+    "name": "Le Corbusier/Radiant City",
+    "anchor": "le-corbusier-s-radiant-city",
+    "group": "D",
+    "type": "term",
+    "hook": "Radiant = rise: towers in parks.",
+    "source": "Lecture 6a: Radiant City; Lecture 7a, slide 2",
+    "parts": [
+      "Le Corbusier’s Radiant City was a modernist vision of a highly ordered city with tall buildings surrounded by open space.",
+      "It concentrated buildings, separated functions and circulation, and moved activity away from traditional streets into planned spaces.",
+      "It promised light, air and efficiency, but related urban-renewal approaches often weakened street continuity and displaced communities.",
+      "Contrast Wright’s dispersed Broadacre City and Jacobs’s defense of mixed-use streets and informal public supervision."
+    ]
+  },
+  {
+    "id": "term-15",
+    "number": 15,
+    "name": "Frank Lloyd Wright/Broadacre City",
+    "anchor": "frank-lloyd-wright-s-broadacre-city",
+    "group": "D",
+    "type": "term",
+    "hook": "Broadacre = broad: land, cars, decentralization.",
+    "source": "Lecture 6a: Broadacre City",
+    "parts": [
+      "Frank Lloyd Wright’s Broadacre City proposed a decentralized settlement pattern, with roughly an acre of land for each family.",
+      "Dispersed homes, access to nature and automobile travel replaced the compact metropolitan center.",
+      "It promised household independence and space, but required extensive land and dependence on cars.",
+      "It contrasts with Le Corbusier’s concentrated Radiant City and helps interpret auto-oriented suburban development."
+    ]
+  },
+  {
+    "id": "term-18",
+    "number": 18,
+    "name": "Jane Jacobs (Death and Life of Great American Cities)",
+    "anchor": "jane-jacobs-the-death-and-life-of-great-american-cities",
+    "group": "D",
+    "type": "term",
+    "hook": "Boundaries + eyes + continuous sidewalk use.",
+    "source": "Jacobs: Uses of Sidewalks; Lecture 7a, slide 2",
+    "parts": [
+      "In The Death and Life of Great American Cities, Jane Jacobs defended everyday street life against top-down modernist planning.",
+      "Clear public–private boundaries, eyes on the street and fairly continuous sidewalk use support informal public supervision.",
+      "Mixed uses and daily sidewalk contacts can build safety and trust without relying only on formal policing.",
+      "Her “sidewalk ballet” contrasts with superblocks and separated functions, and connects to Gehl’s and Whyte’s human-scale observations."
+    ]
+  },
+  {
+    "id": "term-21",
+    "number": 21,
+    "name": "Urban Vitality",
+    "anchor": "urban-vitality",
+    "group": "D",
+    "type": "term",
+    "hook": "People, paths, purposes, prices, access, no barriers.",
+    "source": "Lecture 7a, slides 7–15",
+    "parts": [
+      "Urban vitality is visible street activity and the supportive built environment that sustains it.",
+      "Density, short blocks, mixed primary uses, varied building ages, accessibility and avoiding border vacuums bring different people out throughout the day.",
+      "Continuous use can support local businesses, informal supervision and sidewalk contacts, although density alone does not guarantee cohesion.",
+      "It develops Jacobs’s argument; Gehl asks whether activity includes optional and social life rather than only necessary trips."
+    ]
+  },
+  {
+    "id": "term-24",
+    "number": 24,
+    "name": "Transit Oriented Development",
+    "anchor": "transit-oriented-development-calthorpe",
+    "group": "D",
+    "type": "term",
+    "hook": "Mix and densify around transit, at walking scale.",
+    "source": "Lecture 7a, slide 44",
+    "parts": [
+      "Transit-oriented development concentrates dense, mixed-use, walkable development around transit stations, associated with Peter Calthorpe.",
+      "Short blocks, connected walking routes and nearby homes, shops and jobs make transit practical within roughly a ten-minute walk.",
+      "It can improve access and reduce car dependence when development and transport service work together.",
+      "TOD combines the D variables with Jacobs-style mixed use, contrasting with dispersed, auto-oriented development."
+    ]
+  },
+  {
+    "id": "term-27",
+    "number": 27,
+    "name": "Urban Acupuncture/Tactical Urbanism",
+    "anchor": "urban-acupuncture-lerner-curitiba-tactical-urbanism",
+    "group": "D",
+    "type": "term",
+    "hook": "Small interventions can create wider change.",
+    "source": "Lecture 7a, slides 48 and 51",
+    "parts": [
+      "Urban acupuncture uses targeted interventions to improve city life; tactical urbanism often uses low-cost, temporary, small-scale projects.",
+      "Pop-up public spaces or temporary street improvements test ideas through local action rather than a complete master plan.",
+      "They can produce quick benefits and reveal how people use space, though wider problems may require lasting investment.",
+      "Lerner’s urban acupuncture connects to Lynch’s learning ecology: cities improve through adaptation and feedback."
+    ]
+  },
+  {
+    "id": "term-36",
+    "number": 36,
+    "name": "Jan Gehl (The Life Between Buildings)",
+    "anchor": "jan-gehl-necessary-optional-and-resultant-activities",
+    "group": "E",
+    "type": "term",
+    "hook": "Better public space → longer stays → more social life.",
+    "source": "Lecture 7a, slides 19–21",
+    "parts": [
+      "Jan Gehl’s The Life Between Buildings focuses on how public-space design supports everyday pedestrian activity and interaction.",
+      "Comfort, visibility, access and places to linger encourage optional activities alongside necessary trips, allowing social activities to result.",
+      "Better spaces support longer stays and low-intensity contacts; car-oriented spaces often reduce activity to the bare minimum.",
+      "Gehl shares Jacobs’s interest in everyday contact, but does not treat extreme density or a grid as universally desirable."
+    ]
+  },
+  {
+    "id": "term-39",
+    "number": 39,
+    "name": "Necessary/Resultant/Optional Activities",
+    "anchor": "jan-gehl-necessary-optional-and-resultant-activities",
+    "group": "E",
+    "type": "term",
+    "hook": "Need → choose → interact.",
+    "source": "Lecture 7a, slides 19–20",
+    "parts": [
+      "Gehl distinguishes necessary activities, optional activities and resultant or social activities in public space.",
+      "Necessary trips must happen, such as going to work; optional activities, such as lingering, depend more on favorable conditions; social activities arise from people’s presence.",
+      "Poor spaces mainly retain necessary activity, while comfortable spaces encourage staying and opportunities for contact.",
+      "The distinction explains why pedestrian counts alone cannot establish urban vitality or the quality of social experience."
+    ]
+  },
+  {
+    "id": "term-30",
+    "number": 30,
+    "name": "Kevin Lynch (Learning Ecology)",
+    "anchor": "kevin-lynch-the-city-as-a-learning-ecology",
+    "group": "E",
+    "type": "term",
+    "hook": "Let people learn, adapt and improve the city.",
+    "source": "Lecture 7a, slides 27–29",
+    "parts": [
+      "Kevin Lynch described the city as a learning ecology in which people adapt their surroundings and change the rules of urban life.",
+      "Good form supports vitality, sense or legibility, fit, access and control, evaluated through efficiency and justice.",
+      "People can navigate, use and improve their city rather than depend on a once-and-for-all comprehensive plan.",
+      "This supports bottom-up planning and connects to urban acupuncture, contrasting with rigid modernist order."
+    ]
+  },
+  {
+    "id": "term-42",
+    "number": 42,
+    "name": "William Whyte (Social Life of Small Urban Spaces)",
+    "anchor": "william-whyte",
+    "group": "E",
+    "type": "term",
+    "hook": "People attract people; provide places to sit.",
+    "source": "Lecture 7a, slides 30–33; Whyte film",
+    "parts": [
+      "William Whyte studied how people actually use small urban public spaces through systematic observation.",
+      "Comfortable seating, street connections, food and opportunities to watch others encourage people to stop and stay.",
+      "Successful spaces support informal sociability; designs that discourage unwanted users can also discourage everyone else.",
+      "His findings complement Jacobs’s street life and Gehl’s optional activities, while triangulation explains how shared attractions prompt conversation."
+    ]
+  },
+  {
+    "id": "term-45",
+    "number": 45,
+    "name": "Triangulation",
+    "anchor": "triangulation-whyte",
+    "group": "E",
+    "type": "term",
+    "hook": "Two strangers + a third thing = a conversation.",
+    "source": "Lecture 7a, slide 31; Whyte film",
+    "parts": [
+      "Whyte’s triangulation occurs when a shared external stimulus gives strangers a reason to interact.",
+      "An artwork, performance or unusual event attracts their attention and provides a common topic.",
+      "People who would otherwise remain separate may exchange comments and briefly form a social connection.",
+      "It links public-space design to Gehl’s resultant activities, but Valentine reminds us that a brief encounter does not guarantee lasting respect."
+    ]
+  },
+  {
+    "id": "term-48",
+    "number": 48,
+    "name": "Ray Oldenburg (Third Places)",
+    "anchor": "ray-oldenburg-third-places",
+    "group": "E",
+    "type": "term",
+    "hook": "Home first, work second, informal gathering third.",
+    "source": "Lecture 7a, slides 36–38",
+    "parts": [
+      "Ray Oldenburg’s third places are informal gathering places outside home and work that sustain regular social life.",
+      "They offer neutral ground, social leveling, conversation, accessibility, regulars, a low profile, playfulness and a sense of being at home.",
+      "Repeated voluntary encounters create belonging and everyday community ties.",
+      "Unlike approaches emphasizing foot traffic alone, Oldenburg stresses social character and regulars; this connects to Putnam’s concern about social capital."
+    ]
+  },
+  {
+    "id": "term-33",
+    "number": 33,
+    "name": "Georg Simmel (“Blasé Man”/”Protective Organ”)",
+    "anchor": "georg-simmel-the-blas-attitude-and-the-protective-organ",
+    "group": "E",
+    "type": "term",
+    "hook": "Too much stimulation → emotional protection.",
+    "source": "Lecture 7a, slide 59; Borer",
+    "parts": [
+      "Georg Simmel’s blasé attitude describes emotional reserve developed in response to the intense stimulation of metropolitan life.",
+      "Individuals filter the constant flow of encounters and impressions, creating a psychological “protective organ.”",
+      "This helps people cope but can make urban relations seem impersonal or indifferent.",
+      "Unlike Goffman’s civil inattention, which concerns interaction rituals, Simmel emphasizes the mental response to urban overstimulation."
+    ]
+  },
+  {
+    "id": "term-51",
+    "number": 51,
+    "name": "Louis Wirth (“Collective Personality”)",
+    "anchor": "louis-wirth-collective-personality",
+    "group": "E",
+    "type": "term",
+    "hook": "Size + density + heterogeneity shape urban relations.",
+    "source": "Lecture 7a, slide 59",
+    "parts": [
+      "Louis Wirth argued that urbanism is a way of life shaped by large population size, density and social heterogeneity.",
+      "These conditions encourage specialized roles and more impersonal, segmented relationships among people who cannot know everyone personally.",
+      "Urban residents develop shared patterns of behavior, described in class as a collective personality, to navigate city life.",
+      "Contrast Jacobs, who emphasizes how these same conditions can support vitality, neighborhood contact and social cohesion."
+    ]
+  },
+  {
+    "id": "term-54",
+    "number": 54,
+    "name": "Erving Goffman (“Civil Inattention”)",
+    "anchor": "erving-goffman-civil-inattention",
+    "group": "E",
+    "type": "term",
+    "hook": "Acknowledge someone, then give them privacy.",
+    "source": "Lecture 7a, slides 60–61; Borer",
+    "parts": [
+      "Erving Goffman’s civil inattention is the polite management of attention among strangers sharing public space.",
+      "A brief glance, nod or small avoidance gesture acknowledges another person without inviting unwanted involvement.",
+      "These rituals preserve privacy and allow people to coexist comfortably in crowded settings.",
+      "Unlike Simmel’s psychological defense against overstimulation, civil inattention is an interaction practice; apparent ignoring can be social courtesy rather than hostility."
+    ]
+  },
+  {
+    "id": "term-57",
+    "number": 57,
+    "name": "“Bowling Alone” (Robert Putnam)",
+    "anchor": "putnam-bowling-alone",
+    "group": "E",
+    "type": "term",
+    "hook": "Declining civic participation—or changing places to connect?",
+    "source": "Lecture 7a, slide 64",
+    "parts": [
+      "Robert Putnam’s Bowling Alone argues that social capital and community participation have declined in the United States.",
+      "Reduced involvement in associations and more solitary activity weaken networks, trust and habits of cooperation.",
+      "This can reduce the ties that support collective action and everyday community life.",
+      "Oldenburg emphasizes gathering places, while Aelbrecht qualifies Putnam’s account: interaction may shift from traditional organizations to newer spaces such as malls."
+    ]
+  },
+  {
+    "id": "reading-01",
+    "number": 1,
+    "name": "Dexter. Transportation and Land Use.",
+    "anchor": "reading-dexter-transportation-and-land-use",
+    "group": "R",
+    "type": "reading",
+    "hook": "Land use ↔ transport.",
+    "source": "Dexter. Transportation and Land Use.",
+    "parts": [
+      "Land use and transportation shape each other.",
+      "Development creates travel needs, while networks change accessibility and the attractiveness of locations.",
+      "Use Dexter to explain suburbanization, land values and why wider roads can induce additional driving.",
+      "Connect the land–travel trade-off to AMM and compare road expansion with TOD."
+    ]
+  },
+  {
+    "id": "reading-02",
+    "number": 2,
+    "name": "Glaeser. The Economics Approach to Cities (Excerpt).",
+    "anchor": "reading-glaeser-the-economics-approach-to-cities",
+    "group": "R",
+    "type": "reading",
+    "hook": "Good locations bring benefits—and offsetting costs.",
+    "source": "Glaeser. The Economics Approach to Cities (Excerpt).",
+    "parts": [
+      "Glaeser uses spatial equilibrium to explain the choices of workers, firms and builders.",
+      "Workers balance income and amenities against housing and travel costs; firms need productivity to justify high costs.",
+      "Use this framework to explain why high wages or attractive amenities can come with high rents.",
+      "Distinguish AMM within cities from Rosen–Roback across cities; judge policy by its effects on people."
+    ]
+  },
+  {
+    "id": "reading-03",
+    "number": 3,
+    "name": "Boeing. Off the Grid… and Back Again?",
+    "anchor": "griddedness-boeing",
+    "group": "R",
+    "type": "reading",
+    "hook": "A grid needs three features together.",
+    "source": "Boeing. Off the Grid… and Back Again?",
+    "parts": [
+      "Boeing measures street-network griddedness through orientation order, straightness and four-way intersections.",
+      "US networks moved away from grids and later partly returned; more grid-like areas are associated with lower car ownership.",
+      "Use the study to discuss the long-lasting effects of street design and connectivity.",
+      "Connect to the D variables and Jacobs’s small blocks, without turning association into a causal claim."
+    ]
+  },
+  {
+    "id": "reading-04",
+    "number": 4,
+    "name": "Galster et al. Wrestling Sprawl to the Ground.",
+    "anchor": "sprawl-dimensions-galster",
+    "group": "R",
+    "type": "reading",
+    "hook": "Sprawl is a pattern with eight dimensions.",
+    "source": "Galster et al. Wrestling Sprawl to the Ground.",
+    "parts": [
+      "Galster separates urban development patterns from their causes and consequences.",
+      "The eight dimensions are density, continuity, concentration, clustering, centrality, nuclearity, mixed uses and proximity.",
+      "Use these dimensions to explain how two places with similar density can have very different forms.",
+      "Connect to Boeing’s street networks; avoid treating every undesirable urban outcome as a definition of sprawl."
+    ]
+  },
+  {
+    "id": "reading-05",
+    "number": 5,
+    "name": "Wilson et al. How Planning and Zoning Contribute to Inequitable Development, Neighborhood Health, and Environmental Justice",
+    "anchor": "wilson",
+    "group": "R",
+    "type": "reading",
+    "hook": "Planning distributes healthy environments unequally.",
+    "source": "Wilson et al. How Planning and Zoning Contribute to Inequitable Development, Neighborhood Health, and Environmental Justice",
+    "parts": [
+      "Wilson and colleagues connect planning and zoning to unequal neighborhood health and environmental justice.",
+      "Exclusionary zoning and fragmented local governance can concentrate hazards while limiting access to healthier surroundings.",
+      "Use riskscapes to connect housing, transport, pollution, food access and physical activity.",
+      "Neighborhood improvement should benefit existing residents; connect this to gentrification and displacement."
+    ]
+  },
+  {
+    "id": "reading-06",
+    "number": 6,
+    "name": "Jedwab and Vollrath. Urbanization Without Growth in Historical Perspective.",
+    "anchor": "urbanization-and-migration-jedwab-vollrath",
+    "group": "R",
+    "type": "reading",
+    "hook": "Urbanization does not automatically mean development.",
+    "source": "Jedwab and Vollrath. Urbanization Without Growth in Historical Perspective.",
+    "parts": [
+      "Jedwab and Vollrath show that the relationship between urbanization and income changes historically.",
+      "Countries can now have higher urban shares at comparable income levels; urbanization is not simply industrial growth.",
+      "Use rural push, urban bias, improved urban survival and natural population increase to explain the gap.",
+      "Connect resource-financed consumption cities to the difference between urban population growth and productivity growth."
+    ]
+  },
+  {
+    "id": "reading-07",
+    "number": 7,
+    "name": "Ihlanfeldt. The Spatial Mismatch Between Jobs and Residential Locations in Urban Areas.",
+    "anchor": "jobs-housing-mismatch-spatial-mismatch-ihlanfeldt-atlanta",
+    "group": "R",
+    "type": "reading",
+    "hook": "Suburban jobs + residential barriers = spatial mismatch.",
+    "source": "Ihlanfeldt. The Spatial Mismatch Between Jobs and Residential Locations in Urban Areas.",
+    "parts": [
+      "Ihlanfeldt examines the separation of disadvantaged workers from suitable employment.",
+      "Residential segregation, job decentralization, transport barriers, hiring and information problems can limit employment opportunities.",
+      "Use this to explain why jobs existing somewhere in a region does not mean everyone can access them.",
+      "Compare moving people to jobs, jobs to people, or improving connections; contrast Grengs’s emphasis on mode."
+    ]
+  },
+  {
+    "id": "reading-08",
+    "number": 8,
+    "name": "Grengs. Job Accessibility and the Modal Mismatch in Detroit.",
+    "anchor": "modal-mismatch-grengs-detroit",
+    "group": "R",
+    "type": "reading",
+    "hook": "A good location by car can be a poor location by transit.",
+    "source": "Grengs. Job Accessibility and the Modal Mismatch in Detroit.",
+    "parts": [
+      "Grengs argues that Detroit’s job-access problem cannot be understood from residential location alone.",
+      "Car access can be relatively strong where transit access is weak, and competition for jobs also matters.",
+      "Use modal mismatch to explain why neighborhood averages can hide disadvantages for residents without cars.",
+      "Connect to Ihlanfeldt, distinguish accessibility from mobility, and consider trips involving work, childcare and shopping."
+    ]
+  },
+  {
+    "id": "reading-09",
+    "number": 9,
+    "name": "Jacobs. The Death and Life of Great American Cities (Excerpt).",
+    "anchor": "informal-public-supervision",
+    "group": "R",
+    "type": "reading",
+    "hook": "Busy sidewalks can provide informal supervision.",
+    "source": "Jacobs. The Death and Life of Great American Cities (Excerpt).",
+    "parts": [
+      "Jacobs argues that everyday street users help maintain safety through informal public supervision.",
+      "Clear public–private boundaries, eyes on the street and fairly continuous sidewalk use support this order.",
+      "Use mixed uses and shops to explain why people arrive at different times and have reasons to watch.",
+      "Contrast modernist separation and quiet superblocks; connect to Gehl and Whyte without assuming density alone ensures safety."
+    ]
+  },
+  {
+    "id": "reading-10",
+    "number": 10,
+    "name": "Valentine. Living with Difference.",
+    "anchor": "contact-hypothesis-valentine",
+    "group": "R",
+    "type": "reading",
+    "hook": "Sharing space is not the same as respecting difference.",
+    "source": "Valentine. Living with Difference.",
+    "parts": [
+      "Valentine questions the assumption that everyday encounters automatically create respect between groups.",
+      "Proximity can lack interaction, politeness can coexist with prejudice, and liked individuals may be treated as exceptions.",
+      "Use the reading to qualify claims that mixed neighborhoods or lively public spaces necessarily produce inclusion.",
+      "Connect the contact hypothesis to unequal power and meaningful interaction; distinguish tolerance from changed group attitudes."
+    ]
+  },
+  {
+    "id": "reading-11",
+    "number": 11,
+    "name": "Borer. Being in the City.",
+    "anchor": "urban-lives-and-shared-meaning-borer",
+    "group": "R",
+    "type": "reading",
+    "hook": "People sense cities—and learn what those sensations mean.",
+    "source": "Borer. Being in the City.",
+    "parts": [
+      "Borer examines urban experience through sight, sound, smell, taste and touch.",
+      "Sensory meanings are socially learned through shared practices rather than being purely individual reactions.",
+      "Use locational socialization to explain how activities and sensory experiences create shared meanings of place.",
+      "Connect to Simmel’s overstimulation and Goffman’s interaction rituals; distinguish urbanism as lived experience from urbanization as growth."
+    ]
+  },
+  {
+    "id": "reading-12",
+    "number": 12,
+    "name": "Video: William Whyte, The Social Life of Small Urban Spaces",
+    "anchor": "whyte-s-film-the-social-life-of-small-urban-spaces",
+    "group": "R",
+    "type": "video",
+    "hook": "Sitting, street connection, sun, water, trees and food.",
+    "source": "Video: William Whyte, The Social Life of Small Urban Spaces",
+    "parts": [
+      "Whyte’s film asks why some public spaces attract people while others remain underused.",
+      "Observations show the importance of seating choices, street access, food and people-watching; people often choose edges rather than empty centers.",
+      "Use movable chairs or street-connected plazas as concrete evidence that everyday behavior matters more than a plan’s appearance.",
+      "Connect to Gehl’s optional activities and Jacobs’s street life; exclusionary design can drive away ordinary users too."
+    ]
+  }
+]
