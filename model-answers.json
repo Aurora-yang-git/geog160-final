@@ -15,8 +15,12 @@
       "Someone may live outside the city but work and shop inside it."
     ],
     "mnemonic": {
-      "kind": "Word association",
-      "text": "Tributaries feed a river; tributary areas connect to a center. Picture commute, shopping and hospital trips crossing a city boundary. Function follows flows, not the map’s outline."
+      "kind": "Quick association",
+      "text": "Function follows FLOWS. Picture commuting, shopping and hospital trips crossing a city border.",
+      "lines": [
+        "Function follows FLOWS.",
+        "Picture commuting, shopping and hospital trips crossing a city border."
+      ]
     },
     "fullParts": [
       "Functional areas are connected by shared activities; tributary areas are surrounding territories served by or oriented toward an urban center.",
@@ -51,8 +55,12 @@
       "A product costly to transport has a reason to locate near the market."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Picture farm rings around a market, each paying a delivery bill. Greater distance raises transport cost; different products can afford different rents. Rings come from competing bids."
+      "kind": "Quick association",
+      "text": "Farm rings have delivery bills. Market in the middle; farms around it.",
+      "lines": [
+        "Farm rings have delivery bills.",
+        "Market in the middle; farms around it."
+      ]
     },
     "fullParts": [
       "Von Thünen’s model explains agricultural land-use patterns around a central market.",
@@ -99,8 +107,12 @@
       "Convenience stores are common; major specialist hospitals are less common."
     ],
     "mnemonic": {
-      "kind": "Everyday example",
-      "text": "Milk nearby; a rare specialist farther away. Frequent, ordinary purchases sustain many small centers; specialized services need larger catchments and fewer centers."
+      "kind": "Quick association",
+      "text": "Milk nearby; rare specialist farther away. Everyday needs → many small centers.",
+      "lines": [
+        "Milk nearby; rare specialist farther away.",
+        "Everyday needs → many small centers."
+      ]
     },
     "fullParts": [
       "Central Place Theory explains a hierarchy of settlements that supply goods and services to surrounding areas.",
@@ -147,8 +159,12 @@
       "Picture wedges along railways versus separate shopping, industrial and office centers."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Sector = pizza slices along roads. Multiple nuclei = several egg yolks in one pan. The first emphasizes corridors; the second emphasizes several activity centers."
+      "kind": "Quick association",
+      "text": "Sector = pizza. Nuclei = egg yolks. Pizza slices = wedges; several yolks = several centers.",
+      "lines": [
+        "Sector = pizza. Nuclei = egg yolks.",
+        "Pizza slices = wedges; several yolks = several centers."
+      ]
     },
     "fullParts": [
       "Hoyt’s Sector Model describes development in corridors or wedges; Harris and Ullman’s Multiple Nuclei Model describes several specialized centers.",
@@ -213,8 +229,12 @@
       "Think: small downtown flat versus large suburban home. Rosen–Roback compares different cities."
     ],
     "mnemonic": {
-      "kind": "Name cue",
-      "text": "AMM = “A Metropolitan Market” as a memory cue: stay inside one city. Draw a seesaw—central rent rises as commuting cost falls."
+      "kind": "Quick association",
+      "text": "AMM: one city, one seesaw. Near the center: rent ↑, commute ↓.",
+      "lines": [
+        "AMM: one city, one seesaw.",
+        "Near the center: rent ↑, commute ↓."
+      ]
     },
     "fullParts": [
       "The Alonso–Muth–Mills model explains residential location and land rents within a city, initially assuming jobs in one central business district.",
@@ -269,8 +289,12 @@
       "Someone may accept lower pay to live near the beach. AMM stays within one city."
     ],
     "mnemonic": {
-      "kind": "Sound cue",
-      "text": "Rosen–Roback → ROAM. A worker roams between cities carrying three price tags: wage, rent, amenities. Contrast AMM, which stays inside one city."
+      "kind": "Quick association",
+      "text": "Rosen–Roback → ROAM. Between cities: wages − rent + amenities. A memory balance, not an exact equation.",
+      "lines": [
+        "Rosen–Roback → ROAM.",
+        "Between cities: wages − rent + amenities. A memory balance, not an exact equation."
+      ]
     },
     "fullParts": [
       "The Rosen–Roback model explains differences in wages and housing costs between cities through spatial equilibrium.",
@@ -313,8 +337,12 @@
       "A design firm benefits from nearby clients and talent, while paying more for space."
     ],
     "mnemonic": {
-      "kind": "Word association",
-      "text": "Agglomeration → a GLOB of firms. Nearness pays through sharing resources, matching workers and exchanging ideas. Then add the bill: rent and congestion."
+      "kind": "Quick association",
+      "text": "Agglomeration → a GLOB of firms. Nearness helps SHARE, MATCH and LEARN.",
+      "lines": [
+        "Agglomeration → a GLOB of firms.",
+        "Nearness helps SHARE, MATCH and LEARN."
+      ]
     },
     "fullParts": [
       "Agglomeration is the concentration of people and economic activities that produces benefits from proximity.",
@@ -349,8 +377,12 @@
       "The course contrasts Chicago’s strong center with Los Angeles’s multiple centers."
     ],
     "mnemonic": {
-      "kind": "Prefix cue",
-      "text": "MONO = one; POLY = many. Picture one mountain peak for a dominant downtown, several peaks for multiple centers. These describe dominance, not the total absence of other activity."
+      "kind": "Quick association",
+      "text": "MONO = one peak. POLY = several. One dominant center versus several important centers.",
+      "lines": [
+        "MONO = one peak. POLY = several.",
+        "One dominant center versus several important centers."
+      ]
     },
     "fullParts": [
       "A monocentric city has one dominant center of employment and activity; a polycentric city has several significant centers.",
@@ -385,8 +417,12 @@
       "Copying Chicago’s layout would not guarantee another Chicago."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Imagine Chicago as a machine with replaceable tracks and pipes—but no button that manufactures a Great Fire or a historical head start. Planned parts ≠ a reproducible history."
+      "kind": "Quick association",
+      "text": "A city is not a photocopy. Copy the pipes and roads ≠ copy the history.",
+      "lines": [
+        "A city is not a photocopy.",
+        "Copy the pipes and roads ≠ copy the history."
+      ]
     },
     "fullParts": [
       "Machine City is the idea that a city can be understood and reproduced as a planned, engineered system.",
@@ -421,8 +457,12 @@
       "Moving to a city to escape a drought does not guarantee a productive urban job."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "A city’s population counter climbs while its income-per-person counter stays still. Urbanization measures the urban share; it is not an income meter."
+      "kind": "Quick association",
+      "text": "Two counters, not one. Urban population share ↑ does not mean income per person ↑.",
+      "lines": [
+        "Two counters, not one.",
+        "Urban population share ↑ does not mean income per person ↑."
+      ]
     },
     "fullParts": [
       "Urbanization without growth means a population becomes more urban without a corresponding rise in income per person.",
@@ -457,8 +497,12 @@
       "Escaping rural unemployment does not mean a good city job is waiting."
     ],
     "mnemonic": {
-      "kind": "Body cue",
-      "text": "Push from behind; pull from ahead. Rural hardship pushes someone out, while city jobs pull them in. A move can be an escape, not a step into prosperity."
+      "kind": "Quick association",
+      "text": "PUSH behind; PULL ahead. Drought pushes out; city jobs pull in.",
+      "lines": [
+        "PUSH behind; PULL ahead.",
+        "Drought pushes out; city jobs pull in."
+      ]
     },
     "fullParts": [
       "Rural push drives people out of the countryside, while urban pull attracts them toward opportunities in cities.",
@@ -493,8 +537,12 @@
       "More total output—or more urban residents—does not automatically mean richer individuals."
     ],
     "mnemonic": {
-      "kind": "Sound and logic",
-      "text": "Malthus → MOUTHS: more mouths absorb gains. Solow → skills and technology raise output per person. Do not memorize “capital alone forever”: diminishing returns matter."
+      "kind": "Quick association",
+      "text": "Malthus = MOUTHS. Solow = SLOWING gains. Population absorbs gains; capital has diminishing returns. Technology sustains growth per person.",
+      "lines": [
+        "Malthus = MOUTHS. Solow = SLOWING gains.",
+        "Population absorbs gains; capital has diminishing returns. Technology sustains growth per person."
+      ]
     },
     "fullParts": [
       "Malthusian growth describes gains absorbed by population growth, while Solowian growth distinguishes total output from output per worker.",
@@ -537,8 +585,12 @@
       "More urban jobs do not necessarily mean higher productivity: urbanization without growth."
     ],
     "mnemonic": {
-      "kind": "Logic",
-      "text": "Picture oil money paying for haircuts and restaurants, not building factories. Resource income → local spending → service jobs. Urban growth need not mean industrial growth."
+      "kind": "Quick association",
+      "text": "Oil → spending → services. Picture oil money buying meals and haircuts.",
+      "lines": [
+        "Oil → spending → services.",
+        "Picture oil money buying meals and haircuts."
+      ]
     },
     "fullParts": [
       "In Jedwab and Vollrath, a consumption city grows through spending financed by resource income rather than industrial production.",
@@ -573,8 +625,12 @@
       "A factory closure can hurt the whole surrounding neighborhood."
     ],
     "mnemonic": {
-      "kind": "Sequence",
-      "text": "Visualize three workplaces: field → factory → finance office. Then picture a factory town losing its main employer: transition can produce growth elsewhere and decline here."
+      "kind": "Quick association",
+      "text": "FIELD → FACTORY → OFFICE. Three pictures for changing economic roles.",
+      "lines": [
+        "FIELD → FACTORY → OFFICE.",
+        "Three pictures for changing economic roles."
+      ]
     },
     "fullParts": [
       "Urban economic transition is the changing economic base of cities as employment shifts among agriculture, manufacturing and services.",
@@ -609,8 +665,12 @@
       "Detroit connects industrial change to urban decline and unequal job access."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Picture a half-empty city with the same long pipes and roads. Fewer taxpayers still support a large network. That is why shrinkage creates service and maintenance problems."
+      "kind": "Quick association",
+      "text": "Fewer people, the same long pipes. Population and tax base shrink.",
+      "lines": [
+        "Fewer people, the same long pipes.",
+        "Population and tax base shrink."
+      ]
     },
     "fullParts": [
       "Shrinking cities experience sustained population loss, often accompanied by declining employment and underused urban space.",
@@ -645,8 +705,12 @@
       "The same number of buildings can form connected streets or isolated compounds."
     ],
     "mnemonic": {
-      "kind": "Formula",
-      "text": "Density = amount ÷ area. Put the same number of buildings on two maps, one connected and one scattered: equal density does not mean equal urban form."
+      "kind": "Quick association",
+      "text": "Density = AMOUNT ÷ AREA. Always name the amount: people, homes or floor space.",
+      "lines": [
+        "Density = AMOUNT ÷ AREA.",
+        "Always name the amount: people, homes or floor space."
+      ]
     },
     "fullParts": [
       "Density is the amount of population, housing or development per unit of land area.",
@@ -693,8 +757,12 @@
       "Grid-like neighborhoods have lower car ownership on average; this association alone does not prove causation."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Draw a checkerboard: orderly directions, straight lines, four-way crossings. All three are needed; a few straight roads alone do not make a grid."
+      "kind": "Quick association",
+      "text": "A checkerboard has three clues. Orderly directions + straight streets + four-way crossings.",
+      "lines": [
+        "A checkerboard has three clues.",
+        "Orderly directions + straight streets + four-way crossings."
+      ]
     },
     "fullParts": [
       "Griddedness measures how closely a street network resembles a grid through orientation order, straightness and four-way intersections.",
@@ -741,8 +809,12 @@
       "A dense neighborhood may still have disconnected streets and distant stations."
     ],
     "mnemonic": {
-      "kind": "Five questions",
-      "text": "How much? Density. What mix? Diversity. Which streets? Design. What can I reach? Destinations. How far to transit? Distance. Five Ds describe different features."
+      "kind": "Quick association",
+      "text": "MUCH · MIX · STREETS · REACH · TRANSIT Density · Diversity · Design · Destination accessibility · Distance to transit.",
+      "lines": [
+        "MUCH · MIX · STREETS · REACH · TRANSIT",
+        "Density · Diversity · Design · Destination accessibility · Distance to transit."
+      ]
     },
     "fullParts": [
       "The D variables describe built-environment features associated with travel: density, diversity, design, destination accessibility and distance to transit.",
@@ -777,8 +849,12 @@
       "Suburbanization is a process; sprawl describes a physical pattern."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Draw arrows from the center toward the edge: first homes, then jobs. Suburbanization is movement; sprawl is the resulting physical pattern, which needs separate description."
+      "kind": "Quick association",
+      "text": "Arrows OUTWARD. Homes and jobs move toward the edge.",
+      "lines": [
+        "Arrows OUTWARD.",
+        "Homes and jobs move toward the edge."
+      ]
     },
     "fullParts": [
       "Suburbanization is the movement or growth of population and employment toward the outskirts of a metropolitan area.",
@@ -825,8 +901,12 @@
       "Compare walking five minutes for groceries with needing to drive."
     ],
     "mnemonic": {
-      "kind": "Two viewpoints",
-      "text": "Imagine the same street through a windshield and on foot. Big parking signs suit drivers; short crossings and active frontages suit walkers. Design chooses whose experience comes first."
+      "kind": "Quick association",
+      "text": "Windshield view vs. walking view. Big roads and parking suit cars.",
+      "lines": [
+        "Windshield view vs. walking view.",
+        "Big roads and parking suit cars."
+      ]
     },
     "fullParts": [
       "Pedestrian orientation organizes places around walking and human-scale activity; auto-orientation prioritizes vehicle movement and access.",
@@ -873,8 +953,12 @@
       "A factory moves to the suburbs while its workers remain in the inner city."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Draw a worker’s home and a job separated by a housing barrier. The job moves outward, but the worker cannot follow. Remember SPACE before thinking about transport mode."
+      "kind": "Quick association",
+      "text": "WHERE: home here, jobs there. Picture a job moving outward while the worker cannot follow.",
+      "lines": [
+        "WHERE: home here, jobs there.",
+        "Picture a job moving outward while the worker cannot follow."
+      ]
     },
     "fullParts": [
       "Jobs-housing mismatch is the spatial separation of workers, especially disadvantaged groups, from suitable employment.",
@@ -909,8 +993,12 @@
       "Grengs emphasizes MODE; spatial mismatch emphasizes WHERE homes and jobs are."
     ],
     "mnemonic": {
-      "kind": "Contrast",
-      "text": "Same home, two keys: car key versus bus pass. The address stays fixed, but reachable jobs change. Spatial mismatch asks WHERE; modal mismatch asks HOW."
+      "kind": "Quick association",
+      "text": "HOW: car key vs. bus pass. Keep the address fixed; swap the transport mode.",
+      "lines": [
+        "HOW: car key vs. bus pass.",
+        "Keep the address fixed; swap the transport mode."
+      ]
     },
     "fullParts": [
       "Modal mismatch is unequal access to jobs arising from differences in available transport modes.",
@@ -945,8 +1033,12 @@
       "Compare “jobs within 30 minutes” with “minutes needed to reach 100 jobs.”"
     ],
     "mnemonic": {
-      "kind": "Paired questions",
-      "text": "Primal = PILE of opportunities within a fixed time. Dual = DURATION to reach a fixed pile. More is better for primal; less time is better for dual."
+      "kind": "Quick association",
+      "text": "Primal = PILE. Dual = DURATION. Jobs within 30 minutes ↔ minutes to reach 100 jobs.",
+      "lines": [
+        "Primal = PILE. Dual = DURATION.",
+        "Jobs within 30 minutes ↔ minutes to reach 100 jobs."
+      ]
     },
     "fullParts": [
       "Primal accessibility counts opportunities reachable within a fixed travel budget; dual accessibility measures the travel cost needed to reach a fixed number.",
@@ -989,8 +1081,12 @@
       "Ten openings mean something different with ten applicants than with a thousand."
     ],
     "mnemonic": {
-      "kind": "Contrast",
-      "text": "Cumulative: count the job vacancies. Competitive: now count the applicants too. Ten openings mean something different with ten applicants than with a thousand."
+      "kind": "Quick association",
+      "text": "Count the jobs—then the rivals. CUMULATIVE: count reachable openings.",
+      "lines": [
+        "Count the jobs—then the rivals.",
+        "CUMULATIVE: count reachable openings."
+      ]
     },
     "fullParts": [
       "Cumulative accessibility counts opportunities within a travel threshold; competitive accessibility also accounts for people seeking those opportunities.",
@@ -1033,8 +1129,12 @@
       "For example, former bus passengers switch to cars and congestion returns."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "A wider funnel attracts more water: more lanes can attract more driving. Supply is the funnel; demand is the flow. Connect this to induced demand."
+      "kind": "Quick association",
+      "text": "More lanes can invite more cars. Picture a wider funnel attracting more water.",
+      "lines": [
+        "More lanes can invite more cars.",
+        "Picture a wider funnel attracting more water."
+      ]
     },
     "fullParts": [
       "Travel supply is the capacity and service provided by transport networks; travel demand is people’s desire to make trips.",
@@ -1069,8 +1169,12 @@
       "Unlike adding lanes, pricing manages the demand for limited road space."
     ],
     "mnemonic": {
-      "kind": "Word association",
-      "text": "Pricing = put a price on peak road space. You change the demand to drive there, rather than simply pouring more concrete to increase supply."
+      "kind": "Quick association",
+      "text": "PRICE the PEAK. Charge for scarce road space at busy places or times.",
+      "lines": [
+        "PRICE the PEAK.",
+        "Charge for scarce road space at busy places or times."
+      ]
     },
     "fullParts": [
       "Congestion pricing charges drivers to use crowded road space, often varying by place or time.",
@@ -1105,8 +1209,12 @@
       "Contrast congestion pricing: street design changes speed; charging changes demand."
     ],
     "mnemonic": {
-      "kind": "Literal cue",
-      "text": "CALM the car with the shape of the street: humps, narrow lanes, raised crossings. Contrast congestion pricing: physical speed control versus a charge affecting demand."
+      "kind": "Quick association",
+      "text": "CALM the car with the street. Humps + narrow lanes + raised crossings.",
+      "lines": [
+        "CALM the car with the street.",
+        "Humps + narrow lanes + raised crossings."
+      ]
     },
     "fullParts": [
       "Traffic calming uses street design to reduce vehicle speeds and improve conditions for people outside cars.",
@@ -1153,8 +1261,12 @@
       "Wilson connects such risks to planning and environmental justice."
     ],
     "mnemonic": {
-      "kind": "Association",
-      "text": "Sedentary → seated. Picture a daily chain of chair → car seat → office chair. Car-oriented environments can remove routine movement from everyday life."
+      "kind": "Quick association",
+      "text": "Sedentary → SEATED. Chair → car seat → office chair.",
+      "lines": [
+        "Sedentary → SEATED.",
+        "Chair → car seat → office chair."
+      ]
     },
     "fullParts": [
       "Sedentary disease refers to health problems associated with prolonged inactivity, including increased risks of obesity and related chronic illness.",
@@ -1189,8 +1301,12 @@
       "Remember hazard, exposure and vulnerability—not just how strong the storm is."
     ],
     "mnemonic": {
-      "kind": "Clarification",
-      "text": "Picture heavy rain falling on grass versus pavement. The weather is the hazard; urban surfaces and infrastructure shape the consequences. Not every climate effect is the weather event itself."
+      "kind": "Quick association",
+      "text": "Same storm, different damage. Hazard + exposure + vulnerability.",
+      "lines": [
+        "Same storm, different damage.",
+        "Hazard + exposure + vulnerability."
+      ]
     },
     "fullParts": [
       "Extreme weather events are unusually severe conditions such as intense rainfall, storms or heat waves.",
@@ -1225,8 +1341,12 @@
       "Compare a sunny parking lot with a shaded street."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Imagine asphalt as a hot frying pan and trees as shade umbrellas. Less shade + heat-storing surfaces → warmer city → more cooling demand."
+      "kind": "Quick association",
+      "text": "Asphalt frying pan; tree umbrella. Hard surfaces store heat; trees provide shade.",
+      "lines": [
+        "Asphalt frying pan; tree umbrella.",
+        "Hard surfaces store heat; trees provide shade."
+      ]
     },
     "fullParts": [
       "An urban heat island is an urban area that is warmer than surrounding less-developed land.",
@@ -1273,8 +1393,12 @@
       "Luxury flats can sit empty while students still cannot afford rent."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Picture musical chairs: households are players, homes are chairs. Too few chairs raises competition; empty luxury chairs do not solve a shortage of affordable ones."
+      "kind": "Quick association",
+      "text": "Musical chairs, but with homes. Players = households; chairs = homes.",
+      "lines": [
+        "Musical chairs, but with homes.",
+        "Players = households; chairs = homes."
+      ]
     },
     "fullParts": [
       "A housing shortage means available housing falls short of demand; a surplus means supply exceeds demand in a particular market.",
@@ -1309,8 +1433,12 @@
       "Renovation and rising demand can reverse this process through gentrification."
     ],
     "mnemonic": {
-      "kind": "Opposite arrows",
-      "text": "Picture an aging house riding down an escalator while a household’s income rides up. Houses filter down; people may move up. Renovation can reverse the house’s direction."
+      "kind": "Quick association",
+      "text": "Old housing rides DOWN an escalator. Aging homes may become relatively cheaper.",
+      "lines": [
+        "Old housing rides DOWN an escalator.",
+        "Aging homes may become relatively cheaper."
+      ]
     },
     "fullParts": [
       "Housing filtering is the process through which older housing becomes available to lower-income households as its relative quality and price decline.",
@@ -1345,8 +1473,12 @@
       "Requiring large lots can exclude households unable to afford large homes."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Imagine a rulebook on a building site: safety on one page, height and lot limits on another. Rules can protect residents while also restricting how much housing gets built."
+      "kind": "Quick association",
+      "text": "A rulebook at the building site. One page protects safety; another limits size or uses.",
+      "lines": [
+        "A rulebook at the building site.",
+        "One page protects safety; another limits size or uses."
+      ]
     },
     "fullParts": [
       "Building regulation consists of rules governing what, where and how development can be built, including zoning and building codes.",
@@ -1381,8 +1513,12 @@
       "A new café opens, but nearby tenants can no longer afford rent."
     ],
     "mnemonic": {
-      "kind": "Three outcomes",
-      "text": "Remember O–S–E: Out, Squeezed, Erased. Residents may move out, stay but pay more, or lose their familiar culture. Physical displacement is only one outcome."
+      "kind": "Quick association",
+      "text": "O–S–E: Out · Squeezed · Erased. Move out; costs squeeze; familiar culture disappears.",
+      "lines": [
+        "O–S–E: Out · Squeezed · Erased.",
+        "Move out; costs squeeze; familiar culture disappears."
+      ]
     },
     "fullParts": [
       "Gentrification is neighborhood change associated with an inflow of wealthier residents and investment.",
@@ -1417,8 +1553,12 @@
       "Someone supports affordable housing but opposes it on their own street."
     ],
     "mnemonic": {
-      "kind": "Literal cue",
-      "text": "Expand the word: Not In My Back Yard. Picture someone supporting new housing on a map—until the proposal reaches the square containing their own home."
+      "kind": "Quick association",
+      "text": "“Yes—just not HERE.” Not In My Back Yard.",
+      "lines": [
+        "“Yes—just not HERE.”",
+        "Not In My Back Yard."
+      ]
     },
     "fullParts": [
       "NIMBYism means “not in my backyard”: residents resist a proposed development or facility near them.",
@@ -1453,8 +1593,12 @@
       "“I like my neighbor, but their group is different” treats that person as an exception."
     ],
     "mnemonic": {
-      "kind": "Counterexample",
-      "text": "You can like one neighbor and still distrust their group. “They’re an exception” is the warning sign: individual contact has not become generalized respect."
+      "kind": "Quick association",
+      "text": "“My neighbor is the exception.” Liking one person ≠ respecting their whole group.",
+      "lines": [
+        "“My neighbor is the exception.”",
+        "Liking one person ≠ respecting their whole group."
+      ]
     },
     "fullParts": [
       "The contact hypothesis proposes that interaction between social groups can reduce prejudice and improve relations.",
@@ -1489,8 +1633,12 @@
       "Remember sanitation; contrast City Beautiful’s stronger focus on civic appearance."
     ],
     "mnemonic": {
-      "kind": "Word association",
-      "text": "Sanitary → sanitation. Picture clean water coming in and sewage going out. The planning goal is public health, before City Beautiful puts the city on display."
+      "kind": "Quick association",
+      "text": "SANITARY → SANITATION. Clean water IN; sewage OUT.",
+      "lines": [
+        "SANITARY → SANITATION.",
+        "Clean water IN; sewage OUT."
+      ]
     },
     "fullParts": [
       "The Sanitary Movement was a nineteenth-century response to disease and overcrowding in rapidly industrializing cities.",
@@ -1525,8 +1673,12 @@
       "Think of a beautiful city square surrounded by poor housing."
     ],
     "mnemonic": {
-      "kind": "Association",
-      "text": "Beautiful = a city dressed for a grand parade: monuments, boulevards, parks. Remember the criticism by asking: “Beautiful outside—but where do ordinary people live?”"
+      "kind": "Quick association",
+      "text": "A city dressed for a parade. Monuments + boulevards + parks.",
+      "lines": [
+        "A city dressed for a parade.",
+        "Monuments + boulevards + parks."
+      ]
     },
     "fullParts": [
       "City Beautiful was an American planning movement around 1900 associated with Burnham, Robinson and Olmsted’s landscape tradition.",
@@ -1573,8 +1725,12 @@
       "It is a complete town, not just houses with gardens."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Put a small town inside a green belt. Inside: homes, jobs, services. Around it: countryside. Howard’s idea is a working town, not merely houses with gardens."
+      "kind": "Quick association",
+      "text": "Town + country, held by a green BELT. Inside: homes + jobs + services.",
+      "lines": [
+        "Town + country, held by a green BELT.",
+        "Inside: homes + jobs + services."
+      ]
     },
     "fullParts": [
       "Ebenezer Howard’s Garden City proposed small, self-contained towns combining urban opportunities with access to countryside.",
@@ -1631,8 +1787,12 @@
       "Picture a plate: school at its center, main roads around its rim."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Picture a school in the middle of a plate. Major roads form the rim; shops sit near rim junctions; local streets lead inward. Perry protects the neighborhood from through traffic."
+      "kind": "Quick association",
+      "text": "A school on a plate. School = center; main roads = rim.",
+      "lines": [
+        "A school on a plate.",
+        "School = center; main roads = rim."
+      ]
     },
     "fullParts": [
       "Clarence Perry’s Neighborhood Unit organizes a residential district around an elementary school and community institutions.",
@@ -1679,8 +1839,12 @@
       "Imagine housing towers far from shops; Jacobs favors mixed-use streets."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Imagine sorting a messy city into labeled boxes: HOME, WORK, TRAFFIC, PARK. Modernism wants rational order; Jacobs asks what happens to the life between the boxes."
+      "kind": "Quick association",
+      "text": "Sort the city into boxes. HOME / WORK / TRAFFIC / PARK.",
+      "lines": [
+        "Sort the city into boxes.",
+        "HOME / WORK / TRAFFIC / PARK."
+      ]
     },
     "fullParts": [
       "Modernism in planning sought a rational, functional city through comprehensive design, geometric order and limited ornament.",
@@ -1715,8 +1879,12 @@
       "Contrast Broadacre: Radiant builds upward; Broadacre spreads outward."
     ],
     "mnemonic": {
-      "kind": "Sound cue",
-      "text": "Radiant → RISE. Imagine towers rising out of a park. Pair it with Broadacre → BROAD: high concentration versus horizontal dispersion."
+      "kind": "Quick association",
+      "text": "RADIANT → RISE. Tall towers rising out of a park.",
+      "lines": [
+        "RADIANT → RISE.",
+        "Tall towers rising out of a park."
+      ]
     },
     "fullParts": [
       "Le Corbusier’s Radiant City was a modernist vision of a highly ordered city with tall buildings surrounded by open space.",
@@ -1763,8 +1931,12 @@
       "Contrast Le Corbusier’s concentrated towers in parks."
     ],
     "mnemonic": {
-      "kind": "Name cue",
-      "text": "BROAD-acre: stretch an acre-wide blanket across the landscape, with a home and car on it. Contrast Radiant’s upward towers with Wright’s outward spread."
+      "kind": "Quick association",
+      "text": "BROAD-acre → spread BROADLY. Picture a home, an acre and a car.",
+      "lines": [
+        "BROAD-acre → spread BROADLY.",
+        "Picture a home, an acre and a car."
+      ]
     },
     "fullParts": [
       "Frank Lloyd Wright’s Broadacre City proposed a decentralized settlement pattern, with roughly an acre of land for each family.",
@@ -1811,8 +1983,12 @@
       "A shopkeeper watches by day; residents watch at night. This contrasts with isolated superblocks."
     ],
     "mnemonic": {
-      "kind": "Acronym",
-      "text": "B–E–H: Boundaries, Eyes, Hours. Clear public/private boundaries + eyes on the street + continuous hours of sidewalk use. Picture the sidewalk as a ballet with overlapping shifts."
+      "kind": "Quick association",
+      "text": "B–E–H: Boundaries · Eyes · Hours. Clear edges; people watching; continuous sidewalk use.",
+      "lines": [
+        "B–E–H: Boundaries · Eyes · Hours.",
+        "Clear edges; people watching; continuous sidewalk use."
+      ]
     },
     "fullParts": [
       "In The Death and Life of Great American Cities, Jane Jacobs defended everyday street life against top-down modernist planning.",
@@ -1847,8 +2023,12 @@
       "Offices bring daytime users; homes and restaurants keep the area active later."
     ],
     "mnemonic": {
-      "kind": "Six cues",
-      "text": "People, Paths, Purposes, Prices, Access, Barriers: density; short blocks; mixed uses; varied building ages/rents; accessibility; no border vacuums."
+      "kind": "Quick association",
+      "text": "People · Paths · Purposes · Prices · Access · Barriers Density · short blocks · mixed uses · building ages · access · no border vacuums.",
+      "lines": [
+        "People · Paths · Purposes · Prices · Access · Barriers",
+        "Density · short blocks · mixed uses · building ages · access · no border vacuums."
+      ]
     },
     "fullParts": [
       "Urban vitality is visible street activity and the supportive built environment that sustains it.",
@@ -1883,8 +2063,12 @@
       "Imagine buying groceries on the short walk home from the station—not just living beside a railway."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Draw a station with a ten-minute walking circle. Fill the circle with homes, shops and jobs, joined by short blocks. Transit + mixed uses + walking, not just buildings near tracks."
+      "kind": "Quick association",
+      "text": "Train → groceries → home, on foot. A station surrounded by homes, shops and jobs.",
+      "lines": [
+        "Train → groceries → home, on foot.",
+        "A station surrounded by homes, shops and jobs."
+      ]
     },
     "fullParts": [
       "Transit-oriented development concentrates dense, mixed-use, walkable development around transit stations, associated with Peter Calthorpe.",
@@ -1931,8 +2115,12 @@
       "Temporary seating can test a new public space. This connects to Lynch’s learning ecology."
     ],
     "mnemonic": {
-      "kind": "Association",
-      "text": "Acupuncture uses a small needle at a strategic point. Picture one street corner changing first; tactical urbanism tests a temporary version before committing to something larger."
+      "kind": "Quick association",
+      "text": "A small needle, a targeted change. Acupuncture = act at a strategic point.",
+      "lines": [
+        "A small needle, a targeted change.",
+        "Acupuncture = act at a strategic point."
+      ]
     },
     "fullParts": [
       "Urban acupuncture uses targeted interventions to improve city life; tactical urbanism often uses low-cost, temporary, small-scale projects.",
@@ -1979,8 +2167,12 @@
       "A pleasant bench can turn a necessary walk into a pause and a conversation."
     ],
     "mnemonic": {
-      "kind": "Sound cue",
-      "text": "Gehl → “gel”: a comfortable space helps people stick around. Longer stays create chances for low-intensity contact. First improve the place; then watch optional activity grow."
+      "kind": "Quick association",
+      "text": "Gehl → 胶: people stick around. Comfort → stay → chat.",
+      "lines": [
+        "Gehl → 胶: people stick around.",
+        "Comfort → stay → chat."
+      ]
     },
     "fullParts": [
       "Jan Gehl’s The Life Between Buildings focuses on how public-space design supports everyday pedestrian activity and interaction.",
@@ -2027,8 +2219,12 @@
       "A busy sidewalk may simply contain commuters rushing through."
     ],
     "mnemonic": {
-      "kind": "Three-scene story",
-      "text": "Need: walk to work. Option: stop on a pleasant bench. Result: chat with someone nearby. Gehl’s sequence is need → choose → interact, not three equally voluntary activities."
+      "kind": "Quick association",
+      "text": "NEED → CHOOSE → CHAT. Need: walk to work. Choose: stop at a nice bench.",
+      "lines": [
+        "NEED → CHOOSE → CHAT.",
+        "Need: walk to work. Choose: stop at a nice bench."
+      ]
     },
     "fullParts": [
       "Gehl distinguishes necessary activities, optional activities and resultant or social activities in public space.",
@@ -2083,8 +2279,12 @@
       "Remember vitality, sense, fit, access and control; then ask about efficiency and justice."
     ],
     "mnemonic": {
-      "kind": "Sound cue",
-      "text": "Lynch → LINKS that help people LEARN. Picture residents adjusting a living city together. It is a learning ecology, not a finished machine handed down by one planner."
+      "kind": "Quick association",
+      "text": "Lynch → LEARN the city. Try → observe → adjust.",
+      "lines": [
+        "Lynch → LEARN the city.",
+        "Try → observe → adjust."
+      ]
     },
     "fullParts": [
       "Kevin Lynch described the city as a learning ecology in which people adapt their surroundings and change the rules of urban life.",
@@ -2119,8 +2319,12 @@
       "People may sit on steps while designed seats stay empty: actual use matters."
     ],
     "mnemonic": {
-      "kind": "Name association",
-      "text": "Whyte → WHY this plaza works. Picture an observer watching people choose seats, food and company. Design lessons come from what people actually do."
+      "kind": "Quick association",
+      "text": "Whyte → WHY do people sit HERE? Watch actual choices: seats, food, access, other people.",
+      "lines": [
+        "Whyte → WHY do people sit HERE?",
+        "Watch actual choices: seats, food, access, other people."
+      ]
     },
     "fullParts": [
       "William Whyte studied how people actually use small urban public spaces through systematic observation.",
@@ -2155,8 +2359,12 @@
       "Two strangers commenting on the same street performance form the triangle."
     ],
     "mnemonic": {
-      "kind": "Geometry",
-      "text": "Draw a triangle: stranger A, stranger B, street performer C. A and B talk because both notice C. The third point provides the shared topic."
+      "kind": "Quick association",
+      "text": "Two strangers + one shared thing = triangle. Person A → street performer ← Person B.",
+      "lines": [
+        "Two strangers + one shared thing = triangle.",
+        "Person A → street performer ← Person B."
+      ]
     },
     "fullParts": [
       "Whyte’s triangulation occurs when a shared external stimulus gives strangers a reason to interact.",
@@ -2191,8 +2399,12 @@
       "Think of a familiar café; regulars and atmosphere matter more than attracting the biggest crowd."
     ],
     "mnemonic": {
-      "kind": "Counting cue",
-      "text": "1 home, 2 work, 3 the regular hangout. Picture a familiar café where conversation and regulars matter more than spectacle. “Third” means beyond home and work."
+      "kind": "Quick association",
+      "text": "1 home · 2 work · 3 hangout. Third place = regulars + easy conversation.",
+      "lines": [
+        "1 home · 2 work · 3 hangout.",
+        "Third place = regulars + easy conversation."
+      ]
     },
     "fullParts": [
       "Ray Oldenburg’s third places are informal gathering places outside home and work that sustain regular social life.",
@@ -2239,8 +2451,12 @@
       "Think of mental noise-canceling headphones. Goffman instead explains everyday interaction rituals."
     ],
     "mnemonic": {
-      "kind": "Sound cue",
-      "text": "Simmel → STIMULI. Picture the city’s noise being turned down by mental headphones. The blasé attitude is a protective response to overload, not proof of having no feelings."
+      "kind": "Quick association",
+      "text": "Simmel → STIMULI → mental headphones. Too much city input → turn down emotional reactions.",
+      "lines": [
+        "Simmel → STIMULI → mental headphones.",
+        "Too much city input → turn down emotional reactions."
+      ]
     },
     "fullParts": [
       "Georg Simmel’s blasé attitude describes emotional reserve developed in response to the intense stimulation of metropolitan life.",
@@ -2275,8 +2491,12 @@
       "Contrast Jacobs, who sees these urban conditions as potential sources of neighborhood vitality too."
     ],
     "mnemonic": {
-      "kind": "Sound cue",
-      "text": "Wirth → the WHOLE urban way of life. Remember S–D–H: size, density, heterogeneity. Unlike Simmel’s mental shield, Wirth emphasizes social patterns produced by urban conditions."
+      "kind": "Quick association",
+      "text": "Wirth: S–D–H. SIZE + DENSITY + HETEROGENEITY.",
+      "lines": [
+        "Wirth: S–D–H.",
+        "SIZE + DENSITY + HETEROGENEITY."
+      ]
     },
     "fullParts": [
       "Louis Wirth argued that urbanism is a way of life shaped by large population size, density and social heterogeneity.",
@@ -2311,8 +2531,12 @@
       "Not staring at someone in an elevator is a social courtesy, not necessarily coldness."
     ],
     "mnemonic": {
-      "kind": "Sound cue",
-      "text": "Goffman → “go off” with your gaze after a brief glance. Acknowledge, then give privacy. This is polite interaction management, not Simmel’s internal defense against overload."
+      "kind": "Quick association",
+      "text": "Goffman → gaze OFF. Glance, then look away: acknowledge + privacy.",
+      "lines": [
+        "Goffman → gaze OFF.",
+        "Glance, then look away: acknowledge + privacy."
+      ]
     },
     "fullParts": [
       "Erving Goffman’s civil inattention is the polite management of attention among strangers sharing public space.",
@@ -2347,8 +2571,12 @@
       "Aelbrecht adds that social life may move to newer places, such as malls, rather than simply disappear."
     ],
     "mnemonic": {
-      "kind": "Title image",
-      "text": "Picture one bowler where a league used to gather. Putnam asks about declining civic ties. Then picture new hangouts at malls: social life may also change location."
+      "kind": "Quick association",
+      "text": "One bowler where a league used to meet. Putnam: weaker participation, networks and trust.",
+      "lines": [
+        "One bowler where a league used to meet.",
+        "Putnam: weaker participation, networks and trust."
+      ]
     },
     "fullParts": [
       "Robert Putnam’s Bowling Alone argues that social capital and community participation have declined in the United States.",
@@ -2383,8 +2611,12 @@
       "Connect the land–travel trade-off to AMM and compare road expansion with TOD."
     ],
     "mnemonic": {
-      "kind": "Logic",
-      "text": "Dexter = a double arrow: land use ↔ transport. Never draw only one direction; each reshapes the other."
+      "kind": "Quick association",
+      "text": "Dexter = DOUBLE arrow. Land use ↔ transport.",
+      "lines": [
+        "Dexter = DOUBLE arrow.",
+        "Land use ↔ transport."
+      ]
     }
   },
   {
@@ -2403,8 +2635,12 @@
       "Distinguish AMM within cities from Rosen–Roback across cities; judge policy by its effects on people."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Picture three people balancing accounts: a worker, an employer and a builder. Their linked choices explain spatial equilibrium."
+      "kind": "Quick association",
+      "text": "Worker · employer · builder. Three linked choices shape spatial equilibrium.",
+      "lines": [
+        "Worker · employer · builder.",
+        "Three linked choices shape spatial equilibrium."
+      ]
     }
   },
   {
@@ -2423,8 +2659,12 @@
       "Connect to the D variables and Jacobs’s small blocks, without turning association into a causal claim."
     ],
     "mnemonic": {
-      "kind": "Name association",
-      "text": "Boeing suggests a bird’s-eye view: look down at the street grid. Remember order, straightness and four-way crossings."
+      "kind": "Quick association",
+      "text": "Boeing → bird’s-eye GRID. Order · straightness · four-way crossings.",
+      "lines": [
+        "Boeing → bird’s-eye GRID.",
+        "Order · straightness · four-way crossings."
+      ]
     }
   },
   {
@@ -2443,8 +2683,12 @@
       "Connect to Boeing’s street networks; avoid treating every undesirable urban outcome as a definition of sprawl."
     ],
     "mnemonic": {
-      "kind": "Title cue",
-      "text": "“Wrestling Sprawl” pins down a vague word with eight measurements. Separate the pattern from what causes it and what it causes."
+      "kind": "Quick association",
+      "text": "Wrestling = pin sprawl DOWN. Eight dimensions describe the pattern, not its causes.",
+      "lines": [
+        "Wrestling = pin sprawl DOWN.",
+        "Eight dimensions describe the pattern, not its causes."
+      ]
     }
   },
   {
@@ -2463,8 +2707,12 @@
       "Neighborhood improvement should benefit existing residents; connect this to gentrification and displacement."
     ],
     "mnemonic": {
-      "kind": "Picture",
-      "text": "Picture a zoning map becoming a health map: rules distribute both hazards and healthy surroundings. Planning decisions are part of the riskscape."
+      "kind": "Quick association",
+      "text": "Zoning map → health map. Rules distribute hazards and healthy surroundings.",
+      "lines": [
+        "Zoning map → health map.",
+        "Rules distribute hazards and healthy surroundings."
+      ]
     }
   },
   {
@@ -2483,8 +2731,12 @@
       "Connect resource-financed consumption cities to the difference between urban population growth and productivity growth."
     ],
     "mnemonic": {
-      "kind": "Contrast",
-      "text": "Keep two separate counters: urban population share and income per person. Jedwab and Vollrath show why one cannot stand in for the other."
+      "kind": "Quick association",
+      "text": "Two counters: CITY ≠ INCOME. Urban share can rise without income per person rising.",
+      "lines": [
+        "Two counters: CITY ≠ INCOME.",
+        "Urban share can rise without income per person rising."
+      ]
     }
   },
   {
@@ -2503,8 +2755,12 @@
       "Compare moving people to jobs, jobs to people, or improving connections; contrast Grengs’s emphasis on mode."
     ],
     "mnemonic": {
-      "kind": "Contrast",
-      "text": "Ihlanfeldt: draw the gap between HOME and JOBS. The key starting point is spatial separation plus barriers to following jobs outward."
+      "kind": "Quick association",
+      "text": "Ihlanfeldt: HOME … gap … JOB. Spatial mismatch: where workers and jobs are.",
+      "lines": [
+        "Ihlanfeldt: HOME … gap … JOB.",
+        "Spatial mismatch: where workers and jobs are."
+      ]
     }
   },
   {
@@ -2523,8 +2779,12 @@
       "Connect to Ihlanfeldt, distinguish accessibility from mobility, and consider trips involving work, childcare and shopping."
     ],
     "mnemonic": {
-      "kind": "Contrast",
-      "text": "Grengs: keep the home fixed and swap the car key for a bus pass. The resulting access gap reveals modal mismatch."
+      "kind": "Quick association",
+      "text": "Grengs: car KEY vs. bus PASS. Same home; different job access.",
+      "lines": [
+        "Grengs: car KEY vs. bus PASS.",
+        "Same home; different job access."
+      ]
     }
   },
   {
@@ -2543,8 +2803,12 @@
       "Contrast modernist separation and quiet superblocks; connect to Gehl and Whyte without assuming density alone ensures safety."
     ],
     "mnemonic": {
-      "kind": "Acronym",
-      "text": "Jacobs = B–E–H: Boundaries, Eyes, Hours of use. A lively sidewalk has several shifts of ordinary people watching it."
+      "kind": "Quick association",
+      "text": "Jacobs: B–E–H. Boundaries · Eyes · Hours of sidewalk use.",
+      "lines": [
+        "Jacobs: B–E–H.",
+        "Boundaries · Eyes · Hours of sidewalk use."
+      ]
     }
   },
   {
@@ -2563,8 +2827,12 @@
       "Connect the contact hypothesis to unequal power and meaningful interaction; distinguish tolerance from changed group attitudes."
     ],
     "mnemonic": {
-      "kind": "Name association",
-      "text": "Valentine evokes friendship—but the reading asks whether friendly contact becomes respect for a whole group. One liked person can remain an exception."
+      "kind": "Quick association",
+      "text": "Valentine ≠ love everyone. One liked neighbor may remain “the exception.”",
+      "lines": [
+        "Valentine ≠ love everyone.",
+        "One liked neighbor may remain “the exception.”"
+      ]
     }
   },
   {
@@ -2583,8 +2851,12 @@
       "Connect to Simmel’s overstimulation and Goffman’s interaction rituals; distinguish urbanism as lived experience from urbanization as growth."
     ],
     "mnemonic": {
-      "kind": "Five senses",
-      "text": "Walk one imaginary street: see it, hear it, smell it, taste it, feel it. Borer asks how people learn the social meanings of those sensations."
+      "kind": "Quick association",
+      "text": "Borer: walk with FIVE senses. See · hear · smell · taste · touch → social meaning.",
+      "lines": [
+        "Borer: walk with FIVE senses.",
+        "See · hear · smell · taste · touch → social meaning."
+      ]
     }
   },
   {
@@ -2603,8 +2875,12 @@
       "Connect to Gehl’s optional activities and Jacobs’s street life; exclusionary design can drive away ordinary users too."
     ],
     "mnemonic": {
-      "kind": "Scene",
-      "text": "Picture a plaza with movable chairs, a food cart and a street performer. People sit, watch people and start talking: Whyte studies actual behavior."
+      "kind": "Quick association",
+      "text": "Whyte → WHY sit HERE? Seats + food + people attract people.",
+      "lines": [
+        "Whyte → WHY sit HERE?",
+        "Seats + food + people attract people."
+      ]
     }
   }
 ]
