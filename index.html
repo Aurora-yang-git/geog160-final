@@ -190,12 +190,36 @@ footer{max-width:1100px;margin:0 auto;padding:0 18px 40px;color:var(--muted);fon
   .strip{padding-right:70px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rbar i{transition:none}}
+/* Guided memory pass */
+.memory-shell{max-width:840px;margin:auto}
+.memory-kicker{font-size:.76rem;letter-spacing:.09em;color:var(--h3);font-weight:600;margin:8px 0}
+.memory-shell h1{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.3;margin:12px 0}
+.memory-intro{color:var(--muted);max-width:44em}
+.memory-chain{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:24px 0}
+.memory-chain span{background:var(--h2-soft);border:1px solid var(--h2-rule);padding:14px 10px;border-radius:10px;font-size:.85rem}
+.memory-chain b{display:block;color:var(--h2);font-size:1.3rem}
+.memory-how,.memory-group{border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:12px 0;background:var(--surface)}
+.memory-shell summary{cursor:pointer;font-weight:600;line-height:1.7}
+.memory-group summary small{display:block;margin-left:2.7em;color:var(--muted);font-size:.75rem;font-weight:400}
+.memory-dashboard{padding:8px 0 14px}.memory-dashboard>p:first-child{font-size:.84rem}
+.memory-items{display:grid;gap:6px}
+.memory-item{display:flex;justify-content:space-between;align-items:center;text-align:left;gap:14px;border:1px solid var(--line);background:var(--bg);padding:10px 12px;border-radius:8px;cursor:pointer;font-size:.88rem}
+.memory-item:hover{border-color:var(--accent)}.memory-item small{white-space:nowrap;color:var(--muted);font-size:.72rem}
+#memory-practice{scroll-margin-top:140px;background:var(--surface);border:2px solid var(--h2-rule);border-radius:14px;padding:24px;margin:24px 0}
+#memory-practice h2{line-height:1.4;font-size:1.35rem;margin:8px 0 20px}
+#memory-practice label{display:block;font-size:.85rem;margin:18px 0 6px}
+#memory-draft{display:block;resize:vertical;width:100%;font:inherit;font-size:1rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;margin-bottom:14px}
+.memory-reference{font-size:.94rem;border-left:3px solid var(--h4);padding:2px 16px;margin:20px 0;overflow-wrap:anywhere}
+.memory-reference .kind{display:none}.memory-reference h4{margin-top:8px}.memory-reference h5{font-size:.95rem}
+@media(max-width:620px){nav.tabs{margin-left:0;flex-wrap:wrap}nav.tabs button{padding:6px 12px;font-size:.82rem}.memory-chain{grid-template-columns:repeat(2,1fr)}.memory-chain span:last-child{grid-column:1/-1}#memory-practice{padding:16px}.memory-item{align-items:flex-start}.memory-item span{min-width:0;overflow-wrap:anywhere}.memory-shell .btn{min-height:44px}}
+
 </style>
 </head>
 <body>
 <header class="top"><div class="top-in">
   <div class="brand">GEOG 160 Final Exam</div>
   <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-memory" aria-selected="false" aria-controls="view-memory" data-view="memory">Recall</button>
     <button role="tab" id="tab-read" aria-selected="false" aria-controls="view-read" data-view="read">Read</button>
     <button role="tab" id="tab-list" aria-selected="false" aria-controls="view-list" data-view="list">Exam list</button>
     <button role="tab" id="tab-cards" aria-selected="false" aria-controls="view-cards" data-view="cards">Cards</button>
@@ -203,6 +227,20 @@ footer{max-width:1100px;margin:0 auto;padding:0 18px 40px;color:var(--muted);fon
 </div></header>
 
 <main>
+<section class="view" id="view-memory" role="tabpanel" aria-labelledby="tab-memory" lang="en" hidden>
+  <div class="memory-shell">
+    <p class="memory-kicker">GEOG 160 · Recall</p>
+    <h1>Connect it. Then explain it.</h1>
+    <p class="memory-intro">57 terms. 11 readings. One guided pass through the whole course, from why cities form to how people live in them.</p>
+    <div class="memory-chain" aria-label="The five questions of the course"><span><b>A</b> Why cities form</span><span><b>B</b> What shape they take</span><span><b>C</b> Who gets what</span><span><b>D</b> How planners respond</span><span><b>E</b> How people experience cities</span></div>
+    <details class="memory-how"><summary>The answer framework</summary><p><b>Terms · 40%:</b>Definition → mechanism → effects → connection or contrast. Add people, dates and places where relevant. Write several connected sentences.</p><p><b>Essays · 60%:</b>Claim → reading, lecture or film evidence → explanation → limitation or counterargument. The practice prompts below are not predicted exam questions.</p><p><b>Example: Agglomeration.</b> Firms and people benefit from proximity through shared labor pools, suppliers and knowledge exchange. These benefits help explain why cities form and why firms pay higher rents. Concentration can also bring congestion and high housing costs. Connecting this to suburbanization shows the trade-off between clustering benefits and location costs.</p><p>Review the five groups, recall each item without notes, check your answer, then revisit weak points. Finishing a pass means you have covered the material; use Cards later to practise remembering it again.</p></details>
+    <div class="memory-dashboard"><p id="memory-status" role="status" tabindex="-1"></p><div class="row"><button class="btn primary" id="memory-start">Start recall</button><button class="btn" id="memory-weak">Revisit weak points</button><button class="btn" id="memory-to-cards">Spaced review in Cards</button></div><p class="note">All items are available here. Recall self-ratings are saved separately from your Cards progress.</p></div>
+    <div id="memory-map"></div>
+    <section id="memory-practice" aria-label="Closed-book recall practice" hidden></section>
+    <details class="memory-how"><summary>Finish by connecting ideas in an essay</summary><p>Choose a prompt. Write a claim from memory, then support it with two authors or course concepts.</p><ul><li>Why does proximity to jobs not guarantee job accessibility? Connect Ihlanfeldt, Grengs and transport modes.</li><li>Why might an orderly, attractive space lack vitality? Connect Modernism, Jacobs, Gehl and Whyte.</li><li>Why does urban population growth not guarantee economic development or shared benefits? Connect Jedwab &amp; Vollrath, agglomeration and urban inequality.</li><li>Is sharing public space enough to produce inclusion? Connect Valentine, third places and everyday interaction.</li></ul><p class="note">Practice prompts, not instructor-issued exam questions. Check the readings afterward: does your evidence actually support your claim?</p></details>
+  </div>
+</section>
+
 <section class="view" id="view-read" role="tabpanel" aria-labelledby="tab-read" hidden>
   <div class="readbar"><div class="readbar-in">
     <span id="read-count"></span>
@@ -961,7 +999,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 18px 40px;color:var(--muted);fon
         <button class="btn" id="b-reset">Reset cards</button>
       </div>
       <p class="note" id="store-note"></p>
-      <p class="note">Site version: 2026-11-09, shortened notes and 91 cards. After an update, reload the page; your progress stays.</p>
+      <p class="note">Site version: 2026-11-09-memory-en-2, guided recall + 91 cards. After an update, reload the page; your progress stays.</p>
       <h3>How to rate</h3>
       <p><b>Again</b>: didn't know it. <b>Hard</b>: knew it with effort. <b>Good</b>: knew it. <b>Easy</b>: knew it instantly. Missed cards return in minutes; known cards return in days. Say or write your answer before revealing it.</p>
       <p>Keys: <kbd>Space</kbd> reveal answer; <kbd>1</kbd> to <kbd>4</kbd> rate; <kbd>Z</kbd> undo; <kbd>Esc</kbd> close this panel.</p>
@@ -1178,6 +1216,8 @@ window.addEventListener("scroll", () => { if (!bar.hidden) hideBar(); }, {passiv
 /* ---------- tabs ---------- */
 document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
 function show(v, anchor){
+  $("view-memory").hidden = v !== "memory";
+  if (v === "memory") renderMemory();
   $("view-read").hidden = v !== "read"; $("view-list").hidden = v !== "list"; $("view-cards").hidden = v !== "cards";
   document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === v));
   document.body.classList.toggle("cards-open", v === "cards");
@@ -1426,9 +1466,103 @@ $("b-export").onclick = () => { const a = document.createElement("a"); a.href = 
 $("b-import").onchange = e => { const f = e.target.files[0]; if (!f) return; f.text().then(t => { try { const o = JSON.parse(t); if (!o.cards) throw 0; S = o; S.settings = Object.assign({}, DEFAULTS, S.settings||{}); S.read = S.read||{}; S.hl = S.hl||[]; S.ui = S.ui||{}; if (!S.t0) S.t0 = Date.now(); save(); location.reload(); } catch(_){ alert("That file isn't a progress export."); } }); };
 $("b-reset").onclick = () => { if (confirm("Erase all card progress on this device? Your reading marks and highlights stay.")){ S.cards = {}; save(); current = null; $("panel").hidden = true; render(); } };
 
+/* Guided first pass: independent recall, using the existing course notes. */
+const MEMORY_GROUPS = [
+  {key:'A', title:'Origins & location', question:'Why do cities form here?', hook:'Clustering brings benefits; location involves trade-offs.', contrast:'AMM: housing location within a city. Rosen–Roback: wages, rents and amenities across cities. A rising urban population share does not necessarily mean economic growth.'},
+  {key:'B', title:'Urban form', question:'What shape does the city take?', hook:'Look at density, connections, mixed uses and centers.', contrast:'Density is only one aspect of urban form. Galster describes sprawl through multiple dimensions; Boeing examines street networks. Suburbanization is a process of outward movement.'},
+  {key:'C', title:'Access & inequality', question:'Who gains access, and who bears the costs?', hook:'Jobs can exist without being reachable; housing can exist without being affordable.', contrast:'Jobs-housing mismatch: people and jobs are spatially separated. Modal mismatch: available transport modes produce unequal job access. Contact with difference does not automatically create respect.'},
+  {key:'D', title:'Planning responses', question:'How do planners respond to urban problems?', hook:'Sanitary → City Beautiful → Garden City → Modernism → street life.', contrast:'Radiant City: high-rise concentration and separated functions. Broadacre: decentralization, low density and cars. Jacobs: streets, diversity and everyday supervision. This sequence is a memory aid, not a claim that each movement fully replaced the last.'},
+  {key:'E', title:'Everyday experience', question:'How do people experience and use cities?', hook:'Places invite people to stay; staying creates opportunities for interaction.', contrast:'Gehl: activity types. Whyte: observed use of small spaces. Oldenburg: third places. Simmel: self-protection against overstimulation. Goffman: conventions of interaction among strangers.'}
+];
+const memorySectionOf = anchor => {
+  const target = $(anchor); let section = 'A';
+  for (const heading of H2) {
+    if (target && (heading === target || (heading.compareDocumentPosition(target) & Node.DOCUMENT_POSITION_FOLLOWING))) section = KEYOF[heading.id];
+  }
+  return section;
+};
+const MEMORY_ITEMS = [
+  ...MEMORY_GROUPS.flatMap(g => EXAMMAP.terms.filter(t => memorySectionOf(t.anchor) === g.key).map(t => ({...t, key:'term:'+t.anchor, group:g.key, type:'term'}))),
+  ...EXAMMAP.reads.map(r => ({...r, key:'reading:'+r.anchor, group:'R', type:'reading'})),
+  { ...EXAMMAP.video, key:'video:'+EXAMMAP.video.anchor, group:'R', type:'video'}
+];
+S.memory = S.memory || {results:{}, drafts:{}, current:null};
+S.memory.results = S.memory.results || {}; S.memory.drafts = S.memory.drafts || {};
+let memoryRevealed = false, memoryWeakOnly = false;
+const memoryEscape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function memoryNotes(anchor){
+  const node = $(anchor); if (!node) return '<p>Open Read to review this topic.</p>';
+  const box = document.createElement('div');
+  if (node.closest('.blk')) box.append(node.closest('.blk').cloneNode(true));
+  else {
+    const level = Number(node.tagName.slice(1));
+    for (let el = node.nextElementSibling; el; el = el.nextElementSibling) {
+      if (/^H[234]$/.test(el.tagName) && Number(el.tagName.slice(1)) <= level) break;
+      if (!el.matches('.sec-end')) box.append(el.cloneNode(true));
+    }
+  }
+  box.querySelectorAll('[id]').forEach(el => el.removeAttribute('id'));
+  box.querySelectorAll('mark').forEach(el => el.replaceWith(...el.childNodes));
+  box.querySelectorAll('.blk').forEach(el => { el.classList.remove('blk'); el.removeAttribute('data-k'); });
+  return box.innerHTML;
+}
+function memoryOpen(key){
+  S.memory.current = key; memoryRevealed = false; save(); renderMemory();
+  $('memory-practice').scrollIntoView({behavior:'smooth',block:'start'});
+  $('memory-question').focus({preventScroll:true});
+}
+function memoryNext(){
+  const pool = MEMORY_ITEMS.filter(t => !memoryWeakOnly || S.memory.results[t.key] === 'again');
+  const index = pool.findIndex(t => t.key === S.memory.current);
+  const item = pool.slice(index + 1).find(t => S.memory.results[t.key] !== 'good') || pool.find(t => S.memory.results[t.key] !== 'good');
+  if (item) memoryOpen(item.key);
+  else { S.memory.current = null; memoryRevealed = false; save(); renderMemory(); $('memory-status').focus(); }
+}
+function renderMemory(){
+  const state = S.memory, terms = MEMORY_ITEMS.filter(t => t.type === 'term');
+  const good = terms.filter(t => state.results[t.key] === 'good').length;
+  const attempted = terms.filter(t => state.results[t.key]).length;
+  const evidence = MEMORY_ITEMS.filter(t => t.type !== 'term');
+  const weak = MEMORY_ITEMS.filter(t => state.results[t.key] === 'again');
+  $('memory-status').textContent = `Terms: attempted ${attempted}/${terms.length} · self-rated ready ${good}/${terms.length} · Readings & film: self-rated ready ${evidence.filter(t => state.results[t.key] === 'good').length}/${evidence.length} · To revisit: ${weak.length} items`;
+  $('memory-start').textContent = state.current ? 'Continue recall' : 'Start recall';
+  $('memory-weak').disabled = !weak.length;
+  $('memory-map').innerHTML = MEMORY_GROUPS.map(g => {
+    const items = terms.filter(t => t.group === g.key);
+    return `<details class="memory-group"><summary><span class="sec-letter">${g.key}</span>${g.title}<small>${items.filter(t => state.results[t.key] === 'good').length}/${items.length} self-rated ready</small></summary><p><b>${g.question}</b></p><p>${g.hook}</p><p class="note">${g.contrast}</p><div class="memory-items">${items.map(memoryItemButton).join('')}</div></details>`;
+  }).join('') + `<details class="memory-group"><summary><span class="sec-letter">R</span>Reading & film evidence<small>11 readings + the Whyte film</small></summary><p>Recall the main argument, one specific piece of evidence, and a claim it supports or challenges.</p><div class="memory-items">${evidence.map(memoryItemButton).join('')}</div></details>`;
+  const item = MEMORY_ITEMS.find(t => t.key === state.current);
+  const panel = $('memory-practice'); panel.hidden = !item;
+  if (!item) return;
+  const isTerm = item.type === 'term';
+  const labels = isTerm ? ['Define it. Who, when and what context are relevant?','Explain the mechanism. Why does it happen or how does it work?','Explain its effects. Connect city-scale outcomes to everyday experience.','Connect or contrast it with another concept. Give a course example.'] : ['What is the author’s or film’s central argument?','Which specific example or observation supports it?','What claim could this evidence support or challenge?','How does it connect to another reading or course concept?'];
+  panel.innerHTML = `<p class="memory-kicker">${memoryWeakOnly ? 'Weak points' : 'Full pass'} · ${isTerm ? 'Extended definition' : 'Essay evidence'} · ${MEMORY_ITEMS.indexOf(item)+1}/${MEMORY_ITEMS.length}</p><h2 id="memory-question" tabindex="-1">${memoryEscape(item.name)}</h2><p>Answer aloud in English before checking the notes, or write your answer below. Practise the wording you would use in the exam.</p><ol>${labels.map(t=>`<li>${t}</li>`).join('')}</ol><label for="memory-draft">My closed-book answer <span class="note">(optional; saved automatically in this browser)</span></label><textarea id="memory-draft" rows="5" placeholder="Answer from memory, then check…"></textarea><button class="btn primary" id="memory-reveal" aria-expanded="${memoryRevealed}">${memoryRevealed ? 'Hide notes and recall again' : 'Check the notes'}</button><div id="memory-reference" ${memoryRevealed ? '' : 'hidden'}><h3>Reference: existing course notes</h3><div class="memory-reference">${memoryNotes(item.anchor)}</div><button class="btn" id="memory-source">Open full context in Read</button><p><b>Self-check:</b>Can you explain all four points? These notes are cues: develop them in your own words. “Ready” is your assessment, not an automated grade.</p><div class="row"><button class="btn" id="memory-again">Incomplete · revisit</button><button class="btn primary" id="memory-good">Ready · next</button></div></div><p><button class="btn" id="memory-skip">Skip without rating</button></p>`;
+  $('memory-draft').value = state.drafts[item.key] || '';
+  $('memory-draft').oninput = e => { state.drafts[item.key] = e.target.value; save(); };
+  $('memory-reveal').onclick = () => { memoryRevealed = !memoryRevealed; renderMemory(); $('memory-reveal').focus(); };
+  $('memory-source').onclick = () => show('read',item.anchor);
+  $('memory-skip').onclick = memoryNext;
+  ['again','good'].forEach(result => $('memory-'+result).onclick = () => {
+    state.results[item.key] = result; save(); memoryNext();
+  });
+}
+function memoryItemButton(item){
+  const result = S.memory.results[item.key], badge = result === 'good' ? '✓ Ready' : result === 'again' ? '↻ Revisit' : 'Not tried';
+  return `<button class="memory-item" data-memory-key="${memoryEscape(item.key)}"><span>${memoryEscape(item.name)}</span><small>${badge}</small></button>`;
+}
+$('memory-map').onclick = e => { const b=e.target.closest('[data-memory-key]'); if(b){memoryWeakOnly=false;memoryOpen(b.dataset.memoryKey);} };
+$('memory-start').onclick = () => {
+  memoryWeakOnly=false;
+  const item=MEMORY_ITEMS.find(t=>t.key===S.memory.current)||MEMORY_ITEMS.find(t=>S.memory.results[t.key]!=='good')||MEMORY_ITEMS[0];
+  memoryOpen(item.key);
+};
+$('memory-weak').onclick = () => { memoryWeakOnly=true; const item=MEMORY_ITEMS.find(t=>S.memory.results[t.key]==='again'); if(item)memoryOpen(item.key); };
+$('memory-to-cards').onclick = () => show('cards');
+
+
 noteStore(); renderChips(); renderSections(); save();
 const h = location.hash.replace("#","");
-show(h === "list" ? "list" : (h === "cards" && anyUnlocked() ? "cards" : (h === "read" ? "read" : (S.ui.tab === "list" ? "list" : (S.ui.tab === "cards" && anyUnlocked() ? "cards" : "read")))));
+show(["memory","read","list","cards"].includes(h) ? h : (["memory","read","list","cards"].includes(S.ui.tab) ? S.ui.tab : "memory"));
 </script>
 </body>
 </html>
