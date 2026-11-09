@@ -788,7 +788,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 18px 40px;color:var(--muted);fon
       <div class="progress"><i id="bar"></i></div>
       <p class="note" id="prog-text"></p>
       <h3>Exam date</h3>
-      <label><input type="date" id="set-exam"> <span class="note">The exam is in the afternoon of this day.</span></label>
+      <label><input type="date" id="set-exam"> <span class="note">The exam starts at 15:00 (local time) on this day.</span></label>
       <h3>Your progress data</h3>
       <div class="row">
         <button class="btn" id="b-export">Export</button>
@@ -815,7 +815,7 @@ const LABELS = {onlist:"On the term list", support:"Readings, slides, video", "0
 const CHIP_ORDER = ["all","onlist","support","0_schema","A_location","B_form","C_problems","D_planning","E_experience","links","scale","recognize","readings"];
 const KEY = "geog160-srs-v3";
 const DAY = 86400000, MIN = 60000, HOUR = 3600000;
-const EXAM_HOUR = 13;   // "afternoon"
+const EXAM_HOUR = 15;   // 3 pm in the browser's local time zone
 const $ = id => document.getElementById(id);
 const today = () => { const d = new Date(); return Math.floor((d.getTime() - d.getTimezoneOffset()*60000)/DAY); };
 const isoIdx = iso => Math.floor(Date.parse(iso + "T00:00:00Z")/DAY);
@@ -1065,7 +1065,7 @@ function prio(x){
   if (x.t.includes("links") || x.t.includes("recognize")) return 2;
   return 3;   // supporting detail
 }
-const newAllowed = () => daysLeft() > 0;
+const newAllowed = () => Date.now() < examTime();
 function counts(){
   const now = Date.now(), t = today();
   let learnDue=0, revDue=0, newAvail=0, learning=0, graduated=0, total=0;
@@ -1145,8 +1145,8 @@ function renderStrip(){
 const DNAMES = {normal:"Normal pace", cram:"Cram mode", examday:"Exam day", past:"Exam date passed"};
 function bannerText(){
   const m = mode();
-  const tip = {normal:"Short review gaps are capped so cards return before the exam.", cram:"Missed cards return in minutes. Learned cards return in an hour, then tomorrow. Highest-value cards come first.", examday:"No new cards today. Review due cards, then stop.", past:""}[m];
-  return `<b>${DNAMES[m]}</b>, exam ${fmtLong(isoIdx(S.settings.exam))} afternoon.<br><span class="note">${tip}</span>`;
+  const tip = {normal:"Short review gaps are capped so cards return before the exam.", cram:"Missed cards return in minutes. Learned cards return in an hour, then tomorrow. Highest-value cards come first.", examday:newAllowed() ? "New cards remain available until the exam starts at 15:00. Review due cards first." : "The exam has started. No new cards; due cards remain available.", past:""}[m];
+  return `<b>${DNAMES[m]}</b>, exam ${fmtLong(isoIdx(S.settings.exam))} at 15:00 (local time).<br><span class="note">${tip}</span>`;
 }
 function renderChips(){
   const box = $("chips"); box.innerHTML = "";
