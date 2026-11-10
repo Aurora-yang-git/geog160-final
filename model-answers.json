@@ -2802,13 +2802,13 @@
       "Connect the land–travel trade-off to AMM and compare road expansion with TOD."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Dexter = DOUBLE arrow.",
+      "kind": "Name association",
+      "text": "Dexter → 打车：去哪盖房 ↔ 怎么坐车。",
       "lines": [
-        "Dexter = DOUBLE arrow."
+        "Dexter → 打车：去哪盖房 ↔ 怎么坐车。"
       ]
     },
-    "quickCue": "Dexter = DOUBLE arrow."
+    "quickCue": "Dexter → 打车：去哪盖房 ↔ 怎么坐车。"
   },
   {
     "id": "reading-02",
@@ -2826,13 +2826,13 @@
       "Distinguish AMM within cities from Rosen–Roback across cities; judge policy by its effects on people."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Worker · employer · builder.",
+      "kind": "Name association",
+      "text": "Glaeser → GLASSES：戴眼镜算账，people / firms / builders 都看 costs。",
       "lines": [
-        "Worker · employer · builder."
+        "Glaeser → GLASSES：戴眼镜算账，people / firms / builders 都看 costs。"
       ]
     },
-    "quickCue": "Worker · employer · builder."
+    "quickCue": "Glaeser → GLASSES：戴眼镜算账，people / firms / builders 都看 costs。"
   },
   {
     "id": "reading-03",
@@ -2850,13 +2850,13 @@
       "Connect to the D variables and Jacobs’s small blocks, without turning association into a causal claim."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Boeing → bird’s-eye GRID.",
+      "kind": "Name association",
+      "text": "Boeing → 波音俯瞰：看 street grids，先少、后部分回归。",
       "lines": [
-        "Boeing → bird’s-eye GRID."
+        "Boeing → 波音俯瞰：看 street grids，先少、后部分回归。"
       ]
     },
-    "quickCue": "Boeing → bird’s-eye GRID."
+    "quickCue": "Boeing → 波音俯瞰：看 street grids，先少、后部分回归。"
   },
   {
     "id": "reading-04",
@@ -2874,13 +2874,13 @@
       "Connect to Boeing’s street networks; avoid treating every undesirable urban outcome as a definition of sprawl."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Wrestling = pin sprawl DOWN.",
+      "kind": "Name association",
+      "text": "Galster → 格子尺：用 8 dimensions 量 sprawl。",
       "lines": [
-        "Wrestling = pin sprawl DOWN."
+        "Galster → 格子尺：用 8 dimensions 量 sprawl。"
       ]
     },
-    "quickCue": "Wrestling = pin sprawl DOWN."
+    "quickCue": "Galster → 格子尺：用 8 dimensions 量 sprawl。"
   },
   {
     "id": "reading-05",
@@ -2898,13 +2898,13 @@
       "Neighborhood improvement should benefit existing residents; connect this to gentrification and displacement."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Zoning map → health map.",
+      "kind": "Name association",
+      "text": "WilSON → ZONE：zoning 决定谁住得健康。",
       "lines": [
-        "Zoning map → health map."
+        "WilSON → ZONE：zoning 决定谁住得健康。"
       ]
     },
-    "quickCue": "Zoning map → health map."
+    "quickCue": "WilSON → ZONE：zoning 决定谁住得健康。"
   },
   {
     "id": "reading-06",
@@ -2922,13 +2922,13 @@
       "Connect resource-financed consumption cities to the difference between urban population growth and productivity growth."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Two counters: CITY ≠ INCOME.",
+      "kind": "Name association",
+      "text": "Jedwab & Vollrath → 两位作者、两张表：urban share ↑ ≠ income ↑。",
       "lines": [
-        "Two counters: CITY ≠ INCOME."
+        "Jedwab & Vollrath → 两位作者、两张表：urban share ↑ ≠ income ↑。"
       ]
     },
-    "quickCue": "Two counters: CITY ≠ INCOME."
+    "quickCue": "Jedwab & Vollrath → 两位作者、两张表：urban share ↑ ≠ income ↑。"
   },
   {
     "id": "reading-07",
@@ -2946,13 +2946,13 @@
       "Compare moving people to jobs, jobs to people, or improving connections; contrast Grengs’s emphasis on mode."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Ihlanfeldt: HOME … gap … JOB.",
+      "kind": "Name association",
+      "text": "Ihlanfeldt → FIELD：jobs 搬到郊外，人被 segregation 留住。",
       "lines": [
-        "Ihlanfeldt: HOME … gap … JOB."
+        "Ihlanfeldt → FIELD：jobs 搬到郊外，人被 segregation 留住。"
       ]
     },
-    "quickCue": "Ihlanfeldt: HOME … gap … JOB."
+    "quickCue": "Ihlanfeldt → FIELD：jobs 搬到郊外，人被 segregation 留住。"
   },
   {
     "id": "reading-08",
@@ -2970,13 +2970,13 @@
       "Connect to Ihlanfeldt, distinguish accessibility from mobility, and consider trips involving work, childcare and shopping."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Grengs: car KEY vs. bus PASS.",
+      "kind": "Name association",
+      "text": "Grengs → GREEN light：Detroit，car 好到，transit 难到。",
       "lines": [
-        "Grengs: car KEY vs. bus PASS."
+        "Grengs → GREEN light：Detroit，car 好到，transit 难到。"
       ]
     },
-    "quickCue": "Grengs: car KEY vs. bus PASS."
+    "quickCue": "Grengs → GREEN light：Detroit，car 好到，transit 难到。"
   },
   {
     "id": "reading-09",
@@ -2994,13 +2994,13 @@
       "Contrast modernist separation and quiet superblocks; connect to Gehl and Whyte without assuming density alone ensures safety."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Jacobs: B–E–H.",
+      "kind": "Name association",
+      "text": "Jacobs → 街口：有人看 + 一直有人用 → safety。",
       "lines": [
-        "Jacobs: B–E–H."
+        "Jacobs → 街口：有人看 + 一直有人用 → safety。"
       ]
     },
-    "quickCue": "Jacobs: B–E–H."
+    "quickCue": "Jacobs → 街口：有人看 + 一直有人用 → safety。"
   },
   {
     "id": "reading-10",
@@ -3018,13 +3018,13 @@
       "Connect the contact hypothesis to unequal power and meaningful interaction; distinguish tolerance from changed group attitudes."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Valentine ≠ love everyone.",
+      "kind": "Name association",
+      "text": "Valentine → 情人节：见过面 ≠ 真心尊重。",
       "lines": [
-        "Valentine ≠ love everyone."
+        "Valentine → 情人节：见过面 ≠ 真心尊重。"
       ]
     },
-    "quickCue": "Valentine ≠ love everyone."
+    "quickCue": "Valentine → 情人节：见过面 ≠ 真心尊重。"
   },
   {
     "id": "reading-11",
@@ -3042,13 +3042,13 @@
       "Connect to Simmel’s overstimulation and Goffman’s interaction rituals; distinguish urbanism as lived experience from urbanization as growth."
     ],
     "mnemonic": {
-      "kind": "Quick association",
-      "text": "Borer: walk with FIVE senses.",
+      "kind": "Name association",
+      "text": "Borer → BODY：用五感体验城市，意义由人一起形成。",
       "lines": [
-        "Borer: walk with FIVE senses."
+        "Borer → BODY：用五感体验城市，意义由人一起形成。"
       ]
     },
-    "quickCue": "Borer: walk with FIVE senses."
+    "quickCue": "Borer → BODY：用五感体验城市，意义由人一起形成。"
   },
   {
     "id": "reading-12",
