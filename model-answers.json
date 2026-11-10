@@ -7,18 +7,16 @@
     "group": "A",
     "type": "term",
     "hook": "Follow the trips, not just the boundary.",
-    "source": "Lecture 1b: functional city definitions",
+    "source": "Lecture 1b, slide 33",
     "parts": [
-      "Functional areas are linked by activities; tributary areas are served by an urban center.",
-      "Commuting, shopping and medical trips connect places beyond city limits.",
-      "Different activities produce different, overlapping boundaries.",
-      "Someone may live outside the city but work and shop inside it."
+      "Functional and tributary areas define a city through its broader activities, connections and influence, rather than only its administrative boundary.",
+      "Commuting, freight, medical services, television broadcasts and sports-team followings can each define areas affected by or linked to a city. Their boundaries may differ and overlap."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Function follows FLOWS, not city borders.",
+      "text": "City reach：通勤 / 货运 / 医院 / 电视 / 球队，不只看市界。",
       "lines": [
-        "Function follows FLOWS, not city borders."
+        "City reach：通勤 / 货运 / 医院 / 电视 / 球队，不只看市界。"
       ]
     },
     "fullParts": [
@@ -29,16 +27,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "A city’s real reach extends beyond its official border. Trips link functional areas; an urban center serves surrounding tributary areas."
+        "label": "",
+        "text": "Functional and tributary areas define a city through its broader activities, connections and influence, rather than only its administrative boundary."
       },
       {
-        "label": "Picture it",
-        "text": "You live outside city limits but commute into the city and use its hospital."
+        "label": "Example / link",
+        "text": "Commuting, freight, medical services, television broadcasts and sports-team followings can each define areas affected by or linked to a city. Their boundaries may differ and overlap."
       }
     ],
     "zh": "地图上的线管不住人：住在城外，也可能天天进城上班看病。",
-    "quickCue": "Function follows FLOWS, not city borders."
+    "quickCue": "City reach：通勤 / 货运 / 医院 / 电视 / 球队，不只看市界。",
+    "reviewedAgainst": "Lecture 1b, slide 33"
   },
   {
     "id": "term-31",
@@ -48,12 +47,10 @@
     "group": "A",
     "type": "term",
     "hook": "Farms must pay delivery costs too.",
-    "source": "Lecture 2a: Von Thünen; Dexter",
+    "source": "Lecture 2a, slides 6–11",
     "parts": [
-      "Von Thünen explains farming patterns around a market.",
-      "Farmers compare land rent, production costs and transport costs.",
-      "Different products can afford different locations, creating rings under the model’s assumptions.",
-      "A product costly to transport has a reason to locate near the market."
+      "Von Thünen’s model explains farming rings around an isolated market through trade-offs among land rent, production costs and transport costs.",
+      "Products costly to transport have a reason to stay near the market; land-intensive uses can locate farther away. AMM applies related rent–travel trade-offs to urban housing."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -82,16 +79,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Von Thünen explains rings of farming around a market: farmers balance land, production and transport costs."
+        "label": "",
+        "text": "Von Thünen’s model explains farming rings around an isolated market through trade-offs among land rent, production costs and transport costs."
       },
       {
-        "label": "Picture it",
-        "text": "Products that are expensive to transport have a reason to locate closer to the market."
+        "label": "Example / link",
+        "text": "Products costly to transport have a reason to stay near the market; land-intensive uses can locate farther away. AMM applies related rent–travel trade-offs to urban housing."
       }
     ],
     "zh": "送东西越远越费钱，所以不同的农场会选不同的远近。",
-    "quickCue": "Von Thünen：农场围市场，远近算运费。"
+    "quickCue": "Von Thünen：农场围市场，远近算运费。",
+    "reviewedAgainst": "Lecture 2a, slides 6–11"
   },
   {
     "id": "term-16",
@@ -101,12 +99,10 @@
     "group": "A",
     "type": "term",
     "hook": "Buy milk nearby; travel farther for rare services.",
-    "source": "Lecture 2a; Dexter",
+    "source": "Lecture 2a, slides 18–19",
     "parts": [
-      "Central Place Theory explains why settlements form a service hierarchy.",
-      "Everyday shops need a small customer area; specialized services need a larger one.",
-      "Small centers are numerous; large centers are fewer and farther apart.",
-      "Convenience stores are common; major specialist hospitals are less common."
+      "Christaller’s Central Place Theory explains a hierarchy of settlements and service areas. Common goods support many small centers; specialized services need larger customer areas and fewer, larger centers.",
+      "Convenience stores are common; specialist hospitals serve wider tributary areas. The model helps explain service locations, not every detail of real city history."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -135,16 +131,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Common services need small customer areas; rare services need larger ones. This helps explain many small centers and fewer large centers."
+        "label": "",
+        "text": "Christaller’s Central Place Theory explains a hierarchy of settlements and service areas. Common goods support many small centers; specialized services need larger customer areas and fewer, larger centers."
       },
       {
-        "label": "Picture it",
-        "text": "Many neighborhoods have grocery stores; only a few places have specialist hospitals."
+        "label": "Example / link",
+        "text": "Convenience stores are common; specialist hospitals serve wider tributary areas. The model helps explain service locations, not every detail of real city history."
       }
     ],
     "zh": "买牛奶附近就有，找很少见的医生可能得跑远一点。",
-    "quickCue": "Milk nearby; rare specialist farther away."
+    "quickCue": "Milk nearby; rare specialist farther away.",
+    "reviewedAgainst": "Lecture 2a, slides 18–19"
   },
   {
     "id": "term-19",
@@ -154,12 +151,12 @@
     "group": "A",
     "type": "term",
     "hook": "Pizza slices versus several centers.",
-    "source": "Lecture 2a: location theories",
+    "source": "Lecture 2a, slides 21–25",
     "parts": [
-      "Hoyt’s Sector Model follows corridors; the Multiple Nuclei Model has several centers.",
-      "Transport routes shape sectors, while related activities cluster into different centers.",
-      "Cities need not grow as rings around one downtown.",
-      "Picture wedges along railways versus separate shopping, industrial and office centers."
+      "Similar land uses extend outward in wedges along transport corridors, rather than only in rings around a CBD.",
+      "Activities cluster around several centers; some uses attract each other and others repel each other.",
+      "Industry follows a railway; offices, shops and factories may form separate centers.",
+      "Sector = corridor-shaped wedges. Multiple nuclei = several centers; it connects to polycentric cities."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -198,24 +195,25 @@
     ],
     "studyBlocks": [
       {
-        "label": "Sector model",
-        "text": "Land uses grow outward in wedges, often along transport routes."
+        "label": "Hoyt: Sector",
+        "text": "Similar land uses extend outward in wedges along transport corridors, rather than only in rings around a CBD."
       },
       {
-        "label": "Multiple nuclei",
-        "text": "Different activities cluster around several centers."
+        "label": "Harris & Ullman: Multiple Nuclei",
+        "text": "Activities cluster around several centers; some uses attract each other and others repel each other."
       },
       {
-        "label": "Picture it",
-        "text": "Industry along a railway versus separate industrial, shopping and office centers."
+        "label": "Example",
+        "text": "Industry follows a railway; offices, shops and factories may form separate centers."
       },
       {
-        "label": "The distinction",
-        "text": "WEDGES describe corridors; NUCLEI describe centers. Neither requires rings around one CBD."
+        "label": "Keep apart",
+        "text": "Sector = corridor-shaped wedges. Multiple nuclei = several centers; it connects to polycentric cities."
       }
     ],
     "zh": "一个像切开的披萨，顺着路向外伸；另一个像锅里有好几个蛋黄。",
-    "quickCue": "Sector = pizza slices; multiple nuclei = egg yolks."
+    "quickCue": "Sector = pizza slices; multiple nuclei = egg yolks.",
+    "reviewedAgainst": "Lecture 2a, slides 21–25"
   },
   {
     "id": "term-10",
@@ -225,12 +223,12 @@
     "group": "A",
     "type": "term",
     "hook": "Near the CBD: less commuting, more rent.",
-    "source": "Lecture 2a; Glaeser; Dexter",
+    "source": "Lecture 2a, slides 26–29",
     "parts": [
-      "AMM explains housing choices within one city（城内）.",
-      "People trade housing costs against commuting costs.",
-      "Homes farther from the center usually offer cheaper space but longer trips.",
-      "Think: small downtown flat versus large suburban home. Rosen–Roback compares different cities."
+      "AMM explains residential choices WITHIN a city. The basic model assumes everyone works in one CBD and commuting costs rise with distance.",
+      "Near the CBD: higher land rent, lower commuting cost. Farther out: cheaper land, costlier travel; this helps explain density and building-height patterns.",
+      "A small downtown flat versus a larger suburban home with a longer commute.",
+      "AMM = within one city. Rosen–Roback = between cities."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -260,23 +258,24 @@
     "studyBlocks": [
       {
         "label": "The question",
-        "text": "Where should you live WITHIN one city?"
+        "text": "AMM explains residential choices WITHIN a city. The basic model assumes everyone works in one CBD and commuting costs rise with distance."
       },
       {
         "label": "The trade-off",
-        "text": "Closer to the center: higher housing costs, lower commuting costs. Farther out: the reverse under the model’s assumptions."
+        "text": "Near the CBD: higher land rent, lower commuting cost. Farther out: cheaper land, costlier travel; this helps explain density and building-height patterns."
       },
       {
-        "label": "Picture it",
-        "text": "Small downtown flat versus a larger suburban home with a longer commute."
+        "label": "Example",
+        "text": "A small downtown flat versus a larger suburban home with a longer commute."
       },
       {
-        "label": "Don’t mix up",
-        "text": "AMM = within a city. Rosen–Roback = between cities."
+        "label": "Keep apart",
+        "text": "AMM = within one city. Rosen–Roback = between cities."
       }
     ],
     "zh": "在同一个城市里选住处：省房钱，还是省上班路上的时间？",
-    "quickCue": "AMM：一城内，rent ↑ ↔ commute ↓。"
+    "quickCue": "AMM：一城内，rent ↑ ↔ commute ↓。",
+    "reviewedAgainst": "Lecture 2a, slides 26–29"
   },
   {
     "id": "term-13",
@@ -286,18 +285,18 @@
     "group": "A",
     "type": "term",
     "hook": "Different cities, the same three questions.",
-    "source": "Glaeser: spatial equilibrium; Lecture 2a",
+    "source": "Lecture 2a, slides 30–31",
     "parts": [
-      "Rosen–Roback explains choices between cities（城际）.",
-      "People weigh wages, rents and amenities: income, housing cost and quality of life.",
-      "High wages may be offset by high rent.",
-      "Someone may accept lower pay to live near the beach. AMM stays within one city."
+      "Rosen–Roback compares cities and assumes people can move freely between them. Wages and rents adjust with productivity and amenities.",
+      "High wages + high rents can reflect high productivity. High rents + lower wages can reflect attractive amenities.",
+      "People may accept lower pay and higher rent for better weather or quality of life.",
+      "Rosen–Roback = between cities; AMM = within one city. Costs and benefits balance, not every city pays the same wage."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Rosen–Roback → ROAM：换城市，看 wages / rent / amenities。",
+      "text": "Rosen–Roback → ROAM：wages / rents 平衡 productivity / amenities。",
       "lines": [
-        "Rosen–Roback → ROAM：换城市，看 wages / rent / amenities。"
+        "Rosen–Roback → ROAM：wages / rents 平衡 productivity / amenities。"
       ]
     },
     "fullParts": [
@@ -309,23 +308,24 @@
     "studyBlocks": [
       {
         "label": "The question",
-        "text": "Which CITY should you choose?"
+        "text": "Rosen–Roback compares cities and assumes people can move freely between them. Wages and rents adjust with productivity and amenities."
       },
       {
-        "label": "The trade-off",
-        "text": "Compare wages, housing costs and amenities. Higher pay can be offset by higher rent."
+        "label": "Two patterns",
+        "text": "High wages + high rents can reflect high productivity. High rents + lower wages can reflect attractive amenities."
       },
       {
-        "label": "Picture it",
-        "text": "You accept lower pay to live near the beach because you value that amenity."
+        "label": "Example",
+        "text": "People may accept lower pay and higher rent for better weather or quality of life."
       },
       {
-        "label": "Don’t mix up",
-        "text": "Rosen–Roback = between cities. AMM = within one city."
+        "label": "Keep apart",
+        "text": "Rosen–Roback = between cities; AMM = within one city. Costs and benefits balance, not every city pays the same wage."
       }
     ],
     "zh": "换一个城市生活：工资多了，够不够多付房钱？住着开不开心？",
-    "quickCue": "Rosen–Roback → ROAM：换城市，看 wages / rent / amenities。"
+    "quickCue": "Rosen–Roback → ROAM：wages / rents 平衡 productivity / amenities。",
+    "reviewedAgainst": "Lecture 2a, slides 30–31"
   },
   {
     "id": "term-49",
@@ -335,12 +335,10 @@
     "group": "A",
     "type": "term",
     "hook": "Being nearby can make work easier.",
-    "source": "Glaeser: agglomeration; Lecture 2a",
+    "source": "Lecture 2a, slides 32–34",
     "parts": [
-      "Agglomeration brings benefits from clustering people and firms.",
-      "They share resources, find workers and exchange ideas more easily.",
-      "Productivity may rise, but so can rents and congestion.",
-      "A design firm benefits from nearby clients and talent, while paying more for space."
+      "Agglomeration is the benefit of clustering people and activities: lower interaction costs, specialization, and knowledge spillovers can increase productivity per worker.",
+      "Nearby firms share suppliers, find workers and exchange ideas, while facing higher rents and congestion. The lecture also extends clustering and spillovers to cultural groups and activities."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -357,16 +355,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "People and firms can benefit from being close together: sharing resources, finding workers and exchanging ideas. This is agglomeration."
+        "label": "",
+        "text": "Agglomeration is the benefit of clustering people and activities: lower interaction costs, specialization, and knowledge spillovers can increase productivity per worker."
       },
       {
-        "label": "Picture it",
-        "text": "A design firm finds clients and skilled workers nearby, but also pays higher rent and faces congestion."
+        "label": "Example / link",
+        "text": "Nearby firms share suppliers, find workers and exchange ideas, while facing higher rents and congestion. The lecture also extends clustering and spillovers to cultural groups and activities."
       }
     ],
     "zh": "挤在一起，找人找客户、交流办法更方便，但房钱可能更贵。",
-    "quickCue": "Agglomeration → a GLOB：share · match · learn。"
+    "quickCue": "Agglomeration → a GLOB：share · match · learn。",
+    "reviewedAgainst": "Lecture 2a, slides 32–34"
   },
   {
     "id": "term-46",
@@ -407,7 +406,8 @@
       }
     ],
     "zh": "一个主要地方最热闹，还是好几个地方都很热闹？",
-    "quickCue": "MONO = one peak; POLY = several peaks."
+    "quickCue": "MONO = one peak; POLY = several peaks.",
+    "reviewedAgainst": "Lecture 3a, slides 3, 56"
   },
   {
     "id": "term-01",
@@ -419,10 +419,8 @@
     "hook": "Build the roads; you cannot copy the history.",
     "source": "Lecture 3a, slide 46",
     "parts": [
-      "Machine City treats a city as a system that planners can design.",
-      "Roads, pipes and parks can be planned.",
-      "Chicago also grew through geography, inventions and historical events that cannot simply be copied.",
-      "Copying Chicago’s layout would not guarantee another Chicago."
+      "Machine City asks whether a city can be deliberately designed and reproduced as a working system. Chicago shows both the power and limits of planning.",
+      "Transport and engineering can be planned; geography, innovations and historical timing cannot simply be copied. This links to agglomeration and lock-in."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -439,16 +437,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "A city can be planned like a machine, with roads, pipes and parks working together. But geography and history also shape its growth."
+        "label": "",
+        "text": "Machine City asks whether a city can be deliberately designed and reproduced as a working system. Chicago shows both the power and limits of planning."
       },
       {
-        "label": "Picture it",
-        "text": "Copy Chicago’s street plan and you still won’t recreate Chicago’s economy."
+        "label": "Example / link",
+        "text": "Transport and engineering can be planned; geography, innovations and historical timing cannot simply be copied. This links to agglomeration and lock-in."
       }
     ],
     "zh": "道路和水管能照着建，但一个城市经历过的事情不能照搬。",
-    "quickCue": "City ≠ photocopy：能抄布局，抄不了历史。"
+    "quickCue": "City ≠ photocopy：能抄布局，抄不了历史。",
+    "reviewedAgainst": "Lecture 3a, slide 46"
   },
   {
     "id": "term-34",
@@ -458,18 +457,16 @@
     "group": "A",
     "type": "term",
     "hook": "A bigger urban share is not a bigger paycheck.",
-    "source": "Jedwab & Vollrath: Urbanization Without Growth",
+    "source": "Jedwab & Vollrath, urbanization and growth mechanisms",
     "parts": [
-      "Urbanization without growth means more people live in cities without matching income growth.",
-      "Rural hardship, urban policies and improved survival can increase the urban share.",
-      "Cities may expand while poverty remains.",
-      "Moving to a city to escape a drought does not guarantee a productive urban job."
+      "Urbanization without growth means a rising share of people living in cities without corresponding growth in income per person. Urbanization is not simply an increase in city population.",
+      "Jedwab & Vollrath discuss forces such as rural hardship, urban bias and declining urban mortality. Cities can gain residents without sufficient productive jobs; consumption cities offer another related mechanism."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Urban population ↑ ≠ income per person ↑.",
+      "text": "Urban SHARE ↑ ≠ income per person ↑。",
       "lines": [
-        "Urban population ↑ ≠ income per person ↑."
+        "Urban SHARE ↑ ≠ income per person ↑。"
       ]
     },
     "fullParts": [
@@ -480,16 +477,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "More people living in cities does not automatically mean higher incomes or better jobs."
+        "label": "",
+        "text": "Urbanization without growth means a rising share of people living in cities without corresponding growth in income per person. Urbanization is not simply an increase in city population."
       },
       {
-        "label": "Picture it",
-        "text": "People escape a rural drought by moving to a city, but productive urban jobs may not be waiting."
+        "label": "Example / link",
+        "text": "Jedwab & Vollrath discuss forces such as rural hardship, urban bias and declining urban mortality. Cities can gain residents without sufficient productive jobs; consumption cities offer another related mechanism."
       }
     ],
     "zh": "进城的人多了，不代表每个人挣的钱也多了。",
-    "quickCue": "Urban population ↑ ≠ income per person ↑."
+    "quickCue": "Urban SHARE ↑ ≠ income per person ↑。",
+    "reviewedAgainst": "Jedwab & Vollrath, urbanization and growth mechanisms"
   },
   {
     "id": "term-38",
@@ -499,12 +497,10 @@
     "group": "A",
     "type": "term",
     "hook": "Push from behind; pull from ahead.",
-    "source": "Jedwab & Vollrath; course migration notes",
+    "source": "Jedwab & Vollrath, agricultural change, industrial pull and rural push",
     "parts": [
-      "Rural push drives people away from the countryside; urban pull attracts them to cities.",
-      "Drought or lost livelihoods can push; jobs and education can pull.",
-      "Migration can reflect hardship rather than growing urban prosperity.",
-      "Escaping rural unemployment does not mean a good city job is waiting."
+      "Rural push sends people out of the countryside; urban pull attracts them toward cities. Push can involve hardship or labor released by agricultural change; pull includes jobs and education.",
+      "Drought may push a family out, while factory jobs pull another family in. Migration driven by rural problems need not bring higher urban productivity or income."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -521,16 +517,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Rural PUSH makes people leave the countryside; urban PULL attracts them to a city."
+        "label": "",
+        "text": "Rural push sends people out of the countryside; urban pull attracts them toward cities. Push can involve hardship or labor released by agricultural change; pull includes jobs and education."
       },
       {
-        "label": "Picture it",
-        "text": "Drought pushes; jobs and education pull. Moving because of hardship does not guarantee a good city job."
+        "label": "Example / link",
+        "text": "Drought may push a family out, while factory jobs pull another family in. Migration driven by rural problems need not bring higher urban productivity or income."
       }
     ],
     "zh": "可能是老家待不下去，也可能是城里有想要的机会。",
-    "quickCue": "Rural PUSH 推你走；urban PULL 吸引你来。"
+    "quickCue": "Rural PUSH 推你走；urban PULL 吸引你来。",
+    "reviewedAgainst": "Jedwab & Vollrath, agricultural change, industrial pull and rural push"
   },
   {
     "id": "term-35",
@@ -542,16 +539,15 @@
     "hook": "A bigger cake may have more people sharing it.",
     "source": "Course growth notes; Jedwab & Vollrath’s Malthusian discussion",
     "parts": [
-      "In a Malthusian economy, population growth can absorb income gains.",
-      "In Solow, more capital raises output per worker but faces diminishing returns.",
-      "Sustained long-run growth per person requires technological progress in the standard model.",
-      "More total output—or more urban residents—does not automatically mean richer individuals."
+      "More output supports more people, so income per person may return toward subsistence. Ten people sharing ten meals, then twenty sharing twenty: still one meal each.",
+      "Capital accumulation raises output per worker, but has diminishing returns. Technological progress sustains long-run growth per person in the standard model.",
+      "A baker’s first oven helps much more than a tenth; better technology can keep raising productivity. More urban residents alone do not guarantee higher income per person."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Malthus = more MOUTHS；Solow = gains SLOW，靠 technology 突破。",
+      "text": "Malthus → MOUTHS 分掉增长；Solow → SOAR，technology 支持人均增长。",
       "lines": [
-        "Malthus = more MOUTHS；Solow = gains SLOW，靠 technology 突破。"
+        "Malthus → MOUTHS 分掉增长；Solow → SOAR，technology 支持人均增长。"
       ]
     },
     "fullParts": [
@@ -562,24 +558,21 @@
     ],
     "studyBlocks": [
       {
-        "label": "Malthus → more MOUTHS",
-        "text": "More food can support more people, leaving little lasting gain per person. Picture 10 people sharing 10 meals, then 20 sharing 20: still one meal each."
+        "label": "Malthus: population absorbs gains",
+        "text": "More output supports more people, so income per person may return toward subsistence. Ten people sharing ten meals, then twenty sharing twenty: still one meal each."
       },
       {
-        "label": "Solow → gains SLOW down",
-        "text": "More capital per worker helps, but with diminishing returns. A baker gains a lot from the first oven; a tenth oven may add much less."
+        "label": "Solow: productivity supports growth",
+        "text": "Capital accumulation raises output per worker, but has diminishing returns. Technological progress sustains long-run growth per person in the standard model."
       },
       {
-        "label": "What sustains growth?",
-        "text": "In the standard Solow model, technological progress sustains long-run growth per person. Better production methods keep raising productivity."
-      },
-      {
-        "label": "Keep apart",
-        "text": "Malthus: population absorbs gains. Solow: capital alone has limits. More city residents do not automatically mean higher income per person."
+        "label": "Example / link",
+        "text": "A baker’s first oven helps much more than a tenth; better technology can keep raising productivity. More urban residents alone do not guarantee higher income per person."
       }
     ],
     "zh": "Malthus：吃饭的人也变多了；Solow：再多加一台工具，帮的忙越来越小，得靠更好的办法。",
-    "quickCue": "Malthus = more MOUTHS；Solow = gains SLOW，靠 technology 突破。"
+    "quickCue": "Malthus → MOUTHS 分掉增长；Solow → SOAR，technology 支持人均增长。",
+    "reviewedAgainst": "Course growth notes; standard Malthusian/Solow comparison; exact instructor wording not located"
   },
   {
     "id": "term-04",
@@ -589,12 +582,10 @@
     "group": "A",
     "type": "term",
     "hook": "Spending resource income is not the same as industrial growth.",
-    "source": "Jedwab & Vollrath; course notes distinguish the consumer-city usage",
+    "source": "Jedwab & Vollrath, pp. 14–15",
     "parts": [
-      "A consumption city grows by spending income from resources such as oil.",
-      "That money supports shops, restaurants and other local services.",
-      "The city can grow without a strong manufacturing economy.",
-      "More urban jobs do not necessarily mean higher productivity: urbanization without growth."
+      "A consumption city grows as resource income, such as oil revenues, pays for urban goods and non-tradable services. Its jobs need not come mainly from manufacturing or tradable services.",
+      "Oil income supports local shops and restaurants. Unlike a production city, this growth need not reflect broad productivity gains."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -611,16 +602,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "A consumption city grows by spending resource income, such as oil money, on shops and services. It need not develop strong manufacturing."
+        "label": "",
+        "text": "A consumption city grows as resource income, such as oil revenues, pays for urban goods and non-tradable services. Its jobs need not come mainly from manufacturing or tradable services."
       },
       {
-        "label": "Picture it",
-        "text": "Oil income supports restaurants and shops, but urban growth does not guarantee broad productivity growth."
+        "label": "Example / link",
+        "text": "Oil income supports local shops and restaurants. Unlike a production city, this growth need not reflect broad productivity gains."
       }
     ],
     "zh": "靠卖石油等赚来的钱，养活店铺和餐馆；不一定靠工厂赚钱。",
-    "quickCue": "Oil money → shops & services, not necessarily factories."
+    "quickCue": "Oil money → shops & services, not necessarily factories.",
+    "reviewedAgainst": "Jedwab & Vollrath, pp. 14–15"
   },
   {
     "id": "term-07",
@@ -630,18 +622,16 @@
     "group": "A",
     "type": "term",
     "hook": "The city changes how it earns a living.",
-    "source": "Jedwab & Vollrath; course economic-transition notes",
+    "source": "Jedwab & Vollrath, pp. 14–15; course transition notes",
     "parts": [
-      "Urban economic transition means a change in a city’s main industries and jobs.",
-      "Employment may shift from farming to factories, then services.",
-      "Some cities gain new work; others lose the industry they depended on.",
-      "A factory closure can hurt the whole surrounding neighborhood."
+      "Urban economic transition is a shift in the main industries and jobs supporting a city, such as manufacturing giving way to services.",
+      "A city may replace factory jobs with healthcare or finance. If replacement work is insufficient, job loss can lead to population loss and shrinking cities. The sequence is not universal."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "FIELD → FACTORY → OFFICE.",
+      "text": "Urban Economic Transition = 城市换了“靠什么吃饭”。",
       "lines": [
-        "FIELD → FACTORY → OFFICE."
+        "Urban Economic Transition = 城市换了“靠什么吃饭”。"
       ]
     },
     "fullParts": [
@@ -652,12 +642,12 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "A city’s economy changes as its main jobs and industries change. Some places adapt; others lose the work they depend on."
+        "label": "",
+        "text": "Urban economic transition is a shift in the main industries and jobs supporting a city, such as manufacturing giving way to services."
       },
       {
-        "label": "Picture it",
-        "text": "A factory closes: workers lose jobs and nearby shops lose customers."
+        "label": "Example / link",
+        "text": "A city may replace factory jobs with healthcare or finance. If replacement work is insufficient, job loss can lead to population loss and shrinking cities. The sequence is not universal."
       }
     ],
     "zh": "以前种地，后来进厂，再后来坐办公室；但不是每个地方都能顺利换工作。",
@@ -673,7 +663,8 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Clark%27s_sector_model.svg"
       }
     ],
-    "quickCue": "FIELD → FACTORY → OFFICE."
+    "quickCue": "Urban Economic Transition = 城市换了“靠什么吃饭”。",
+    "reviewedAgainst": "Jedwab & Vollrath, pp. 14–15; course transition notes"
   },
   {
     "id": "term-41",
@@ -726,7 +717,8 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:AbandonedHouseDelray.jpg"
       }
     ],
-    "quickCue": "Shrinking city：人少了，长长的路和水管还得养。"
+    "quickCue": "Shrinking city：人少了，长长的路和水管还得养。",
+    "reviewedAgainst": "Course shrinking-cities notes; industrial-transition connection"
   },
   {
     "id": "term-25",
@@ -779,7 +771,8 @@
       }
     ],
     "zh": "同样大的一块地里，放了多少人或多少房子？",
-    "quickCue": "Density = amount ÷ area；不等于街道布局。"
+    "quickCue": "Density = amount ÷ area；不等于街道布局。",
+    "reviewedAgainst": "Lecture 3a, slides 3, 56; course density notes"
   },
   {
     "id": "term-22",
@@ -789,12 +782,10 @@
     "group": "B",
     "type": "term",
     "hook": "Order + straight lines + four-way crossings.",
-    "source": "Boeing: Off the Grid and Back Again",
+    "source": "Boeing reading, grid measures and discussion",
     "parts": [
-      "Griddedness measures how much streets resemble a grid.",
-      "Boeing combines orientation order, straightness and four-way intersections.",
-      "Connected routes offer more choices than loops and dead ends.",
-      "Grid-like neighborhoods have lower car ownership on average; this association alone does not prove causation."
+      "Boeing measures griddedness using orientation order, street straightness and four-way intersections. Connected grids offer more route choices than loops and dead ends.",
+      "Griddedness declined through much of the twentieth century and partly recovered. It is associated with lower car ownership, not proof that the grid alone causes it; this links to Design among the Ds."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -823,16 +814,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Griddedness describes how grid-like a street network is: consistent directions, straight streets and four-way intersections."
+        "label": "",
+        "text": "Boeing measures griddedness using orientation order, street straightness and four-way intersections. Connected grids offer more route choices than loops and dead ends."
       },
       {
-        "label": "Picture it",
-        "text": "A connected grid gives you several routes; loops and dead ends give you fewer choices."
+        "label": "Example / link",
+        "text": "Griddedness declined through much of the twentieth century and partly recovered. It is associated with lower car ownership, not proof that the grid alone causes it; this links to Design among the Ds."
       }
     ],
     "zh": "像棋盘一样的街道，去同一个地方可以换好几条路。",
-    "quickCue": "Grid = orderly directions + straight streets + four-way crossings."
+    "quickCue": "Grid = orderly directions + straight streets + four-way crossings.",
+    "reviewedAgainst": "Boeing reading, grid measures and discussion"
   },
   {
     "id": "term-50",
@@ -842,18 +834,17 @@
     "group": "B",
     "type": "term",
     "hook": "How much? What mix? Which streets? What destinations? How far to transit?",
-    "source": "Boeing’s discussion of Ewing & Cervero",
+    "source": "Boeing, p. 126 and references; standard 3-D / expanded 5-D distinction; review does not specify number",
     "parts": [
-      "The five Ds are density, diversity, design, destination accessibility and distance to transit.",
-      "They describe different ways the built environment shapes travel choices.",
-      "Density alone cannot explain whether people can easily walk or use transit.",
-      "A dense neighborhood may still have disconnected streets and distant stations."
+      "Density = amount per area; diversity = land-use mix; design = street layout and connectivity. These built-environment features help explain travel behavior.",
+      "Add destination accessibility = ease of reaching opportunities, and distance to transit = proximity to stops. Density alone does not tell you whether travel is easy.",
+      "Boeing connects griddedness and street connectivity with travel and car ownership. A dense neighborhood may still be difficult to walk through if its streets are disconnected."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "5 Ds：多少人 / 混什么 / 路怎么连 / 能去哪 / 车站多远。",
+      "text": "3 Ds：多少 / 混什么 / 路怎么连；+2：能去哪 / 车站多远。",
       "lines": [
-        "5 Ds：多少人 / 混什么 / 路怎么连 / 能去哪 / 车站多远。"
+        "3 Ds：多少 / 混什么 / 路怎么连；+2：能去哪 / 车站多远。"
       ]
     },
     "fullParts": [
@@ -864,16 +855,21 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "The five Ds describe how a neighborhood’s layout affects travel. Density is only one part of the picture."
+        "label": "Original 3 Ds",
+        "text": "Density = amount per area; diversity = land-use mix; design = street layout and connectivity. These built-environment features help explain travel behavior."
       },
       {
-        "label": "Picture it",
-        "text": "A dense neighborhood can still be hard to walk around if streets do not connect and transit is far away."
+        "label": "Expanded 5 Ds",
+        "text": "Add destination accessibility = ease of reaching opportunities, and distance to transit = proximity to stops. Density alone does not tell you whether travel is easy."
+      },
+      {
+        "label": "Course link",
+        "text": "Boeing connects griddedness and street connectivity with travel and car ownership. A dense neighborhood may still be difficult to walk through if its streets are disconnected."
       }
     ],
     "zh": "不光看人多不多，还要看店有什么、路怎么走、能去哪、车站多远。",
-    "quickCue": "5 Ds：多少人 / 混什么 / 路怎么连 / 能去哪 / 车站多远。"
+    "quickCue": "3 Ds：多少 / 混什么 / 路怎么连；+2：能去哪 / 车站多远。",
+    "reviewedAgainst": "Boeing, p. 126 and references; standard 3-D / expanded 5-D distinction; review does not specify number"
   },
   {
     "id": "term-40",
@@ -926,7 +922,8 @@
       }
     ],
     "zh": "家和工作慢慢往城边搬。",
-    "quickCue": "Suburbanization = 向外搬；sprawl = 摊成什么样。"
+    "quickCue": "Suburbanization = 向外搬；sprawl = 摊成什么样。",
+    "reviewedAgainst": "Lecture 3a; Dexter; course suburbanization notes"
   },
   {
     "id": "term-52",
@@ -979,7 +976,8 @@
       }
     ],
     "zh": "买菜走几步就到，还是非得开车才方便？",
-    "quickCue": "Pedestrian vs. auto：买菜走几步，还是必须开车？"
+    "quickCue": "Pedestrian vs. auto：买菜走几步，还是必须开车？",
+    "reviewedAgainst": "Lecture 3a, slides 72, 76; Lecture 7a, slide 20"
   },
   {
     "id": "term-20",
@@ -989,12 +987,10 @@
     "group": "C",
     "type": "term",
     "hook": "The jobs move; the workers cannot follow.",
-    "source": "Ihlanfeldt: Spatial Mismatch",
+    "source": "Ihlanfeldt reading; Lecture 2a, slide 47",
     "parts": [
-      "Jobs-housing mismatch separates workers from suitable jobs.",
-      "Jobs move outward while housing discrimination, transport and other barriers hold workers back.",
-      "Finding work becomes harder, and commuting costs rise.",
-      "A factory moves to the suburbs while its workers remain in the inner city."
+      "Jobs-housing or spatial mismatch separates workers from suitable jobs. Job suburbanization combines with housing discrimination and segregation that prevent workers from following.",
+      "Ihlanfeldt examines barriers facing inner-city workers as jobs move outward. Grengs adds that transport mode can matter more than distance alone."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1011,16 +1007,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Workers and suitable jobs are in different places, and barriers make the gap hard to cross."
+        "label": "",
+        "text": "Jobs-housing or spatial mismatch separates workers from suitable jobs. Job suburbanization combines with housing discrimination and segregation that prevent workers from following."
       },
       {
-        "label": "Picture it",
-        "text": "A factory moves to the suburbs, while workers remain in the inner city with poor transport access."
+        "label": "Example / link",
+        "text": "Ihlanfeldt examines barriers facing inner-city workers as jobs move outward. Grengs adds that transport mode can matter more than distance alone."
       }
     ],
     "zh": "工作搬远了，人却因为种种原因搬不过去。",
-    "quickCue": "Spatial mismatch = WHERE：家在这，工作在那。"
+    "quickCue": "Spatial mismatch = WHERE：家在这，工作在那。",
+    "reviewedAgainst": "Ihlanfeldt reading; Lecture 2a, slide 47"
   },
   {
     "id": "term-23",
@@ -1073,7 +1070,8 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
-    "quickCue": "Modal mismatch = HOW：同一住址，car key ≠ bus pass。"
+    "quickCue": "Modal mismatch = HOW：同一住址，car key ≠ bus pass。",
+    "reviewedAgainst": "Grengs reading, Detroit findings"
   },
   {
     "id": "term-29",
@@ -1085,16 +1083,15 @@
     "hook": "Primal: how many? Dual: how long?",
     "source": "Course accessibility notes; Primal and Dual Access reference",
     "parts": [
-      "Primal accessibility counts opportunities within a fixed travel time.",
-      "Dual accessibility asks how long reaching a fixed number takes.",
-      "More opportunities improve primal access; less time improves dual access.",
-      "Compare “jobs within 30 minutes” with “minutes needed to reach 100 jobs.”"
+      "Set a 30-minute travel limit. Count the jobs you could reach within it. More reachable jobs means better access.",
+      "Set a target of 100 reachable jobs. Find the travel time needed to include that many. Less time means better access.",
+      "Primal asks HOW MANY? Dual asks HOW LONG? These measure access to job locations, not whether you will be hired."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Primal = PILE of jobs; Dual = DURATION to jobs.",
+      "text": "Primal：30分钟内有多少 jobs？Dual：到100个 jobs 要几分钟？",
       "lines": [
-        "Primal = PILE of jobs; Dual = DURATION to jobs."
+        "Primal：30分钟内有多少 jobs？Dual：到100个 jobs 要几分钟？"
       ]
     },
     "fullParts": [
@@ -1105,24 +1102,21 @@
     ],
     "studyBlocks": [
       {
-        "label": "Primal",
-        "text": "Fix the TIME; count reachable opportunities."
+        "label": "Primal: fix time → count opportunities",
+        "text": "Set a 30-minute travel limit. Count the jobs you could reach within it. More reachable jobs means better access."
       },
       {
-        "label": "Dual",
-        "text": "Fix the NUMBER of opportunities; measure travel time."
+        "label": "Dual: fix opportunities → measure time",
+        "text": "Set a target of 100 reachable jobs. Find the travel time needed to include that many. Less time means better access."
       },
       {
-        "label": "Picture it",
-        "text": "Jobs within 30 minutes versus minutes needed to reach 100 jobs."
-      },
-      {
-        "label": "Better access means",
-        "text": "More opportunities for primal; less time for dual."
+        "label": "Remember",
+        "text": "Primal asks HOW MANY? Dual asks HOW LONG? These measure access to job locations, not whether you will be hired."
       }
     ],
     "zh": "一个问半小时能找到多少工作；另一个问找到一百个工作要走多久。",
-    "quickCue": "Primal = PILE of jobs; Dual = DURATION to jobs."
+    "quickCue": "Primal：30分钟内有多少 jobs？Dual：到100个 jobs 要几分钟？",
+    "reviewedAgainst": "Course study notes; standard time-threshold/count-target explanation; exact instructor wording not located"
   },
   {
     "id": "term-32",
@@ -1171,7 +1165,8 @@
       }
     ],
     "zh": "附近有十个空位，还得看有多少人在和你一起抢。",
-    "quickCue": "Cumulative 数 jobs；competitive 还数抢 jobs 的人。"
+    "quickCue": "Cumulative 数 jobs；competitive 还数抢 jobs 的人。",
+    "reviewedAgainst": "Course accessibility notes; Grengs competition-adjusted accessibility"
   },
   {
     "id": "term-05",
@@ -1181,18 +1176,16 @@
     "group": "C",
     "type": "term",
     "hook": "More lanes can attract more cars.",
-    "source": "Dexter: Transportation and Land Use",
+    "source": "Course travel-supply/demand notes; standard induced-demand mechanism",
     "parts": [
-      "Travel supply means transport capacity; demand means the trips people want to make.",
-      "A wider road makes driving easier and can attract more drivers.",
-      "New traffic can use up the extra capacity: induced demand.",
-      "For example, former bus passengers switch to cars and congestion returns."
+      "Travel supply is transport capacity; demand is the travel people want to make at a given cost. More road capacity can lower travel costs and attract extra driving: induced demand.",
+      "A wider road saves time, attracting trips until congestion may return. Congestion pricing manages demand instead of simply adding capacity."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "More lanes → more driving → traffic returns.",
+      "text": "Supply = 能运多少；demand = 想出行多少；加路可能引来更多车。",
       "lines": [
-        "More lanes → more driving → traffic returns."
+        "Supply = 能运多少；demand = 想出行多少；加路可能引来更多车。"
       ]
     },
     "fullParts": [
@@ -1203,12 +1196,12 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "More road space can attract more driving, so congestion may return. This is induced demand."
+        "label": "",
+        "text": "Travel supply is transport capacity; demand is the travel people want to make at a given cost. More road capacity can lower travel costs and attract extra driving: induced demand."
       },
       {
-        "label": "Picture it",
-        "text": "A wider road saves time at first; people switch from buses to cars and fill it again."
+        "label": "Example / link",
+        "text": "A wider road saves time, attracting trips until congestion may return. Congestion pricing manages demand instead of simply adding capacity."
       }
     ],
     "zh": "路宽了，开车更方便，于是更多人开车，最后又堵了。",
@@ -1224,7 +1217,8 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
-    "quickCue": "More lanes → more driving → traffic returns."
+    "quickCue": "Supply = 能运多少；demand = 想出行多少；加路可能引来更多车。",
+    "reviewedAgainst": "Course travel-supply/demand notes; standard induced-demand mechanism"
   },
   {
     "id": "term-53",
@@ -1277,7 +1271,8 @@
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
       }
     ],
-    "quickCue": "Congestion pricing = PRICE the PEAK."
+    "quickCue": "Congestion pricing = PRICE the PEAK.",
+    "reviewedAgainst": "Course congestion-pricing notes; standard demand-management definition"
   },
   {
     "id": "term-56",
@@ -1330,7 +1325,8 @@
       }
     ],
     "zh": "把路变窄、加个凸起，让车想快也快不起来。",
-    "quickCue": "Traffic calming：用路的形状让车慢下来。"
+    "quickCue": "Traffic calming：用路的形状让车慢下来。",
+    "reviewedAgainst": "Course traffic-calming notes; standard physical-speed-control definition"
   },
   {
     "id": "term-43",
@@ -1340,12 +1336,10 @@
     "group": "C",
     "type": "term",
     "hook": "Chair → car seat → office chair.",
-    "source": "Wilson: planning, neighborhood health and riskscapes",
+    "source": "Wilson reading, neighborhood conditions and health",
     "parts": [
-      "Sedentary disease refers to health problems linked to too little physical activity.",
-      "Car dependence, unsafe walking routes and limited recreation reduce daily movement.",
-      "These conditions can add to unequal neighborhood health burdens.",
-      "Wilson connects such risks to planning and environmental justice."
+      "Sedentary disease refers to health problems associated with too little physical activity, including obesity and cardiovascular disease. Car dependence and unsafe walking conditions can reduce daily movement.",
+      "Wilson connects planning and zoning to unequal access to healthy surroundings. If daily errands require driving, routine opportunities to walk are reduced."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1362,16 +1356,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Too little everyday movement can contribute to disease. Car-dependent places and unsafe walking routes can make inactivity more likely."
+        "label": "",
+        "text": "Sedentary disease refers to health problems associated with too little physical activity, including obesity and cardiovascular disease. Car dependence and unsafe walking conditions can reduce daily movement."
       },
       {
-        "label": "Picture it",
-        "text": "If even a short shopping trip requires driving, daily life offers fewer chances to walk."
+        "label": "Example / link",
+        "text": "Wilson connects planning and zoning to unequal access to healthy surroundings. If daily errands require driving, routine opportunities to walk are reduced."
       }
     ],
     "zh": "从家里的椅子，坐到车里，再坐到办公室，一天没怎么动。",
-    "quickCue": "Sedentary → SEATED：椅子 → 车座 → 办公椅。"
+    "quickCue": "Sedentary → SEATED：椅子 → 车座 → 办公椅。",
+    "reviewedAgainst": "Wilson reading, neighborhood conditions and health"
   },
   {
     "id": "term-47",
@@ -1381,12 +1376,10 @@
     "group": "C",
     "type": "term",
     "hook": "Same storm, different urban damage.",
-    "source": "Lecture 6a: environmental problems",
+    "source": "Lecture 6a, slide 37",
     "parts": [
-      "Extreme weather includes unusually severe rain, heat or storms.",
-      "Pavement, drainage limits and exposed people or infrastructure affect the damage.",
-      "Floods, power failures and health risks can fall unequally across neighborhoods.",
-      "Remember hazard, exposure and vulnerability—not just how strong the storm is."
+      "Extreme weather events are unusually severe heat, rain or storms. They can overwhelm infrastructure, especially where urban growth replaces absorbent ground with impervious surfaces.",
+      "Heavy rain exceeds storm-drain capacity and floods streets. Damage depends on the hazard, exposure and vulnerability—not only the storm’s strength."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1403,12 +1396,12 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Severe heat, rain or storms become more damaging when people and infrastructure are exposed and poorly protected."
+        "label": "",
+        "text": "Extreme weather events are unusually severe heat, rain or storms. They can overwhelm infrastructure, especially where urban growth replaces absorbent ground with impervious surfaces."
       },
       {
-        "label": "Picture it",
-        "text": "The same storm can cause very different harm depending on drainage, housing and who can evacuate."
+        "label": "Example / link",
+        "text": "Heavy rain exceeds storm-drain capacity and floods streets. Damage depends on the hazard, exposure and vulnerability—not only the storm’s strength."
       }
     ],
     "zh": "同样一场大雨，有的地方排得掉，有的地方淹得深；不是人人受的苦都一样。",
@@ -1424,7 +1417,8 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Katrina-new-orleans-flooding3-2005.jpg"
       }
     ],
-    "quickCue": "Same storm ≠ same damage：exposure + vulnerability。"
+    "quickCue": "Same storm ≠ same damage：exposure + vulnerability。",
+    "reviewedAgainst": "Lecture 6a, slide 37"
   },
   {
     "id": "term-44",
@@ -1434,12 +1428,10 @@
     "group": "C",
     "type": "term",
     "hook": "Asphalt stores heat; trees provide shade.",
-    "source": "Lecture 6a: environmental problems",
+    "source": "Lecture 6a, slide 42",
     "parts": [
-      "A heat island is an urban area warmer than its less-developed surroundings.",
-      "Heat-storing surfaces, limited vegetation and human activity raise temperatures.",
-      "Heat risks and cooling demand increase, especially affecting vulnerable residents.",
-      "Compare a sunny parking lot with a shaded street."
+      "Urban heat islands are built-up areas warmer than their surroundings because hard surfaces store heat, vegetation and shade are limited, and human activities release heat.",
+      "A hot parking lot contrasts with a shaded street. More air-conditioning demand can strain the electrical grid; heat waves can worsen an existing heat island."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1468,16 +1460,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Built-up areas can be warmer than their surroundings because hard surfaces store heat, greenery is limited and human activities release heat."
+        "label": "",
+        "text": "Urban heat islands are built-up areas warmer than their surroundings because hard surfaces store heat, vegetation and shade are limited, and human activities release heat."
       },
       {
-        "label": "Picture it",
-        "text": "Compare a sunny asphalt parking lot with a shaded, tree-lined street."
+        "label": "Example / link",
+        "text": "A hot parking lot contrasts with a shaded street. More air-conditioning demand can strain the electrical grid; heat waves can worsen an existing heat island."
       }
     ],
     "zh": "晒热的地面像锅，树荫像伞；两边站着感觉很不一样。",
-    "quickCue": "Heat island：asphalt 像热锅，树荫像伞。"
+    "quickCue": "Heat island：asphalt 像热锅，树荫像伞。",
+    "reviewedAgainst": "Lecture 6a, slide 42"
   },
   {
     "id": "term-02",
@@ -1487,12 +1480,10 @@
     "group": "C",
     "type": "term",
     "hook": "Empty luxury flats do not solve every housing shortage.",
-    "source": "Lecture 6a, slides 2–5 and 20–21",
+    "source": "Lecture 6a, slides 2–5, 21",
     "parts": [
-      "A housing shortage means too few suitable homes; a surplus means too many.",
-      "When demand grows faster than supply, rents tend to rise.",
-      "People may share homes, move farther away or pay more.",
-      "Luxury flats can sit empty while students still cannot afford rent."
+      "A housing shortage means demand exceeds available supply; a surplus means the reverse. Housing demand is relatively inelastic because everyone needs somewhere to live.",
+      "Empty luxury flats can coexist with too few affordable homes. People may share homes, subdivide buildings or move; construction and regulation affect supply."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1509,16 +1500,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "A housing shortage means too few homes people need and can afford; a surplus means more homes than demand."
+        "label": "",
+        "text": "A housing shortage means demand exceeds available supply; a surplus means the reverse. Housing demand is relatively inelastic because everyone needs somewhere to live."
       },
       {
-        "label": "Picture it",
-        "text": "Empty luxury flats can exist alongside a shortage of affordable homes."
+        "label": "Example / link",
+        "text": "Empty luxury flats can coexist with too few affordable homes. People may share homes, subdivide buildings or move; construction and regulation affect supply."
       }
     ],
     "zh": "有人找不到住得起的房子，不代表城里一间空房都没有。",
-    "quickCue": "Musical chairs：有空房 ≠ 有住得起的房。"
+    "quickCue": "Musical chairs：有空房 ≠ 有住得起的房。",
+    "reviewedAgainst": "Lecture 6a, slides 2–5, 21"
   },
   {
     "id": "term-08",
@@ -1530,16 +1522,14 @@
     "hook": "Homes age; households may move up.",
     "source": "Lecture 6a, slide 26",
     "parts": [
-      "Filtering happens when older housing becomes cheaper relative to newer housing.",
-      "Some households move into better homes, leaving older homes available.",
-      "Older buildings can therefore house lower-income residents.",
-      "Renovation and rising demand can reverse this process through gentrification."
+      "Housing tends to filter down as it ages and loses relative quality or price, while households often move up to better housing as income rises.",
+      "Yesterday’s expensive home may become tomorrow’s starter home. Older housing can support affordability, but renovation and rising demand may reverse the process."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Filtering：旧房可能降价，翻新可能反转。",
+      "text": "Filtering：houses DOWN，people UP；翻新可能反转。",
       "lines": [
-        "Filtering：旧房可能降价，翻新可能反转。"
+        "Filtering：houses DOWN，people UP；翻新可能反转。"
       ]
     },
     "fullParts": [
@@ -1550,16 +1540,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "As housing ages, it may become cheaper relative to new homes and available to lower-income households. This is filtering."
+        "label": "",
+        "text": "Housing tends to filter down as it ages and loses relative quality or price, while households often move up to better housing as income rises."
       },
       {
-        "label": "Picture it",
-        "text": "A once-expensive apartment becomes affordable as it ages; renovation and rising demand can reverse the process."
+        "label": "Example / link",
+        "text": "Yesterday’s expensive home may become tomorrow’s starter home. Older housing can support affordability, but renovation and rising demand may reverse the process."
       }
     ],
     "zh": "房子旧了，可能变便宜；翻新后也可能又变贵。",
-    "quickCue": "Filtering：旧房可能降价，翻新可能反转。"
+    "quickCue": "Filtering：houses DOWN，people UP；翻新可能反转。",
+    "reviewedAgainst": "Lecture 6a, slide 26"
   },
   {
     "id": "term-55",
@@ -1600,7 +1591,8 @@
       }
     ],
     "zh": "盖房子的要求可以保护人，也可能让房子更难盖、更贵。",
-    "quickCue": "Building rules：保护人，也可能让房更难盖。"
+    "quickCue": "Building rules：保护人，也可能让房更难盖。",
+    "reviewedAgainst": "Wilson reading; course building-regulation notes"
   },
   {
     "id": "term-11",
@@ -1610,18 +1602,16 @@
     "group": "C",
     "type": "term",
     "hook": "The neighborhood improves—but who can stay?",
-    "source": "Lecture 6a: Gentrification and displacement",
+    "source": "Lecture 6a, slides 30, 35–36",
     "parts": [
-      "Gentrification brings wealthier residents and investment into a neighborhood.",
-      "Demand and renovation push up prices and change local businesses.",
-      "Existing residents may leave, struggle to stay, or lose their familiar surroundings.",
-      "A new café opens, but nearby tenants can no longer afford rent."
+      "Gentrification is neighborhood change caused by an inflow of wealthier residents and investment. Prices, businesses and local identity can change.",
+      "Displacement: residents leave. Gentrification-in-place: they stay but lose affordable amenities or belonging. Cultural erasure: local businesses and communities are pushed out. Displacement is possible, not inevitable."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Gentrification：Out · Squeezed · Erased.",
+      "text": "Gentrification：富人流入 → Out / Squeezed / Erased。",
       "lines": [
-        "Gentrification：Out · Squeezed · Erased."
+        "Gentrification：富人流入 → Out / Squeezed / Erased。"
       ]
     },
     "fullParts": [
@@ -1632,12 +1622,12 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Wealthier residents and investment move into a neighborhood, raising prices and changing local life. Existing residents may be displaced."
+        "label": "",
+        "text": "Gentrification is neighborhood change caused by an inflow of wealthier residents and investment. Prices, businesses and local identity can change."
       },
       {
-        "label": "Picture it",
-        "text": "A renovated street gets new cafés, but longtime tenants can no longer afford the rent."
+        "label": "Three possible outcomes",
+        "text": "Displacement: residents leave. Gentrification-in-place: they stay but lose affordable amenities or belonging. Cultural erasure: local businesses and communities are pushed out. Displacement is possible, not inevitable."
       }
     ],
     "zh": "地方变漂亮、变贵了，原来住的人可能留不下来。",
@@ -1653,7 +1643,8 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
-    "quickCue": "Gentrification：Out · Squeezed · Erased."
+    "quickCue": "Gentrification：富人流入 → Out / Squeezed / Erased。",
+    "reviewedAgainst": "Lecture 6a, slides 30, 35–36"
   },
   {
     "id": "term-14",
@@ -1663,12 +1654,10 @@
     "group": "C",
     "type": "term",
     "hook": "“Build it—but not beside my home.”",
-    "source": "Lecture 6a: NIMBYism",
+    "source": "Lecture 6a, slide 35",
     "parts": [
-      "NIMBY means Not In My Back Yard.",
-      "Residents oppose nearby projects because of concerns about traffic, property values or local conditions.",
-      "Opposition can restrict housing or move unwanted facilities elsewhere.",
-      "Someone supports affordable housing but opposes it on their own street."
+      "NIMBY means Not In My Back Yard: local opposition to nearby development or facilities, often over perceived neighborhood impacts.",
+      "Someone supports affordable housing but opposes it on their own street. Widespread opposition can restrict building and worsen housing shortages; concern about change can feed this resistance."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1685,16 +1674,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "NIMBY means “Not In My Back Yard”: supporting an idea in general but opposing it nearby."
+        "label": "",
+        "text": "NIMBY means Not In My Back Yard: local opposition to nearby development or facilities, often over perceived neighborhood impacts."
       },
       {
-        "label": "Picture it",
-        "text": "“We need affordable housing—just don’t build it on my street.” Opposition can restrict supply."
+        "label": "Example / link",
+        "text": "Someone supports affordable housing but opposes it on their own street. Widespread opposition can restrict building and worsen housing shortages; concern about change can feed this resistance."
       }
     ],
     "zh": "我支持建，但别建在我家旁边。",
-    "quickCue": "NIMBY：“支持，但别建我家旁边。”"
+    "quickCue": "NIMBY：“支持，但别建我家旁边。”",
+    "reviewedAgainst": "Lecture 6a, slide 35"
   },
   {
     "id": "term-17",
@@ -1706,16 +1696,14 @@
     "hook": "Liking one person may not change a prejudice.",
     "source": "Valentine: Living with Difference; Lecture 6a, slides 28–29",
     "parts": [
-      "The contact hypothesis says contact between groups can reduce prejudice.",
-      "Cooperation can help; competition and unequal power can get in the way.",
-      "Valentine shows that polite contact does not always produce respect.",
-      "“I like my neighbor, but their group is different” treats that person as an exception."
+      "The Contact Hypothesis says contact between different groups can reduce prejudice: knowing people may challenge assumptions about their group. Cooperation and equal standing can help.",
+      "Working with a classmate from another group may change your view. But if you think “they are nice, the rest are not,” your wider prejudice remains. That is Valentine’s critique, not the hypothesis itself."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "“我喜欢你，但你只是他们中的例外。”",
+      "text": "Contact Hypothesis：多接触可能少排斥；Valentine：不保证。",
       "lines": [
-        "“我喜欢你，但你只是他们中的例外。”"
+        "Contact Hypothesis：多接触可能少排斥；Valentine：不保证。"
       ]
     },
     "fullParts": [
@@ -1726,16 +1714,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Contact between groups can reduce prejudice, but simply sharing space is not enough. Cooperation and equal standing help."
+        "label": "",
+        "text": "The Contact Hypothesis says contact between different groups can reduce prejudice: knowing people may challenge assumptions about their group. Cooperation and equal standing can help."
       },
       {
-        "label": "Picture it",
-        "text": "“My neighbor is nice, but their group isn’t” shows how one friendly encounter may leave prejudice intact."
+        "label": "Example and limit",
+        "text": "Working with a classmate from another group may change your view. But if you think “they are nice, the rest are not,” your wider prejudice remains. That is Valentine’s critique, not the hypothesis itself."
       }
     ],
     "zh": "你喜欢一个人，不代表你就喜欢和他同一群的人。",
-    "quickCue": "“我喜欢你，但你只是他们中的例外。”"
+    "quickCue": "Contact Hypothesis：多接触可能少排斥；Valentine：不保证。",
+    "reviewedAgainst": "Lecture 6a, slide 28; Valentine reading"
   },
   {
     "id": "term-37",
@@ -1788,7 +1777,8 @@
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     ],
-    "quickCue": "Sanitary → sanitation：clean water IN, sewage OUT."
+    "quickCue": "Sanitary → sanitation：clean water IN, sewage OUT.",
+    "reviewedAgainst": "Lecture 6a, slides 46–49; Wilson reading"
   },
   {
     "id": "term-03",
@@ -1798,12 +1788,10 @@
     "group": "D",
     "type": "term",
     "hook": "Beautiful outside—but where do people live?",
-    "source": "Lecture 6a: City Beautiful",
+    "source": "Lecture 6a, slides 52–55, 72",
     "parts": [
-      "City Beautiful sought to improve cities through grand public design around 1900.",
-      "Planners such as Burnham promoted parks, boulevards and civic buildings.",
-      "Cities gained attractive spaces, but housing problems often received less attention.",
-      "Think of a beautiful city square surrounded by poor housing."
+      "City Beautiful, associated with Daniel Burnham in early-1900s America, used parks, boulevards and grand civic buildings to promote cleanliness, leisure and civic unity.",
+      "It expanded municipal planning power, but critics said top-down beautification neglected housing and ordinary residents. Contrast the Sanitary Movement’s health focus."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1832,16 +1820,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Make the city better by making it beautiful: grand civic buildings, parks and boulevards. Housing problems may receive less attention."
+        "label": "",
+        "text": "City Beautiful, associated with Daniel Burnham in early-1900s America, used parks, boulevards and grand civic buildings to promote cleanliness, leisure and civic unity."
       },
       {
-        "label": "Picture it",
-        "text": "Chicago’s 1893 World’s Fair: impressive public spaces as a source of civic pride."
+        "label": "Example / link",
+        "text": "It expanded municipal planning power, but critics said top-down beautification neglected housing and ordinary residents. Contrast the Sanitary Movement’s health focus."
       }
     ],
     "zh": "先把城市打扮漂亮，但普通人住得好不好，可能没顾上。",
-    "quickCue": "City Beautiful = 城市盛装，住房未必改善。"
+    "quickCue": "City Beautiful = 城市盛装，住房未必改善。",
+    "reviewedAgainst": "Lecture 6a, slides 52–55, 72"
   },
   {
     "id": "term-06",
@@ -1851,18 +1840,16 @@
     "group": "D",
     "type": "term",
     "hook": "A working town inside a green belt.",
-    "source": "Lecture 6a: Garden City",
+    "source": "Lecture 6a, slides 74–76",
     "parts": [
-      "Howard’s Garden City combines town life with access to the countryside.",
-      "Homes, jobs and services sit inside a green belt; land ownership serves the community.",
-      "It aims to reduce overcrowding and improve living conditions.",
-      "It is a complete town, not just houses with gardens."
+      "Ebenezer Howard wanted self-sufficient towns: people could live, work and use services locally, with countryside close by. A green belt limits outward growth, and communal land ownership serves the community.",
+      "Imagine homes, workplaces and shops inside a town surrounded by farmland and green space. It is not a bedroom suburb where everyone leaves for work. Later projects often kept the green design but weakened the social reform."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Garden City = town + country + green belt.",
+      "text": "Garden City：小镇里住、工作、买东西，外面用 green belt 圈住。",
       "lines": [
-        "Garden City = town + country + green belt."
+        "Garden City：小镇里住、工作、买东西，外面用 green belt 圈住。"
       ]
     },
     "fullParts": [
@@ -1895,16 +1882,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Howard’s Garden City combines town jobs and services with countryside access, a green belt and land held for community benefit."
+        "label": "",
+        "text": "Ebenezer Howard wanted self-sufficient towns: people could live, work and use services locally, with countryside close by. A green belt limits outward growth, and communal land ownership serves the community."
       },
       {
         "label": "Picture it",
-        "text": "A planned, complete town with limits on growth—not simply a suburb with gardens."
+        "text": "Imagine homes, workplaces and shops inside a town surrounded by farmland and green space. It is not a bedroom suburb where everyone leaves for work. Later projects often kept the green design but weakened the social reform."
       }
     ],
     "zh": "想要城里的工作和方便，也想要乡下的绿地和空间。",
-    "quickCue": "Garden City = town + country + green belt."
+    "quickCue": "Garden City：小镇里住、工作、买东西，外面用 green belt 圈住。",
+    "reviewedAgainst": "Lecture 6a, slides 74–76"
   },
   {
     "id": "term-26",
@@ -1914,12 +1902,10 @@
     "group": "D",
     "type": "term",
     "hook": "School in the middle, main roads at the edge.",
-    "source": "Lecture 6a, slide 83 diagram; Boeing",
+    "source": "Lecture 6a, slide 83 diagram",
     "parts": [
-      "Perry’s Neighborhood Unit organizes housing around a school and community facilities.",
-      "Major roads form the boundary; shops sit near edge junctions.",
-      "Local streets and nearby parks support everyday neighborhood life.",
-      "Picture a plate: school at its center, main roads around its rim."
+      "Clarence Perry’s Neighborhood Unit centers homes on a school and community facilities. Major roads bound the unit; shops sit near edge junctions, with parks and local streets inside.",
+      "It supports daily neighborhood life while discouraging through-traffic. Picture a school in the middle of a plate and main roads around its rim."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1948,16 +1934,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Perry’s neighborhood has a school and community facilities near the center, major roads around the edge, and shops near edge junctions."
+        "label": "",
+        "text": "Clarence Perry’s Neighborhood Unit centers homes on a school and community facilities. Major roads bound the unit; shops sit near edge junctions, with parks and local streets inside."
       },
       {
-        "label": "Picture it",
-        "text": "Picture a plate: school in the middle, main roads around the rim, local streets inside."
+        "label": "Why this layout?",
+        "text": "It supports daily neighborhood life while discouraging through-traffic. Picture a school in the middle of a plate and main roads around its rim."
       }
     ],
     "zh": "像一个盘子：学校放中间，大路围在边上。",
-    "quickCue": "Perry：school 在盘子中间，main roads 围着盘边。"
+    "quickCue": "Perry：school 在盘子中间，main roads 围着盘边。",
+    "reviewedAgainst": "Lecture 6a, slide 83 diagram"
   },
   {
     "id": "term-09",
@@ -1967,12 +1954,10 @@
     "group": "D",
     "type": "term",
     "hook": "Sort the city into separate boxes.",
-    "source": "Lecture 6a: Modernism; Lecture 7a, slide 2",
+    "source": "Lecture 6a, slides 87–88, 102",
     "parts": [
-      "Modernism trusts expert planning to create an orderly, efficient city.",
-      "It separates functions such as housing, work and traffic.",
-      "Large projects may improve conditions but also break up communities.",
-      "Imagine housing towers far from shops; Jacobs favors mixed-use streets."
+      "Modernism uses top-down, rational planning to create order and efficient transport: geometric layouts, separate functions and large planned developments.",
+      "Le Corbusier’s towers in parks illustrate this approach. Postwar urban renewal often cleared neighborhoods, bringing displacement and criticism from Jacobs."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -1989,12 +1974,12 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Modernist planners try to make cities orderly and efficient by separating housing, work and traffic. Large projects can also disrupt communities."
+        "label": "",
+        "text": "Modernism uses top-down, rational planning to create order and efficient transport: geometric layouts, separate functions and large planned developments."
       },
       {
-        "label": "Picture it",
-        "text": "Housing towers stand apart from shops and workplaces. Jacobs favors mixed-use streets instead."
+        "label": "Example / link",
+        "text": "Le Corbusier’s towers in parks illustrate this approach. Postwar urban renewal often cleared neighborhoods, bringing displacement and criticism from Jacobs."
       }
     ],
     "zh": "把住的、工作的、开车的地方分开摆，想让城市更整齐。",
@@ -2010,7 +1995,8 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pruitt-igoeUSGS02.jpg"
       }
     ],
-    "quickCue": "Modernism：HOME / WORK / TRAFFIC 分开摆。"
+    "quickCue": "Modernism：HOME / WORK / TRAFFIC 分开摆。",
+    "reviewedAgainst": "Lecture 6a, slides 87–88, 102"
   },
   {
     "id": "term-12",
@@ -2063,7 +2049,8 @@
       }
     ],
     "zh": "往上盖高楼，楼下留大块空地。",
-    "quickCue": "Radiant → RISE：高楼 + 空地。"
+    "quickCue": "Radiant → RISE：高楼 + 空地。",
+    "reviewedAgainst": "Lecture 6a, slides 87–88"
   },
   {
     "id": "term-15",
@@ -2073,12 +2060,10 @@
     "group": "D",
     "type": "term",
     "hook": "Broadacre = broad: spread out and drive.",
-    "source": "Lecture 6a: Broadacre City",
+    "source": "Lecture 6a, slide 98",
     "parts": [
-      "Frank Lloyd Wright’s Broadacre City spreads homes across the landscape.",
-      "Each family has roughly an acre, with cars connecting daily activities.",
-      "It offers space and nature but uses much land and depends on driving.",
-      "Contrast Le Corbusier’s concentrated towers in parks."
+      "Frank Lloyd Wright’s Broadacre City in the 1930s proposed roughly an acre per family, dispersed development and car-based connections, integrating homes, small industry, farming and nature.",
+      "Broadacre spreads OUT; Le Corbusier’s Radiant City rises UP. Both are planned visions, but Broadacre combines work and home rather than separating every function."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -2107,16 +2092,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Wright’s Broadacre City gives families roughly an acre each and connects spread-out homes and activities by car."
+        "label": "",
+        "text": "Frank Lloyd Wright’s Broadacre City in the 1930s proposed roughly an acre per family, dispersed development and car-based connections, integrating homes, small industry, farming and nature."
       },
       {
-        "label": "Picture it",
-        "text": "Remember OUT: lots of land and driving. Radiant City builds UP instead."
+        "label": "Keep apart",
+        "text": "Broadacre spreads OUT; Le Corbusier’s Radiant City rises UP. Both are planned visions, but Broadacre combines work and home rather than separating every function."
       }
     ],
     "zh": "每家摊开住，多占地，出门靠车。",
-    "quickCue": "BROAD-acre → OUT：摊开住，靠车走。"
+    "quickCue": "BROAD-acre → OUT：摊开住，靠车走。",
+    "reviewedAgainst": "Lecture 6a, slide 98"
   },
   {
     "id": "term-18",
@@ -2157,7 +2143,8 @@
       }
     ],
     "zh": "街上一直有人走、有人看，就不容易没人管。",
-    "quickCue": "Jacobs = Boundaries · Eyes · Hours."
+    "quickCue": "Jacobs = Boundaries · Eyes · Hours.",
+    "reviewedAgainst": "Jacobs reading; Lecture 7a, slides 2, 8"
   },
   {
     "id": "term-21",
@@ -2169,16 +2156,14 @@
     "hook": "Different reasons to visit, at different times.",
     "source": "Lecture 7a, slides 7–15",
     "parts": [
-      "Urban vitality means active street life and the conditions supporting it.",
-      "Density, short blocks, mixed uses, varied building ages, access and no border vacuums help.",
-      "Steady activity can support shops, safety and everyday contact.",
-      "Offices bring daytime users; homes and restaurants keep the area active later."
+      "Urban vitality is visible street activity and the built-environment mix that sustains it. Jacobs connects varied users throughout the day to safety and everyday contact.",
+      "Density, small blocks, mixed primary uses, aged buildings, accessibility and no border vacuums. Offices bring daytime users; homes and restaurants support evening activity."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Vitality：人多、路通、用途混、新旧房搭配、好到达、少阻隔。",
+      "text": "Vitality：人多 + 短街区 + 用途混 + 新旧楼 + 好到达 + 少阻隔。",
       "lines": [
-        "Vitality：人多、路通、用途混、新旧房搭配、好到达、少阻隔。"
+        "Vitality：人多 + 短街区 + 用途混 + 新旧楼 + 好到达 + 少阻隔。"
       ]
     },
     "fullParts": [
@@ -2189,16 +2174,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Urban vitality means active street life. Mixed uses and a connected, accessible environment bring people out at different times."
+        "label": "",
+        "text": "Urban vitality is visible street activity and the built-environment mix that sustains it. Jacobs connects varied users throughout the day to safety and everyday contact."
       },
       {
-        "label": "Picture it",
-        "text": "Offices bring daytime customers; homes and restaurants keep the same street active at night."
+        "label": "Six course dimensions",
+        "text": "Density, small blocks, mixed primary uses, aged buildings, accessibility and no border vacuums. Offices bring daytime users; homes and restaurants support evening activity."
       }
     ],
     "zh": "白天有人上班，晚上有人吃饭，街上才不容易一下空下来。",
-    "quickCue": "Vitality：人多、路通、用途混、新旧房搭配、好到达、少阻隔。"
+    "quickCue": "Vitality：人多 + 短街区 + 用途混 + 新旧楼 + 好到达 + 少阻隔。",
+    "reviewedAgainst": "Lecture 7a, slides 7–15"
   },
   {
     "id": "term-24",
@@ -2210,10 +2196,8 @@
     "hook": "Put daily life within walking distance of transit.",
     "source": "Lecture 7a, slide 44",
     "parts": [
-      "TOD puts dense, mixed-use development around transit stations.",
-      "Homes, shops and jobs connect through short blocks and walking routes.",
-      "People can meet more needs without driving.",
-      "Imagine buying groceries on the short walk home from the station—not just living beside a railway."
+      "Transit-oriented development, associated with Calthorpe, puts dense, mixed uses within walking reach of transit hubs, using connected pedestrian networks and short blocks.",
+      "Get off the train, buy groceries and walk home. Density, mixed uses and good walking connections work together; being next to tracks alone is not TOD."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -2242,16 +2226,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "TOD puts homes, shops and jobs around a transit station, with comfortable walking routes between them."
+        "label": "",
+        "text": "Transit-oriented development, associated with Calthorpe, puts dense, mixed uses within walking reach of transit hubs, using connected pedestrian networks and short blocks."
       },
       {
-        "label": "Picture it",
-        "text": "Get off the train, buy groceries and walk home. Living beside a railway alone is not enough."
+        "label": "Example / link",
+        "text": "Get off the train, buy groceries and walk home. Density, mixed uses and good walking connections work together; being next to tracks alone is not TOD."
       }
     ],
     "zh": "下车、买菜、回家，都能靠走路顺手完成。",
-    "quickCue": "TOD：train → groceries → home，全程好走。"
+    "quickCue": "TOD：train → groceries → home，全程好走。",
+    "reviewedAgainst": "Lecture 7a, slide 44"
   },
   {
     "id": "term-27",
@@ -2261,12 +2246,10 @@
     "group": "D",
     "type": "term",
     "hook": "Try one useful change before a huge plan.",
-    "source": "Lecture 7a, slides 48 and 51",
+    "source": "Lecture 7a, slides 48–51",
     "parts": [
-      "Urban acupuncture uses small, targeted changes to improve city life.",
-      "Tactical urbanism often tests cheap, temporary projects.",
-      "People’s responses reveal what works before larger commitments.",
-      "Temporary seating can test a new public space. This connects to Lynch’s learning ecology."
+      "Urban acupuncture, associated with Jaime Lerner, uses small, strategic interventions instead of one comprehensive master plan. Tactical urbanism often uses low-cost, temporary, small-scale projects.",
+      "Try temporary seating, observe use and adjust. Both connect to Lynch’s learning ecology; tactical projects can be community-led or government-led."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -2295,16 +2278,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Urban acupuncture uses small, targeted changes to improve city life. Tactical urbanism often tries cheap, temporary changes before committing."
+        "label": "",
+        "text": "Urban acupuncture, associated with Jaime Lerner, uses small, strategic interventions instead of one comprehensive master plan. Tactical urbanism often uses low-cost, temporary, small-scale projects."
       },
       {
-        "label": "Picture it",
-        "text": "Add temporary seats and watch whether people stay. If they work, make the space permanent."
+        "label": "Example / link",
+        "text": "Try temporary seating, observe use and adjust. Both connect to Lynch’s learning ecology; tactical projects can be community-led or government-led."
       }
     ],
     "zh": "先改一个小地方，便宜地试一下，好用再接着做。",
-    "quickCue": "Acupuncture = 小针；tactical urbanism = 先便宜地试。"
+    "quickCue": "Acupuncture = 小针；tactical urbanism = 先便宜地试。",
+    "reviewedAgainst": "Lecture 7a, slides 48–51"
   },
   {
     "id": "term-36",
@@ -2316,10 +2300,8 @@
     "hook": "Good spaces make people want to stay.",
     "source": "Lecture 7a, slides 19–21",
     "parts": [
-      "Jan Gehl studies everyday life between buildings.",
-      "Comfort, access, visibility and seating encourage people to linger.",
-      "Longer stays create more chances for casual, low-pressure contact.",
-      "A pleasant bench can turn a necessary walk into a pause and a conversation."
+      "Jan Gehl’s Life Between Buildings links comfort, visibility, access and opportunities to linger with optional activity and low-intensity social contact.",
+      "A good bench may turn passing through into staying. Unlike Jacobs, Gehl does not require a grid or assume that greater density is always better; the experience of public space matters."
     ],
     "mnemonic": {
       "kind": "Quick association",
@@ -2348,16 +2330,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Gehl studies life between buildings. Comfortable, accessible places encourage people to stay, making casual contact more likely."
+        "label": "",
+        "text": "Jan Gehl’s Life Between Buildings links comfort, visibility, access and opportunities to linger with optional activity and low-intensity social contact."
       },
       {
-        "label": "Picture it",
-        "text": "A pleasant bench turns a necessary walk into a pause and perhaps a conversation."
+        "label": "Keep apart",
+        "text": "A good bench may turn passing through into staying. Unlike Jacobs, Gehl does not require a grid or assume that greater density is always better; the experience of public space matters."
       }
     ],
     "zh": "坐得舒服、待得开心，人才愿意留下来，才可能聊上天。",
-    "quickCue": "Gehl → 胶：舒服 → 留下 → 聊起来。"
+    "quickCue": "Gehl → 胶：舒服 → 留下 → 聊起来。",
+    "reviewedAgainst": "Lecture 7a, slides 19–21"
   },
   {
     "id": "term-39",
@@ -2418,7 +2401,8 @@
       }
     ],
     "zh": "必须去上班；愿意坐一会儿；坐着坐着，可能和别人聊起来。",
-    "quickCue": "Gehl：NEED 上班 → CHOOSE 坐坐 → CHAT 可能发生。"
+    "quickCue": "Gehl：NEED 上班 → CHOOSE 坐坐 → CHAT 可能发生。",
+    "reviewedAgainst": "Lecture 7a, slides 19–20"
   },
   {
     "id": "term-30",
@@ -2430,16 +2414,14 @@
     "hook": "Help people learn and change their city.",
     "source": "Lecture 7a, slides 27–29",
     "parts": [
-      "Lynch sees the city as a learning ecology.",
-      "People need spaces they can understand, use, reach and help control.",
-      "They can improve the city over time instead of following one fixed master plan.",
-      "Remember vitality, sense, fit, access and control; then ask about efficiency and justice."
+      "Lynch’s learning ecology supports people in understanding, using and changing the city themselves, rather than imposing one finished master plan. Legibility and bottom-up learning matter.",
+      "Lynch’s vitality means support for basic biological needs; Jacobs’s vitality concerns lively streets. Lynch also examines sense, fit, access, control, efficiency and justice."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Lynch → LEARN：try → observe → adjust。",
+      "text": "Lynch → LEARN：人能看懂、使用、掌控，并自己改进城市。",
       "lines": [
-        "Lynch → LEARN：try → observe → adjust。"
+        "Lynch → LEARN：人能看懂、使用、掌控，并自己改进城市。"
       ]
     },
     "fullParts": [
@@ -2450,17 +2432,18 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Lynch treats the city as a place people can understand, use and improve through experience, rather than follow one perfect fixed plan."
+        "label": "",
+        "text": "Lynch’s learning ecology supports people in understanding, using and changing the city themselves, rather than imposing one finished master plan. Legibility and bottom-up learning matter."
       },
       {
-        "label": "Picture it",
-        "text": "Try a public-space design, observe how people use it, and change it. Ask who benefits and who has control."
+        "label": "Keep apart",
+        "text": "Lynch’s vitality means support for basic biological needs; Jacobs’s vitality concerns lively streets. Lynch also examines sense, fit, access, control, efficiency and justice."
       }
     ],
     "zh": "城市不是一次做完的：先试试看，再按大家用起来的情况改。",
     "examKeywords": "Lynch’s dimensions: vitality, sense, fit, access, control. Also ask about efficiency and justice.",
-    "quickCue": "Lynch → LEARN：try → observe → adjust。"
+    "quickCue": "Lynch → LEARN：人能看懂、使用、掌控，并自己改进城市。",
+    "reviewedAgainst": "Lecture 7a, slides 27–29"
   },
   {
     "id": "term-42",
@@ -2513,7 +2496,8 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paley_Park_jeh.jpg"
       }
     ],
-    "quickCue": "Whyte → WHY sit HERE? 看人实际怎么用。"
+    "quickCue": "Whyte → WHY sit HERE? 看人实际怎么用。",
+    "reviewedAgainst": "Lecture 7a, slides 30–33; Whyte film notes"
   },
   {
     "id": "term-45",
@@ -2566,7 +2550,8 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
-    "quickCue": "Triangulation：两个人 + 一个共同关注的东西。"
+    "quickCue": "Triangulation：两个人 + 一个共同关注的东西。",
+    "reviewedAgainst": "Lecture 7a, slide 31"
   },
   {
     "id": "term-48",
@@ -2620,7 +2605,8 @@
     ],
     "zh": "家以外、工作以外，有个常去坐坐、和熟人聊聊的地方。",
     "examKeywords": "Eight traits: neutral ground, equality, conversation, accessibility, regulars, low profile, playful mood, a home away from home.",
-    "quickCue": "Third place：1 home · 2 work · 3 hangout。"
+    "quickCue": "Third place：1 home · 2 work · 3 hangout。",
+    "reviewedAgainst": "Lecture 7a, slides 36–38"
   },
   {
     "id": "term-33",
@@ -2632,16 +2618,14 @@
     "hook": "The city is loud; the mind turns down the volume.",
     "source": "Lecture 7a, slide 59; Borer",
     "parts": [
-      "Simmel’s blasé attitude is emotional reserve in response to city stimulation.",
-      "People filter the constant flow of noise, impressions and strangers.",
-      "This protective response can look like indifference.",
-      "Think of mental noise-canceling headphones. Goffman instead explains everyday interaction rituals."
+      "Simmel argues that constant urban stimulation can lead people to reduce their emotional reactions. The blasé attitude acts as a protective organ: a mental defense against overload, not a literal body part.",
+      "After passing noise, advertisements and crowds all day, you stop reacting strongly to each one. This is an internal response; Goffman’s civil inattention is an outward ritual of giving strangers privacy."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Simmel → STIMULI → mental headphones.",
+      "text": "Simmel：声音、人、事情太多，给自己的反应“调低音量”。",
       "lines": [
-        "Simmel → STIMULI → mental headphones."
+        "Simmel：声音、人、事情太多，给自己的反应“调低音量”。"
       ]
     },
     "fullParts": [
@@ -2652,16 +2636,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Simmel’s blasé attitude is a way to cope with city overload: people dull their reactions to constant noise, sights and strangers."
+        "label": "",
+        "text": "Simmel argues that constant urban stimulation can lead people to reduce their emotional reactions. The blasé attitude acts as a protective organ: a mental defense against overload, not a literal body part."
       },
       {
         "label": "Picture it",
-        "text": "Mental noise-canceling headphones: seeming indifferent can be a form of self-protection."
+        "text": "After passing noise, advertisements and crowds all day, you stop reacting strongly to each one. This is an internal response; Goffman’s civil inattention is an outward ritual of giving strangers privacy."
       }
     ],
     "zh": "城里声音和人太多，只好让自己别对每件事都有强烈反应。",
-    "quickCue": "Simmel → STIMULI → mental headphones."
+    "quickCue": "Simmel：声音、人、事情太多，给自己的反应“调低音量”。",
+    "reviewedAgainst": "Lecture 7a, slide 59"
   },
   {
     "id": "term-51",
@@ -2673,16 +2658,14 @@
     "hook": "Size + density + diversity change social life.",
     "source": "Lecture 7a, slide 59",
     "parts": [
-      "Wirth links urban life to large populations, density and heterogeneity.",
-      "People rely on specialized roles and cannot know everyone personally.",
-      "More limited, impersonal relationships become common patterns of urban behavior.",
-      "Contrast Jacobs, who sees these urban conditions as potential sources of neighborhood vitality too."
+      "Wirth links large population size, density and heterogeneity to a shared urban pattern of behavior: people often relate through specialized roles rather than knowing one another personally. This is a collective personality, not everyone having an identical personality.",
+      "You know the cashier as the person who takes payment, not their family or life story. Wirth explains social relationships under urban conditions; Simmel focuses on mental protection against stimulation."
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Wirth = Size · Density · Heterogeneity → less personal ties.",
+      "text": "Wirth：人多又不同，认得“做什么”，不一定熟悉“这个人”。",
       "lines": [
-        "Wirth = Size · Density · Heterogeneity → less personal ties."
+        "Wirth：人多又不同，认得“做什么”，不一定熟悉“这个人”。"
       ]
     },
     "fullParts": [
@@ -2693,16 +2676,17 @@
     ],
     "studyBlocks": [
       {
-        "label": "In plain English",
-        "text": "Wirth links big, dense, diverse cities to more specialized and less personal relationships: no one can know everyone."
+        "label": "",
+        "text": "Wirth links large population size, density and heterogeneity to a shared urban pattern of behavior: people often relate through specialized roles rather than knowing one another personally. This is a collective personality, not everyone having an identical personality."
       },
       {
         "label": "Picture it",
-        "text": "You know someone as your bus driver or cashier without knowing their wider life."
+        "text": "You know the cashier as the person who takes payment, not their family or life story. Wirth explains social relationships under urban conditions; Simmel focuses on mental protection against stimulation."
       }
     ],
     "zh": "人多又各不相同，不可能个个熟悉，常常只认识对方做什么工作。",
-    "quickCue": "Wirth = Size · Density · Heterogeneity → less personal ties."
+    "quickCue": "Wirth：人多又不同，认得“做什么”，不一定熟悉“这个人”。",
+    "reviewedAgainst": "Lecture 7a, slide 59"
   },
   {
     "id": "term-54",
@@ -2743,7 +2727,8 @@
       }
     ],
     "zh": "看一眼，知道你在，然后移开目光，不一直盯着你。",
-    "quickCue": "Goffman → gaze OFF：看一眼，再移开目光。"
+    "quickCue": "Goffman → gaze OFF：看一眼，再移开目光。",
+    "reviewedAgainst": "Lecture 7a, slides 60–61"
   },
   {
     "id": "term-57",
@@ -2784,7 +2769,8 @@
       }
     ],
     "zh": "还在打保龄球，但不再和固定的一群人一起打了；大家的联系可能变少。",
-    "quickCue": "Bowling Alone：球还在打，固定一起打的人少了。"
+    "quickCue": "Bowling Alone：球还在打，固定一起打的人少了。",
+    "reviewedAgainst": "Lecture 7a, slide 64"
   },
   {
     "id": "reading-01",

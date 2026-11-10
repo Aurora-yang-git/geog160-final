@@ -1,0 +1,405 @@
+{
+  "reviewed": "2026-11-10",
+  "scope": "All 57 teacher-listed terms. Primary course slides/readings where available; explicitly identified study-note/standard-definition support otherwise. No claim of instructor-approved wording.",
+  "terms": [
+    {
+      "id": "term-01",
+      "name": "Machine City",
+      "action": "revised",
+      "evidence": "Lecture 3a, slide 46",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-02",
+      "name": "Housing Shortage/Surplus",
+      "action": "revised",
+      "evidence": "Lecture 6a, slides 2–5, 21",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-03",
+      "name": "City Beautiful",
+      "action": "revised",
+      "evidence": "Lecture 6a, slides 52–55, 72",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-04",
+      "name": "Consumption City",
+      "action": "revised",
+      "evidence": "Jedwab & Vollrath, pp. 14–15",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-05",
+      "name": "Travel Supply and Demand",
+      "action": "revised",
+      "evidence": "Course travel-supply/demand notes; standard induced-demand mechanism",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-06",
+      "name": "Garden City",
+      "action": "revised",
+      "evidence": "Lecture 6a, slides 74–76",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-07",
+      "name": "Urban Economic Transition",
+      "action": "revised",
+      "evidence": "Jedwab & Vollrath, pp. 14–15; course transition notes",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-08",
+      "name": "Filtering (Housing)",
+      "action": "revised",
+      "evidence": "Lecture 6a, slide 26",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-09",
+      "name": "Modernism",
+      "action": "revised",
+      "evidence": "Lecture 6a, slides 87–88, 102",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-10",
+      "name": "Alonso-Muth-Mills (Intracity) Model",
+      "action": "revised",
+      "evidence": "Lecture 2a, slides 26–29",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-11",
+      "name": "Gentrification",
+      "action": "revised",
+      "evidence": "Lecture 6a, slides 30, 35–36",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-12",
+      "name": "Le Corbusier/Radiant City",
+      "action": "retained",
+      "evidence": "Lecture 6a, slides 87–88",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-13",
+      "name": "Rosen-Roback (Intercity) Model",
+      "action": "revised",
+      "evidence": "Lecture 2a, slides 30–31",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-14",
+      "name": "NIMBYism",
+      "action": "revised",
+      "evidence": "Lecture 6a, slide 35",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-15",
+      "name": "Frank Lloyd Wright/Broadacre City",
+      "action": "revised",
+      "evidence": "Lecture 6a, slide 98",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-16",
+      "name": "Central Place Theory",
+      "action": "revised",
+      "evidence": "Lecture 2a, slides 18–19",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-17",
+      "name": "Contact Hypothesis",
+      "action": "revised",
+      "evidence": "Lecture 6a, slide 28; Valentine reading",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-18",
+      "name": "Jane Jacobs (Death and Life of Great American Cities)",
+      "action": "retained",
+      "evidence": "Jacobs reading; Lecture 7a, slides 2, 8",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-19",
+      "name": "Sector/Multiple Nuclei Model",
+      "action": "revised",
+      "evidence": "Lecture 2a, slides 21–25",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-20",
+      "name": "Jobs-Housing Mismatch",
+      "action": "revised",
+      "evidence": "Ihlanfeldt reading; Lecture 2a, slide 47",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-21",
+      "name": "Urban Vitality",
+      "action": "revised",
+      "evidence": "Lecture 7a, slides 7–15",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-22",
+      "name": "Griddedness",
+      "action": "revised",
+      "evidence": "Boeing reading, grid measures and discussion",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-23",
+      "name": "Modal Mismatch",
+      "action": "retained",
+      "evidence": "Grengs reading, Detroit findings",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-24",
+      "name": "Transit Oriented Development",
+      "action": "revised",
+      "evidence": "Lecture 7a, slide 44",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-25",
+      "name": "Density",
+      "action": "retained",
+      "evidence": "Lecture 3a, slides 3, 56; course density notes",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-26",
+      "name": "Neighborhood Unit (Clarence Perry)",
+      "action": "revised",
+      "evidence": "Lecture 6a, slide 83 diagram",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-27",
+      "name": "Urban Acupuncture/Tactical Urbanism",
+      "action": "revised",
+      "evidence": "Lecture 7a, slides 48–51",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-28",
+      "name": "Functional and Tributary Areas",
+      "action": "revised",
+      "evidence": "Lecture 1b, slide 33",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-29",
+      "name": "Primal/Dual Accessibility",
+      "action": "revised",
+      "evidence": "Course study notes; standard time-threshold/count-target explanation; exact instructor wording not located",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-30",
+      "name": "Kevin Lynch (Learning Ecology)",
+      "action": "revised",
+      "evidence": "Lecture 7a, slides 27–29",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-31",
+      "name": "Von Thunen Model",
+      "action": "revised",
+      "evidence": "Lecture 2a, slides 6–11",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-32",
+      "name": "Cumulative/Competitive Accessibility",
+      "action": "retained",
+      "evidence": "Course accessibility notes; Grengs competition-adjusted accessibility",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-33",
+      "name": "Georg Simmel (“Blasé Man”/”Protective Organ”)",
+      "action": "revised",
+      "evidence": "Lecture 7a, slide 59",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-34",
+      "name": "Urbanization without Growth",
+      "action": "revised",
+      "evidence": "Jedwab & Vollrath, urbanization and growth mechanisms",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-35",
+      "name": "Malthusian/Solowian Growth",
+      "action": "revised",
+      "evidence": "Course growth notes; standard Malthusian/Solow comparison; exact instructor wording not located",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-36",
+      "name": "Jan Gehl (The Life Between Buildings)",
+      "action": "revised",
+      "evidence": "Lecture 7a, slides 19–21",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-37",
+      "name": "Sanitary Movement",
+      "action": "retained",
+      "evidence": "Lecture 6a, slides 46–49; Wilson reading",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-38",
+      "name": "Rural Push/Urban Pull",
+      "action": "revised",
+      "evidence": "Jedwab & Vollrath, agricultural change, industrial pull and rural push",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-39",
+      "name": "Necessary/Resultant/Optional Activities",
+      "action": "retained",
+      "evidence": "Lecture 7a, slides 19–20",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-40",
+      "name": "Suburbanization",
+      "action": "retained",
+      "evidence": "Lecture 3a; Dexter; course suburbanization notes",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-41",
+      "name": "Shrinking Cities",
+      "action": "retained",
+      "evidence": "Course shrinking-cities notes; industrial-transition connection",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-42",
+      "name": "William Whyte (Social Life of Small Urban Spaces)",
+      "action": "retained",
+      "evidence": "Lecture 7a, slides 30–33; Whyte film notes",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-43",
+      "name": "Sedentary Disease",
+      "action": "revised",
+      "evidence": "Wilson reading, neighborhood conditions and health",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-44",
+      "name": "Heat Islands",
+      "action": "revised",
+      "evidence": "Lecture 6a, slide 42",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-45",
+      "name": "Triangulation",
+      "action": "retained",
+      "evidence": "Lecture 7a, slide 31",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-46",
+      "name": "Monocentric/Polycentric",
+      "action": "retained",
+      "evidence": "Lecture 3a, slides 3, 56",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-47",
+      "name": "Extreme Weather Events",
+      "action": "revised",
+      "evidence": "Lecture 6a, slide 37",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-48",
+      "name": "Ray Oldenburg (Third Places)",
+      "action": "retained",
+      "evidence": "Lecture 7a, slides 36–38",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-49",
+      "name": "Agglomeration",
+      "action": "revised",
+      "evidence": "Lecture 2a, slides 32–34",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-50",
+      "name": "“D Variables”",
+      "action": "revised",
+      "evidence": "Boeing, p. 126 and references; standard 3-D / expanded 5-D distinction; review does not specify number",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-51",
+      "name": "Louis Wirth (“Collective Personality”)",
+      "action": "revised",
+      "evidence": "Lecture 7a, slide 59",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-52",
+      "name": "Pedestrian/Auto-Orientation",
+      "action": "retained",
+      "evidence": "Lecture 3a, slides 72, 76; Lecture 7a, slide 20",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-53",
+      "name": "Congestion Pricing",
+      "action": "retained",
+      "evidence": "Course congestion-pricing notes; standard demand-management definition",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-54",
+      "name": "Erving Goffman (“Civil Inattention”)",
+      "action": "retained",
+      "evidence": "Lecture 7a, slides 60–61",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-55",
+      "name": "Building Regulation",
+      "action": "retained",
+      "evidence": "Wilson reading; course building-regulation notes",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-56",
+      "name": "Traffic Calming",
+      "action": "retained",
+      "evidence": "Course traffic-calming notes; standard physical-speed-control definition",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    },
+    {
+      "id": "term-57",
+      "name": "“Bowling Alone” (Robert Putnam)",
+      "action": "retained",
+      "evidence": "Lecture 7a, slide 64",
+      "scope": "Definition, quick cue, example and course connection checked. Mnemonic is not a full exam answer."
+    }
+  ]
+}
