@@ -16,10 +16,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Function follows FLOWS. Picture commuting, shopping and hospital trips crossing a city border.",
+      "text": "Function follows FLOWS, not city borders.",
       "lines": [
-        "Function follows FLOWS.",
-        "Picture commuting, shopping and hospital trips crossing a city border."
+        "Function follows FLOWS, not city borders."
       ]
     },
     "fullParts": [
@@ -38,7 +37,8 @@
         "text": "You live outside city limits but commute into the city and use its hospital."
       }
     ],
-    "zh": "地图上的线管不住人：住在城外，也可能天天进城上班看病。"
+    "zh": "地图上的线管不住人：住在城外，也可能天天进城上班看病。",
+    "quickCue": "Function follows FLOWS, not city borders."
   },
   {
     "id": "term-31",
@@ -57,10 +57,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Farm rings have delivery bills. Market in the middle; farms around it.",
+      "text": "Von Thünen：农场围市场，远近算运费。",
       "lines": [
-        "Farm rings have delivery bills.",
-        "Market in the middle; farms around it."
+        "Von Thünen：农场围市场，远近算运费。"
       ]
     },
     "fullParts": [
@@ -91,7 +90,8 @@
         "text": "Products that are expensive to transport have a reason to locate closer to the market."
       }
     ],
-    "zh": "送东西越远越费钱，所以不同的农场会选不同的远近。"
+    "zh": "送东西越远越费钱，所以不同的农场会选不同的远近。",
+    "quickCue": "Von Thünen：农场围市场，远近算运费。"
   },
   {
     "id": "term-16",
@@ -110,10 +110,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Milk nearby; rare specialist farther away. Everyday needs → many small centers.",
+      "text": "Milk nearby; rare specialist farther away.",
       "lines": [
-        "Milk nearby; rare specialist farther away.",
-        "Everyday needs → many small centers."
+        "Milk nearby; rare specialist farther away."
       ]
     },
     "fullParts": [
@@ -144,7 +143,8 @@
         "text": "Many neighborhoods have grocery stores; only a few places have specialist hospitals."
       }
     ],
-    "zh": "买牛奶附近就有，找很少见的医生可能得跑远一点。"
+    "zh": "买牛奶附近就有，找很少见的医生可能得跑远一点。",
+    "quickCue": "Milk nearby; rare specialist farther away."
   },
   {
     "id": "term-19",
@@ -163,10 +163,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Sector = pizza. Nuclei = egg yolks. Pizza slices = wedges; several yolks = several centers.",
+      "text": "Sector = pizza slices; multiple nuclei = egg yolks.",
       "lines": [
-        "Sector = pizza. Nuclei = egg yolks.",
-        "Pizza slices = wedges; several yolks = several centers."
+        "Sector = pizza slices; multiple nuclei = egg yolks."
       ]
     },
     "fullParts": [
@@ -215,7 +214,8 @@
         "text": "WEDGES describe corridors; NUCLEI describe centers. Neither requires rings around one CBD."
       }
     ],
-    "zh": "一个像切开的披萨，顺着路向外伸；另一个像锅里有好几个蛋黄。"
+    "zh": "一个像切开的披萨，顺着路向外伸；另一个像锅里有好几个蛋黄。",
+    "quickCue": "Sector = pizza slices; multiple nuclei = egg yolks."
   },
   {
     "id": "term-10",
@@ -234,10 +234,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "AMM: one city, one seesaw. Near the center: rent ↑, commute ↓.",
+      "text": "AMM：一城内，rent ↑ ↔ commute ↓。",
       "lines": [
-        "AMM: one city, one seesaw.",
-        "Near the center: rent ↑, commute ↓."
+        "AMM：一城内，rent ↑ ↔ commute ↓。"
       ]
     },
     "fullParts": [
@@ -276,7 +275,8 @@
         "text": "AMM = within a city. Rosen–Roback = between cities."
       }
     ],
-    "zh": "在同一个城市里选住处：省房钱，还是省上班路上的时间？"
+    "zh": "在同一个城市里选住处：省房钱，还是省上班路上的时间？",
+    "quickCue": "AMM：一城内，rent ↑ ↔ commute ↓。"
   },
   {
     "id": "term-13",
@@ -295,10 +295,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Rosen–Roback → ROAM. Between cities: wages − rent + amenities. A memory balance, not an exact equation.",
+      "text": "Rosen–Roback → ROAM：换城市，看 wages / rent / amenities。",
       "lines": [
-        "Rosen–Roback → ROAM.",
-        "Between cities: wages − rent + amenities. A memory balance, not an exact equation."
+        "Rosen–Roback → ROAM：换城市，看 wages / rent / amenities。"
       ]
     },
     "fullParts": [
@@ -325,7 +324,8 @@
         "text": "Rosen–Roback = between cities. AMM = within one city."
       }
     ],
-    "zh": "换一个城市生活：工资多了，够不够多付房钱？住着开不开心？"
+    "zh": "换一个城市生活：工资多了，够不够多付房钱？住着开不开心？",
+    "quickCue": "Rosen–Roback → ROAM：换城市，看 wages / rent / amenities。"
   },
   {
     "id": "term-49",
@@ -344,10 +344,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Agglomeration → a GLOB of firms. Nearness helps SHARE, MATCH and LEARN.",
+      "text": "Agglomeration → a GLOB：share · match · learn。",
       "lines": [
-        "Agglomeration → a GLOB of firms.",
-        "Nearness helps SHARE, MATCH and LEARN."
+        "Agglomeration → a GLOB：share · match · learn。"
       ]
     },
     "fullParts": [
@@ -366,7 +365,8 @@
         "text": "A design firm finds clients and skilled workers nearby, but also pays higher rent and faces congestion."
       }
     ],
-    "zh": "挤在一起，找人找客户、交流办法更方便，但房钱可能更贵。"
+    "zh": "挤在一起，找人找客户、交流办法更方便，但房钱可能更贵。",
+    "quickCue": "Agglomeration → a GLOB：share · match · learn。"
   },
   {
     "id": "term-46",
@@ -385,10 +385,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "MONO = one peak. POLY = several. One dominant center versus several important centers.",
+      "text": "MONO = one peak; POLY = several peaks.",
       "lines": [
-        "MONO = one peak. POLY = several.",
-        "One dominant center versus several important centers."
+        "MONO = one peak; POLY = several peaks."
       ]
     },
     "fullParts": [
@@ -407,7 +406,8 @@
         "text": "Chicago’s strong center versus Los Angeles’s multiple centers is the course comparison, not an absolute rule."
       }
     ],
-    "zh": "一个主要地方最热闹，还是好几个地方都很热闹？"
+    "zh": "一个主要地方最热闹，还是好几个地方都很热闹？",
+    "quickCue": "MONO = one peak; POLY = several peaks."
   },
   {
     "id": "term-01",
@@ -426,10 +426,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "A city is not a photocopy. Copy the pipes and roads ≠ copy the history.",
+      "text": "City ≠ photocopy：能抄布局，抄不了历史。",
       "lines": [
-        "A city is not a photocopy.",
-        "Copy the pipes and roads ≠ copy the history."
+        "City ≠ photocopy：能抄布局，抄不了历史。"
       ]
     },
     "fullParts": [
@@ -448,7 +447,8 @@
         "text": "Copy Chicago’s street plan and you still won’t recreate Chicago’s economy."
       }
     ],
-    "zh": "道路和水管能照着建，但一个城市经历过的事情不能照搬。"
+    "zh": "道路和水管能照着建，但一个城市经历过的事情不能照搬。",
+    "quickCue": "City ≠ photocopy：能抄布局，抄不了历史。"
   },
   {
     "id": "term-34",
@@ -467,10 +467,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Two counters, not one. Urban population share ↑ does not mean income per person ↑.",
+      "text": "Urban population ↑ ≠ income per person ↑.",
       "lines": [
-        "Two counters, not one.",
-        "Urban population share ↑ does not mean income per person ↑."
+        "Urban population ↑ ≠ income per person ↑."
       ]
     },
     "fullParts": [
@@ -489,7 +488,8 @@
         "text": "People escape a rural drought by moving to a city, but productive urban jobs may not be waiting."
       }
     ],
-    "zh": "进城的人多了，不代表每个人挣的钱也多了。"
+    "zh": "进城的人多了，不代表每个人挣的钱也多了。",
+    "quickCue": "Urban population ↑ ≠ income per person ↑."
   },
   {
     "id": "term-38",
@@ -508,10 +508,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "PUSH behind; PULL ahead. Drought pushes out; city jobs pull in.",
+      "text": "Rural PUSH 推你走；urban PULL 吸引你来。",
       "lines": [
-        "PUSH behind; PULL ahead.",
-        "Drought pushes out; city jobs pull in."
+        "Rural PUSH 推你走；urban PULL 吸引你来。"
       ]
     },
     "fullParts": [
@@ -530,7 +529,8 @@
         "text": "Drought pushes; jobs and education pull. Moving because of hardship does not guarantee a good city job."
       }
     ],
-    "zh": "可能是老家待不下去，也可能是城里有想要的机会。"
+    "zh": "可能是老家待不下去，也可能是城里有想要的机会。",
+    "quickCue": "Rural PUSH 推你走；urban PULL 吸引你来。"
   },
   {
     "id": "term-35",
@@ -549,10 +549,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Malthus = MOUTHS. Solow = SLOWING gains. Population absorbs gains; capital has diminishing returns. Technology sustains growth per person.",
+      "text": "Malthus = more MOUTHS；Solow = gains SLOW，靠 technology 突破。",
       "lines": [
-        "Malthus = MOUTHS. Solow = SLOWING gains.",
-        "Population absorbs gains; capital has diminishing returns. Technology sustains growth per person."
+        "Malthus = more MOUTHS；Solow = gains SLOW，靠 technology 突破。"
       ]
     },
     "fullParts": [
@@ -579,7 +578,8 @@
         "text": "Malthus: population absorbs gains. Solow: capital alone has limits. More city residents do not automatically mean higher income per person."
       }
     ],
-    "zh": "Malthus：吃饭的人也变多了；Solow：再多加一台工具，帮的忙越来越小，得靠更好的办法。"
+    "zh": "Malthus：吃饭的人也变多了；Solow：再多加一台工具，帮的忙越来越小，得靠更好的办法。",
+    "quickCue": "Malthus = more MOUTHS；Solow = gains SLOW，靠 technology 突破。"
   },
   {
     "id": "term-04",
@@ -598,10 +598,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Oil → spending → services. Picture oil money buying meals and haircuts.",
+      "text": "Oil money → shops & services, not necessarily factories.",
       "lines": [
-        "Oil → spending → services.",
-        "Picture oil money buying meals and haircuts."
+        "Oil money → shops & services, not necessarily factories."
       ]
     },
     "fullParts": [
@@ -620,7 +619,8 @@
         "text": "Oil income supports restaurants and shops, but urban growth does not guarantee broad productivity growth."
       }
     ],
-    "zh": "靠卖石油等赚来的钱，养活店铺和餐馆；不一定靠工厂赚钱。"
+    "zh": "靠卖石油等赚来的钱，养活店铺和餐馆；不一定靠工厂赚钱。",
+    "quickCue": "Oil money → shops & services, not necessarily factories."
   },
   {
     "id": "term-07",
@@ -639,10 +639,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "FIELD → FACTORY → OFFICE. Three pictures for changing economic roles.",
+      "text": "FIELD → FACTORY → OFFICE.",
       "lines": [
-        "FIELD → FACTORY → OFFICE.",
-        "Three pictures for changing economic roles."
+        "FIELD → FACTORY → OFFICE."
       ]
     },
     "fullParts": [
@@ -673,7 +672,8 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Clark%27s_sector_model.svg"
       }
-    ]
+    ],
+    "quickCue": "FIELD → FACTORY → OFFICE."
   },
   {
     "id": "term-41",
@@ -692,10 +692,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Fewer people, the same long pipes. Population and tax base shrink.",
+      "text": "Shrinking city：人少了，长长的路和水管还得养。",
       "lines": [
-        "Fewer people, the same long pipes.",
-        "Population and tax base shrink."
+        "Shrinking city：人少了，长长的路和水管还得养。"
       ]
     },
     "fullParts": [
@@ -726,7 +725,8 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:AbandonedHouseDelray.jpg"
       }
-    ]
+    ],
+    "quickCue": "Shrinking city：人少了，长长的路和水管还得养。"
   },
   {
     "id": "term-25",
@@ -745,10 +745,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Density = AMOUNT ÷ AREA. Always name the amount: people, homes or floor space.",
+      "text": "Density = amount ÷ area；不等于街道布局。",
       "lines": [
-        "Density = AMOUNT ÷ AREA.",
-        "Always name the amount: people, homes or floor space."
+        "Density = amount ÷ area；不等于街道布局。"
       ]
     },
     "fullParts": [
@@ -779,7 +778,8 @@
         "text": "Two equally dense places may feel very different: connected streets versus isolated compounds."
       }
     ],
-    "zh": "同样大的一块地里，放了多少人或多少房子？"
+    "zh": "同样大的一块地里，放了多少人或多少房子？",
+    "quickCue": "Density = amount ÷ area；不等于街道布局。"
   },
   {
     "id": "term-22",
@@ -798,10 +798,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "A checkerboard has three clues. Orderly directions + straight streets + four-way crossings.",
+      "text": "Grid = orderly directions + straight streets + four-way crossings.",
       "lines": [
-        "A checkerboard has three clues.",
-        "Orderly directions + straight streets + four-way crossings."
+        "Grid = orderly directions + straight streets + four-way crossings."
       ]
     },
     "fullParts": [
@@ -832,7 +831,8 @@
         "text": "A connected grid gives you several routes; loops and dead ends give you fewer choices."
       }
     ],
-    "zh": "像棋盘一样的街道，去同一个地方可以换好几条路。"
+    "zh": "像棋盘一样的街道，去同一个地方可以换好几条路。",
+    "quickCue": "Grid = orderly directions + straight streets + four-way crossings."
   },
   {
     "id": "term-50",
@@ -851,10 +851,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "MUCH · MIX · STREETS · REACH · TRANSIT Density · Diversity · Design · Destination accessibility · Distance to transit.",
+      "text": "5 Ds：多少人 / 混什么 / 路怎么连 / 能去哪 / 车站多远。",
       "lines": [
-        "MUCH · MIX · STREETS · REACH · TRANSIT",
-        "Density · Diversity · Design · Destination accessibility · Distance to transit."
+        "5 Ds：多少人 / 混什么 / 路怎么连 / 能去哪 / 车站多远。"
       ]
     },
     "fullParts": [
@@ -873,7 +872,8 @@
         "text": "A dense neighborhood can still be hard to walk around if streets do not connect and transit is far away."
       }
     ],
-    "zh": "不光看人多不多，还要看店有什么、路怎么走、能去哪、车站多远。"
+    "zh": "不光看人多不多，还要看店有什么、路怎么走、能去哪、车站多远。",
+    "quickCue": "5 Ds：多少人 / 混什么 / 路怎么连 / 能去哪 / 车站多远。"
   },
   {
     "id": "term-40",
@@ -892,10 +892,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Arrows OUTWARD. Homes and jobs move toward the edge.",
+      "text": "Suburbanization = 向外搬；sprawl = 摊成什么样。",
       "lines": [
-        "Arrows OUTWARD.",
-        "Homes and jobs move toward the edge."
+        "Suburbanization = 向外搬；sprawl = 摊成什么样。"
       ]
     },
     "fullParts": [
@@ -926,7 +925,8 @@
         "text": "A family moves outward for more space. Suburbanization is a process; sprawl is a physical pattern."
       }
     ],
-    "zh": "家和工作慢慢往城边搬。"
+    "zh": "家和工作慢慢往城边搬。",
+    "quickCue": "Suburbanization = 向外搬；sprawl = 摊成什么样。"
   },
   {
     "id": "term-52",
@@ -945,10 +945,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Windshield view vs. walking view. Big roads and parking suit cars.",
+      "text": "Pedestrian vs. auto：买菜走几步，还是必须开车？",
       "lines": [
-        "Windshield view vs. walking view.",
-        "Big roads and parking suit cars."
+        "Pedestrian vs. auto：买菜走几步，还是必须开车？"
       ]
     },
     "fullParts": [
@@ -979,7 +978,8 @@
         "text": "Nearby shops and short crossings versus wide roads, large parking lots and long walks."
       }
     ],
-    "zh": "买菜走几步就到，还是非得开车才方便？"
+    "zh": "买菜走几步就到，还是非得开车才方便？",
+    "quickCue": "Pedestrian vs. auto：买菜走几步，还是必须开车？"
   },
   {
     "id": "term-20",
@@ -998,10 +998,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "WHERE: home here, jobs there. Picture a job moving outward while the worker cannot follow.",
+      "text": "Spatial mismatch = WHERE：家在这，工作在那。",
       "lines": [
-        "WHERE: home here, jobs there.",
-        "Picture a job moving outward while the worker cannot follow."
+        "Spatial mismatch = WHERE：家在这，工作在那。"
       ]
     },
     "fullParts": [
@@ -1020,7 +1019,8 @@
         "text": "A factory moves to the suburbs, while workers remain in the inner city with poor transport access."
       }
     ],
-    "zh": "工作搬远了，人却因为种种原因搬不过去。"
+    "zh": "工作搬远了，人却因为种种原因搬不过去。",
+    "quickCue": "Spatial mismatch = WHERE：家在这，工作在那。"
   },
   {
     "id": "term-23",
@@ -1039,10 +1039,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "HOW: car key vs. bus pass. Keep the address fixed; swap the transport mode.",
+      "text": "Modal mismatch = HOW：同一住址，car key ≠ bus pass。",
       "lines": [
-        "HOW: car key vs. bus pass.",
-        "Keep the address fixed; swap the transport mode."
+        "Modal mismatch = HOW：同一住址，car key ≠ bus pass。"
       ]
     },
     "fullParts": [
@@ -1073,7 +1072,8 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
-    ]
+    ],
+    "quickCue": "Modal mismatch = HOW：同一住址，car key ≠ bus pass。"
   },
   {
     "id": "term-29",
@@ -1092,10 +1092,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Primal = PILE. Dual = DURATION. Jobs within 30 minutes ↔ minutes to reach 100 jobs.",
+      "text": "Primal = PILE of jobs; Dual = DURATION to jobs.",
       "lines": [
-        "Primal = PILE. Dual = DURATION.",
-        "Jobs within 30 minutes ↔ minutes to reach 100 jobs."
+        "Primal = PILE of jobs; Dual = DURATION to jobs."
       ]
     },
     "fullParts": [
@@ -1122,7 +1121,8 @@
         "text": "More opportunities for primal; less time for dual."
       }
     ],
-    "zh": "一个问半小时能找到多少工作；另一个问找到一百个工作要走多久。"
+    "zh": "一个问半小时能找到多少工作；另一个问找到一百个工作要走多久。",
+    "quickCue": "Primal = PILE of jobs; Dual = DURATION to jobs."
   },
   {
     "id": "term-32",
@@ -1141,10 +1141,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Count the jobs—then the rivals. CUMULATIVE: count reachable openings.",
+      "text": "Cumulative 数 jobs；competitive 还数抢 jobs 的人。",
       "lines": [
-        "Count the jobs—then the rivals.",
-        "CUMULATIVE: count reachable openings."
+        "Cumulative 数 jobs；competitive 还数抢 jobs 的人。"
       ]
     },
     "fullParts": [
@@ -1171,7 +1170,8 @@
         "text": "Many reachable jobs do not guarantee a good chance of getting one."
       }
     ],
-    "zh": "附近有十个空位，还得看有多少人在和你一起抢。"
+    "zh": "附近有十个空位，还得看有多少人在和你一起抢。",
+    "quickCue": "Cumulative 数 jobs；competitive 还数抢 jobs 的人。"
   },
   {
     "id": "term-05",
@@ -1190,10 +1190,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "More lanes can invite more cars. Picture a wider funnel attracting more water.",
+      "text": "More lanes → more driving → traffic returns.",
       "lines": [
-        "More lanes can invite more cars.",
-        "Picture a wider funnel attracting more water."
+        "More lanes → more driving → traffic returns."
       ]
     },
     "fullParts": [
@@ -1224,7 +1223,8 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
-    ]
+    ],
+    "quickCue": "More lanes → more driving → traffic returns."
   },
   {
     "id": "term-53",
@@ -1243,10 +1243,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "PRICE the PEAK. Charge for scarce road space at busy places or times.",
+      "text": "Congestion pricing = PRICE the PEAK.",
       "lines": [
-        "PRICE the PEAK.",
-        "Charge for scarce road space at busy places or times."
+        "Congestion pricing = PRICE the PEAK."
       ]
     },
     "fullParts": [
@@ -1277,7 +1276,8 @@
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
       }
-    ]
+    ],
+    "quickCue": "Congestion pricing = PRICE the PEAK."
   },
   {
     "id": "term-56",
@@ -1296,10 +1296,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "CALM the car with the street. Humps + narrow lanes + raised crossings.",
+      "text": "Traffic calming：用路的形状让车慢下来。",
       "lines": [
-        "CALM the car with the street.",
-        "Humps + narrow lanes + raised crossings."
+        "Traffic calming：用路的形状让车慢下来。"
       ]
     },
     "fullParts": [
@@ -1330,7 +1329,8 @@
         "text": "A speed hump physically slows cars. Congestion pricing instead changes demand by charging drivers."
       }
     ],
-    "zh": "把路变窄、加个凸起，让车想快也快不起来。"
+    "zh": "把路变窄、加个凸起，让车想快也快不起来。",
+    "quickCue": "Traffic calming：用路的形状让车慢下来。"
   },
   {
     "id": "term-43",
@@ -1349,10 +1349,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Sedentary → SEATED. Chair → car seat → office chair.",
+      "text": "Sedentary → SEATED：椅子 → 车座 → 办公椅。",
       "lines": [
-        "Sedentary → SEATED.",
-        "Chair → car seat → office chair."
+        "Sedentary → SEATED：椅子 → 车座 → 办公椅。"
       ]
     },
     "fullParts": [
@@ -1371,7 +1370,8 @@
         "text": "If even a short shopping trip requires driving, daily life offers fewer chances to walk."
       }
     ],
-    "zh": "从家里的椅子，坐到车里，再坐到办公室，一天没怎么动。"
+    "zh": "从家里的椅子，坐到车里，再坐到办公室，一天没怎么动。",
+    "quickCue": "Sedentary → SEATED：椅子 → 车座 → 办公椅。"
   },
   {
     "id": "term-47",
@@ -1390,10 +1390,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Same storm, different damage. Hazard + exposure + vulnerability.",
+      "text": "Same storm ≠ same damage：exposure + vulnerability。",
       "lines": [
-        "Same storm, different damage.",
-        "Hazard + exposure + vulnerability."
+        "Same storm ≠ same damage：exposure + vulnerability。"
       ]
     },
     "fullParts": [
@@ -1424,7 +1423,8 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Katrina-new-orleans-flooding3-2005.jpg"
       }
-    ]
+    ],
+    "quickCue": "Same storm ≠ same damage：exposure + vulnerability。"
   },
   {
     "id": "term-44",
@@ -1443,10 +1443,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Asphalt frying pan; tree umbrella. Hard surfaces store heat; trees provide shade.",
+      "text": "Heat island：asphalt 像热锅，树荫像伞。",
       "lines": [
-        "Asphalt frying pan; tree umbrella.",
-        "Hard surfaces store heat; trees provide shade."
+        "Heat island：asphalt 像热锅，树荫像伞。"
       ]
     },
     "fullParts": [
@@ -1477,7 +1476,8 @@
         "text": "Compare a sunny asphalt parking lot with a shaded, tree-lined street."
       }
     ],
-    "zh": "晒热的地面像锅，树荫像伞；两边站着感觉很不一样。"
+    "zh": "晒热的地面像锅，树荫像伞；两边站着感觉很不一样。",
+    "quickCue": "Heat island：asphalt 像热锅，树荫像伞。"
   },
   {
     "id": "term-02",
@@ -1496,10 +1496,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Musical chairs, but with homes. Players = households; chairs = homes.",
+      "text": "Musical chairs：有空房 ≠ 有住得起的房。",
       "lines": [
-        "Musical chairs, but with homes.",
-        "Players = households; chairs = homes."
+        "Musical chairs：有空房 ≠ 有住得起的房。"
       ]
     },
     "fullParts": [
@@ -1518,7 +1517,8 @@
         "text": "Empty luxury flats can exist alongside a shortage of affordable homes."
       }
     ],
-    "zh": "有人找不到住得起的房子，不代表城里一间空房都没有。"
+    "zh": "有人找不到住得起的房子，不代表城里一间空房都没有。",
+    "quickCue": "Musical chairs：有空房 ≠ 有住得起的房。"
   },
   {
     "id": "term-08",
@@ -1537,10 +1537,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Old housing rides DOWN an escalator. Aging homes may become relatively cheaper.",
+      "text": "Filtering：旧房可能降价，翻新可能反转。",
       "lines": [
-        "Old housing rides DOWN an escalator.",
-        "Aging homes may become relatively cheaper."
+        "Filtering：旧房可能降价，翻新可能反转。"
       ]
     },
     "fullParts": [
@@ -1559,7 +1558,8 @@
         "text": "A once-expensive apartment becomes affordable as it ages; renovation and rising demand can reverse the process."
       }
     ],
-    "zh": "房子旧了，可能变便宜；翻新后也可能又变贵。"
+    "zh": "房子旧了，可能变便宜；翻新后也可能又变贵。",
+    "quickCue": "Filtering：旧房可能降价，翻新可能反转。"
   },
   {
     "id": "term-55",
@@ -1578,10 +1578,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "A rulebook at the building site. One page protects safety; another limits size or uses.",
+      "text": "Building rules：保护人，也可能让房更难盖。",
       "lines": [
-        "A rulebook at the building site.",
-        "One page protects safety; another limits size or uses."
+        "Building rules：保护人，也可能让房更难盖。"
       ]
     },
     "fullParts": [
@@ -1600,7 +1599,8 @@
         "text": "A large minimum lot size can make it impossible to build smaller, cheaper homes."
       }
     ],
-    "zh": "盖房子的要求可以保护人，也可能让房子更难盖、更贵。"
+    "zh": "盖房子的要求可以保护人，也可能让房子更难盖、更贵。",
+    "quickCue": "Building rules：保护人，也可能让房更难盖。"
   },
   {
     "id": "term-11",
@@ -1619,10 +1619,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "O–S–E: Out · Squeezed · Erased. Move out; costs squeeze; familiar culture disappears.",
+      "text": "Gentrification：Out · Squeezed · Erased.",
       "lines": [
-        "O–S–E: Out · Squeezed · Erased.",
-        "Move out; costs squeeze; familiar culture disappears."
+        "Gentrification：Out · Squeezed · Erased."
       ]
     },
     "fullParts": [
@@ -1653,7 +1652,8 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
-    ]
+    ],
+    "quickCue": "Gentrification：Out · Squeezed · Erased."
   },
   {
     "id": "term-14",
@@ -1672,10 +1672,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "“Yes—just not HERE.” Not In My Back Yard.",
+      "text": "NIMBY：“支持，但别建我家旁边。”",
       "lines": [
-        "“Yes—just not HERE.”",
-        "Not In My Back Yard."
+        "NIMBY：“支持，但别建我家旁边。”"
       ]
     },
     "fullParts": [
@@ -1694,7 +1693,8 @@
         "text": "“We need affordable housing—just don’t build it on my street.” Opposition can restrict supply."
       }
     ],
-    "zh": "我支持建，但别建在我家旁边。"
+    "zh": "我支持建，但别建在我家旁边。",
+    "quickCue": "NIMBY：“支持，但别建我家旁边。”"
   },
   {
     "id": "term-17",
@@ -1713,10 +1713,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "“My neighbor is the exception.” Liking one person ≠ respecting their whole group.",
+      "text": "“我喜欢你，但你只是他们中的例外。”",
       "lines": [
-        "“My neighbor is the exception.”",
-        "Liking one person ≠ respecting their whole group."
+        "“我喜欢你，但你只是他们中的例外。”"
       ]
     },
     "fullParts": [
@@ -1735,7 +1734,8 @@
         "text": "“My neighbor is nice, but their group isn’t” shows how one friendly encounter may leave prejudice intact."
       }
     ],
-    "zh": "你喜欢一个人，不代表你就喜欢和他同一群的人。"
+    "zh": "你喜欢一个人，不代表你就喜欢和他同一群的人。",
+    "quickCue": "“我喜欢你，但你只是他们中的例外。”"
   },
   {
     "id": "term-37",
@@ -1754,10 +1754,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "SANITARY → SANITATION. Clean water IN; sewage OUT.",
+      "text": "Sanitary → sanitation：clean water IN, sewage OUT.",
       "lines": [
-        "SANITARY → SANITATION.",
-        "Clean water IN; sewage OUT."
+        "Sanitary → sanitation：clean water IN, sewage OUT."
       ]
     },
     "fullParts": [
@@ -1788,7 +1787,8 @@
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
-    ]
+    ],
+    "quickCue": "Sanitary → sanitation：clean water IN, sewage OUT."
   },
   {
     "id": "term-03",
@@ -1807,10 +1807,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "A city dressed for a parade. Monuments + boulevards + parks.",
+      "text": "City Beautiful = 城市盛装，住房未必改善。",
       "lines": [
-        "A city dressed for a parade.",
-        "Monuments + boulevards + parks."
+        "City Beautiful = 城市盛装，住房未必改善。"
       ]
     },
     "fullParts": [
@@ -1841,7 +1840,8 @@
         "text": "Chicago’s 1893 World’s Fair: impressive public spaces as a source of civic pride."
       }
     ],
-    "zh": "先把城市打扮漂亮，但普通人住得好不好，可能没顾上。"
+    "zh": "先把城市打扮漂亮，但普通人住得好不好，可能没顾上。",
+    "quickCue": "City Beautiful = 城市盛装，住房未必改善。"
   },
   {
     "id": "term-06",
@@ -1860,10 +1860,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Town + country, held by a green BELT. Inside: homes + jobs + services.",
+      "text": "Garden City = town + country + green belt.",
       "lines": [
-        "Town + country, held by a green BELT.",
-        "Inside: homes + jobs + services."
+        "Garden City = town + country + green belt."
       ]
     },
     "fullParts": [
@@ -1904,7 +1903,8 @@
         "text": "A planned, complete town with limits on growth—not simply a suburb with gardens."
       }
     ],
-    "zh": "想要城里的工作和方便，也想要乡下的绿地和空间。"
+    "zh": "想要城里的工作和方便，也想要乡下的绿地和空间。",
+    "quickCue": "Garden City = town + country + green belt."
   },
   {
     "id": "term-26",
@@ -1923,10 +1923,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "A school on a plate. School = center; main roads = rim.",
+      "text": "Perry：school 在盘子中间，main roads 围着盘边。",
       "lines": [
-        "A school on a plate.",
-        "School = center; main roads = rim."
+        "Perry：school 在盘子中间，main roads 围着盘边。"
       ]
     },
     "fullParts": [
@@ -1957,7 +1956,8 @@
         "text": "Picture a plate: school in the middle, main roads around the rim, local streets inside."
       }
     ],
-    "zh": "像一个盘子：学校放中间，大路围在边上。"
+    "zh": "像一个盘子：学校放中间，大路围在边上。",
+    "quickCue": "Perry：school 在盘子中间，main roads 围着盘边。"
   },
   {
     "id": "term-09",
@@ -1976,10 +1976,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Sort the city into boxes. HOME / WORK / TRAFFIC / PARK.",
+      "text": "Modernism：HOME / WORK / TRAFFIC 分开摆。",
       "lines": [
-        "Sort the city into boxes.",
-        "HOME / WORK / TRAFFIC / PARK."
+        "Modernism：HOME / WORK / TRAFFIC 分开摆。"
       ]
     },
     "fullParts": [
@@ -2010,7 +2009,8 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pruitt-igoeUSGS02.jpg"
       }
-    ]
+    ],
+    "quickCue": "Modernism：HOME / WORK / TRAFFIC 分开摆。"
   },
   {
     "id": "term-12",
@@ -2029,10 +2029,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "RADIANT → RISE. Tall towers rising out of a park.",
+      "text": "Radiant → RISE：高楼 + 空地。",
       "lines": [
-        "RADIANT → RISE.",
-        "Tall towers rising out of a park."
+        "Radiant → RISE：高楼 + 空地。"
       ]
     },
     "fullParts": [
@@ -2063,7 +2062,8 @@
         "text": "Remember UP: towers in parks. Broadacre spreads OUT instead."
       }
     ],
-    "zh": "往上盖高楼，楼下留大块空地。"
+    "zh": "往上盖高楼，楼下留大块空地。",
+    "quickCue": "Radiant → RISE：高楼 + 空地。"
   },
   {
     "id": "term-15",
@@ -2082,10 +2082,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "BROAD-acre → spread BROADLY. Picture a home, an acre and a car.",
+      "text": "BROAD-acre → OUT：摊开住，靠车走。",
       "lines": [
-        "BROAD-acre → spread BROADLY.",
-        "Picture a home, an acre and a car."
+        "BROAD-acre → OUT：摊开住，靠车走。"
       ]
     },
     "fullParts": [
@@ -2116,7 +2115,8 @@
         "text": "Remember OUT: lots of land and driving. Radiant City builds UP instead."
       }
     ],
-    "zh": "每家摊开住，多占地，出门靠车。"
+    "zh": "每家摊开住，多占地，出门靠车。",
+    "quickCue": "BROAD-acre → OUT：摊开住，靠车走。"
   },
   {
     "id": "term-18",
@@ -2135,10 +2135,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "B–E–H: Boundaries · Eyes · Hours. Clear edges; people watching; continuous sidewalk use.",
+      "text": "Jacobs = Boundaries · Eyes · Hours.",
       "lines": [
-        "B–E–H: Boundaries · Eyes · Hours.",
-        "Clear edges; people watching; continuous sidewalk use."
+        "Jacobs = Boundaries · Eyes · Hours."
       ]
     },
     "fullParts": [
@@ -2157,7 +2156,8 @@
         "text": "Shopkeepers watch by day; residents and evening customers keep the street active later."
       }
     ],
-    "zh": "街上一直有人走、有人看，就不容易没人管。"
+    "zh": "街上一直有人走、有人看，就不容易没人管。",
+    "quickCue": "Jacobs = Boundaries · Eyes · Hours."
   },
   {
     "id": "term-21",
@@ -2176,10 +2176,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "People · Paths · Purposes · Prices · Access · Barriers Density · short blocks · mixed uses · building ages · access · no border vacuums.",
+      "text": "Vitality：人多、路通、用途混、新旧房搭配、好到达、少阻隔。",
       "lines": [
-        "People · Paths · Purposes · Prices · Access · Barriers",
-        "Density · short blocks · mixed uses · building ages · access · no border vacuums."
+        "Vitality：人多、路通、用途混、新旧房搭配、好到达、少阻隔。"
       ]
     },
     "fullParts": [
@@ -2198,7 +2197,8 @@
         "text": "Offices bring daytime customers; homes and restaurants keep the same street active at night."
       }
     ],
-    "zh": "白天有人上班，晚上有人吃饭，街上才不容易一下空下来。"
+    "zh": "白天有人上班，晚上有人吃饭，街上才不容易一下空下来。",
+    "quickCue": "Vitality：人多、路通、用途混、新旧房搭配、好到达、少阻隔。"
   },
   {
     "id": "term-24",
@@ -2217,10 +2217,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Train → groceries → home, on foot. A station surrounded by homes, shops and jobs.",
+      "text": "TOD：train → groceries → home，全程好走。",
       "lines": [
-        "Train → groceries → home, on foot.",
-        "A station surrounded by homes, shops and jobs."
+        "TOD：train → groceries → home，全程好走。"
       ]
     },
     "fullParts": [
@@ -2251,7 +2250,8 @@
         "text": "Get off the train, buy groceries and walk home. Living beside a railway alone is not enough."
       }
     ],
-    "zh": "下车、买菜、回家，都能靠走路顺手完成。"
+    "zh": "下车、买菜、回家，都能靠走路顺手完成。",
+    "quickCue": "TOD：train → groceries → home，全程好走。"
   },
   {
     "id": "term-27",
@@ -2270,10 +2270,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "A small needle, a targeted change. Acupuncture = act at a strategic point.",
+      "text": "Acupuncture = 小针；tactical urbanism = 先便宜地试。",
       "lines": [
-        "A small needle, a targeted change.",
-        "Acupuncture = act at a strategic point."
+        "Acupuncture = 小针；tactical urbanism = 先便宜地试。"
       ]
     },
     "fullParts": [
@@ -2304,7 +2303,8 @@
         "text": "Add temporary seats and watch whether people stay. If they work, make the space permanent."
       }
     ],
-    "zh": "先改一个小地方，便宜地试一下，好用再接着做。"
+    "zh": "先改一个小地方，便宜地试一下，好用再接着做。",
+    "quickCue": "Acupuncture = 小针；tactical urbanism = 先便宜地试。"
   },
   {
     "id": "term-36",
@@ -2323,10 +2323,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Gehl → 胶: people stick around. Comfort → stay → chat.",
+      "text": "Gehl → 胶：舒服 → 留下 → 聊起来。",
       "lines": [
-        "Gehl → 胶: people stick around.",
-        "Comfort → stay → chat."
+        "Gehl → 胶：舒服 → 留下 → 聊起来。"
       ]
     },
     "fullParts": [
@@ -2357,7 +2356,8 @@
         "text": "A pleasant bench turns a necessary walk into a pause and perhaps a conversation."
       }
     ],
-    "zh": "坐得舒服、待得开心，人才愿意留下来，才可能聊上天。"
+    "zh": "坐得舒服、待得开心，人才愿意留下来，才可能聊上天。",
+    "quickCue": "Gehl → 胶：舒服 → 留下 → 聊起来。"
   },
   {
     "id": "term-39",
@@ -2376,10 +2376,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "NEED → CHOOSE → CHAT. Need: walk to work. Choose: stop at a nice bench.",
+      "text": "Gehl：NEED 上班 → CHOOSE 坐坐 → CHAT 可能发生。",
       "lines": [
-        "NEED → CHOOSE → CHAT.",
-        "Need: walk to work. Choose: stop at a nice bench."
+        "Gehl：NEED 上班 → CHOOSE 坐坐 → CHAT 可能发生。"
       ]
     },
     "fullParts": [
@@ -2418,7 +2417,8 @@
         "text": "Better space → more staying → more chances for contact. A busy sidewalk may only mean people rushing through."
       }
     ],
-    "zh": "必须去上班；愿意坐一会儿；坐着坐着，可能和别人聊起来。"
+    "zh": "必须去上班；愿意坐一会儿；坐着坐着，可能和别人聊起来。",
+    "quickCue": "Gehl：NEED 上班 → CHOOSE 坐坐 → CHAT 可能发生。"
   },
   {
     "id": "term-30",
@@ -2437,10 +2437,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Lynch → LEARN the city. Try → observe → adjust.",
+      "text": "Lynch → LEARN：try → observe → adjust。",
       "lines": [
-        "Lynch → LEARN the city.",
-        "Try → observe → adjust."
+        "Lynch → LEARN：try → observe → adjust。"
       ]
     },
     "fullParts": [
@@ -2460,7 +2459,8 @@
       }
     ],
     "zh": "城市不是一次做完的：先试试看，再按大家用起来的情况改。",
-    "examKeywords": "Lynch’s dimensions: vitality, sense, fit, access, control. Also ask about efficiency and justice."
+    "examKeywords": "Lynch’s dimensions: vitality, sense, fit, access, control. Also ask about efficiency and justice.",
+    "quickCue": "Lynch → LEARN：try → observe → adjust。"
   },
   {
     "id": "term-42",
@@ -2479,10 +2479,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Whyte → WHY do people sit HERE? Watch actual choices: seats, food, access, other people.",
+      "text": "Whyte → WHY sit HERE? 看人实际怎么用。",
       "lines": [
-        "Whyte → WHY do people sit HERE?",
-        "Watch actual choices: seats, food, access, other people."
+        "Whyte → WHY sit HERE? 看人实际怎么用。"
       ]
     },
     "fullParts": [
@@ -2513,7 +2512,8 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paley_Park_jeh.jpg"
       }
-    ]
+    ],
+    "quickCue": "Whyte → WHY sit HERE? 看人实际怎么用。"
   },
   {
     "id": "term-45",
@@ -2532,10 +2532,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Two strangers + one shared thing = triangle. Person A → street performer ← Person B.",
+      "text": "Triangulation：两个人 + 一个共同关注的东西。",
       "lines": [
-        "Two strangers + one shared thing = triangle.",
-        "Person A → street performer ← Person B."
+        "Triangulation：两个人 + 一个共同关注的东西。"
       ]
     },
     "fullParts": [
@@ -2566,7 +2565,8 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
-    ]
+    ],
+    "quickCue": "Triangulation：两个人 + 一个共同关注的东西。"
   },
   {
     "id": "term-48",
@@ -2585,10 +2585,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "1 home · 2 work · 3 hangout. Third place = regulars + easy conversation.",
+      "text": "Third place：1 home · 2 work · 3 hangout。",
       "lines": [
-        "1 home · 2 work · 3 hangout.",
-        "Third place = regulars + easy conversation."
+        "Third place：1 home · 2 work · 3 hangout。"
       ]
     },
     "fullParts": [
@@ -2620,7 +2619,8 @@
       }
     ],
     "zh": "家以外、工作以外，有个常去坐坐、和熟人聊聊的地方。",
-    "examKeywords": "Eight traits: neutral ground, equality, conversation, accessibility, regulars, low profile, playful mood, a home away from home."
+    "examKeywords": "Eight traits: neutral ground, equality, conversation, accessibility, regulars, low profile, playful mood, a home away from home.",
+    "quickCue": "Third place：1 home · 2 work · 3 hangout。"
   },
   {
     "id": "term-33",
@@ -2639,10 +2639,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Simmel → STIMULI → mental headphones. Too much city input → turn down emotional reactions.",
+      "text": "Simmel → STIMULI → mental headphones.",
       "lines": [
-        "Simmel → STIMULI → mental headphones.",
-        "Too much city input → turn down emotional reactions."
+        "Simmel → STIMULI → mental headphones."
       ]
     },
     "fullParts": [
@@ -2661,7 +2660,8 @@
         "text": "Mental noise-canceling headphones: seeming indifferent can be a form of self-protection."
       }
     ],
-    "zh": "城里声音和人太多，只好让自己别对每件事都有强烈反应。"
+    "zh": "城里声音和人太多，只好让自己别对每件事都有强烈反应。",
+    "quickCue": "Simmel → STIMULI → mental headphones."
   },
   {
     "id": "term-51",
@@ -2680,10 +2680,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Wirth: S–D–H. SIZE + DENSITY + HETEROGENEITY.",
+      "text": "Wirth = Size · Density · Heterogeneity → less personal ties.",
       "lines": [
-        "Wirth: S–D–H.",
-        "SIZE + DENSITY + HETEROGENEITY."
+        "Wirth = Size · Density · Heterogeneity → less personal ties."
       ]
     },
     "fullParts": [
@@ -2702,7 +2701,8 @@
         "text": "You know someone as your bus driver or cashier without knowing their wider life."
       }
     ],
-    "zh": "人多又各不相同，不可能个个熟悉，常常只认识对方做什么工作。"
+    "zh": "人多又各不相同，不可能个个熟悉，常常只认识对方做什么工作。",
+    "quickCue": "Wirth = Size · Density · Heterogeneity → less personal ties."
   },
   {
     "id": "term-54",
@@ -2721,10 +2721,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Goffman → gaze OFF. Glance, then look away: acknowledge + privacy.",
+      "text": "Goffman → gaze OFF：看一眼，再移开目光。",
       "lines": [
-        "Goffman → gaze OFF.",
-        "Glance, then look away: acknowledge + privacy."
+        "Goffman → gaze OFF：看一眼，再移开目光。"
       ]
     },
     "fullParts": [
@@ -2743,7 +2742,8 @@
         "text": "In an elevator, a quick glance followed by looking away is polite—not necessarily unfriendly."
       }
     ],
-    "zh": "看一眼，知道你在，然后移开目光，不一直盯着你。"
+    "zh": "看一眼，知道你在，然后移开目光，不一直盯着你。",
+    "quickCue": "Goffman → gaze OFF：看一眼，再移开目光。"
   },
   {
     "id": "term-57",
@@ -2762,10 +2762,9 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "One bowler where a league used to meet. Putnam: weaker participation, networks and trust.",
+      "text": "Bowling Alone：球还在打，固定一起打的人少了。",
       "lines": [
-        "One bowler where a league used to meet.",
-        "Putnam: weaker participation, networks and trust."
+        "Bowling Alone：球还在打，固定一起打的人少了。"
       ]
     },
     "fullParts": [
@@ -2784,7 +2783,8 @@
         "text": "People may still bowl, but less often in organized leagues. Aelbrecht asks whether social life also moves to newer places."
       }
     ],
-    "zh": "还在打保龄球，但不再和固定的一群人一起打了；大家的联系可能变少。"
+    "zh": "还在打保龄球，但不再和固定的一群人一起打了；大家的联系可能变少。",
+    "quickCue": "Bowling Alone：球还在打，固定一起打的人少了。"
   },
   {
     "id": "reading-01",
@@ -2803,12 +2803,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Dexter = DOUBLE arrow. Land use ↔ transport.",
+      "text": "Dexter = DOUBLE arrow.",
       "lines": [
-        "Dexter = DOUBLE arrow.",
-        "Land use ↔ transport."
+        "Dexter = DOUBLE arrow."
       ]
-    }
+    },
+    "quickCue": "Dexter = DOUBLE arrow."
   },
   {
     "id": "reading-02",
@@ -2827,12 +2827,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Worker · employer · builder. Three linked choices shape spatial equilibrium.",
+      "text": "Worker · employer · builder.",
       "lines": [
-        "Worker · employer · builder.",
-        "Three linked choices shape spatial equilibrium."
+        "Worker · employer · builder."
       ]
-    }
+    },
+    "quickCue": "Worker · employer · builder."
   },
   {
     "id": "reading-03",
@@ -2851,12 +2851,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Boeing → bird’s-eye GRID. Order · straightness · four-way crossings.",
+      "text": "Boeing → bird’s-eye GRID.",
       "lines": [
-        "Boeing → bird’s-eye GRID.",
-        "Order · straightness · four-way crossings."
+        "Boeing → bird’s-eye GRID."
       ]
-    }
+    },
+    "quickCue": "Boeing → bird’s-eye GRID."
   },
   {
     "id": "reading-04",
@@ -2875,12 +2875,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Wrestling = pin sprawl DOWN. Eight dimensions describe the pattern, not its causes.",
+      "text": "Wrestling = pin sprawl DOWN.",
       "lines": [
-        "Wrestling = pin sprawl DOWN.",
-        "Eight dimensions describe the pattern, not its causes."
+        "Wrestling = pin sprawl DOWN."
       ]
-    }
+    },
+    "quickCue": "Wrestling = pin sprawl DOWN."
   },
   {
     "id": "reading-05",
@@ -2899,12 +2899,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Zoning map → health map. Rules distribute hazards and healthy surroundings.",
+      "text": "Zoning map → health map.",
       "lines": [
-        "Zoning map → health map.",
-        "Rules distribute hazards and healthy surroundings."
+        "Zoning map → health map."
       ]
-    }
+    },
+    "quickCue": "Zoning map → health map."
   },
   {
     "id": "reading-06",
@@ -2923,12 +2923,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Two counters: CITY ≠ INCOME. Urban share can rise without income per person rising.",
+      "text": "Two counters: CITY ≠ INCOME.",
       "lines": [
-        "Two counters: CITY ≠ INCOME.",
-        "Urban share can rise without income per person rising."
+        "Two counters: CITY ≠ INCOME."
       ]
-    }
+    },
+    "quickCue": "Two counters: CITY ≠ INCOME."
   },
   {
     "id": "reading-07",
@@ -2947,12 +2947,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Ihlanfeldt: HOME … gap … JOB. Spatial mismatch: where workers and jobs are.",
+      "text": "Ihlanfeldt: HOME … gap … JOB.",
       "lines": [
-        "Ihlanfeldt: HOME … gap … JOB.",
-        "Spatial mismatch: where workers and jobs are."
+        "Ihlanfeldt: HOME … gap … JOB."
       ]
-    }
+    },
+    "quickCue": "Ihlanfeldt: HOME … gap … JOB."
   },
   {
     "id": "reading-08",
@@ -2971,12 +2971,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Grengs: car KEY vs. bus PASS. Same home; different job access.",
+      "text": "Grengs: car KEY vs. bus PASS.",
       "lines": [
-        "Grengs: car KEY vs. bus PASS.",
-        "Same home; different job access."
+        "Grengs: car KEY vs. bus PASS."
       ]
-    }
+    },
+    "quickCue": "Grengs: car KEY vs. bus PASS."
   },
   {
     "id": "reading-09",
@@ -2995,12 +2995,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Jacobs: B–E–H. Boundaries · Eyes · Hours of sidewalk use.",
+      "text": "Jacobs: B–E–H.",
       "lines": [
-        "Jacobs: B–E–H.",
-        "Boundaries · Eyes · Hours of sidewalk use."
+        "Jacobs: B–E–H."
       ]
-    }
+    },
+    "quickCue": "Jacobs: B–E–H."
   },
   {
     "id": "reading-10",
@@ -3019,12 +3019,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Valentine ≠ love everyone. One liked neighbor may remain “the exception.”",
+      "text": "Valentine ≠ love everyone.",
       "lines": [
-        "Valentine ≠ love everyone.",
-        "One liked neighbor may remain “the exception.”"
+        "Valentine ≠ love everyone."
       ]
-    }
+    },
+    "quickCue": "Valentine ≠ love everyone."
   },
   {
     "id": "reading-11",
@@ -3043,12 +3043,12 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Borer: walk with FIVE senses. See · hear · smell · taste · touch → social meaning.",
+      "text": "Borer: walk with FIVE senses.",
       "lines": [
-        "Borer: walk with FIVE senses.",
-        "See · hear · smell · taste · touch → social meaning."
+        "Borer: walk with FIVE senses."
       ]
-    }
+    },
+    "quickCue": "Borer: walk with FIVE senses."
   },
   {
     "id": "reading-12",
@@ -3067,11 +3067,11 @@
     ],
     "mnemonic": {
       "kind": "Quick association",
-      "text": "Whyte → WHY sit HERE? Seats + food + people attract people.",
+      "text": "Whyte → WHY sit HERE?",
       "lines": [
-        "Whyte → WHY sit HERE?",
-        "Seats + food + people attract people."
+        "Whyte → WHY sit HERE?"
       ]
-    }
+    },
+    "quickCue": "Whyte → WHY sit HERE?"
   }
 ]
